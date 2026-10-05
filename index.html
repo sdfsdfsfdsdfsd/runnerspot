@@ -513,7 +513,7 @@ function detail(id){
     <div class="dgrid">
       <div class="stack">
         ${r.price?`<div class="box"><h2>${I("won")}참가비</h2>
-          ${r.regStart||r.regEnd?`<div class="regbar">${I("calck","--i2")}<span>접수 <b class="tnum">${r.regStart?ymd(r.regStart):"?"} ~ ${r.regEnd?ymd(r.regEnd):"?"}</b></span>${stB(r)}</div>`:""}
+          ${r.regStart||r.regEnd?`<div class="regbar">${I("calck","--i2")}<span>접수 <b class="tnum">${r.regStart?ymd(r.regStart)+(r.regStartTime?" "+esc(r.regStartTime):""):"?"} ~ ${r.regEnd?ymd(r.regEnd):esc(r.regNote||"?")}</b></span>${stB(r)}</div>`:""}
           <div class="prices">${Object.entries(r.price).map(([k,v])=>`<div class="pc"><small>${esc(k)}</small><b class="tnum">${won(v)}</b></div>`).join("")}</div></div>`:""}
         ${r.schedule&&r.schedule.length?`<div class="box"><h2>${I("clock")}대회 당일 일정</h2><ul class="timeline">${r.schedule.map(s=>`<li><b class="tnum">${esc(s.time||"")}</b><span>${esc(s.text)}</span></li>`).join("")}</ul></div>`:""}
         <div class="box"><h2>${I("info")}대회 상세</h2>
@@ -521,13 +521,15 @@ function detail(id){
             <tr><th>대회명</th><td>${esc(r.name)}</td></tr>
             <tr><th>대회 유형</th><td>${KINDS[r.kind]}</td></tr>
             <tr><th>일정</th><td class="tnum">${dstr(r)}${r.startTime?" "+esc(r.startTime)+" 출발":""} · ${ddayTxt(r)}</td></tr>
-            <tr><th>접수 기간</th><td class="tnum">${r.regStart||r.regEnd?`${r.regStart?ymd(r.regStart):"?"} ~ ${r.regEnd?ymd(r.regEnd):"?"}`:"공식 홈페이지에서 확인"}</td></tr>
+            <tr><th>접수 기간</th><td class="tnum">${r.regStart||r.regEnd?`${r.regStart?ymd(r.regStart)+(r.regStartTime?" "+esc(r.regStartTime):""):"?"} ~ ${r.regEnd?ymd(r.regEnd):esc(r.regNote||"?")}`:"공식 홈페이지에서 확인"}${r.regNote&&r.regEnd?` <span style="color:var(--muted)">(${esc(r.regNote)})</span>`:""}</td></tr>
             <tr><th>종목</th><td>${r.dist.map(x=>DLK[x]||x).join(", ")}</td></tr>
             <tr><th>참가비</th><td>${r.price?Object.entries(r.price).map(([k,v])=>`${esc(k)} ${won(v)}`).join(" · "):"공식 홈페이지에서 확인"}</td></tr>
             ${r.scale?`<tr><th>참가 규모</th><td>약 ${r.scale.toLocaleString("ko-KR")}명</td></tr>`:""}
             ${r.souvenir?`<tr><th>기념품</th><td>${esc(r.souvenir)}</td></tr>`:""}
             <tr><th>주최</th><td>${esc(r.host||"공식 홈페이지에서 확인")}</td></tr>
+            ${r.manager?`<tr><th>주관</th><td>${esc(r.manager)}</td></tr>`:""}
             <tr><th>문의</th><td class="tnum">${esc(r.phone||"-")}</td></tr>
+            ${r.memo?`<tr><th>참고</th><td>${esc(r.memo)}</td></tr>`:""}
             ${r.instagram?`<tr><th>인스타그램</th><td><a href="https://www.instagram.com/${encodeURIComponent(r.instagram)}" target="_blank" rel="noopener">@${esc(r.instagram)}</a></td></tr>`:""}
             <tr><th>홈페이지</th><td>${r.site?`<a href="${esc(r.site)}" target="_blank" rel="noopener">${esc(r.site.replace(/^https?:\/\//,"").replace(/\/$/,""))}</a>`:"-"}</td></tr>
           </tbody></table></div>

@@ -206,7 +206,7 @@ def fetch_roadrun(year: int) -> list[dict]:
 
 
 # ---------------------------------------------------------------- 2. merge
-KEEP = ("enrichedBy", "desc", "price", "regStart", "regEnd", "startTime", "schedule", "souvenir", "scale",
+KEEP = ("enrichedBy", "regStartTime", "regNote", "manager", "memo", "desc", "price", "regStart", "regEnd", "startTime", "schedule", "souvenir", "scale",
         "poster", "address", "lat", "lng", "instagram", "enrichedAt", "geoAt", "status")
 
 
@@ -269,16 +269,21 @@ def fix_regions(races: list[dict]) -> None:
 
 # ---------------------------------------------------------------- 3. enrich (공식 홈페이지 → Claude)
 PROMPT = """아래는 한국 마라톤 대회 "{name}" ({date} 개최)의 공식 홈페이지 내용이야.
-이 페이지에서 확인되는 정보만 뽑아서 JSON 하나로만 답해. 페이지에 없는 값은 null. 추측해서 채우지 마.
+이 페이지 글과 함께 첨부한 이미지(포스터·요강)도 읽고, 확인되는 정보만 뽑아서 JSON 하나로만 답해. 페이지에 없는 값은 null. 추측해서 채우지 마.
 
 {{
   "desc": "대회를 2~3문장으로 소개 (러너에게 말하듯 자연스러운 한국어, ~해요체)",
   "price": {{"종목명(예: 풀코스, 하프, 10km, 5km)": 참가비 원 단위 정수}},
   "regStart": "YYYY-MM-DD 접수 시작일",
+  "regStartTime": "HH:MM 접수 시작 시각",
   "regEnd": "YYYY-MM-DD 접수 마감일",
+  "regNote": "접수 마감 방식 등 짧은 메모 (예: 선착순 마감, 정원 도달 시 조기 마감)",
   "startTime": "HH:MM 첫 출발 시각",
   "schedule": [{{"time": "HH:MM", "text": "당일 일정 내용"}}],
-  "souvenir": "기념품 (짧게)",
+  "souvenir": "기념품 (쉼표로 나열)",
+  "organizer": "주최",
+  "manager": "주관",
+  "memo": "러너가 알아야 할 참고사항 한두 문장 (예: 대체공휴일, 셔틀버스, 주차 불가 등)",
   "scale": 참가 규모 인원 정수,
   "address": "집결지/출발지 도로명 주소 또는 장소명",
   "posterUrl": "대회 포스터로 보이는 이미지의 절대 URL",
@@ -308,11 +313,21 @@ def page_digest(url: str) -> tuple[str, list[str]]:
     return clean(doc)[:14000], list(dict.fromkeys(imgs))[:25]
 
 
-def ask_claude(prompt: str) -> dict | None:
-    body = json.dumps({"model": MODEL, "max_tokens": 1200,
-                       "messages": [{"role": "user", "content": prompt}]}).encode()
-    raw = http("https://api.anthropic.com/v1/messages", data=body, timeout=90, headers={
-        "x-api-key": ANTHROPIC_KEY, "anthropic-version": "2023-06-01", "content-type": "application/json"})
+def ask_claude(prompt: str, images: list[str] | None = None) -> dict | None:
+    def call(imgs):
+        content = [{"type": "image", "source": {"type": "url", "url": u}} for u in imgs]
+        content.append({"type": "text", "text": prompt})
+        body = json.dumps({"model": MODEL, "max_tokens": 1500,
+                           "messages": [{"role": "user", "content": content}]}).encode()
+        return http("https://api.anthropic.com/v1/messages", data=body, timeout=120, headers={
+            "x-api-key": ANTHROPIC_KEY, "anthropic-version": "2023-06-01", "content-type": "application/json"})
+    imgs = [u for u in (images or []) if re.search(r"\.(jpe?g|png|webp)(\?|$)", u, re.I)][:3]
+    try:
+        raw = call(imgs)
+    except Exception:
+        if not imgs:
+            raise
+        raw = call([])          # 이미지 주소를 못 읽으면 글만으로 다시
     text = "".join(b.get("text", "") for b in json.loads(raw)["content"])
     m = re.search(r"\{.*\}", text, re.S)
     return json.loads(m.group(0)) if m else None
@@ -407,7 +422,11 @@ def apply_info(r: dict, info: dict) -> None:
     sch = [x for x in (info.get("schedule") or []) if isinstance(x, dict) and x.get("text")]
     if sch:
         r["schedule"] = [{"time": str(x.get("time") or ""), "text": str(x["text"])} for x in sch[:12]]
-    for k in ("souvenir", "address", "instagram"):
+    if info.get("regStartTime") and re.match(r"^\d{1,2}:\d{2}$", str(info["regStartTime"])):
+        r["regStartTime"] = info["regStartTime"]
+    if info.get("organizer") and not r.get("host"):
+        r["host"] = str(info["organizer"]).strip()
+    for k in ("souvenir", "address", "instagram", "regNote", "manager", "memo"):
         if info.get(k):
             r[k] = str(info[k]).strip().lstrip("@")
     if isinstance(info.get("scale"), (int, float)) and info["scale"] > 0:
@@ -461,7 +480,7 @@ def enrich(races: list[dict]) -> None:
                 continue
             if ANTHROPIC_KEY:
                 info = ask_claude(PROMPT.format(name=r["name"], date=r["date"], text=text,
-                                                images="\n".join(imgs) or "(없음)")) or {}
+                                                images="\n".join(imgs) or "(없음)"), imgs) or {}
             else:
                 info = heuristic(r, text, imgs)
         except Exception as e:
