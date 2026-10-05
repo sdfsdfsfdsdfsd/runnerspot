@@ -18,6 +18,7 @@ import io
 import json
 import os
 import re
+import subprocess
 import sys
 import time
 from difflib import SequenceMatcher
@@ -417,6 +418,28 @@ def apply_info(r: dict, info: dict) -> None:
             r["poster"] = p
 
 
+def save(races: list[dict]) -> None:
+    DATA.parent.mkdir(exist_ok=True)
+    DATA.write_text(json.dumps({"updated": TODAY.isoformat(), "count": len(races), "races": races},
+                               ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+
+
+def publish(msg: str) -> None:
+    """GitHub Actions 안에서 돌 때만: 지금까지 모은 걸 바로 저장소에 올려서 사이트에 반영"""
+    if not os.environ.get("GITHUB_ACTIONS"):
+        return
+    try:
+        subprocess.run(["git", "add", "data", "posters"], cwd=ROOT, check=True)
+        if subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=ROOT).returncode == 0:
+            return
+        subprocess.run(["git", "commit", "-qm", msg], cwd=ROOT, check=True)
+        subprocess.run(["git", "pull", "-q", "--rebase", "-X", "theirs", "origin", "main"], cwd=ROOT)
+        subprocess.run(["git", "push", "-q"], cwd=ROOT, check=True)
+        log("   중간 저장 완료:", msg)
+    except Exception as e:
+        log("   중간 저장 실패:", e)
+
+
 def enrich(races: list[dict]) -> None:
     if not ANTHROPIC_KEY:
         log("ANTHROPIC_API_KEY 없음 → 홈페이지 글에서 직접 찾는 방식으로 진행")
@@ -428,6 +451,7 @@ def enrich(races: list[dict]) -> None:
                  or (ANTHROPIC_KEY and r.get("enrichedBy") != "claude"))]
     todo.sort(key=lambda r: (bool(r.get("enrichedAt")), r["date"]))
     log(f"상세 정리 대상 {len(todo)}개 중 {min(len(todo), ENRICH_LIMIT)}개 진행")
+    done = 0
     for r in todo[:ENRICH_LIMIT]:
         log(" -", r["date"], r["name"])
         try:
@@ -445,6 +469,11 @@ def enrich(races: list[dict]) -> None:
             continue
         apply_info(r, info)
         r["enrichedBy"] = "claude" if ANTHROPIC_KEY else "text"
+        done += 1
+        if done % 25 == 0:
+            update_status(races)
+            save(races)
+            publish(f"대회 상세 정보 {done}개 반영")
         got = [k for k in ("price", "regStart", "startTime", "poster", "desc") if r.get(k)]
         log("   →", ", ".join(got) or "찾은 정보 없음")
         r["enrichedAt"] = TODAY.isoformat()
@@ -517,12 +546,13 @@ def main() -> None:
     races = [r for r in races if date.fromisoformat(r["date"]) >= TODAY - timedelta(days=365)]
     races = dedupe(races)
     fix_regions(races)
+    update_status(races)
+    save(races)
+    publish("대회 목록 업데이트")
     enrich(races)
     geocode(races)
     update_status(races)
-    DATA.parent.mkdir(exist_ok=True)
-    DATA.write_text(json.dumps({"updated": TODAY.isoformat(), "count": len(races), "races": races},
-                               ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    save(races)
     log(f"저장 완료: {len(races)}개 대회")
     (ROOT / "data" / "last_run.log").write_text(
         f"{datetime.now(KST):%Y-%m-%d %H:%M} 실행\n" + "\n".join(LOG_LINES) + "\n", encoding="utf-8")

@@ -27,6 +27,11 @@ jobs:
       - name: 이미지 처리 도구 설치
         run: pip install pillow
 
+      - name: 저장용 계정 설정
+        run: |
+          git config user.name "runnerspot-bot"
+          git config user.email "runnerspot-bot@users.noreply.github.com"
+
       - name: 대회 수집 실행
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -36,12 +41,11 @@ jobs:
 
       - name: 바뀐 내용 저장
         run: |
-          git config user.name "runnerspot-bot"
-          git config user.email "runnerspot-bot@users.noreply.github.com"
           git add data posters
           if git diff --cached --quiet; then
             echo "바뀐 대회 정보 없음"
           else
             git commit -m "대회 정보 자동 업데이트 $(TZ=Asia/Seoul date +%Y-%m-%d)"
+            git pull -q --rebase -X theirs origin main
             git push
           fi
