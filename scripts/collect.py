@@ -20,6 +20,7 @@ import os
 import re
 import sys
 import time
+from difflib import SequenceMatcher
 import urllib.parse
 import urllib.request
 from datetime import date, datetime, timedelta, timezone
@@ -58,6 +59,12 @@ SIDO_KEYS = [
     ("목포", "전남"), ("여수", "전남"), ("순천", "전남"), ("나주", "전남"), ("고흥", "전남"), ("해남", "전남"), ("화순", "전남"), ("무안", "전남"), ("전남", "전남"),
     ("포항", "경북"), ("경주", "경북"), ("안동", "경북"), ("구미", "경북"), ("문경", "경북"), ("상주", "경북"), ("김천", "경북"), ("영천", "경북"), ("청도", "경북"), ("울릉", "경북"), ("경북", "경북"),
     ("창원", "경남"), ("진주", "경남"), ("김해", "경남"), ("양산", "경남"), ("거제", "경남"), ("사천", "경남"), ("진해", "경남"), ("통영", "경남"), ("경남", "경남"),
+    ("수서", "서울"), ("광평교", "서울"), ("대모산", "서울"), ("신정교", "서울"), ("뚝섬", "서울"), ("반포", "서울"), ("청계광장", "서울"),
+    ("조선대", "광주"), ("무등산", "광주"), ("담양", "전남"), ("영광", "전남"), ("보성", "전남"), ("완도", "전남"), ("장흥", "전남"), ("광양", "전남"),
+    ("청송", "경북"), ("영주", "경북"), ("영덕", "경북"), ("의성", "경북"), ("칠곡", "경북"), ("밀양", "경남"), ("남해", "경남"), ("거창", "경남"), ("하동", "경남"), ("함안", "경남"), ("통영", "경남"),
+    ("청양", "충남"), ("보령", "충남"), ("논산", "충남"), ("예산", "충남"), ("증평", "충북"), ("단양", "충북"), ("괴산", "충북"), ("음성", "충북"), ("옥천", "충북"),
+    ("동해", "강원"), ("삼척", "강원"), ("평창", "강원"), ("횡성", "강원"), ("철원", "강원"), ("양양", "강원"), ("태백", "강원"),
+    ("남한산성", "경기"), ("청계산", "경기"), ("가평", "경기"), ("양평", "경기"), ("이천", "경기"), ("오산", "경기"), ("군포", "경기"), ("부천", "경기"), ("구리", "경기"), ("남양주", "경기"),
     ("수원", "경기"), ("성남", "경기"), ("고양", "경기"), ("일산", "경기"), ("용인", "경기"), ("하남", "경기"), ("미사", "경기"), ("파주", "경기"), ("임진각", "경기"),
     ("광명", "경기"), ("시흥", "경기"), ("안산", "경기"), ("안양", "경기"), ("평택", "경기"), ("화성", "경기"), ("의정부", "경기"), ("양주", "경기"), ("동두천", "경기"),
     ("포천", "경기"), ("과천", "경기"), ("여주", "경기"), ("안성", "경기"), ("탄천", "경기"), ("김포", "경기"), ("경기", "경기"),
@@ -224,6 +231,39 @@ def merge(old: list[dict], new: list[dict]) -> list[dict]:
             out.append(r)
     out.sort(key=lambda r: (r["date"], r["name"]))
     return out
+
+
+def similar(a: str, b: str) -> bool:
+    x, y = norm_name(a), norm_name(b)
+    if not x or not y:
+        return False
+    return x in y or y in x or SequenceMatcher(None, x, y).ratio() >= 0.6
+
+
+def dedupe(races: list[dict]) -> list[dict]:
+    """같은 날짜에 이름이 비슷한 대회가 여러 출처로 겹치면 마라톤온라인(rr) 쪽을 남긴다"""
+    by_date: dict[str, list[dict]] = {}
+    for r in races:
+        by_date.setdefault(r["date"], []).append(r)
+    out = []
+    for r in races:
+        if not r["id"].startswith("rr"):
+            twin = next((x for x in by_date[r["date"]] if x["id"].startswith("rr") and similar(x["name"], r["name"])), None)
+            if twin:
+                for k in KEEP:
+                    if twin.get(k) in (None, "", [], {}) and r.get(k) not in (None, "", [], {}):
+                        twin[k] = r[k]
+                continue
+        out.append(r)
+    return out
+
+
+def fix_regions(races: list[dict]) -> None:
+    for r in races:
+        if r.get("sido") in (None, "기타"):
+            sido = guess_sido(r.get("address") or "", r.get("place") or "", r.get("host") or "", r["name"])
+            if sido:
+                r["sido"], r["region"] = sido, GROUP[sido]
 
 
 # ---------------------------------------------------------------- 3. enrich (공식 홈페이지 → Claude)
@@ -418,6 +458,8 @@ def main() -> None:
     races = merge(old, new) if new else old
     # 너무 오래 지난 대회는 정리 (1년)
     races = [r for r in races if date.fromisoformat(r["date"]) >= TODAY - timedelta(days=365)]
+    races = dedupe(races)
+    fix_regions(races)
     enrich(races)
     geocode(races)
     update_status(races)

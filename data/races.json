@@ -1,6 +1,6 @@
 {
  "updated": "2026-10-05",
- "count": 662,
+ "count": 640,
  "races": [
   {
    "id": "rr41182",
@@ -10,8 +10,8 @@
     "10K",
     "5K"
    ],
-   "sido": "기타",
-   "region": "기타",
+   "sido": "서울",
+   "region": "서울",
    "place": "신정교하부육상트랙구장",
    "host": "(사)대한생활체육마라톤협회",
    "phone": "00-1644-4219",
@@ -148,8 +148,8 @@
     "30k",
     "13k"
    ],
-   "sido": "기타",
-   "region": "기타",
+   "sido": "강원",
+   "region": "강원",
    "place": "태백 소원지 오토캠핑장",
    "host": "태백시, 태백시 철인3종 협회",
    "phone": "010-5605-9059",
@@ -180,8 +180,8 @@
    "dist": [
     "6.32K"
    ],
-   "sido": "기타",
-   "region": "기타",
+   "sido": "강원",
+   "region": "강원",
    "place": "철원 승일공원 일원",
    "host": "(재)철원문화재단",
    "phone": "031-821-9902",
@@ -316,8 +316,8 @@
     "10K",
     "5K"
    ],
-   "sido": "기타",
-   "region": "기타",
+   "sido": "강원",
+   "region": "강원",
    "place": "평창군 대관령면 눈꽃축제장일원",
    "host": "대관령면체육회",
    "phone": "010-2828-9226",
@@ -535,8 +535,8 @@
     "10K",
     "5K"
    ],
-   "sido": "기타",
-   "region": "기타",
+   "sido": "경남",
+   "region": "경상",
    "place": "밀양종합운동장",
    "host": "밀양시",
    "phone": "055-359-5965",
@@ -871,8 +871,8 @@
     "10K",
     "3.5K"
    ],
-   "sido": "기타",
-   "region": "기타",
+   "sido": "경기",
+   "region": "경기·인천",
    "place": "부천시청",
    "host": "부천시육상연맹",
    "phone": "032-613-7524",
@@ -1029,8 +1029,8 @@
     "40K",
     "28K"
    ],
-   "sido": "기타",
-   "region": "기타",
+   "sido": "경남",
+   "region": "경상",
    "place": "남해공설운동장",
    "host": "남해군 체육회",
    "phone": "063-352-2025",
@@ -1220,8 +1220,8 @@
     "10K",
     "5K"
    ],
-   "sido": "기타",
-   "region": "기타",
+   "sido": "전남",
+   "region": "전라",
    "place": "영광군 영광스포티움",
    "host": "영광군민의날 추진위원회",
    "phone": "042-638-1080",
@@ -1326,8 +1326,8 @@
     "망우산둘레길 걷기 6.4K",
     "망우산둘레길 트레일런 9K"
    ],
-   "sido": "기타",
-   "region": "기타",
+   "sido": "경기",
+   "region": "경기·인천",
    "place": "구리시청 광장",
    "host": "(재)한국건강걷기연합회",
    "phone": "032-322-3379",
@@ -1378,8 +1378,8 @@
     "10K",
     "5K"
    ],
-   "sido": "기타",
-   "region": "기타",
+   "sido": "경북",
+   "region": "경상",
    "place": "의성종합체육관",
    "host": "의성군",
    "phone": "010-2805-9016",
@@ -1394,8 +1394,8 @@
    "dist": [
     "5K"
    ],
-   "sido": "기타",
-   "region": "기타",
+   "sido": "경남",
+   "region": "경상",
    "place": "밀양시 삼문동 밀양강둔치 일원",
    "host": "밀양문화관광재단",
    "phone": "055-359-4582",
@@ -1803,8 +1803,8 @@
     "10K",
     "5K"
    ],
-   "sido": "기타",
-   "region": "기타",
+   "sido": "경북",
+   "region": "경상",
    "place": "영주시민운동장",
    "host": "영주시, 매일신문사",
    "phone": "02-2208-7243",
@@ -1943,8 +1943,8 @@
     "10K",
     "5K"
    ],
-   "sido": "기타",
-   "region": "기타",
+   "sido": "충남",
+   "region": "충청",
    "place": "예산종합운동장",
    "host": "예산군체육회",
    "phone": "02-785-0582",
@@ -1961,8 +1961,8 @@
     "10K",
     "5K"
    ],
-   "sido": "기타",
-   "region": "기타",
+   "sido": "경기",
+   "region": "경기·인천",
    "place": "이천종합운동장",
    "host": "이천시체육회",
    "phone": "042-638-1080",
@@ -2469,8 +2469,8 @@
     "5K",
     "3K(초등)"
    ],
-   "sido": "기타",
-   "region": "기타",
+   "sido": "충북",
+   "region": "충청",
    "place": "단양생태체육공원",
    "host": "단양군육상연맹",
    "phone": "00-1600-3949",
@@ -2739,8 +2739,8 @@
     "10K",
     "4.2K코스"
    ],
-   "sido": "기타",
-   "region": "기타",
+   "sido": "충북",
+   "region": "충청",
    "place": "음성종합운동장",
    "host": "음성군체육회, 런코리아",
    "phone": "00-1566-1936",
@@ -2885,8 +2885,8 @@
     "10K",
     "5K"
    ],
-   "sido": "기타",
-   "region": "기타",
+   "sido": "전남",
+   "region": "전라",
    "place": "보성공설운동장",
    "host": "보성군체육회",
    "phone": "042-638-1080",
@@ -2937,8 +2937,8 @@
     "10K",
     "5K"
    ],
-   "sido": "기타",
-   "region": "기타",
+   "sido": "경남",
+   "region": "경상",
    "place": "서면 회룡농촌 체험마을",
    "host": "바래협동조합",
    "phone": "010-9314-1000",
@@ -3093,8 +3093,8 @@
     "10K",
     "5K"
    ],
-   "sido": "기타",
-   "region": "기타",
+   "sido": "충남",
+   "region": "충청",
    "place": "대천해수욕장1지구 제2주차장",
    "host": "보령시육상연맹",
    "phone": "02-785-0583",
@@ -3161,8 +3161,8 @@
     "10K",
     "5K"
    ],
-   "sido": "기타",
-   "region": "기타",
+   "sido": "서울",
+   "region": "서울",
    "place": "신정교하부육상트랙구장",
    "host": "(사)대한생활체육마라톤협회",
    "phone": "00-1644-4219",
@@ -3248,8 +3248,8 @@
     "기부 마라톤",
     "추격 레이스"
    ],
-   "sido": "기타",
-   "region": "기타",
+   "sido": "경기",
+   "region": "경기·인천",
    "place": "부천종합운동장",
    "host": "레드불",
    "phone": "02-3670-7000",
@@ -3763,8 +3763,8 @@
    "dist": [
     "20K"
    ],
-   "sido": "기타",
-   "region": "기타",
+   "sido": "경기",
+   "region": "경기·인천",
    "place": "부천종합운동장 2층트랙",
    "host": "부천시육상연맹",
    "phone": "032-613-7525",
@@ -4201,8 +4201,8 @@
     "10K",
     "20K"
    ],
-   "sido": "기타",
-   "region": "기타",
+   "sido": "경남",
+   "region": "경상",
    "place": "남해 송정 송바람해수욕장",
    "host": "팜프라(FARMFRA)",
    "phone": "070-7755-5532",
@@ -4220,8 +4220,8 @@
     "4K",
     "10K 커플런"
    ],
-   "sido": "기타",
-   "region": "기타",
+   "sido": "경기",
+   "region": "경기·인천",
    "place": "양평강상체육공원",
    "host": "경인일",
    "phone": "00-1600-3962",
@@ -4237,8 +4237,8 @@
     "15K",
     "8K"
    ],
-   "sido": "기타",
-   "region": "기타",
+   "sido": "경기",
+   "region": "경기·인천",
    "place": "마천역 1번출구",
    "host": "(사)한국산악마라톤연맹",
    "phone": "02-424-2195",
@@ -4592,8 +4592,8 @@
     "10K",
     "5K"
    ],
-   "sido": "기타",
-   "region": "기타",
+   "sido": "경북",
+   "region": "경상",
    "place": "고래불해수욕장",
    "host": "영덕군",
    "phone": "010-5944-2686",
@@ -5133,8 +5133,8 @@
     "17K",
     "7K"
    ],
-   "sido": "기타",
-   "region": "기타",
+   "sido": "강원",
+   "region": "강원",
    "place": "O2 리조트",
    "host": "태백시, 태백시 철인3종 협회",
    "phone": "010-5605-9059",
@@ -5182,8 +5182,8 @@
     "Half",
     "12K"
    ],
-   "sido": "기타",
-   "region": "기타",
+   "sido": "경기",
+   "region": "경기·인천",
    "place": "화물터미널 청계산옛골",
    "host": "(사)한국산악마라톤연맹",
    "phone": "02-424-2195",
@@ -5401,8 +5401,8 @@
     "Half",
     "10K"
    ],
-   "sido": "기타",
-   "region": "기타",
+   "sido": "강원",
+   "region": "강원",
    "place": "2018 평창동계올림픽 기념관",
    "host": "한국실업육상연맹",
    "phone": "00-1600-3949",
@@ -5470,8 +5470,8 @@
     "10K",
     "5K"
    ],
-   "sido": "기타",
-   "region": "기타",
+   "sido": "충북",
+   "region": "충청",
    "place": "단양생태체육공원",
    "host": "단양군육상연맹",
    "phone": "00-1600-3949",
@@ -5486,8 +5486,8 @@
    "dist": [
     "10K"
    ],
-   "sido": "기타",
-   "region": "기타",
+   "sido": "충북",
+   "region": "충청",
    "place": "증평군 다목적운동장 일원",
    "host": "전국마라톤협회",
    "phone": "042-638-1080",
@@ -5556,8 +5556,8 @@
     "20.18K",
     "44K"
    ],
-   "sido": "기타",
-   "region": "기타",
+   "sido": "강원",
+   "region": "강원",
    "place": "평창동계올림픽기념공원",
    "host": "국대레포츠, 대관령면체육회",
    "phone": "010-2828-9226",
@@ -5594,8 +5594,8 @@
     "24k",
     "15k"
    ],
-   "sido": "기타",
-   "region": "기타",
+   "sido": "강원",
+   "region": "강원",
    "place": "태백 소원지 오토캠핑장",
    "host": "태백시, 태백시 철인3종 협회",
    "phone": "010-5605-9059",
@@ -5663,8 +5663,8 @@
     "10K",
     "걷기"
    ],
-   "sido": "기타",
-   "region": "기타",
+   "sido": "강원",
+   "region": "강원",
    "place": "철원 고석정",
    "host": "철원군, 한국일보",
    "phone": "031-821-9902",
@@ -5680,8 +5680,8 @@
     "10K",
     "5K"
    ],
-   "sido": "기타",
-   "region": "기타",
+   "sido": "서울",
+   "region": "서울",
    "place": "신정교하부육상트랙구장",
    "host": "(사)대한생활체육마라톤협회",
    "phone": "00-1644-4219",
@@ -6016,8 +6016,8 @@
     "5K",
     "걷기"
    ],
-   "sido": "기타",
-   "region": "기타",
+   "sido": "서울",
+   "region": "서울",
    "place": "영등포구 신정교하부 육상트랙구",
    "host": "청년일보, (주)소풍",
    "phone": "02-556-8879",
@@ -6531,8 +6531,8 @@
     "10K커플런",
     "5K 가족런"
    ],
-   "sido": "기타",
-   "region": "기타",
+   "sido": "경기",
+   "region": "경기·인천",
    "place": "(가평) 자라섬 행사장",
    "host": "가평군체육회, 세계일보",
    "phone": "02-2647-4488",
@@ -7450,8 +7450,8 @@
     "5K",
     "31K"
    ],
-   "sido": "기타",
-   "region": "기타",
+   "sido": "서울",
+   "region": "서울",
    "place": "광평교운동장",
    "host": "한국트레일러너연맹 (사)한국산악마라톤연맹",
    "phone": "02-424-2195",
@@ -7573,7 +7573,7 @@
    "host": "(주)엘지유플러스",
    "phone": "070-4350-5636",
    "site": "http://119memorial.com/",
-   "status": null,
+   "status": "closed",
    "kind": "로드"
   },
   {
@@ -7663,23 +7663,6 @@
    "kind": "로드"
   },
   {
-   "id": "4ae3d94f",
-   "date": "2026-10-17",
-   "name": "2026 메모리얼런",
-   "dist": [
-    "10K",
-    "5K"
-   ],
-   "sido": "세종",
-   "region": "충청",
-   "place": "세종중앙공원 도시축제마당",
-   "host": null,
-   "phone": null,
-   "site": null,
-   "status": "closed",
-   "kind": "로드"
-  },
-  {
    "id": "rr41857",
    "date": "2026-10-17",
    "name": "2026 억새노을마라톤대회",
@@ -7713,24 +7696,6 @@
    "kind": "로드"
   },
   {
-   "id": "1c8391de",
-   "date": "2026-10-17",
-   "name": "2026 의정부시 물길 마라톤 전국대회",
-   "dist": [
-    "Half",
-    "10K",
-    "5K"
-   ],
-   "sido": "경기",
-   "region": "경기·인천",
-   "place": "의정부 동막교 인라인광장",
-   "host": null,
-   "phone": null,
-   "site": null,
-   "status": "closed",
-   "kind": "로드"
-  },
-  {
    "id": "rr41800",
    "date": "2026-10-17",
    "name": "2026 의정부시 물길마라톤",
@@ -7745,7 +7710,7 @@
    "host": "의정부체육회",
    "phone": "031-850-5755",
    "site": "http://ujb.my-race.kr",
-   "status": null,
+   "status": "closed",
    "kind": "로드"
   },
   {
@@ -7823,24 +7788,6 @@
    "kind": "로드"
   },
   {
-   "id": "92c466e3",
-   "date": "2026-10-17",
-   "name": "제7회 문화체육관광부장관배 충청남도 태안 전국어울림마라톤대회",
-   "dist": [
-    "Half",
-    "10K",
-    "5K"
-   ],
-   "sido": "충남",
-   "region": "충청",
-   "place": "꽃지해안공원주차장",
-   "host": null,
-   "phone": null,
-   "site": null,
-   "status": "closed",
-   "kind": "로드"
-  },
-  {
    "id": "rr41679",
    "date": "2026-10-17",
    "name": "제7회 충청남도 태안 전국어울림마라톤",
@@ -7856,7 +7803,7 @@
    "host": "충청남도장애인체육회",
    "phone": "02-785-1915",
    "site": "http://www.충남전국어울림마라톤.kr",
-   "status": null,
+   "status": "closed",
    "kind": "로드"
   },
   {
@@ -7977,23 +7924,6 @@
    "host": "대구광역시북구체육회",
    "phone": "053-958-0660",
    "site": "http://maraton.dbsfa365.co.kr/",
-   "status": null,
-   "kind": "로드"
-  },
-  {
-   "id": "8f83bae7",
-   "date": "2026-10-18",
-   "name": "제22회 북구사랑마라톤대회",
-   "dist": [
-    "10K",
-    "5K"
-   ],
-   "sido": "대구",
-   "region": "경상",
-   "place": "금호강 산격야영장",
-   "host": null,
-   "phone": null,
-   "site": null,
    "status": "closed",
    "kind": "로드"
   },
@@ -8035,22 +7965,6 @@
    "kind": "로드"
   },
   {
-   "id": "8cac7f72",
-   "date": "2026-10-18",
-   "name": "제28회 시민건강달리기대회",
-   "dist": [
-    "6K"
-   ],
-   "sido": "경남",
-   "region": "경상",
-   "place": "창원종합운동장",
-   "host": null,
-   "phone": null,
-   "site": null,
-   "status": "closed",
-   "kind": "로드"
-  },
-  {
    "id": "rr41751",
    "date": "2026-10-18",
    "name": "제28회 창원 시민건강달리기",
@@ -8063,7 +7977,7 @@
    "host": "창원을 사랑하는 시민연합",
    "phone": "055-275-6611",
    "site": "http://www.cwrun.kr",
-   "status": null,
+   "status": "closed",
    "kind": "로드"
   },
   {
@@ -8145,8 +8059,8 @@
     "29K",
     "9K"
    ],
-   "sido": "기타",
-   "region": "기타",
+   "sido": "전남",
+   "region": "전라",
    "place": "담양군 일원",
    "host": "담양군",
    "phone": "070-5088-1180",
@@ -8280,8 +8194,8 @@
     "5K",
     "2K 플로깅"
    ],
-   "sido": "기타",
-   "region": "기타",
+   "sido": "강원",
+   "region": "강원",
    "place": "동해시 망상해수욕장",
    "host": "스포노베이션",
    "phone": "02-0000-0000",
@@ -8303,23 +8217,6 @@
    "host": "세종특별자치시육상연맹",
    "phone": "010-8468-5148",
    "site": "http://sejongrun26.com",
-   "status": null,
-   "kind": "로드"
-  },
-  {
-   "id": "7b5a3f76",
-   "date": "2026-10-24",
-   "name": "네이버웍스와 함께하는 세종런 26",
-   "dist": [
-    "10K",
-    "5K"
-   ],
-   "sido": "세종",
-   "region": "충청",
-   "place": "세종중앙공원 도시축제마당",
-   "host": null,
-   "phone": null,
-   "site": null,
    "status": "open",
    "kind": "로드"
   },
@@ -8472,8 +8369,8 @@
     "10K",
     "5K"
    ],
-   "sido": "기타",
-   "region": "기타",
+   "sido": "경북",
+   "region": "경상",
    "place": "청송군민운동장",
    "host": "청송군, 매일신문",
    "phone": "031-575-7243",
@@ -8694,23 +8591,6 @@
    "kind": "로드"
   },
   {
-   "id": "3e526b39",
-   "date": "2026-10-31",
-   "name": "JUST RUN10 포천",
-   "dist": [
-    "10K",
-    "5K"
-   ],
-   "sido": "경기",
-   "region": "경기·인천",
-   "place": "포천시종합운동장",
-   "host": null,
-   "phone": null,
-   "site": null,
-   "status": "closed",
-   "kind": "로드"
-  },
-  {
    "id": "4703efab",
    "date": "2026-10-31",
    "name": "경주 보문 나이트런",
@@ -8741,7 +8621,7 @@
    "host": "(주)러닝브레이커,전국러닝협회",
    "phone": "042-710-2058",
    "site": "http://runten.co.kr",
-   "status": null,
+   "status": "closed",
    "kind": "로드"
   },
   {
@@ -8812,42 +8692,7 @@
    "host": "(사) 중소기업진흥회",
    "phone": "010-2760-7745",
    "site": "http://kasmirun.kr/",
-   "status": null,
-   "kind": "로드"
-  },
-  {
-   "id": "1a344496",
-   "date": "2026-10-31",
-   "name": "제7회 중소기업인 氣살리기 마라톤 대회",
-   "dist": [
-    "Half",
-    "10K",
-    "5K"
-   ],
-   "sido": "서울",
-   "region": "서울",
-   "place": "안양천 축구장",
-   "host": null,
-   "phone": null,
-   "site": null,
    "status": "open",
-   "kind": "로드"
-  },
-  {
-   "id": "f2ed37d9",
-   "date": "2026-11-01",
-   "name": "2026 JTBC 서울마라톤",
-   "dist": [
-    "Full",
-    "10K"
-   ],
-   "sido": "서울",
-   "region": "서울",
-   "place": "상암 월드컵공원",
-   "host": null,
-   "phone": null,
-   "site": null,
-   "status": "closed",
    "kind": "로드"
   },
   {
@@ -8864,7 +8709,7 @@
    "host": "jtbc",
    "phone": "02-2031-1935",
    "site": "http://marathon.jtbc.com/",
-   "status": null,
+   "status": "closed",
    "kind": "로드"
   },
   {
@@ -8899,41 +8744,6 @@
    "host": "무안군체육회",
    "phone": "042-638-1080",
    "site": "http://mara1080.com/event/d596615e-cf32-4f20-bdbe-13b633f51c4e",
-   "status": null,
-   "kind": "로드"
-  },
-  {
-   "id": "326bf9ee",
-   "date": "2026-11-01",
-   "name": "2026 무안 해안 노을길 전국 걷기 및 마라톤대회",
-   "dist": [
-    "10K",
-    "5K"
-   ],
-   "sido": "전남",
-   "region": "전라",
-   "place": "무안낙지공원",
-   "host": null,
-   "phone": null,
-   "site": null,
-   "status": "closed",
-   "kind": "로드"
-  },
-  {
-   "id": "19a5202d",
-   "date": "2026-11-01",
-   "name": "2026 서울동행 마라톤 대회",
-   "dist": [
-    "Half",
-    "10K",
-    "5K"
-   ],
-   "sido": "서울",
-   "region": "서울",
-   "place": "목동종합운동장 주경기장 일원",
-   "host": null,
-   "phone": null,
-   "site": null,
    "status": "closed",
    "kind": "로드"
   },
@@ -8969,7 +8779,7 @@
    "host": "서울동행마라톤조직위원회",
    "phone": "02-736-1136",
    "site": "http://seoulrun.com",
-   "status": null,
+   "status": "closed",
    "kind": "로드"
   },
   {
@@ -9170,30 +8980,13 @@
    "dist": [
     "10K"
    ],
-   "sido": "기타",
-   "region": "기타",
+   "sido": "경남",
+   "region": "경상",
    "place": "밀양시 일원",
    "host": "밀양문화관광재단",
    "phone": "055-359-4563",
    "site": "http://www.mywalk.kr",
    "status": null,
-   "kind": "로드"
-  },
-  {
-   "id": "384ffdcc",
-   "date": "2026-11-07",
-   "name": "GIVE RUN 2026 구미",
-   "dist": [
-    "10K",
-    "5K"
-   ],
-   "sido": "경북",
-   "region": "경상",
-   "place": "구미 낙동강체육공원 일대",
-   "host": null,
-   "phone": null,
-   "site": null,
-   "status": "open",
    "kind": "로드"
   },
   {
@@ -9210,7 +9003,7 @@
    "host": "굿피플",
    "phone": "00-1600-3949",
    "site": "http://giverun.kr",
-   "status": null,
+   "status": "open",
    "kind": "로드"
   },
   {
@@ -9253,31 +9046,14 @@
    "dist": [
     "13K"
    ],
-   "sido": "기타",
-   "region": "기타",
+   "sido": "경기",
+   "region": "경기·인천",
    "place": "산성로타리",
    "host": "명품트레일런",
    "phone": "010-3526-9120",
    "site": "http://www.mtrailrun.kr/",
    "status": null,
    "kind": "트레일"
-  },
-  {
-   "id": "9bcf3b91",
-   "date": "2026-11-07",
-   "name": "넥슨과 함께하는 2026 미라클365 푸르메런",
-   "dist": [
-    "10K",
-    "3K"
-   ],
-   "sido": "서울",
-   "region": "서울",
-   "place": "마포구 월드컵공원 평화의공원 평화광장",
-   "host": null,
-   "phone": null,
-   "site": null,
-   "status": "closed",
-   "kind": "로드"
   },
   {
    "id": "rr41815",
@@ -9293,7 +9069,7 @@
    "host": "푸르메재단",
    "phone": "02-338-0344",
    "site": "http://purmerun.com/",
-   "status": null,
+   "status": "closed",
    "kind": "로드"
   },
   {
@@ -9346,25 +9122,6 @@
    "host": "부여군마라톤연합회",
    "phone": "042-638-1080",
    "site": "http://mara1080.com/event/ffc023fc-7a54-4610-bdd6-2bb9a1028122",
-   "status": null,
-   "kind": "로드"
-  },
-  {
-   "id": "f287fdc0",
-   "date": "2026-11-07",
-   "name": "제15회 부여 굿뜨레 마라톤",
-   "dist": [
-    "Full",
-    "Half",
-    "10K",
-    "5K"
-   ],
-   "sido": "충남",
-   "region": "충청",
-   "place": "부여 구드래 나루터 선착장",
-   "host": null,
-   "phone": null,
-   "site": null,
    "status": "closed",
    "kind": "로드"
   },
@@ -9472,24 +9229,6 @@
    "kind": "로드"
   },
   {
-   "id": "479b8ec4",
-   "date": "2026-11-08",
-   "name": "2026 경북도청신도시 마라톤대회",
-   "dist": [
-    "Half",
-    "10K",
-    "5K"
-   ],
-   "sido": "경북",
-   "region": "경상",
-   "place": "경북도청 천년숲 앞",
-   "host": null,
-   "phone": null,
-   "site": null,
-   "status": "open",
-   "kind": "로드"
-  },
-  {
    "id": "rr41844",
    "date": "2026-11-08",
    "name": "2026 경상북도 신도시 마라톤",
@@ -9504,7 +9243,7 @@
    "host": "경상북도, 경상북도체육회",
    "phone": "070-7707-2808",
    "site": "http://1004.tbc.co.kr/",
-   "status": null,
+   "status": "open",
    "kind": "로드"
   },
   {
@@ -9638,30 +9377,12 @@
     "14K",
     "7K"
    ],
-   "sido": "기타",
-   "region": "기타",
+   "sido": "충남",
+   "region": "충청",
    "place": "청양군 청양목재문화자연사체험관",
    "host": "청양군육상연맹",
    "phone": "010-4401-2829",
    "site": "http://cymarathon.imweb.me/index?preview_mode=1",
-   "status": null,
-   "kind": "로드"
-  },
-  {
-   "id": "fb202ab6",
-   "date": "2026-11-08",
-   "name": "2026 청양군체육회장기 칠갑마라톤대회",
-   "dist": [
-    "Half",
-    "7K",
-    "14K"
-   ],
-   "sido": "충남",
-   "region": "충청",
-   "place": "청양목재문화자연사체험관 및 칠갑저수지 일원",
-   "host": null,
-   "phone": null,
-   "site": null,
    "status": "open",
    "kind": "로드"
   },
@@ -9903,8 +9624,8 @@
     "10K",
     "5K"
    ],
-   "sido": "기타",
-   "region": "기타",
+   "sido": "충북",
+   "region": "충청",
    "place": "증평군 보강천 시민체육공원",
    "host": "스타콜 & 롤링스톤 코리아",
    "phone": "010-7708-4382",
@@ -10046,7 +9767,7 @@
    "host": "휠라코리아",
    "phone": "02-334-6274",
    "site": "http://www.fila.co.kr/pages/fila-run-espresso-10k-seoul",
-   "status": null,
+   "status": "closed",
    "kind": "로드"
   },
   {
@@ -10153,24 +9874,6 @@
    "kind": "로드"
   },
   {
-   "id": "8b7ff2cd",
-   "date": "2026-11-15",
-   "name": "2026 제주감귤국제마라톤대회",
-   "dist": [
-    "Full",
-    "Half",
-    "10K"
-   ],
-   "sido": "제주",
-   "region": "제주",
-   "place": "제주시 조천운동장",
-   "host": null,
-   "phone": null,
-   "site": null,
-   "status": "closed",
-   "kind": "로드"
-  },
-  {
    "id": "rr41695",
    "date": "2026-11-15",
    "name": "2026 제주감귤마라톤",
@@ -10185,7 +9888,7 @@
    "host": "한라일보",
    "phone": "064-750-2291",
    "site": "http://marathon.ihalla.com",
-   "status": null,
+   "status": "closed",
    "kind": "로드"
   },
   {
@@ -10201,7 +9904,7 @@
    "host": "창원통일마라톤대회조직위원회",
    "phone": "055-285-6158",
    "site": "http://www.tongilmarathon.kr",
-   "status": null,
+   "status": "closed",
    "kind": "로드"
   },
   {
@@ -10248,8 +9951,8 @@
     "10K",
     "20K"
    ],
-   "sido": "기타",
-   "region": "기타",
+   "sido": "경기",
+   "region": "경기·인천",
    "place": "청계산수변공원",
    "host": "{사}소아암환우돕기 조직위",
    "phone": "02-2647-4488",
@@ -10282,8 +9985,8 @@
    "dist": [
     "10K"
    ],
-   "sido": "기타",
-   "region": "기타",
+   "sido": "서울",
+   "region": "서울",
    "place": "수서역 7번출구광장",
    "host": "(사)한국산악마라톤연맹",
    "phone": "02-424-2195",
@@ -10307,22 +10010,6 @@
    "host": "전국마라톤협회",
    "phone": "042-638-1080",
    "site": "http://www.mara1080.com/event/c8dc2c22-a83a-4743-9e34-c884e9809dbb",
-   "status": "closed",
-   "kind": "로드"
-  },
-  {
-   "id": "90c88444",
-   "date": "2026-11-15",
-   "name": "제26회 창원통일마라톤대회",
-   "dist": [
-    "5K"
-   ],
-   "sido": "경남",
-   "region": "경상",
-   "place": "창원종합운동장 보조경기장",
-   "host": null,
-   "phone": null,
-   "site": null,
    "status": "closed",
    "kind": "로드"
   },
@@ -10372,8 +10059,8 @@
     "36K",
     "51.8K"
    ],
-   "sido": "기타",
-   "region": "기타",
+   "sido": "광주",
+   "region": "전라",
    "place": "조선대학교",
    "host": "한국백혈병소아암협회/시유케이컴",
    "phone": "00-1899-8610",
@@ -10396,22 +10083,6 @@
    "host": "울산광역시 울주군육상연맹",
    "phone": "052-269-1001",
    "site": "http://영남알프스마라톤.kr",
-   "status": "closed",
-   "kind": "로드"
-  },
-  {
-   "id": "e400d7e2",
-   "date": "2026-11-15",
-   "name": "휠라 RUN & ESPRESSO 10K",
-   "dist": [
-    "10K"
-   ],
-   "sido": "서울",
-   "region": "서울",
-   "place": "상암 월드컵공원",
-   "host": null,
-   "phone": null,
-   "site": null,
    "status": "closed",
    "kind": "로드"
   },
@@ -10451,23 +10122,6 @@
    "kind": "트레일"
   },
   {
-   "id": "3131d2e5",
-   "date": "2026-11-21",
-   "name": "2026 가을바람 유러닝 페스타",
-   "dist": [
-    "10K",
-    "5K"
-   ],
-   "sido": "경기",
-   "region": "경기·인천",
-   "place": "하남미사 경정공원",
-   "host": null,
-   "phone": null,
-   "site": null,
-   "status": "closed",
-   "kind": "로드"
-  },
-  {
    "id": "rr41748",
    "date": "2026-11-21",
    "name": "2026 남해트레일레이스(가을)",
@@ -10476,8 +10130,8 @@
     "30K",
     "12K"
    ],
-   "sido": "기타",
-   "region": "기타",
+   "sido": "경남",
+   "region": "경상",
    "place": "남해공설운동장",
    "host": "주식회사 락앤런",
    "phone": "063-353-2025",
@@ -10519,7 +10173,7 @@
    "host": "주식회사 세정",
    "phone": "010-8017-1833",
    "site": "http://urfesta.com",
-   "status": null,
+   "status": "closed",
    "kind": "로드"
   },
   {
@@ -10796,23 +10450,6 @@
    "host": "가톨릭평화방송/런코리아",
    "phone": "00-1566-1936",
    "site": "http://www.peacerun.kr",
-   "status": null,
-   "kind": "로드"
-  },
-  {
-   "id": "8872a488",
-   "date": "2026-11-28",
-   "name": "2027 서울 세계청년대회 성공 기원 평화런",
-   "dist": [
-    "10K",
-    "5K"
-   ],
-   "sido": "서울",
-   "region": "서울",
-   "place": "여의도공원 문화의마당",
-   "host": null,
-   "phone": null,
-   "site": null,
    "status": "closed",
    "kind": "로드"
   },
@@ -10923,23 +10560,6 @@
    "kind": "로드"
   },
   {
-   "id": "366e4a62",
-   "date": "2026-11-29",
-   "name": "2026 정읍 공동체 프리마켓 런",
-   "dist": [
-    "10K",
-    "5K"
-   ],
-   "sido": "전북",
-   "region": "전라",
-   "place": "정읍천변 어린이전용축구장",
-   "host": null,
-   "phone": null,
-   "site": null,
-   "status": "tbd",
-   "kind": "로드"
-  },
-  {
    "id": "rr41810",
    "date": "2026-11-29",
    "name": "2026 정읍공동체 프리마켓 마라톤",
@@ -10955,7 +10575,7 @@
    "host": "대흥리마을공동체,정읍시공동체협",
    "phone": "010-4654-0495",
    "site": "http://www.xn--ob0bs4k27c8xc9da633vynbkyur2ft5hckl.kr/",
-   "status": null,
+   "status": "tbd",
    "kind": "로드"
   },
   {
@@ -11458,8 +11078,8 @@
     "10K",
     "5K"
    ],
-   "sido": "기타",
-   "region": "기타",
+   "sido": "경남",
+   "region": "경상",
    "place": "밀양종합운동장",
    "host": "밀양시",
    "phone": "055-359-5965",
@@ -11550,8 +11170,8 @@
     "10K",
     "5K"
    ],
-   "sido": "기타",
-   "region": "기타",
+   "sido": "전남",
+   "region": "전라",
    "place": "영광 스포디움",
    "host": "전국마라톤협회",
    "phone": "042-638-1080",
