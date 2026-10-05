@@ -7816,7 +7816,9 @@
    "phone": "061-375-1201",
    "site": "http://xn--o80b37in2b02lesgqqcj12a.kr/index.asp",
    "status": "closed",
-   "kind": "로드"
+   "kind": "로드",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-10-05"
   },
   {
    "id": "rr41896",
@@ -8045,7 +8047,9 @@
    "phone": "061-270-9212",
    "site": "http://www.greenstep.co.kr/",
    "status": "closed",
-   "kind": "로드"
+   "kind": "로드",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-10-05"
   },
   {
    "id": "rr41712",
@@ -8339,7 +8343,9 @@
    "phone": "00-1644-4219",
    "site": "http://xn--439a68tboh.kr/index.asp",
    "status": "closed",
-   "kind": "로드"
+   "kind": "로드",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-10-05"
   },
   {
    "id": "rr41883",
@@ -8476,7 +8482,9 @@
    "phone": "010-3526-9120",
    "site": "http://www.mtrailrun.kr/",
    "status": null,
-   "kind": "트레일"
+   "kind": "트레일",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-10-05"
   },
   {
    "id": "8da3bf48",
@@ -8627,7 +8635,8 @@
    "phone": "02-3210-1666",
    "site": "http://www.irunman.kr",
    "status": "closed",
-   "kind": "로드"
+   "kind": "로드",
+   "enrichedAt": "2026-10-05"
   },
   {
    "id": "2bb80310",
@@ -9367,7 +9376,9 @@
    "phone": "010-3526-9120",
    "site": "http://www.mtrailrun.kr/",
    "status": null,
-   "kind": "트레일"
+   "kind": "트레일",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-10-05"
   },
   {
    "id": "rr41815",
@@ -9477,7 +9488,9 @@
    "phone": "062-951-2060",
    "site": "http://www.metarun.kr",
    "status": null,
-   "kind": "로드"
+   "kind": "로드",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-10-05"
   },
   {
    "id": "2a7684e2",
@@ -9877,7 +9890,9 @@
    "phone": "00-1644-4219",
    "site": "http://xn--oi2bo7bn3do4es0j56afy5b.kr/",
    "status": "open",
-   "kind": "로드"
+   "kind": "로드",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-10-05"
   },
   {
    "id": "rr41816",
@@ -10105,7 +10120,9 @@
    "phone": "010-3526-9120",
    "site": "http://www.mtrailrun.kr/",
    "status": null,
-   "kind": "울트라"
+   "kind": "울트라",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-10-05"
   },
   {
    "id": "67de7bb8",
@@ -10737,7 +10754,9 @@
    "phone": "061-375-1201",
    "site": "http://www.djrun.kr/",
    "status": "open",
-   "kind": "로드"
+   "kind": "로드",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-10-05"
   },
   {
    "id": "rr41841",
@@ -10980,7 +10999,9 @@
    "phone": "010-3526-9120",
    "site": "http://www.mtrailrun.kr/",
    "status": null,
-   "kind": "트레일"
+   "kind": "트레일",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-10-05"
   },
   {
    "id": "rr41807",
@@ -11076,7 +11097,9 @@
    "phone": "010-4654-0495",
    "site": "http://www.xn--ob0bs4k27c8xc9da633vynbkyur2ft5hckl.kr/",
    "status": "tbd",
-   "kind": "로드"
+   "kind": "로드",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-10-05"
   },
   {
    "id": "rr41741",
@@ -11284,7 +11307,9 @@
    "phone": "00-1644-4219",
    "site": "http://www.hangangmarathon.kr/",
    "status": "open",
-   "kind": "로드"
+   "kind": "로드",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-10-05"
   },
   {
    "id": "rr41867",
@@ -11303,7 +11328,8 @@
    "phone": "02-3210-1666",
    "site": "http://www.irunman.kr",
    "status": null,
-   "kind": "로드"
+   "kind": "로드",
+   "enrichedAt": "2026-10-05"
   },
   {
    "id": "rr41710",
