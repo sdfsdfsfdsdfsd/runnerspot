@@ -471,6 +471,10 @@ function bindList(){
 
 /* ===== detail ===== */
 const won=v=>v.toLocaleString("ko-KR")+"원";
+/* 참가비는 5km → 10km → 하프 → 풀코스처럼 짧은 거리부터 */
+const kmOf=k=>{k=String(k).toLowerCase().replace(/\s/g,"");if(/풀|full|42/.test(k))return 42.195;if(/하프|half|21/.test(k))return 21.0975;
+  const m=k.match(/([\d.]+)\s*(km|k)?/);return m?parseFloat(m[1]):999};
+const priceList=r=>Object.entries(r.price||{}).sort((a,b)=>kmOf(a[0])-kmOf(b[0])||a[1]-b[1]);
 const ymd=s=>{const d=dt(s);return `${d.getMonth()+1}.${d.getDate()}(${DAYS[d.getDay()]})`};
 function priceTxt(r){const v=Object.values(r.price||{});if(!v.length)return "";const a=Math.min(...v),b=Math.max(...v);return a===b?won(a):`${won(a)} ~ ${won(b)}`}
 let kakaoLoading=null;
@@ -514,7 +518,7 @@ function detail(id){
       <div class="stack">
         ${r.price?`<div class="box"><h2>${I("won")}참가비</h2>
           ${r.regStart||r.regEnd?`<div class="regbar">${I("calck","--i2")}<span>접수 <b class="tnum">${r.regStart?ymd(r.regStart)+(r.regStartTime?" "+esc(r.regStartTime):""):"?"} ~ ${r.regEnd?ymd(r.regEnd):esc(r.regNote||"?")}</b></span>${stB(r)}</div>`:""}
-          <div class="prices">${Object.entries(r.price).map(([k,v])=>`<div class="pc"><small>${esc(k)}</small><b class="tnum">${won(v)}</b></div>`).join("")}</div></div>`:""}
+          <div class="prices">${priceList(r).map(([k,v])=>`<div class="pc"><small>${esc(k)}</small><b class="tnum">${won(v)}</b></div>`).join("")}</div></div>`:""}
         ${r.schedule&&r.schedule.length?`<div class="box"><h2>${I("clock")}대회 당일 일정</h2><ul class="timeline">${r.schedule.map(s=>`<li><b class="tnum">${esc(s.time||"")}</b><span>${esc(s.text)}</span></li>`).join("")}</ul></div>`:""}
         <div class="box"><h2>${I("info")}대회 상세</h2>
           <table class="it"><tbody>
@@ -523,7 +527,7 @@ function detail(id){
             <tr><th>일정</th><td class="tnum">${dstr(r)}${r.startTime?" "+esc(r.startTime)+" 출발":""} · ${ddayTxt(r)}</td></tr>
             <tr><th>접수 기간</th><td class="tnum">${r.regStart||r.regEnd?`${r.regStart?ymd(r.regStart)+(r.regStartTime?" "+esc(r.regStartTime):""):"?"} ~ ${r.regEnd?ymd(r.regEnd):esc(r.regNote||"?")}`:"공식 홈페이지에서 확인"}${r.regNote&&r.regEnd?` <span style="color:var(--muted)">(${esc(r.regNote)})</span>`:""}</td></tr>
             <tr><th>종목</th><td>${r.dist.map(x=>DLK[x]||x).join(", ")}</td></tr>
-            <tr><th>참가비</th><td>${r.price?Object.entries(r.price).map(([k,v])=>`${esc(k)} ${won(v)}`).join(" · "):"공식 홈페이지에서 확인"}</td></tr>
+            <tr><th>참가비</th><td>${r.price?priceList(r).map(([k,v])=>`${esc(k)} ${won(v)}`).join(" · "):"공식 홈페이지에서 확인"}</td></tr>
             ${r.scale?`<tr><th>참가 규모</th><td>약 ${r.scale.toLocaleString("ko-KR")}명</td></tr>`:""}
             ${r.souvenir?`<tr><th>기념품</th><td>${esc(r.souvenir)}</td></tr>`:""}
             <tr><th>주최</th><td>${esc(r.host||"공식 홈페이지에서 확인")}</td></tr>
