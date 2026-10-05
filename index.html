@@ -408,7 +408,7 @@ function renderList(){
       return `<button type="button" class="fb" data-rg="${v}" aria-pressed="${S.region===v}" ${!n&&S.region!==v?"disabled":""}>${v==="전체"?"전국":v} <span style="opacity:.55">${n}</span></button>`}).join("")}</div>`:"");
   const c=list({st:1}); grp("fStatus",["open","soon","tbd","closed"],"status",v=>ST[v],v=>c.some(r=>r.status===v));
   const k=list({ki:1}); grp("fKind",["로드","트레일","울트라","기타"],"kind",v=>KINDS[v],v=>k.some(r=>r.kind===v));
-  $("fEtc").innerHTML=`<button type="button" class="fb" data-t="fav" aria-pressed="${S.fav}">★ 관심 대회만 보기</button>`;
+  $("fEtc").innerHTML=`<button type="button" class="fb" data-fav="0" aria-pressed="${!S.fav}">전체 보기</button><button type="button" class="fb" data-fav="1" aria-pressed="${S.fav}">★ 관심 대회 보기</button>`;
   $("sort").value=S.sort;
   const chips=[];
   if(S.q)chips.push(["q",`"${S.q}"`]);if(S.year)chips.push(["year",S.year+"년"]);if(S.month)chips.push(["month",S.month+"월"]);if(S.dist)chips.push(["dist",DLK[S.dist]]);
@@ -453,6 +453,7 @@ function bindList(){
     const b=e.target.closest(".fb");if(!b||b.disabled)return;
     if(b.dataset.rg){S.region=b.dataset.rg;$("fRegionDD").dataset.open="0"}
     else if(b.dataset.past){S.past=b.dataset.past==="1"}
+    else if(b.dataset.fav){S.fav=b.dataset.fav==="1"}
     else if(b.dataset.t){S[b.dataset.t]=!S[b.dataset.t]}
     else{const k=b.dataset.k,v=(k==="month"||k==="year")?+b.dataset.v:b.dataset.v;S[k]=S[k]===v?null:v}
     S.shown=PAGE;renderList()});
