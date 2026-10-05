@@ -262,7 +262,7 @@
    "date": "2026-02-02",
    "name": "2026 네버스탑: 1,000K 돌파 팀마라톤",
    "dist": [
-    "1",
+    "1K",
     "000K 팀마라톤"
    ],
    "sido": "기타",
@@ -1272,7 +1272,7 @@
    "dist": [
     "Half",
     "10K",
-    "하프 7인 단체전 (여성1인필수포함)"
+    "하프 7인 단체전 (여성1인필수포함"
    ],
    "sido": "경기",
    "region": "경기·인천",
@@ -2222,7 +2222,11 @@
    "date": "2026-04-17",
    "name": "제11회 서울트레일런",
    "dist": [
-    "109.50.30.20.15"
+    "109K",
+    "50K",
+    "30K",
+    "20K",
+    "15K"
    ],
    "sido": "서울",
    "region": "서울",
@@ -2256,9 +2260,9 @@
    "name": "KOLON TRAIL RUN 2026",
    "dist": [
     "35k(싱글",
-    "듀오)",
+    "듀오",
     "15k",
-    "1.5k(버티컬레이스)"
+    "1.5k(버티컬레이스"
    ],
    "sido": "강원",
    "region": "강원",
@@ -2467,7 +2471,7 @@
     "Half",
     "10K",
     "5K",
-    "3K(초등)"
+    "3K(초등"
    ],
    "sido": "충북",
    "region": "충청",
@@ -2684,7 +2688,6 @@
     "5K",
     "트레일런18K",
     "WALK5",
-    "10",
     "20K댕댕런3K"
    ],
    "sido": "인천",
@@ -3265,7 +3268,7 @@
     "Half",
     "10K",
     "5K",
-    "가족코스(5K)"
+    "가족코스(5K"
    ],
    "sido": "대전",
    "region": "충청",
@@ -3503,7 +3506,7 @@
    "dist": [
     "Half",
     "10K",
-    "4K (이벤트 코스)"
+    "4K (이벤트 코스"
    ],
    "sido": "대전",
    "region": "충청",
@@ -3537,9 +3540,7 @@
    "date": "2026-05-23",
    "name": "2026 GOLD RUSH RACE",
    "dist": [
-    "10K",
-    "08:00",
-    "11:00"
+    "10K"
    ],
    "sido": "경기",
    "region": "경기·인천",
@@ -4092,7 +4093,7 @@
    "dist": [
     "트레일러닝(4.4K",
     "12K",
-    "24K)"
+    "24K"
    ],
    "sido": "강원",
    "region": "강원",
@@ -4905,8 +4906,8 @@
    "dist": [
     "10K",
     "5K",
-    "5K가족부(2인1조)",
-    "10K 단체전(3인1조)"
+    "5K가족부(2인1조",
+    "10K 단체전(3인1조"
    ],
    "sido": "전북",
    "region": "전라",
@@ -5996,7 +5997,7 @@
     "10K",
     "5K",
     "3K 걷기",
-    "3K 걷기(어린이)"
+    "3K 걷기(어린이"
    ],
    "sido": "대전",
    "region": "충청",
@@ -6758,7 +6759,7 @@
    "dist": [
     "10K",
     "5K",
-    "3K(거북이마라톤)"
+    "3K(거북이마라톤"
    ],
    "sido": "경기",
    "region": "경기·인천",
@@ -6873,8 +6874,8 @@
    "site": "http://seoulopen.or.kr",
    "status": null,
    "kind": "로드",
-   "poster": "posters/rr41551.webp",
    "enrichedBy": "text",
+   "poster": "posters/rr41551.webp",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -6913,13 +6914,13 @@
    "site": "http://www.hk-marathon.com/",
    "status": null,
    "kind": "로드",
+   "enrichedBy": "text",
    "price": {
     "하프": 80000,
     "10km": 70000,
     "5km": 60000
    },
    "startTime": "07:30",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -6938,6 +6939,7 @@
    "site": "http://www.runsense.co.kr",
    "status": "closed",
    "kind": "로드",
+   "enrichedBy": "text",
    "price": {
     "10km": 50000,
     "5km": 45000
@@ -6945,7 +6947,6 @@
    "regStart": "2026-07-08",
    "regEnd": "2026-08-27",
    "poster": "posters/rr41677.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -7021,11 +7022,11 @@
    "site": "http://hangeulrun.com/",
    "status": null,
    "kind": "로드",
+   "enrichedBy": "text",
    "price": {
     "5km": 55000
    },
    "poster": "posters/rr41664.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -7056,7 +7057,7 @@
     "Half",
     "10K",
     "5K",
-    "10K 단체런(5인)"
+    "10K 단체런(5인"
    ],
    "sido": "충남",
    "region": "충청",
@@ -7101,6 +7102,7 @@
    "site": "http://kyeonggiincheon.com",
    "status": "closed",
    "kind": "로드",
+   "enrichedBy": "text",
    "price": {
     "5km": 20000,
     "10km": 20000
@@ -7108,7 +7110,6 @@
    "regStart": "2026-09-14",
    "regEnd": "2026-09-30",
    "poster": "posters/rr41870.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -7127,10 +7128,10 @@
    "site": "http://heartrun.co.kr/",
    "status": "closed",
    "kind": "로드",
+   "enrichedBy": "text",
    "regStart": "2026-08-24",
    "regEnd": "2026-09-18",
    "poster": "posters/rr41822.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -7149,8 +7150,8 @@
    "site": "http://samsamis.com/57",
    "status": null,
    "kind": "로드",
-   "poster": "posters/rr41665.webp",
    "enrichedBy": "text",
+   "poster": "posters/rr41665.webp",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -7158,7 +7159,9 @@
    "date": "2026-10-10",
    "name": "제3회서울트레일런 대회",
    "dist": [
-    "37: 20:11"
+    "37K",
+    "20K",
+    "11K"
    ],
    "sido": "서울",
    "region": "서울",
@@ -7204,8 +7207,8 @@
    "site": "http://cafe.naver.com/gumitrailrunnerclub",
    "status": null,
    "kind": "트레일",
-   "poster": "posters/rr41601.webp",
    "enrichedBy": "text",
+   "poster": "posters/rr41601.webp",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -7226,10 +7229,10 @@
    "site": "http://georun.kr/ko/",
    "status": "closed",
    "kind": "로드",
+   "enrichedBy": "text",
    "regStart": "2026-05-18",
    "regEnd": "2026-05-19",
    "poster": "posters/rr41510.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -7248,8 +7251,8 @@
    "site": "http://jejuwindmillrun.com",
    "status": null,
    "kind": "로드",
-   "poster": "posters/rr41716.webp",
    "enrichedBy": "text",
+   "poster": "posters/rr41716.webp",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -7268,8 +7271,8 @@
    "site": "http://rocknrun.kr",
    "status": null,
    "kind": "트레일",
-   "poster": "posters/rr41747.webp",
    "enrichedBy": "text",
+   "poster": "posters/rr41747.webp",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -7305,11 +7308,11 @@
    "site": "http://b.kakao.com/views/kakaofriendsrun",
    "status": "closed",
    "kind": "로드",
+   "enrichedBy": "text",
    "regStart": "2026-08-10",
    "regEnd": "2026-08-17",
    "startTime": "08:00",
    "poster": "posters/rr41813.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -7330,8 +7333,8 @@
    "site": "http://najumarathon.com",
    "status": null,
    "kind": "로드",
-   "poster": "posters/rr41434.webp",
    "enrichedBy": "text",
+   "poster": "posters/rr41434.webp",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -7369,11 +7372,11 @@
    "site": "http://mgmarathon.kr",
    "status": "closed",
    "kind": "로드",
+   "enrichedBy": "text",
    "regStart": "2026-07-10",
    "regEnd": "2026-09-11",
    "startTime": "09:00",
    "poster": "posters/rr41683.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -7392,8 +7395,8 @@
    "site": "http://www.seoul-race.co.kr",
    "status": null,
    "kind": "로드",
-   "poster": "posters/rr41546.webp",
    "enrichedBy": "text",
+   "poster": "posters/rr41546.webp",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -7413,9 +7416,9 @@
    "site": "http://run.uaf.co.kr/",
    "status": null,
    "kind": "로드",
+   "enrichedBy": "text",
    "startTime": "08:30",
    "poster": "posters/rr41727.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -7434,13 +7437,13 @@
    "site": "http://futurerun.co.kr/",
    "status": null,
    "kind": "로드",
+   "enrichedBy": "text",
    "price": {
     "10km": 50000,
     "5km": 45000
    },
    "startTime": "07:30",
    "poster": "posters/rr41769.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -7530,9 +7533,9 @@
    "site": "http://www.univrun.co.kr/index.php",
    "status": null,
    "kind": "로드",
+   "enrichedBy": "text",
    "startTime": "07:00",
    "poster": "posters/rr41897.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -7572,13 +7575,13 @@
    "site": "http://www.gcrun.kr/s1p1",
    "status": null,
    "kind": "로드",
+   "enrichedBy": "text",
    "price": {
     "5km": 30000,
     "10km": 30000
    },
    "startTime": "09:05",
    "poster": "posters/rr41835.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -7597,8 +7600,8 @@
    "site": "http://cafe.naver.com/ydprun1/646",
    "status": null,
    "kind": "로드",
-   "poster": "posters/rr41794.webp",
    "enrichedBy": "text",
+   "poster": "posters/rr41794.webp",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -7617,9 +7620,9 @@
    "site": "http://runcop.com/event/hamkkerun",
    "status": null,
    "kind": "로드",
+   "enrichedBy": "text",
    "startTime": "07:30",
    "poster": "posters/rr41852.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -7687,10 +7690,10 @@
    "site": "http://119memorial.com/",
    "status": "closed",
    "kind": "로드",
+   "enrichedBy": "text",
    "regStart": "2026-07-14",
    "regEnd": "2026-07-17",
    "poster": "posters/rr41706.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -7710,8 +7713,8 @@
    "site": "http://www.gyeongjumarathon.com/home",
    "status": "closed",
    "kind": "로드",
-   "poster": "posters/rr41587.webp",
    "enrichedBy": "text",
+   "poster": "posters/rr41587.webp",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -7731,12 +7734,12 @@
    "site": "http://storyrun.kr/",
    "status": "soon",
    "kind": "로드",
+   "enrichedBy": "text",
    "price": {
     "하프": 50000
    },
    "regStart": "2026-10-07",
    "poster": "posters/rr41681.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -7754,10 +7757,10 @@
    "site": "http://gnrace.kr/",
    "status": "closed",
    "kind": "로드",
+   "enrichedBy": "text",
    "regStart": "2026-07-27",
    "regEnd": "2026-08-12",
    "poster": "posters/rr41890.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -7776,9 +7779,9 @@
    "site": "http://dtrail.co.kr",
    "status": null,
    "kind": "트레일",
+   "enrichedBy": "text",
    "startTime": "07:00",
    "poster": "posters/rr41646.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -7830,8 +7833,8 @@
    "site": "http://cltoo.com/ko/product/379?category=CL_TO_EDITION",
    "status": null,
    "kind": "로드",
-   "poster": "posters/rr41896.webp",
    "enrichedBy": "text",
+   "poster": "posters/rr41896.webp",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -7851,8 +7854,8 @@
    "site": "http://ujb.my-race.kr",
    "status": "closed",
    "kind": "로드",
-   "poster": "posters/rr41800.webp",
    "enrichedBy": "text",
+   "poster": "posters/rr41800.webp",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -7893,9 +7896,9 @@
    "site": "http://jsrun.kr",
    "status": "closed",
    "kind": "로드",
+   "enrichedBy": "text",
    "startTime": "08:00",
    "poster": "posters/rr41655.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -7924,7 +7927,7 @@
    "name": "제2회 10.19 평화마라톤",
    "dist": [
     "5K",
-    "10.19"
+    "10.19K"
    ],
    "sido": "전남",
    "region": "전라",
@@ -8022,8 +8025,8 @@
    "site": "http://runcop.com/event/hanam",
    "status": "closed",
    "kind": "로드",
-   "poster": "posters/rr41823.webp",
    "enrichedBy": "text",
+   "poster": "posters/rr41823.webp",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -8061,11 +8064,11 @@
    "site": "http://www.jnrun.co.kr",
    "status": "closed",
    "kind": "로드",
+   "enrichedBy": "text",
    "regStart": "2026-10-07",
    "regEnd": "2026-01-03",
    "startTime": "08:00",
    "poster": "posters/rr41712.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -8095,7 +8098,7 @@
     "Half",
     "10K",
     "4K",
-    "1K(휠체어)"
+    "1K(휠체어"
    ],
    "sido": "세종",
    "region": "충청",
@@ -8194,9 +8197,9 @@
    "site": "http://ggcrun.kr/",
    "status": "closed",
    "kind": "로드",
+   "enrichedBy": "text",
    "startTime": "08:30",
    "poster": "posters/rr41688.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -8216,12 +8219,12 @@
    "site": "http://marathon.newsis.com",
    "status": "closed",
    "kind": "로드",
+   "enrichedBy": "text",
    "price": {
     "하프": 50000,
     "10km": 50000,
     "5km": 45000
    },
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -8259,8 +8262,8 @@
    "site": "http://forms.gle/ga7gKHnRJB7pfLFY6",
    "status": "closed",
    "kind": "로드",
-   "poster": "posters/rr41770.webp",
    "enrichedBy": "text",
+   "poster": "posters/rr41770.webp",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -8296,12 +8299,12 @@
    "site": "http://iksangiverun.or.kr",
    "status": null,
    "kind": "로드",
+   "enrichedBy": "text",
    "price": {
     "10km": 40000
    },
    "startTime": "09:10",
    "poster": "posters/rr41669.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -8353,10 +8356,10 @@
    "site": "http://fwr.libertyinnorthkorea.or.kr/2026/#join",
    "status": "open",
    "kind": "로드",
+   "enrichedBy": "text",
    "regStart": "2026-08-28",
    "regEnd": "2026-10-20",
    "poster": "posters/rr41883.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -8375,11 +8378,11 @@
    "site": "http://runmusicfestival.localvibehub.com/",
    "status": "open",
    "kind": "로드",
+   "enrichedBy": "text",
    "regStart": "2026-07-24",
    "regEnd": "2026-10-08",
    "startTime": "18:00",
    "poster": "posters/rr41721.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -8398,8 +8401,8 @@
    "site": "http://mypb.info/competition/666",
    "status": null,
    "kind": "로드",
-   "poster": "posters/rr41874.webp",
    "enrichedBy": "text",
+   "poster": "posters/rr41874.webp",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -8418,9 +8421,9 @@
    "site": "http://sejongrun26.com",
    "status": "open",
    "kind": "로드",
+   "enrichedBy": "text",
    "startTime": "09:20",
    "poster": "posters/rr41730.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -8510,8 +8513,8 @@
    "site": "http://gmrun.kr",
    "status": "closed",
    "kind": "로드",
-   "startTime": "07:00",
    "enrichedBy": "text",
+   "startTime": "07:00",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -8601,10 +8604,10 @@
    "site": "http://www.chuncheonmarathon.com",
    "status": "closed",
    "kind": "로드",
+   "enrichedBy": "text",
    "regStart": "2026-06-16",
    "regEnd": "2026-06-19",
    "poster": "posters/rr41636.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -8660,8 +8663,8 @@
    "site": "http://www.ulsanrunfesta.com",
    "status": "closed",
    "kind": "로드",
-   "poster": "posters/rr41811.webp",
    "enrichedBy": "text",
+   "poster": "posters/rr41811.webp",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -8681,11 +8684,11 @@
    "site": "http://www.jeongseojin.co.kr",
    "status": "closed",
    "kind": "로드",
+   "enrichedBy": "text",
    "regStart": "2026-10-02",
    "regEnd": "2026-10-03",
    "startTime": "07:30",
    "poster": "posters/rr41761.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -8741,9 +8744,9 @@
    "site": "http://icnr.kr",
    "status": "open",
    "kind": "로드",
+   "enrichedBy": "text",
    "regStart": "2026-09-01",
    "regEnd": "2026-10-20",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -8762,8 +8765,8 @@
    "site": "http://onerun2026.life/",
    "status": "closed",
    "kind": "로드",
-   "startTime": "08:35",
    "enrichedBy": "text",
+   "startTime": "08:35",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -8801,11 +8804,11 @@
    "site": "http://autismrace.com",
    "status": "closed",
    "kind": "로드",
+   "enrichedBy": "text",
    "regStart": "2026-07-08",
    "regEnd": "2026-09-30",
    "startTime": "11:50",
    "poster": "posters/rr41740.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -8823,9 +8826,9 @@
    "site": "http://taejongdaezombie.com",
    "status": "open",
    "kind": "로드",
+   "enrichedBy": "text",
    "regStart": "2026-02-01",
    "poster": "posters/rr41809.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -8881,9 +8884,9 @@
    "site": "http://marvelrunkorea2026.com/",
    "status": "open",
    "kind": "로드",
+   "enrichedBy": "text",
    "startTime": "13:30",
    "poster": "posters/rr41861.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -8921,6 +8924,7 @@
    "site": "http://runpass.kr/races/seongnam-ymca/2026",
    "status": "soon",
    "kind": "로드",
+   "enrichedBy": "text",
    "price": {
     "5km": 30000,
     "10km": 40000
@@ -8929,7 +8933,6 @@
    "regEnd": "2026-10-06",
    "startTime": "08:00",
    "poster": "posters/rr41880.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -8949,6 +8952,7 @@
    "site": "http://kasmirun.kr/",
    "status": "open",
    "kind": "로드",
+   "enrichedBy": "text",
    "price": {
     "5km": 44000,
     "하프": 55000
@@ -8957,7 +8961,6 @@
    "regEnd": "2026-10-18",
    "startTime": "07:00",
    "poster": "posters/rr41781.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -8976,8 +8979,8 @@
    "site": "http://marathon.jtbc.com/",
    "status": "closed",
    "kind": "로드",
-   "poster": "posters/rr41259.webp",
    "enrichedBy": "text",
+   "poster": "posters/rr41259.webp",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -8997,10 +9000,10 @@
    "site": "http://gcmarathon.co.kr",
    "status": "closed",
    "kind": "로드",
+   "enrichedBy": "text",
    "regStart": "2026-07-15",
    "regEnd": "2026-09-25",
    "startTime": "09:30",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -9054,13 +9057,13 @@
    "site": "http://seoulrun.com",
    "status": "closed",
    "kind": "로드",
+   "enrichedBy": "text",
    "price": {
     "하프": 50000,
     "10km": 50000,
     "5km": 40000
    },
    "poster": "posters/rr41790.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -9079,11 +9082,11 @@
    "site": "http://justicerun.kr/",
    "status": "open",
    "kind": "로드",
+   "enrichedBy": "text",
    "regStart": "2026-09-21",
    "regEnd": "2026-10-14",
    "startTime": "07:30",
    "poster": "posters/rr41871.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -9175,10 +9178,10 @@
    "site": "http://eggrun2026.imweb.me",
    "status": "open",
    "kind": "로드",
+   "enrichedBy": "text",
    "regStart": "2026-09-07",
    "regEnd": "2026-10-07",
    "poster": "posters/rr41873.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -9214,8 +9217,8 @@
    "site": "http://legendtrail.kr/",
    "status": null,
    "kind": "트레일",
-   "poster": "posters/rr41767.webp",
    "enrichedBy": "text",
+   "poster": "posters/rr41767.webp",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -9253,10 +9256,10 @@
    "site": "http://runyc.kr",
    "status": "closed",
    "kind": "로드",
+   "enrichedBy": "text",
    "regStart": "2026-09-28",
    "regEnd": "2026-10-02",
    "poster": "posters/rr41539.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -9343,11 +9346,11 @@
    "site": "http://www.saverace.co.kr",
    "status": "closed",
    "kind": "로드",
+   "enrichedBy": "text",
    "regStart": "2026-09-07",
    "regEnd": "2026-09-18",
    "startTime": "07:30",
    "poster": "posters/rr41819.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -9382,8 +9385,8 @@
    "site": "http://purmerun.com/",
    "status": "closed",
    "kind": "로드",
-   "poster": "posters/rr41815.webp",
    "enrichedBy": "text",
+   "poster": "posters/rr41815.webp",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -9525,8 +9528,8 @@
    "site": "http://www.jaaf.kr/",
    "status": null,
    "kind": "로드",
-   "poster": "posters/rr41889.webp",
    "enrichedBy": "text",
+   "poster": "posters/rr41889.webp",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -9547,8 +9550,8 @@
    "site": "http://kiccrace.com",
    "status": "tbd",
    "kind": "로드",
-   "poster": "posters/rr41843.webp",
    "enrichedBy": "text",
+   "poster": "posters/rr41843.webp",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -9568,10 +9571,10 @@
    "site": "http://1004.tbc.co.kr/",
    "status": "closed",
    "kind": "로드",
+   "enrichedBy": "text",
    "regStart": "2025-07-07",
    "regEnd": "2025-08-18",
    "poster": "posters/rr41844.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -9609,9 +9612,9 @@
    "site": "http://kw-marathon.com/",
    "status": "closed",
    "kind": "로드",
+   "enrichedBy": "text",
    "startTime": "09:00",
    "poster": "posters/rr41755.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -9630,12 +9633,12 @@
    "site": "http://heritagerun.co.kr",
    "status": "open",
    "kind": "로드",
+   "enrichedBy": "text",
    "price": {
     "10km": 50000,
     "5km": 40000
    },
    "poster": "posters/rr41696.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -9654,8 +9657,8 @@
    "site": "http://cafe.naver.com/seoultrailrun/?viewType=pc",
    "status": null,
    "kind": "트레일",
-   "poster": "posters/rr41667.webp",
    "enrichedBy": "text",
+   "poster": "posters/rr41667.webp",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -9674,9 +9677,9 @@
    "site": "http://asrun.co.kr",
    "status": "closed",
    "kind": "로드",
+   "enrichedBy": "text",
    "startTime": "08:55",
    "poster": "posters/rr41869.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -9715,9 +9718,9 @@
    "site": "http://ssecorun.co.kr",
    "status": "open",
    "kind": "로드",
+   "enrichedBy": "text",
    "regStart": "2026-02-01",
    "poster": "posters/rr41752.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -9737,12 +9740,12 @@
    "site": "http://cymarathon.imweb.me/index?preview_mode=1",
    "status": "open",
    "kind": "로드",
+   "enrichedBy": "text",
    "price": {
     "하프": 40000
    },
    "startTime": "09:30",
    "poster": "posters/rr41846.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -9782,9 +9785,9 @@
    "site": "http://comport11.oopy.io/gangnamhalfmarathon",
    "status": "open",
    "kind": "로드",
+   "enrichedBy": "text",
    "startTime": "07:40",
    "poster": "posters/rr41853.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -9893,13 +9896,13 @@
    "site": "http://www.geumsungsan.kr",
    "status": "open",
    "kind": "로드",
+   "enrichedBy": "text",
    "price": {
     "하프": 40000
    },
    "regStart": "2026-08-24",
    "regEnd": "2026-10-10",
    "poster": "posters/rr41816.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -9955,13 +9958,13 @@
    "site": "http://www.leaveit.co.kr/",
    "status": "open",
    "kind": "로드",
+   "enrichedBy": "text",
    "price": {
     "10km": 25000,
     "5km": 20000,
     "하프": 25000
    },
    "poster": "posters/rr41825.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -9971,7 +9974,7 @@
    "dist": [
     "10K",
     "5K",
-    "3K(가족런)"
+    "3K(가족런"
    ],
    "sido": "서울",
    "region": "서울",
@@ -9981,8 +9984,8 @@
    "site": "http://tongkeun-run.com",
    "status": "soon",
    "kind": "로드",
-   "poster": "posters/rr41831.webp",
    "enrichedBy": "text",
+   "poster": "posters/rr41831.webp",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -10018,8 +10021,8 @@
    "site": "http://n-runplus.co.kr",
    "status": null,
    "kind": "로드",
-   "poster": "posters/rr41872.webp",
    "enrichedBy": "text",
+   "poster": "posters/rr41872.webp",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -10038,8 +10041,8 @@
    "site": "http://seoul.bbangrun.com",
    "status": "closed",
    "kind": "로드",
-   "poster": "posters/rr41895.webp",
    "enrichedBy": "text",
+   "poster": "posters/rr41895.webp",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -10079,13 +10082,13 @@
    "site": "http://maplerun.kr",
    "status": "closed",
    "kind": "로드",
+   "enrichedBy": "text",
    "price": {
     "하프": 50000
    },
    "regStart": "2026-11-05",
    "regEnd": "2026-09-11",
    "poster": "posters/rr41760.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -10154,9 +10157,9 @@
    "site": "http://seoultongilrun.org",
    "status": "soon",
    "kind": "로드",
+   "enrichedBy": "text",
    "regStart": "2026-10-16",
    "regEnd": "2026-10-16",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -10174,11 +10177,11 @@
    "site": "http://www.fila.co.kr/pages/fila-run-espresso-10k-seoul",
    "status": "open",
    "kind": "로드",
+   "enrichedBy": "text",
    "regStart": "2026-09-11",
    "regEnd": "2026-10-08",
    "startTime": "07:30",
    "poster": "posters/rr41847.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -10197,6 +10200,7 @@
    "site": "http://mbn-seoulmarathon.com",
    "status": "closed",
    "kind": "로드",
+   "enrichedBy": "text",
    "price": {
     "하프": 100000
    },
@@ -10204,7 +10208,6 @@
    "regEnd": "2026-06-25",
    "startTime": "06:30",
    "poster": "posters/rr41600.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -10223,10 +10226,10 @@
    "site": "http://runable.me/product/18977?comp=18962",
    "status": "soon",
    "kind": "로드",
+   "enrichedBy": "text",
    "regStart": "2026-11-15",
    "regEnd": "2026-11-15",
    "poster": "posters/rr41614.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -10245,8 +10248,8 @@
    "site": "http://nanumrun.or.kr",
    "status": "closed",
    "kind": "로드",
-   "poster": "posters/rr41817.webp",
    "enrichedBy": "text",
+   "poster": "posters/rr41817.webp",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -10499,8 +10502,8 @@
    "site": "http://www.cuk-sports.com/",
    "status": null,
    "kind": "트레일",
-   "poster": "posters/rr41558.webp",
    "enrichedBy": "text",
+   "poster": "posters/rr41558.webp",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -10574,8 +10577,8 @@
    "site": "http://rocknrun.kr",
    "status": null,
    "kind": "트레일",
-   "poster": "posters/rr41748.webp",
    "enrichedBy": "text",
+   "poster": "posters/rr41748.webp",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -10595,8 +10598,8 @@
    "site": "http://seoul.lifemarathon.co.kr",
    "status": null,
    "kind": "로드",
-   "poster": "posters/rr41894.webp",
    "enrichedBy": "text",
+   "poster": "posters/rr41894.webp",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -10607,7 +10610,7 @@
     "10K",
     "5K",
     "10k 커플런",
-    "10k 단체전(5인1조)"
+    "10k 단체전(5인1조"
    ],
    "sido": "경기",
    "region": "경기·인천",
@@ -10635,13 +10638,13 @@
    "site": "http://gofree.seoul.co.kr/",
    "status": null,
    "kind": "로드",
+   "enrichedBy": "text",
    "price": {
     "10km": 65000,
     "5km": 55000,
     "하프": 70000
    },
    "poster": "posters/rr41865.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -10753,9 +10756,9 @@
    "site": "http://mujumarathon.com",
    "status": "open",
    "kind": "로드",
+   "enrichedBy": "text",
    "startTime": "09:00",
    "poster": "posters/rr41841.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -10809,13 +10812,13 @@
    "site": "http://incheonmarathon.or.kr",
    "status": "closed",
    "kind": "로드",
+   "enrichedBy": "text",
    "price": {
     "풀코스": 80000,
     "10km": 50000,
     "5km": 30000
    },
    "poster": "posters/rr41832.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -10834,12 +10837,12 @@
    "site": "http://peace-run.kr/",
    "status": "soon",
    "kind": "로드",
+   "enrichedBy": "text",
    "price": {
     "10km": 50000
    },
    "regStart": "2026-11-15",
    "poster": "posters/rr41763.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -10858,11 +10861,11 @@
    "site": "http://zeiss-smilerace.kr",
    "status": "closed",
    "kind": "로드",
+   "enrichedBy": "text",
    "price": {
     "10km": 65000,
     "5km": 55000
    },
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -10881,8 +10884,8 @@
    "site": "http://krun.or.kr",
    "status": "open",
    "kind": "로드",
-   "poster": "posters/rr41859.webp",
    "enrichedBy": "text",
+   "poster": "posters/rr41859.webp",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -10936,12 +10939,12 @@
    "site": "http://www.peacerun.kr",
    "status": "closed",
    "kind": "로드",
+   "enrichedBy": "text",
    "price": {
     "10km": 60000,
     "5km": 45000
    },
    "poster": "posters/rr41766.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -11016,8 +11019,8 @@
    "site": "http://seoulloverun.com",
    "status": "open",
    "kind": "로드",
-   "poster": "posters/rr41891.webp",
    "enrichedBy": "text",
+   "poster": "posters/rr41891.webp",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -11063,8 +11066,8 @@
    "dist": [
     "10K",
     "5K",
-    "5K가족부(2인1조)",
-    "10K 단체전(3인1조)"
+    "5K가족부(2인1조",
+    "10K 단체전(3인1조"
    ],
    "sido": "전북",
    "region": "전라",
@@ -11092,8 +11095,8 @@
    "site": "http://runwithus.co.kr",
    "status": null,
    "kind": "로드",
-   "poster": "posters/rr41741.webp",
    "enrichedBy": "text",
+   "poster": "posters/rr41741.webp",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -11113,9 +11116,9 @@
    "site": "http://gimhaemarathon.imweb.me/",
    "status": "open",
    "kind": "로드",
+   "enrichedBy": "text",
    "startTime": "08:40",
    "poster": "posters/rr41804.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -11134,9 +11137,9 @@
    "site": "http://ajgrun.kr",
    "status": "soon",
    "kind": "로드",
+   "enrichedBy": "text",
    "regStart": "2026-11-22",
    "poster": "posters/rr41759.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -11172,8 +11175,8 @@
    "site": "http://ksgaaf.co.kr/",
    "status": null,
    "kind": "로드",
-   "poster": "posters/rr41898.webp",
    "enrichedBy": "text",
+   "poster": "posters/rr41898.webp",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -11208,10 +11211,10 @@
    "site": "http://energyrun.kr",
    "status": "soon",
    "kind": "로드",
+   "enrichedBy": "text",
    "regStart": "2026-10-16",
    "regEnd": "2026-10-30",
    "poster": "posters/rr41762.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -11318,9 +11321,9 @@
    "site": "http://www.busanmarathon.com",
    "status": "open",
    "kind": "로드",
+   "enrichedBy": "text",
    "regStart": "2026-08-24",
    "poster": "posters/rr41710.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -11339,11 +11342,11 @@
    "site": "http://www.youthrun.co.kr",
    "status": "open",
    "kind": "로드",
+   "enrichedBy": "text",
    "price": {
     "10km": 35000,
     "5km": 30000
    },
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -11362,13 +11365,13 @@
    "site": "http://roadracing.co.kr/",
    "status": "open",
    "kind": "로드",
+   "enrichedBy": "text",
    "price": {
     "하프": 50000,
     "10km": 50000
    },
    "startTime": "08:00",
    "poster": "posters/rr41802.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -11378,8 +11381,8 @@
    "dist": [
     "10K",
     "5K",
-    "5K가족.커플부(2인1조)",
-    "10K 단체전(3인1조)"
+    "5K가족.커플부(2인1조",
+    "10K 단체전(3인1조"
    ],
    "sido": "전북",
    "region": "전라",
@@ -11427,9 +11430,9 @@
    "site": "http://www.omrun.co.kr",
    "status": null,
    "kind": "로드",
+   "enrichedBy": "text",
    "startTime": "08:00",
    "poster": "posters/rr41866.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -11467,9 +11470,9 @@
    "site": "http://www.powerrun.kr/",
    "status": "soon",
    "kind": "로드",
+   "enrichedBy": "text",
    "regStart": "2026-12-02",
    "poster": "posters/rr41840.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -11525,12 +11528,12 @@
    "site": "http://bamseom.com/",
    "status": "open",
    "kind": "로드",
+   "enrichedBy": "text",
    "price": {
     "하프": 60000
    },
    "startTime": "08:00",
    "poster": "posters/rr41784.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -11550,13 +11553,13 @@
    "site": "http://youngrun.kr",
    "status": "closed",
    "kind": "로드",
+   "enrichedBy": "text",
    "price": {
     "하프": 50000
    },
    "regStart": "2026-12-09",
    "regEnd": "2026-01-04",
    "poster": "posters/rr41801.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -11595,9 +11598,9 @@
    "site": "http://k-run.kr",
    "status": "soon",
    "kind": "로드",
+   "enrichedBy": "text",
    "regStart": "2026-12-16",
    "poster": "posters/rr41824.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -11616,6 +11619,7 @@
    "site": "http://hgrun.kr",
    "status": "closed",
    "kind": "로드",
+   "enrichedBy": "text",
    "price": {
     "10km": 50000
    },
@@ -11623,7 +11627,6 @@
    "regEnd": "2026-09-10",
    "startTime": "08:00",
    "poster": "posters/rr41806.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-05"
   },
   {
@@ -11735,8 +11738,8 @@
    "site": "http://seoul-marathon.com",
    "status": null,
    "kind": "로드",
-   "poster": "posters/rr41626.webp",
    "enrichedBy": "text",
+   "poster": "posters/rr41626.webp",
    "enrichedAt": "2026-10-05"
   },
   {
