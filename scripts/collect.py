@@ -65,8 +65,13 @@ SIDO_KEYS = [
 
 
 # ---------------------------------------------------------------- helpers
+LOG_LINES: list[str] = []
+
+
 def log(*a):
-    print(*a, flush=True)
+    line = " ".join(str(x) for x in a)
+    LOG_LINES.append(line)
+    print(line, flush=True)
 
 
 def http(url: str, data: bytes | None = None, headers: dict | None = None, timeout=30) -> bytes:
@@ -148,6 +153,7 @@ def fetch_roadrun(year: int) -> list[dict]:
     body = urllib.parse.urlencode({"syear_key": str(year), "search": "submit"}).encode("ascii")
     raw = http(ROADRUN, data=body, headers={"Content-Type": "application/x-www-form-urlencoded"}, timeout=60)
     doc = raw.decode("euc-kr", errors="replace")
+    log(f"roadrun {year}: 응답 {len(raw):,}바이트, 표 행 {len(re.findall(r'<tr', doc, re.I))}개")
     races, seen = [], set()
     for row in re.findall(r"<tr[^>]*>(.*?)</tr>", doc, flags=re.I | re.S):
         if not re.search(rf">\s*{year}\s*<br", row, flags=re.I):
@@ -404,7 +410,7 @@ def main() -> None:
             log(f"roadrun {y}: {len(got)}개")
             new += got
         except Exception as e:
-            log(f"roadrun {y} 수집 실패:", e)
+            log(f"roadrun {y} 수집 실패:", repr(e))
     if not new and not old:
         sys.exit("수집된 대회가 없어요")
     races = merge(old, new) if new else old
@@ -417,6 +423,8 @@ def main() -> None:
     DATA.write_text(json.dumps({"updated": TODAY.isoformat(), "count": len(races), "races": races},
                                ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     log(f"저장 완료: {len(races)}개 대회")
+    (ROOT / "data" / "last_run.log").write_text(
+        f"{datetime.now(KST):%Y-%m-%d %H:%M} 실행\n" + "\n".join(LOG_LINES) + "\n", encoding="utf-8")
 
 
 if __name__ == "__main__":
