@@ -87,8 +87,19 @@ button{cursor:pointer}
 .fptop .r{display:flex;gap:6px;align-items:center}
 .ghost{border:0;background:none;color:var(--muted);font-size:13px;font-weight:600;display:inline-flex;gap:4px;align-items:center;padding:5px 8px;border-radius:7px}
 .ghost:hover{color:var(--brand);background:var(--brand-soft)}
-.fgrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:1px solid var(--line)}
-@media (max-width:900px){.fgrid{grid-template-columns:1fr 1fr}}
+.fgrid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-top:1px solid var(--line)}
+.fg.wide{grid-column:span 2}
+.fg.full{grid-column:1/-1}
+@media (max-width:900px){.fgrid{grid-template-columns:1fr 1fr}.fg.wide{grid-column:1/-1}}
+@media (max-width:560px){.fg.wide{grid-column:auto}}
+.opts.m12{display:grid;grid-template-columns:repeat(6,minmax(0,1fr))}
+.opts.m12 .fb{padding:0}
+.dd{position:relative}
+.ddbtn{width:100%;height:34px;border-radius:8px;border:1px solid var(--line);background:var(--card);padding:0 10px;font-size:14px;display:flex;justify-content:space-between;align-items:center;font-weight:600}
+.ddbtn[aria-expanded="true"]{border-color:var(--brand)}
+.ddbtn.on{border-color:var(--ink);background:var(--ink);color:var(--card)}
+.ddpop{position:absolute;z-index:15;left:0;right:0;top:calc(100% + 6px);min-width:240px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:5px;box-shadow:0 12px 30px rgba(15,23,42,.14)}
+.ddpop .fb{width:100%}
 @media (max-width:560px){.fgrid{grid-template-columns:1fr}}
 .fg{padding:14px 18px;border-bottom:1px solid var(--line);border-right:1px solid var(--line);min-width:0}
 .fg p{margin:0 0 8px;font-size:12px;font-weight:800;color:var(--muted);letter-spacing:.02em}
@@ -310,7 +321,7 @@ const PAGE=18;
 const PALETTES=[["#1d3b8f","#3b6cf0"],["#5b1e6e","#c0398f"],["#0f5a4a","#21a37a"],["#7a2e12","#e0712b"],["#1f2a44","#566a96"],["#6b1022","#d23b4f"],["#174a63","#2fa0c7"],["#4a3b12","#c79a2a"]];
 
 let RACES=[],UPDATED="",favs=new Set(store.get("rs-favs",[]));
-const S={q:"",past:false,status:null,month:null,dist:null,kind:null,region:"전체",fav:false,sort:"date",view:"grid",shown:PAGE,panel:true};
+const S={q:"",past:false,status:null,year:null,month:null,dist:null,kind:null,region:"전체",fav:false,sort:"date",view:"grid",shown:PAGE,panel:true};
 
 const dt=s=>new Date(s+"T00:00");
 const dday=r=>Math.round((dt(r.date)-TODAY)/864e5);
@@ -327,9 +338,10 @@ const badges=r=>`<span class="bd type">${KINDS[r.kind]}</span>${stB(r)}${favs.ha
 function list(o={}){
   const q=S.q.trim().toLowerCase();
   return RACES.filter(r=>(S.past||!isPast(r))&&(!S.fav||favs.has(r.id))&&
-    (o.st||!S.status||r.status===S.status)&&(o.mo||!S.month||+r.date.slice(5,7)===S.month)&&
+    (o.st||!S.status||r.status===S.status)&&(o.mo||!S.month||+r.date.slice(5,7)===S.month)&&(o.yr||!S.year||+r.date.slice(0,4)===S.year)&&
+    
     (o.di||!S.dist||r.dist.includes(S.dist))&&(o.ki||!S.kind||r.kind===S.kind)&&
-    (S.region==="전체"||r.region===S.region)&&
+    (o.rg||S.region==="전체"||r.region===S.region)&&
     (!q||[r.name,r.place,r.host,r.sido,r.region].join(" ").toLowerCase().includes(q)));
 }
 const sorted=rows=>[...rows].sort(S.sort==="far"?(a,b)=>b.date.localeCompare(a.date):S.sort==="open"?(a,b)=>((b.status==="open")-(a.status==="open"))||a.date.localeCompare(b.date):(a,b)=>a.date.localeCompare(b.date));
@@ -364,12 +376,14 @@ function listShell(){
         <button type="button" class="ghost" id="tog" aria-expanded="${S.panel}">${S.panel?"접기":"펼치기"}${I("down")}</button></div></div>
       <div class="active" id="active"></div>
       <div class="fgrid" id="fgrid">
-        <div class="fg"><p>개최 월</p><div class="opts" id="fMonth"></div></div>
-        <div class="fg"><p>종목</p><div class="opts" id="fDist"></div></div>
+        <div class="fg"><p>지난 대회</p><div class="opts" id="fPast"></div></div>
         <div class="fg"><p>접수 상태</p><div class="opts" id="fStatus"></div></div>
-        <div class="fg"><p><label for="fRegion">개최 지역</label></p><select class="fs" id="fRegion"><option value="전체">전국</option>${REGIONS.map(x=>`<option>${x}</option>`).join("")}</select></div>
+        <div class="fg"><p>개최 지역</p><div class="dd" id="fRegionDD"></div></div>
+        <div class="fg"><p>개최 연도</p><div class="opts" id="fYear"></div></div>
+        <div class="fg wide"><p>개최 월</p><div class="opts m12" id="fMonth"></div></div>
+        <div class="fg"><p>종목</p><div class="opts" id="fDist"></div></div>
         <div class="fg"><p>대회 종류</p><div class="opts" id="fKind"></div></div>
-        <div class="fg"><p>보기 옵션</p><div class="opts" id="fEtc"></div></div>
+        <div class="fg full"><p>보기 옵션</p><div class="opts" id="fEtc"></div></div>
       </div>
     </section>
     <div class="rbar"><h2 id="rTitle"></h2>
@@ -384,15 +398,20 @@ function grp(id,items,key,label,avail){
   $(id).innerHTML=items.map(v=>{const on=S[key]===v,ok=avail(v);return `<button type="button" class="fb" data-k="${key}" data-v="${v}" aria-pressed="${on}" ${!ok&&!on?"disabled":""}>${label(v)}</button>`}).join("");
 }
 function renderList(){
-  const a=list({mo:1}); const months=[...new Set(RACES.filter(r=>S.past||!isPast(r)).map(r=>+r.date.slice(5,7)))].sort((x,y)=>x-y);
-  grp("fMonth",months,"month",v=>v+"월",v=>a.some(r=>+r.date.slice(5,7)===v));
-  const b=list({di:1}); grp("fDist",["Full","Half","10K","5K"],"dist",v=>DLK[v],v=>b.some(r=>r.dist.includes(v)));
+  $("fPast").innerHTML=`<button type="button" class="fb" data-past="0" aria-pressed="${!S.past}">비포함</button><button type="button" class="fb" data-past="1" aria-pressed="${S.past}">포함</button>`;
+  const y=list({yr:1}); grp("fYear",[2026,2027],"year",v=>v+"년",v=>y.some(r=>+r.date.slice(0,4)===v));
+  const a=list({mo:1}); grp("fMonth",[1,2,3,4,5,6,7,8,9,10,11,12],"month",v=>v+"월",v=>a.some(r=>+r.date.slice(5,7)===v));
+  const b=list({di:1}); grp("fDist",["5K","10K","Half","Full"],"dist",v=>DLK[v],v=>b.some(r=>r.dist.includes(v)));
+  const rg=list({rg:1}), open=$("fRegionDD").dataset.open==="1";
+  $("fRegionDD").innerHTML=`<button type="button" class="ddbtn${S.region!=="전체"?" on":""}" id="ddb" aria-expanded="${open}">${S.region==="전체"?"전국":S.region}${I("down")}</button>`+
+    (open?`<div class="ddpop" role="listbox">${["전체",...REGIONS].map(v=>{const n=v==="전체"?rg.length:rg.filter(r=>r.region===v).length;
+      return `<button type="button" class="fb" data-rg="${v}" aria-pressed="${S.region===v}" ${!n&&S.region!==v?"disabled":""}>${v==="전체"?"전국":v} <span style="opacity:.55">${n}</span></button>`}).join("")}</div>`:"");
   const c=list({st:1}); grp("fStatus",["open","soon","tbd","closed"],"status",v=>ST[v],v=>c.some(r=>r.status===v));
   const k=list({ki:1}); grp("fKind",["로드","트레일","울트라","기타"],"kind",v=>KINDS[v],v=>k.some(r=>r.kind===v));
-  $("fEtc").innerHTML=`<button type="button" class="fb" data-t="past" aria-pressed="${S.past}">지난 대회 포함</button><button type="button" class="fb" data-t="fav" aria-pressed="${S.fav}">★ 관심 대회만</button>`;
-  $("fRegion").value=S.region;$("sort").value=S.sort;
+  $("fEtc").innerHTML=`<button type="button" class="fb" data-t="fav" aria-pressed="${S.fav}">★ 관심 대회만 보기</button>`;
+  $("sort").value=S.sort;
   const chips=[];
-  if(S.q)chips.push(["q",`"${S.q}"`]);if(S.month)chips.push(["month",S.month+"월"]);if(S.dist)chips.push(["dist",DLK[S.dist]]);
+  if(S.q)chips.push(["q",`"${S.q}"`]);if(S.year)chips.push(["year",S.year+"년"]);if(S.month)chips.push(["month",S.month+"월"]);if(S.dist)chips.push(["dist",DLK[S.dist]]);
   if(S.status)chips.push(["status",ST[S.status]]);if(S.region!=="전체")chips.push(["region",S.region]);if(S.kind)chips.push(["kind",KINDS[S.kind]]);
   if(S.past)chips.push(["past","지난 대회 포함"]);if(S.fav)chips.push(["fav","관심 대회만"]);
   $("active").innerHTML=chips.map(([k,l])=>`<button type="button" class="ac" data-x="${k}">${esc(l)}${I("x")}</button>`).join("");
@@ -427,15 +446,20 @@ function li(r){
     <div style="min-width:0"><h4>${esc(r.name)}</h4><div class="s">${esc(r.sido)}${r.place?" · "+esc(r.place):""} · ${esc(distTxt(r))}</div></div>
     <div class="badges">${stB(r)}</div></a>`;
 }
-function reset(){Object.assign(S,{q:"",past:false,status:null,month:null,dist:null,kind:null,region:"전체",fav:false,shown:PAGE});if($("q"))$("q").value="";renderList()}
+function reset(){Object.assign(S,{q:"",past:false,status:null,year:null,month:null,dist:null,kind:null,region:"전체",fav:false,shown:PAGE});if($("q"))$("q").value="";renderList()}
 function bindList(){
-  $("fgrid").addEventListener("click",e=>{const b=e.target.closest(".fb");if(!b||b.disabled)return;
-    if(b.dataset.t){S[b.dataset.t]=!S[b.dataset.t]}else{const k=b.dataset.k,v=k==="month"?+b.dataset.v:b.dataset.v;S[k]=S[k]===v?null:v}
+  $("fgrid").addEventListener("click",e=>{
+    if(e.target.closest("#ddb")){const dd=$("fRegionDD");dd.dataset.open=dd.dataset.open==="1"?"0":"1";renderList();return}
+    const b=e.target.closest(".fb");if(!b||b.disabled)return;
+    if(b.dataset.rg){S.region=b.dataset.rg;$("fRegionDD").dataset.open="0"}
+    else if(b.dataset.past){S.past=b.dataset.past==="1"}
+    else if(b.dataset.t){S[b.dataset.t]=!S[b.dataset.t]}
+    else{const k=b.dataset.k,v=(k==="month"||k==="year")?+b.dataset.v:b.dataset.v;S[k]=S[k]===v?null:v}
     S.shown=PAGE;renderList()});
   $("active").addEventListener("click",e=>{const b=e.target.closest(".ac");if(!b)return;const k=b.dataset.x;
     if(k==="q"){S.q="";$("q").value=""}else if(k==="region")S.region="전체";else if(k==="past"||k==="fav")S[k]=false;else S[k]=null;renderList()});
   document.querySelector(".quick").addEventListener("click",e=>{const b=e.target.closest(".qc");if(!b)return;Object.assign(S,JSON.parse(b.dataset.q));S.shown=PAGE;renderList();$("rTitle").scrollIntoView({behavior:"smooth",block:"center"})});
-  $("fRegion").onchange=e=>{S.region=e.target.value;S.shown=PAGE;renderList()};
+  document.addEventListener("click",e=>{const dd=$("fRegionDD");if(!e.target.isConnected)return;if(dd&&dd.dataset.open==="1"&&!dd.contains(e.target)){dd.dataset.open="0";renderList()}});
   $("sort").onchange=e=>{S.sort=e.target.value;renderList()};
   $("reset").onclick=reset;
   $("tog").onclick=()=>{S.panel=!S.panel;$("fpanel").classList.toggle("closed",!S.panel);$("tog").innerHTML=(S.panel?"접기":"펼치기")+I("down");$("tog").setAttribute("aria-expanded",S.panel)};
