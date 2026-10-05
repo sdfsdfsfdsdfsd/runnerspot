@@ -124,8 +124,18 @@ def guess_sido(*texts: str) -> str | None:
 
 
 def norm_dist(raw: str) -> list[str]:
+    raw = (raw or "").strip()
+    if re.fullmatch(r"[\d\s:]+", raw) and raw.count(":") >= 1:      # "37: 20:11" → 37, 20, 11
+        raw = raw.replace(":", ",")
+    elif re.fullmatch(r"\d+(\.\d+){2,}", raw):                      # "109.50.30.20.15"
+        raw = raw.replace(".", ",")
+    else:
+        raw = re.sub(r"(?<![\d.])\d{1,2}:\d{2}(?![\d])", "", raw)      # 출발 시각 같은 건 빼기
     out = []
-    for p in re.split(r"\s*[,/]\s*", raw or ""):
+    for p in re.split(r"\s*[,/·]\s*", raw):
+        p = p.strip(" ()")
+        if re.fullmatch(r"\d+(\.\d+)?", p):
+            p = p + "km"
         p = p.strip()
         if not p:
             continue

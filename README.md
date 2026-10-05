@@ -8,7 +8,7 @@
 - `data/races.json` 대회 데이터
 - `posters/` 대회 포스터 이미지
 - `scripts/collect.py` 대회 수집기
-- `.github/workflows/collect.yml` 매주 월·목 아침에 수집기를 자동 실행하고, 바뀐 내용을 저장해요. 저장되면 Vercel이 사이트를 자동으로 다시 배포해요.
+- `.github/workflows/collect.yml` 매일 아침 수집기를 자동 실행하고, 바뀐 내용을 저장해요. 저장되면 Vercel이 사이트를 자동으로 다시 배포해요.
 
 ## 설정
 
