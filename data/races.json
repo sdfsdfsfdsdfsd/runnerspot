@@ -8805,7 +8805,8 @@
    "regEnd": "2026-09-30",
    "startTime": "11:50",
    "poster": "posters/rr41740.webp",
-   "enrichedBy": "text"
+   "enrichedBy": "text",
+   "enrichedAt": "2026-10-05"
   },
   {
    "id": "rr41809",
@@ -8820,8 +8821,12 @@
    "host": "주식회사 무브네이션",
    "phone": "051-867-0516",
    "site": "http://taejongdaezombie.com",
-   "status": "closed",
-   "kind": "로드"
+   "status": "open",
+   "kind": "로드",
+   "regStart": "2026-02-01",
+   "poster": "posters/rr41809.webp",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-10-05"
   },
   {
    "id": "4703efab",
@@ -8855,7 +8860,9 @@
    "phone": "042-710-2058",
    "site": "http://runten.co.kr",
    "status": "closed",
-   "kind": "로드"
+   "kind": "로드",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-10-05"
   },
   {
    "id": "rr41861",
@@ -8873,7 +8880,11 @@
    "phone": "02-338-0344",
    "site": "http://marvelrunkorea2026.com/",
    "status": "open",
-   "kind": "로드"
+   "kind": "로드",
+   "startTime": "13:30",
+   "poster": "posters/rr41861.webp",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-10-05"
   },
   {
    "id": "rr41778",
@@ -8891,7 +8902,8 @@
    "phone": "055-751-1085",
    "site": "http://sunset.or.kr",
    "status": "closed",
-   "kind": "로드"
+   "kind": "로드",
+   "enrichedAt": "2026-10-05"
   },
   {
    "id": "rr41880",
@@ -8907,8 +8919,18 @@
    "host": "성남YMCA",
    "phone": "031-715-6016",
    "site": "http://runpass.kr/races/seongnam-ymca/2026",
-   "status": "open",
-   "kind": "로드"
+   "status": "soon",
+   "kind": "로드",
+   "price": {
+    "5km": 30000,
+    "10km": 40000
+   },
+   "regStart": "2026-10-06",
+   "regEnd": "2026-10-06",
+   "startTime": "08:00",
+   "poster": "posters/rr41880.webp",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-10-05"
   },
   {
    "id": "rr41781",
@@ -8926,7 +8948,17 @@
    "phone": "010-2760-7745",
    "site": "http://kasmirun.kr/",
    "status": "open",
-   "kind": "로드"
+   "kind": "로드",
+   "price": {
+    "5km": 44000,
+    "하프": 55000
+   },
+   "regStart": "2026-08-07",
+   "regEnd": "2026-10-18",
+   "startTime": "07:00",
+   "poster": "posters/rr41781.webp",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-10-05"
   },
   {
    "id": "rr41259",
@@ -8943,7 +8975,10 @@
    "phone": "02-2031-1935",
    "site": "http://marathon.jtbc.com/",
    "status": "closed",
-   "kind": "로드"
+   "kind": "로드",
+   "poster": "posters/rr41259.webp",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-10-05"
   },
   {
    "id": "rr41654",
@@ -8961,7 +8996,12 @@
    "phone": "00-1600-3949",
    "site": "http://gcmarathon.co.kr",
    "status": "closed",
-   "kind": "로드"
+   "kind": "로드",
+   "regStart": "2026-07-15",
+   "regEnd": "2026-09-25",
+   "startTime": "09:30",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-10-05"
   },
   {
    "id": "rr41638",
@@ -9013,7 +9053,15 @@
    "phone": "02-736-1136",
    "site": "http://seoulrun.com",
    "status": "closed",
-   "kind": "로드"
+   "kind": "로드",
+   "price": {
+    "하프": 50000,
+    "10km": 50000,
+    "5km": 40000
+   },
+   "poster": "posters/rr41790.webp",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-10-05"
   },
   {
    "id": "rr41871",
@@ -9029,8 +9077,14 @@
    "host": "법률신문",
    "phone": "010-9573-7669",
    "site": "http://justicerun.kr/",
-   "status": null,
-   "kind": "로드"
+   "status": "open",
+   "kind": "로드",
+   "regStart": "2026-09-21",
+   "regEnd": "2026-10-14",
+   "startTime": "07:30",
+   "poster": "posters/rr41871.webp",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-10-05"
   },
   {
    "id": "f88eb86a",
@@ -9103,7 +9157,8 @@
    "phone": "010-6711-2215",
    "site": "http://cafe.daum.net/seobongmarathon",
    "status": null,
-   "kind": "로드"
+   "kind": "로드",
+   "enrichedAt": "2026-10-05"
   },
   {
    "id": "rr41873",
@@ -9118,8 +9173,13 @@
    "host": "굿네이버스충청권역,국립세종수목원",
    "phone": "041-575-9601",
    "site": "http://eggrun2026.imweb.me",
-   "status": null,
-   "kind": "로드"
+   "status": "open",
+   "kind": "로드",
+   "regStart": "2026-09-07",
+   "regEnd": "2026-10-07",
+   "poster": "posters/rr41873.webp",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-10-05"
   },
   {
    "id": "850d6a76",
@@ -9153,7 +9213,10 @@
    "phone": "010-5605-9059",
    "site": "http://legendtrail.kr/",
    "status": null,
-   "kind": "트레일"
+   "kind": "트레일",
+   "poster": "posters/rr41767.webp",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-10-05"
   },
   {
    "id": "rr41864",
@@ -9170,7 +9233,8 @@
    "phone": "061-921-6600",
    "site": "http://11bridge.com",
    "status": null,
-   "kind": "로드"
+   "kind": "로드",
+   "enrichedAt": "2026-10-05"
   },
   {
    "id": "rr41539",
@@ -9188,7 +9252,12 @@
    "phone": "054-331-6029",
    "site": "http://runyc.kr",
    "status": "closed",
-   "kind": "로드"
+   "kind": "로드",
+   "regStart": "2026-09-28",
+   "regEnd": "2026-10-02",
+   "poster": "posters/rr41539.webp",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-10-05"
   },
   {
    "id": "rr41719",
@@ -9220,7 +9289,8 @@
    "phone": "055-359-4563",
    "site": "http://www.mywalk.kr",
    "status": null,
-   "kind": "로드"
+   "kind": "로드",
+   "enrichedAt": "2026-10-05"
   },
   {
    "id": "rr41788",
@@ -9237,7 +9307,9 @@
    "phone": "00-1600-3949",
    "site": "http://giverun.kr",
    "status": "open",
-   "kind": "로드"
+   "kind": "로드",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-10-05"
   },
   {
    "id": "72c5b91c",
@@ -9270,7 +9342,13 @@
    "phone": "02-1566-1936",
    "site": "http://www.saverace.co.kr",
    "status": "closed",
-   "kind": "로드"
+   "kind": "로드",
+   "regStart": "2026-09-07",
+   "regEnd": "2026-09-18",
+   "startTime": "07:30",
+   "poster": "posters/rr41819.webp",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-10-05"
   },
   {
    "id": "rr41787",
@@ -9303,7 +9381,10 @@
    "phone": "02-338-0344",
    "site": "http://purmerun.com/",
    "status": "closed",
-   "kind": "로드"
+   "kind": "로드",
+   "poster": "posters/rr41815.webp",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-10-05"
   },
   {
    "id": "rr41849",
@@ -9320,7 +9401,9 @@
    "phone": "042-710-2058",
    "site": "http://runten.co.kr",
    "status": null,
-   "kind": "로드"
+   "kind": "로드",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-10-05"
   },
   {
    "id": "8b57cefa",
@@ -9373,7 +9456,8 @@
    "phone": "055-210-6103",
    "site": "http://www.jinhaemarathon.co.kr",
    "status": "closed",
-   "kind": "로드"
+   "kind": "로드",
+   "enrichedAt": "2026-10-05"
   },
   {
    "id": "rr41886",
@@ -9440,7 +9524,10 @@
    "phone": "064-756-3213",
    "site": "http://www.jaaf.kr/",
    "status": null,
-   "kind": "로드"
+   "kind": "로드",
+   "poster": "posters/rr41889.webp",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-10-05"
   },
   {
    "id": "rr41843",
@@ -9459,7 +9546,10 @@
    "phone": "010-4573-3330",
    "site": "http://kiccrace.com",
    "status": "tbd",
-   "kind": "로드"
+   "kind": "로드",
+   "poster": "posters/rr41843.webp",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-10-05"
   },
   {
    "id": "rr41844",
@@ -9476,8 +9566,13 @@
    "host": "경상북도, 경상북도체육회",
    "phone": "070-7707-2808",
    "site": "http://1004.tbc.co.kr/",
-   "status": "open",
-   "kind": "로드"
+   "status": "closed",
+   "kind": "로드",
+   "regStart": "2025-07-07",
+   "regEnd": "2025-08-18",
+   "poster": "posters/rr41844.webp",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-10-05"
   },
   {
    "id": "rr41671",
@@ -9513,7 +9608,11 @@
    "phone": "00-1551-3934",
    "site": "http://kw-marathon.com/",
    "status": "closed",
-   "kind": "로드"
+   "kind": "로드",
+   "startTime": "09:00",
+   "poster": "posters/rr41755.webp",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-10-05"
   },
   {
    "id": "rr41696",
@@ -9530,7 +9629,14 @@
    "phone": "02-338-0344",
    "site": "http://heritagerun.co.kr",
    "status": "open",
-   "kind": "로드"
+   "kind": "로드",
+   "price": {
+    "10km": 50000,
+    "5km": 40000
+   },
+   "poster": "posters/rr41696.webp",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-10-05"
   },
   {
    "id": "rr41667",
@@ -9547,7 +9653,10 @@
    "phone": "070-7719-5788",
    "site": "http://cafe.naver.com/seoultrailrun/?viewType=pc",
    "status": null,
-   "kind": "트레일"
+   "kind": "트레일",
+   "poster": "posters/rr41667.webp",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-10-05"
   },
   {
    "id": "rr41869",
@@ -9564,7 +9673,11 @@
    "phone": "010-3482-6615",
    "site": "http://asrun.co.kr",
    "status": "closed",
-   "kind": "로드"
+   "kind": "로드",
+   "startTime": "08:55",
+   "poster": "posters/rr41869.webp",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-10-05"
   },
   {
    "id": "rr41634",
@@ -9581,7 +9694,9 @@
    "phone": "070-7766-1238",
    "site": "http://k-marathon.or.kr/main.php",
    "status": "closed",
-   "kind": "로드"
+   "kind": "로드",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-10-05"
   },
   {
    "id": "rr41752",
@@ -9598,8 +9713,11 @@
    "host": "사상구청,사상구체육회",
    "phone": "051-310-4128",
    "site": "http://ssecorun.co.kr",
-   "status": "closed",
-   "kind": "로드"
+   "status": "open",
+   "kind": "로드",
+   "regStart": "2026-02-01",
+   "poster": "posters/rr41752.webp",
+   "enrichedBy": "text"
   },
   {
    "id": "rr41846",
