@@ -156,7 +156,9 @@ def fetch_roadrun(year: int) -> list[dict]:
     log(f"roadrun {year}: 응답 {len(raw):,}바이트, 표 행 {len(re.findall(r'<tr', doc, re.I))}개")
     races, seen = [], set()
     for row in re.findall(r"<tr[^>]*>(.*?)</tr>", doc, flags=re.I | re.S):
-        if not re.search(rf">\s*{year}\s*<br", row, flags=re.I):
+        # 올해 대회는 날짜 칸에 연도가 없고, 다른 해 대회만 연도가 찍혀 나와요
+        other = re.search(r">\s*(20\d\d)\s*<br", row)
+        if other and int(other.group(1)) != year:
             continue
         sid = re.search(r"view\.php\?no=(\d+)", row, flags=re.I)
         if not sid or sid.group(1) in seen:
@@ -192,9 +194,6 @@ def fetch_roadrun(year: int) -> list[dict]:
             "kind": kind_of(name, dists),
         })
         seen.add(sid.group(1))
-    if not races and os.environ.get("RS_DEBUG"):
-        i = doc.find("view.php?no=")
-        (ROOT / "data" / f"debug_roadrun_{year}.txt").write_text(doc[max(0, i - 3000):i + 3000], encoding="utf-8")
     return races
 
 

@@ -32,7 +32,6 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           KAKAO_REST_KEY: ${{ secrets.KAKAO_REST_KEY }}
           ENRICH_LIMIT: "40"
-          RS_DEBUG: "1"
         run: python scripts/collect.py
 
       - name: 바뀐 내용 저장
