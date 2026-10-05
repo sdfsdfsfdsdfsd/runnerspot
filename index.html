@@ -209,6 +209,14 @@ table.it a{color:var(--brand);font-weight:600}
 .pout{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;background:var(--brand-soft);border-radius:12px;padding:14px 16px}
 .pout b{font-size:30px;font-weight:900;letter-spacing:-.03em;color:var(--brand)}
 .pout span{font-size:13px;color:var(--sub)}
+.splits{margin-top:4px;border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.splits h3{margin:0;padding:10px 14px;font-size:13px;font-weight:800;background:var(--soft);border-bottom:1px solid var(--line);display:flex;justify-content:space-between}
+.splits h3 span{color:var(--muted);font-weight:600}
+.sgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(120px,1fr))}
+.sp{padding:10px 14px;border-bottom:1px solid var(--line);border-right:1px solid var(--line);display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+.sp small{font-size:12.5px;color:var(--muted);font-weight:700}
+.sp b{font-size:15px;font-weight:800}
+.sp.fin{background:var(--brand-soft)}.sp.fin b{color:var(--brand)}
 .maprow{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;background:var(--soft);border-radius:12px;padding:16px}
 .maprow b{display:block;font-size:15px}.maprow small{color:var(--muted)}
 .mapbtns{display:flex;gap:6px}
@@ -491,7 +499,7 @@ const fmt=s=>{s=Math.round(s);const h=Math.floor(s/3600),m=Math.floor(s%3600/60)
 function detail(id){
   const r=RACES.find(x=>x.id===id);
   if(!r){$("app").innerHTML=`<div class="in" style="padding-block:80px"><div class="empty"><h3>대회를 찾을 수 없어요</h3><p>목록에서 다시 찾아보세요.</p><button type="button" onclick="location.hash=''">대회 목록으로</button></div></div>`;return}
-  const p=isPast(r),rd=r.dist.filter(x=>KM[x]),d=dt(r.date);
+  const p=isPast(r),rd=r.dist.filter(x=>KM[x]).sort((a,b)=>KM[a]-KM[b]),d=dt(r.date);
   const sameDay=RACES.filter(x=>x.date===r.date&&x.id!==r.id).slice(0,8);
   const nearby=RACES.filter(x=>x.region===r.region&&x.id!==r.id&&!isPast(x)&&x.date!==r.date).slice(0,8);
   const openNow=RACES.filter(x=>!isPast(x)&&x.status==="open"&&x.id!==r.id).slice(0,8);
@@ -538,9 +546,10 @@ function detail(id){
             <tr><th>홈페이지</th><td>${r.site?`<a href="${esc(r.site)}" target="_blank" rel="noopener">${esc(r.site.replace(/^https?:\/\//,"").replace(/\/$/,""))}</a>`:"-"}</td></tr>
           </tbody></table></div>
         ${rd.length?`<div class="box"><h2>${I("gauge")}목표 페이스 계산</h2><div class="pace">
-          <div class="prow" id="pd">${rd.map((x,i)=>`<button type="button" class="fb" data-d="${x}" aria-pressed="${i===0}">${DLK[x]}</button>`).join("")}</div>
+          <div class="prow" id="pd">${rd.map((x,i)=>`<button type="button" class="fb" data-d="${x}" aria-pressed="${i===rd.length-1}">${DLK[x]}</button>`).join("")}</div>
           <div class="prow"><input id="ph" type="number" min="0" max="9" inputmode="numeric" aria-label="시간">시간<input id="pm" type="number" min="0" max="59" inputmode="numeric" aria-label="분">분 안에 완주하려면</div>
-          <div class="pout" id="po"></div></div></div>`:""}
+          <div class="pout" id="po"></div>
+          <div class="splits" id="spl"></div></div></div>`:""}
         <div class="box"><h2>${I("pin")}대회 위치</h2>${KAKAO_JS_KEY&&r.lat?'<div id="kmap"></div>':""}
           <div class="maprow"><div><b>${esc(r.place||r.sido)}</b><small>${esc(r.address||r.sido)}</small></div>
             <div class="mapbtns"><a class="mbtn" href="https://map.naver.com/p/search/${q}" target="_blank" rel="noopener">네이버 지도${I("ext")}</a><a class="mbtn" href="https://map.kakao.com/?q=${q}" target="_blank" rel="noopener">카카오맵${I("ext")}</a></div></div></div>
@@ -565,9 +574,16 @@ function detail(id){
   if(KAKAO_JS_KEY&&r.lat) showMap(r);
   $("fav").onclick=()=>{favs.has(r.id)?favs.delete(r.id):favs.add(r.id);store.set("rs-favs",[...favs]);detail(id)};
   if(rd.length){
-    const DEF={Full:[4,30],Half:[2,0],"10K":[0,55],"5K":[0,28]};let cur=rd[0];
+    const DEF={Full:[4,30],Half:[2,0],"10K":[0,55],"5K":[0,28]};let cur=rd[rd.length-1];
     const setD=()=>{$("ph").value=DEF[cur][0];$("pm").value=DEF[cur][1]};
-    const calc=()=>{const T=(+$("ph").value||0)*3600+(+$("pm").value||0)*60;$("po").innerHTML=T?`<span>km당</span><b class="tnum">${fmt(T/KM[cur])}</b><span>시속 ${(KM[cur]/(T/3600)).toFixed(1)}km로 달리면 돼요</span>`:"<span>완주 목표를 넣어주세요</span>"};
+    const calc=()=>{const T=(+$("ph").value||0)*3600+(+$("pm").value||0)*60;
+      $("po").innerHTML=T?`<span>km당</span><b class="tnum">${fmt(T/KM[cur])}</b><span>시속 ${(KM[cur]/(T/3600)).toFixed(1)}km로 달리면 돼요</span>`:"<span>완주 목표를 넣어주세요</span>";
+      if(!T){$("spl").innerHTML="";return}
+      const D=KM[cur],p=T/D;
+      const marks=D<=5?[1,2,3,4]:D<=10?[1,2,3,4,5,6,7,8,9]:D<22?[5,10,15,20]:[5,10,15,20,21.0975,25,30,35,40];
+      const cells=marks.map(m=>`<div class="sp"><small>${m===21.0975?"하프":m+"km"}</small><b class="tnum">${fmt(p*m)}</b></div>`).join("")
+        +`<div class="sp fin"><small>완주</small><b class="tnum">${fmt(T)}</b></div>`;
+      $("spl").innerHTML=`<h3>거리별 통과 시간<span>400m 트랙 1바퀴 ${fmt(p*0.4)}</span></h3><div class="sgrid">${cells}</div>`};
     $("pd").onclick=e=>{const b=e.target.closest("button");if(!b)return;cur=b.dataset.d;$("pd").querySelectorAll("button").forEach(x=>x.setAttribute("aria-pressed",x===b));setD();calc()};
     $("ph").oninput=calc;$("pm").oninput=calc;setD();calc();
   }
