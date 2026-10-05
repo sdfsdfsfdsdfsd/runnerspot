@@ -192,6 +192,9 @@ def fetch_roadrun(year: int) -> list[dict]:
             "kind": kind_of(name, dists),
         })
         seen.add(sid.group(1))
+    if not races and os.environ.get("RS_DEBUG"):
+        i = doc.find("view.php?no=")
+        (ROOT / "data" / f"debug_roadrun_{year}.txt").write_text(doc[max(0, i - 3000):i + 3000], encoding="utf-8")
     return races
 
 
