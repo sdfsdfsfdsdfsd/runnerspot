@@ -1,8 +1,412 @@
-2026-10-05 17:28 실행
+2026-10-05 18:07 실행
 roadrun 2026: 응답 867,468바이트, 표 행 1226개
 roadrun 2026: 592개
 roadrun 2027: 응답 37,663바이트, 표 행 60개
 roadrun 2027: 9개
-ANTHROPIC_API_KEY 없음 → 상세 정리 건너뜀
+   중간 저장 완료: 대회 목록 업데이트
+ANTHROPIC_API_KEY 없음 → 홈페이지 글에서 직접 찾는 방식으로 진행
+상세 정리 대상 209개 중 209개 진행
+ - 2026-10-05 2026 서울오픈마라톤
+   → poster
+ - 2026-10-05 2026 양주 천일홍 가을 페스타 마라톤
+   실패: <HTTPError 999: 'No Hacking'>
+ - 2026-10-05 2026 한경서울마라톤
+   → price, startTime
+ - 2026-10-05 런센스 2026
+   → price, regStart, poster
+ - 2026-10-05 제12회 시흥시 전국하프마라톤
+   실패: <HTTPError 403: 'Forbidden'>
+ - 2026-10-05 제23회 강남국제평화마라톤
+   → 찾은 정보 없음
+ - 2026-10-09 2026 고흥우주항공배 마라톤
+   실패: URLError(TimeoutError('timed out'))
+ - 2026-10-09 2026 한글런
+   → price, poster
+ - 2026-10-09 WYD와 함께하는 생명사랑 마라톤/걷기 대회
+   → 찾은 정보 없음
+ - 2026-10-09 제26회 홍성마라톤
+   실패: <HTTPError 999: 'No Hacking'>
+ - 2026-10-10 2026 경포마라톤
+   실패: UnicodeEncodeError('latin-1', 'www.경포마라톤.com', 4, 9, 'ordinal not in range(256)')
+ - 2026-10-10 2026 연수 꿈이음길 러닝대회
+   → price, regStart, poster
+ - 2026-10-10 2026 하트런
+   → regStart, poster
+ - 2026-10-10 제3회 성동구연맹회장기 마라톤
+   → poster
+ - 2026-10-10 제3회서울트레일런 대회
+   실패: URLError(TimeoutError('timed out'))
+ - 2026-10-10 제4회 강서허준런(RUN)
+   실패: UnicodeEncodeError('latin-1', '강서허준런.com', 0, 5, 'ordinal not in range(256)')
+ - 2026-10-10 제5회 구미시장배 금오산트레일 레이스
+   → poster
+ - 2026-10-10 제5회 무등산지오마라톤
+   → regStart, poster
+ - 2026-10-10 제주풍차런
+   → poster
+ - 2026-10-10 진안트레일레이스
+   → poster
+ - 2026-10-10 충주 앙성 비내길 마라톤 대회
+   실패: URLError(TimeoutError('timed out'))
+ - 2026-10-10 카카오프렌즈런 2026
+   → regStart, startTime, poster
+ - 2026-10-11 2026 MBN 전국 나주 마라톤대회
+   → poster
+ - 2026-10-11 2026 당진황금들녘 건강마라톤
+   실패: UnicodeEncodeError('latin-1', '당진마라톤대회.com', 0, 7, 'ordinal not in range(256)')
+ - 2026-10-11 2026 문경 오미자 하프마라톤
+   → regStart, startTime, poster
+ - 2026-10-11 2026 서울레이스
+   → poster
+ - 2026-10-11 2026 울산마라톤대회
+   → startTime, poster
+ - 2026-10-11 2026 인천로봇랜드 퓨처런
+   → price, startTime, poster
+ - 2026-10-11 2026 천안 이봉주 마라톤
+   실패: URLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local is
+ - 2026-10-11 2026 평택항마라톤[마감]
+   실패: URLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local is
+ - 2026-10-11 2026 핑크런
+ - 2026-10-11 83타워 업힐런
+   실패: <HTTPError 403: 'Forbidden'>
+ - 2026-10-11 독립유공자후손 기부마라톤 2026대학생RUN
+   → startTime, poster
+ - 2026-10-11 제10회 가을철 산불조심마라톤
+ - 2026-10-11 제22회 금천구청장배 건강달리기
+   → price, startTime, poster
+ - 2026-10-11 제6회 영등포구청장배 육상대회 (마감)
+   → poster
+ - 2026-10-11 함께런 러닝 페스티벌
+   → startTime, poster
+ - 2026-10-17 2026 U+ 119 메모리얼런
+   → regStart, poster
+ - 2026-10-17 2026 경주마라톤
+   중간 저장 완료: 대회 상세 정보 25개 반영
+   → poster
+ - 2026-10-17 2026 경청마라톤
+   → price, regStart, poster
+ - 2026-10-17 2026 굿네이버스 레이스 광주
+   → regStart, poster
+ - 2026-10-17 2026 대전 Dtrail 레이스
+   → startTime, poster
+ - 2026-10-17 2026 억새노을마라톤대회
+   실패: URLError(TimeoutError('timed out'))
+ - 2026-10-17 2026 원주 바람길숲 기부런
+   → poster
+ - 2026-10-17 2026 의정부시 물길마라톤
+   → poster
+ - 2026-10-17 2026 전남광주통합특별시 남구청장배 마라톤
+ - 2026-10-17 2026 정선동강 마라톤
+   → startTime, poster
+ - 2026-10-17 제24회 청원생명쌀대청호마라톤
+ - 2026-10-17 제2회 10.19 평화마라톤
+ - 2026-10-17 제7회 충청남도 태안 전국어울림마라톤
+   실패: UnicodeEncodeError('latin-1', 'www.충남전국어울림마라톤.kr', 4, 14, 'ordinal not in range(256)')
+ - 2026-10-18 2026 아시아 오픈 마라톤
+   실패: <HTTPError 999: 'No Hacking'>
+ - 2026-10-18 2026 하남시 시장기 당정마라톤
+   → poster
+ - 2026-10-18 그린스텝 2026
+   실패: URLError(TimeoutError('timed out'))
+ - 2026-10-18 제19회 중랑구청장배 장미 마라톤
+   → regStart, startTime, poster
+ - 2026-10-18 제22회 대구 북구사랑 마라톤
+   → 찾은 정보 없음
+ - 2026-10-18 제23회 여주 세종대왕 마라톤
+   실패: URLError(TimeoutError('timed out'))
+ - 2026-10-18 제25회 대청호마라톤
+ - 2026-10-18 제28회 창원 시민건강달리기
+ - 2026-10-24 2026 경기옛길 함께RUN
+   → startTime, poster
+ - 2026-10-24 2026 뉴시스 바다마라톤
+   → price
+ - 2026-10-24 2026 담양 트레일런 데이브레이크
+   → 찾은 정보 없음
+ - 2026-10-24 2026 무쓰런
+   → poster
+ - 2026-10-24 2026 서울 펫림픽 & 런 위드 고
+   실패: <HTTPError 403: 'Forbidden'>
+ - 2026-10-24 2026 익산 기부런
+   → price, startTime, poster
+ - 2026-10-24 2026 제3회 감성런
+   실패: URLError(TimeoutError('timed out'))
+ - 2026-10-24 Freedom Walk & Run
+   → regStart, poster
+ - 2026-10-24 RUN&MUSIC FESTIVAL in 안동
+   → regStart, startTime, poster
+ - 2026-10-24 TOUR 5K & Beach Ploggin망상
+   → poster
+ - 2026-10-24 네이버웍스와 함께하는 SEJONG RUN 26
+   → startTime, poster
+ - 2026-10-24 불닭 버닝 트레일런
+ - 2026-10-24 서울 대모-구룡산트레일런
+   실패: URLError(TimeoutError('timed out'))
+ - 2026-10-25 2026 광명평화마라톤
+   포스터 저장 실패: HTTP Error 404: Not Found
+   → startTime
+ - 2026-10-25 2026 부산바다마라톤
+   실패: <HTTPError 403: 'Forbidden'>
+ - 2026-10-25 2026 청송사과트레일런
+   실패: <HTTPError 403: 'Forbidden'>
+ - 2026-10-25 2026 춘천마라톤
+   → regStart, poster
+ - 2026-10-25 K-RUN 챌린지
+   실패: URLError(TimeoutError('timed out'))
+ - 2026-10-25 울산 런 페스타 (U-RUN)
+   → poster
+ - 2026-10-25 제14회 정서진아라뱃길 전국마라톤대회
+   → regStart, startTime, poster
+ - 2026-10-25 제19회 청도반시 전국마라톤
+   실패: UnicodeEncodeError('latin-1', '청도반시마라톤.kr', 0, 7, 'ordinal not in range(256)')
+ - 2026-10-31 2026 INCHEON NIGHT RACE
+   → regStart
+ - 2026-10-31 2026 당진원런 마라톤
+   → startTime
+ - 2026-10-31 2026 오티즘 레이스
+   중간 저장 완료: 대회 상세 정보 50개 반영
+   → regStart, startTime, poster
+ - 2026-10-31 2026 태종대 BEAT ON 좀비레이스
+   → regStart, poster
+ - 2026-10-31 런텐 12차 레이스 JUST RUN10 포천
+   포스터 저장 실패: HTTP Error 404: Not Found
+   → 찾은 정보 없음
+ - 2026-10-31 마블런 2026
+   → startTime, poster
+ - 2026-10-31 제21회 사천노을 마라톤대회
+ - 2026-10-31 제2회 성남YMCA 마라톤
+   → price, regStart, startTime, poster
+ - 2026-10-31 제7회 중소기업 인 기살리기 마라톤 대회
+   → price, regStart, startTime, poster
+ - 2026-11-01 2026 jtbc 마라톤
+   → poster
+ - 2026-11-01 2026 김천전국마라톤대회
+   → regStart, startTime
+ - 2026-11-01 2026 무안 해안 노을길 걷기 및 마라톤
+   실패: URLError(TimeoutError('timed out'))
+ - 2026-11-01 26서울동행마라톤대회
+   → price, poster
+ - 2026-11-01 JUSTICE RUN SEOCHO 2026
+   → regStart, startTime, poster
+ - 2026-11-01 제21회 울산인권마라톤
+   실패: <HTTPError 403: 'Forbidden'>
+ - 2026-11-01 제2회 대전 신채호 마라톤
+   실패: <HTTPError 999: 'No Hacking'>
+ - 2026-11-06 제40회 서봉기단축마라톤
+ - 2026-11-07 2026 EGG RUN
+   → regStart, poster
+ - 2026-11-07 2026 문경 레전드 트레일 백두대간
+   → poster
+ - 2026-11-07 2026 여수 일레븐브리지마라톤
+ - 2026-11-07 2026 영천댐 마라톤
+   → regStart, poster
+ - 2026-11-07 2026 해양수도 부산 런페스타
+   실패: <HTTPError 403: 'Forbidden'>
+ - 2026-11-07 26 Ten Bridges Night Walk
+ - 2026-11-07 GVIE RUN 2026 구미
+   → 찾은 정보 없음
+ - 2026-11-07 SaveRace 2026
+   → regStart, startTime, poster
+ - 2026-11-07 남한산성트레일
+   실패: URLError(TimeoutError('timed out'))
+ - 2026-11-07 넥슨과 함께하는 2026 푸르메런
+   → poster
+ - 2026-11-07 런텐 13차 레이스 JUST RUN10 대전
+   포스터 저장 실패: HTTP Error 404: Not Found
+   → 찾은 정보 없음
+ - 2026-11-07 제15회 부여 굿뜨래 마라톤 대회
+   실패: URLError(TimeoutError('timed out'))
+ - 2026-11-07 제19회 진해마라톤
+ - 2026-11-07 제21회 담양메타세쿼이아 마라톤
+   실패: URLError(TimeoutError('timed out'))
+ - 2026-11-07 평화의섬 2026 국무총리기국제생활체육구간 마라톤
+   → poster
+ - 2026-11-08 2026 경기화성 생태마라톤
+   → poster
+ - 2026-11-08 2026 경상북도 신도시 마라톤
+   → regStart, poster
+ - 2026-11-08 2026 과천마라톤
+   실패: <HTTPError 403: 'Forbidden'>
+ - 2026-11-08 2026 라운드랩 RUN
+   → startTime, poster
+ - 2026-11-08 2026 부산 헤리티지 런
+   → price, poster
+ - 2026-11-08 2026 서울구석구석 국제 트레일런
+   → poster
+ - 2026-11-08 2026 안성맞춤 전국 마라톤
+   → startTime, poster
+ - 2026-11-08 2026 양산 배내골 애플 런
+   포스터 저장 실패: HTTP Error 404: Not Found
+   → 찾은 정보 없음
+ - 2026-11-08 2026 전국사상에코마라톤
+   중간 저장 완료: 대회 상세 정보 75개 반영
+   → regStart, poster
+ - 2026-11-08 2026 청양군 칠갑마라톤
+   → price, startTime, poster
+ - 2026-11-08 2026 해남땅끝 전국마라톤대회
+   → 찾은 정보 없음
+ - 2026-11-08 강남하프마라톤(제17회강남구청장배육상대회)
+   → startTime, poster
+ - 2026-11-08 경주시육상연맹회장배 마라톤대회
+ - 2026-11-08 제11회 송파구청장배 마라톤
+ - 2026-11-08 제12회 아산 은행나무길 전국마라톤
+   실패: <HTTPError 999: 'No Hacking'>
+ - 2026-11-08 제20회 자원봉사 사랑 굿펀 마라톤
+   실패: URLError(TimeoutError('timed out'))
+ - 2026-11-08 제24회 전국 나주 금성산숲길마라톤
+   → price, regStart, poster
+ - 2026-11-08 제3회 자유민주 마라톤대회
+   실패: <HTTPError 403: 'Forbidden'>
+ - 2026-11-08 제5회 거제시체육회장배 거제앵산트레일레이스
+   실패: UnicodeEncodeError('latin-1', 'www.거제앵산트레일레이스.com', 4, 14, 'ordinal not in range(256)')
+ - 2026-11-14 2026 영종 하늘길 마라톤
+   → price, poster
+ - 2026-11-14 2026 통큰런
+   → poster
+ - 2026-11-14 2026 포항마라톤챔피언십
+   실패: <HTTPError 999: 'No Hacking'>
+ - 2026-11-14 그 시절 스타들과 달리는 레트로 런 IN 증평
+   → poster
+ - 2026-11-14 서울 빵빵런 2026
+   → poster
+ - 2026-11-14 제26회 순천 남승룡마라톤대회
+ - 2026-11-14 제2회 안양천 단풍길 마라톤
+   → price, regStart, poster
+ - 2026-11-14 제2회 한강 브릿지 런
+   실패: URLError(TimeoutError('timed out'))
+ - 2026-11-15 2026 9회 서울평화마라톤
+   → regStart
+ - 2026-11-15 2026 FILA RUN & ESPRESSO
+   → regStart, startTime, poster
+ - 2026-11-15 2026 MBN 서울마라톤
+   → price, regStart, startTime, poster
+ - 2026-11-15 2026 가민런 코리아
+   → regStart, poster
+ - 2026-11-15 2026 나눔레이스 인 용인
+   → poster
+ - 2026-11-15 2026 손기정평화마라톤
+   실패: <HTTPError 403: 'Forbidden'>
+ - 2026-11-15 2026 제주감귤마라톤
+   실패: <HTTPError 403: 'Forbidden'>
+ - 2026-11-15 26회 창원통일마라톤
+ - 2026-11-15 제12회 창원특례시장배 광려천마라톤
+ - 2026-11-15 제16회 대전서구청장배 마라톤대회
+   실패: <HTTPError 999: 'No Hacking'>
+ - 2026-11-15 제17회 행복트레일런 축제
+   실패: <HTTPError 999: 'No Hacking'>
+ - 2026-11-15 제24회 고창고인돌마라톤
+   실패: <HTTPError 403: 'Forbidden'>
+ - 2026-11-15 제24회 대모산,구룡산 트레일런
+ - 2026-11-15 제24회 상주 곶감 마라톤 대회
+   실패: URLError(TimeoutError('timed out'))
+ - 2026-11-15 제28회 부산국제마라톤
+ - 2026-11-15 제2회 세종특별자치시 전국 마라톤
+   실패: <HTTPError 999: 'No Hacking'>
+ - 2026-11-15 제3회 무등산더블하트국제트레일런대회
+   → poster
+ - 2026-11-15 제4회 영남알프스 전국 하프마라톤
+   실패: UnicodeEncodeError('latin-1', '영남알프스마라톤.kr', 0, 8, 'ordinal not in range(256)')
+ - 2026-11-21 2026 GETR구미 에코 트레일레이스
+ - 2026-11-21 2026 남해트레일레이스(가을)
+   → poster
+ - 2026-11-21 2026 서울 라이프마라톤(가을)
+   → poster
+ - 2026-11-21 2026 세정 가을바람 유러닝페스타
+ - 2026-11-21 2026 아식스 서울신문 고프리런
+   → price, poster
+ - 2026-11-21 GIVE RUN 2026 부산
+   → 찾은 정보 없음
+ - 2026-11-21 K-거상 트레일 러닝 대회
+ - 2026-11-21 런텐 14차 레이스 JUST RUN10 대구
+   포스터 저장 실패: HTTP Error 404: Not Found
+   → 찾은 정보 없음
+ - 2026-11-22 2026 김대중마라톤대회
+   실패: URLError(TimeoutError('timed out'))
+ - 2026-11-22 2026 무주반딧불평화마라톤
+   → startTime, poster
+ - 2026-11-22 2026 서울 억새풀 마라톤대회
+   실패: <HTTPError 999: 'No Hacking'>
+ - 2026-11-22 2026 인천마라톤
+   → price, poster
+ - 2026-11-22 2026 평화의숲 마라톤
+   → price, regStart, poster
+ - 2026-11-22 자이스 스마일 레이스
+   → price
+ - 2026-11-22 제6회 고용노동부장관배 직장인마라톤대회
+   중간 저장 완료: 대회 상세 정보 100개 반영
+   → poster
+ - 2026-11-28 2026 남원 춘향 전국 마라톤대회
+   실패: URLError(TimeoutError('timed out'))
+ - 2026-11-28 2026 평화런
+   → price, poster
+ - 2026-11-28 목욕런 2026
+ - 2026-11-29 2026 대전보문산트레일
+   실패: URLError(TimeoutError('timed out'))
+ - 2026-11-29 2026 새한미디어 마라톤
+   → 찾은 정보 없음
+ - 2026-11-29 2026 서울사랑마라톤
+   → poster
+ - 2026-11-29 2026 원주 치악마라톤
+   실패: <HTTPError 403: 'Forbidden'>
+ - 2026-11-29 2026 정읍공동체 프리마켓 마라톤
+   실패: URLError(TimeoutError('timed out'))
+ - 2026-11-29 2026 천안 희망나눔 마라톤
+   → poster
+ - 2026-11-29 가야왕도 김해 전국어울림 마라톤대회
+   → startTime, poster
+ - 2026-11-29 제14회 안중근 평화 마라톤
+   → regStart, poster
+ - 2026-11-29 제9회 광진구청장배 육상대회
+   → poster
+ - 2026-12-05 2026 하남 미사 호수 에너지런
+   → regStart, poster
+ - 2026-12-05 전국마라톤협회 2026 골드런 레이스
+   실패: URLError(TimeoutError('timed out'))
+ - 2026-12-05 제23회 한강시민마라톤
+   실패: URLError(TimeoutError('timed out'))
+ - 2026-12-05 제4회 가든파이브 라이프 레이스
+   실패: URLError(TimeoutError('timed out'))
+ - 2026-12-06 2026 부산브릿지 마라톤
+   → regStart, poster
+ - 2026-12-06 2026 청춘런
+   포스터 저장 실패: URL can't contain control characters. '/2026 청춘런/images/inc/image.png' (found at least ' ')
+   → price
+ - 2026-12-06 2026 황영조 로드레이스
+   → price, startTime, poster
+ - 2026-12-06 제1회 정읍 고향사랑기부마라톤
+   → 찾은 정보 없음
+ - 2026-12-06 제20회 양산전국하프마라톤
+   실패: <HTTPError 403: 'Forbidden'>
+ - 2026-12-12 2026 ONE MORE RUN
+   → startTime, poster
+ - 2026-12-12 2026 소년소녀 가장 돕기 기부런
+   실패: <HTTPError 999: 'No Hacking'>
+ - 2026-12-12 제3회 긍정의힘 마라톤
+   → regStart, poster
+ - 2026-12-13 제36회 진주마라톤
+ - 2026-12-13 제5회 밤섬 마라톤
+   → price, startTime, poster
+ - 2026-12-19 제2회 청춘 릴레이 마라톤
+   → price, regStart, poster
+ - 2026-12-20 2026 슬로우런마라톤(a.k.a. 동계훈련)
+   → 찾은 정보 없음
+ - 2026-12-26 2026 코리아 시즌 레이스
+   → regStart, poster
+ - 2026-12-28 2026 한강런 준비중
+   → price, regStart, startTime, poster
+ - 2027-02-20 2027 전마협 청주 무심천 투데이 마라톤
+   실패: URLError(TimeoutError('timed out'))
+ - 2027-02-20 제23회 밀양아리랑마라톤
+   실패: <HTTPError 403: 'Forbidden'>
+ - 2027-02-21 2027 전마협 청주 무심천 투데이 마라톤
+   실패: URLError(TimeoutError('timed out'))
+ - 2027-02-27 희망드림 제24회 동계마라톤대회
+   실패: <HTTPError 999: 'No Hacking'>
+ - 2027-03-01 2027 머니투데이방송 삼일절 마라톤
+   실패: URLError(TimeoutError('timed out'))
+ - 2027-03-21 2027 서울마라톤
+   → poster
+ - 2027-03-28 제3회 영광광풍마라톤
+   실패: URLError(TimeoutError('timed out'))
+ - 2027-04-18 제9회 오션뷰 기장바다마라톤
 KAKAO_REST_KEY 없음 → 좌표 변환 건너뜀
-저장 완료: 662개 대회
+저장 완료: 640개 대회
