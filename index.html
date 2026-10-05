@@ -263,6 +263,47 @@ table.it a{color:var(--brand);font-weight:600}
 .regbar b{font-weight:800}
 .desc{font-size:15.5px;line-height:1.8;color:var(--sub);margin:0 0 4px}
 #kmap{width:100%;height:320px;border-radius:12px;overflow:hidden;margin-bottom:12px;background:var(--soft)}
+.tl{display:flex;align-items:center;gap:22px;min-width:0}
+.mnav{display:flex;gap:2px}
+.mnav a{padding:7px 10px;border-radius:8px;font-size:14px;font-weight:700;color:var(--muted);text-decoration:none;white-space:nowrap}
+.mnav a.on{color:var(--ink);background:var(--soft)}
+.mnav a:hover{color:var(--brand)}
+@media (max-width:520px){.tl{gap:8px}.logo span.t{display:none}.ig span{display:none}.ig{padding:0 10px}.mnav a{padding:7px 8px;font-size:13px}}
+/* tools page */
+.thero{background:var(--deep);color:var(--deep-ink);position:relative;overflow:hidden}
+.thero::after{content:"";position:absolute;inset:auto -10% -70% 45%;height:130%;background:radial-gradient(closest-side,var(--glow),transparent);opacity:.5;pointer-events:none}
+.thero .in{position:relative;z-index:1;padding-block:40px 80px}
+.thero h1{margin:8px 0 0;font-size:clamp(26px,4.2vw,40px);font-weight:900;letter-spacing:-.035em;line-height:1.2}
+.thero p{margin:10px 0 0;opacity:.8}
+.tjump{display:flex;gap:6px;flex-wrap:wrap;margin-top:16px}
+.tjump a{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.18);border-radius:999px;padding:6px 14px;font-size:13px;font-weight:700;text-decoration:none;color:var(--deep-ink)}
+.tools{display:grid;gap:20px;margin-top:-48px;position:relative;z-index:2;padding-bottom:64px}
+.tool{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:22px;scroll-margin-top:80px;min-width:0}
+.tool h2{margin:0;font-size:20px;font-weight:900;letter-spacing:-.02em;display:flex;gap:8px;align-items:center}
+.tool h2 .ico{color:var(--brand);width:20px;height:20px}
+.tool .lead{margin:4px 0 16px;color:var(--sub);font-size:14px}
+.tgrid{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));align-items:end}
+.tf label{display:block;font-size:12px;font-weight:800;color:var(--muted);margin-bottom:6px}
+.tf input,.tf select{width:100%;height:42px;border-radius:10px;border:1px solid var(--line);background:var(--card);padding:0 12px;font-size:15px}
+.hms{display:flex;gap:6px;align-items:center}.hms input{text-align:center;padding:0 4px}.hms span{color:var(--muted)}
+.stats{display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));margin:16px 0}
+.st{background:var(--soft);border-radius:12px;padding:14px 16px}
+.st small{display:block;font-size:12px;color:var(--muted);font-weight:700}
+.st b{font-size:26px;font-weight:900;letter-spacing:-.03em}
+.st.hi{background:var(--brand-soft)}.st.hi b{color:var(--brand)}
+@media (max-width:560px){.stats{grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}.st{padding:10px}.st b{font-size:17px}.st small{font-size:11px}.tool{padding:18px 16px}}
+.ptab{overflow-x:auto;border:1px solid var(--line);border-radius:12px;margin-top:12px}
+.ptab table{border-collapse:collapse;width:100%;font-size:14px}
+.ptab th,.ptab td{padding:10px 14px;text-align:right;white-space:nowrap;border-bottom:1px solid var(--line)}
+.ptab th{background:var(--soft);font-size:12px;color:var(--muted);font-weight:800}
+.ptab th:first-child,.ptab td:first-child{text-align:left}
+.ptab td:first-child{font-weight:800}
+.ptab td:nth-child(2){color:var(--brand);font-weight:800}
+.ptab tr:last-child td{border-bottom:0}
+.meter{height:12px;border-radius:999px;background:var(--soft);overflow:hidden}
+.meter i{display:block;height:100%;background:var(--brand);border-radius:999px;transition:width .3s}
+.meter.warn i{background:var(--warn)}
+.verdict{margin-top:12px;font-weight:700;display:flex;gap:8px;align-items:center}
 footer{background:var(--card);border-top:1px solid var(--line);padding-block:28px;font-size:13px;color:var(--muted)}
 footer .in{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;align-items:center}
 footer p{margin:4px 0 0}
@@ -297,8 +338,9 @@ footer p{margin:4px 0 0}
 </svg>
 
 <header class="top"><div class="in">
-  <a class="logo" href="#"><i>R</i>러너스팟</a>
-  <a class="ig" id="igTop" href="https://www.instagram.com/" target="_blank" rel="noopener"><svg class="ico"><use href="#i-insta"/></svg>인스타그램</a>
+  <div class="tl"><a class="logo" href="#"><i>R</i><span class="t">러너스팟</span></a>
+    <nav class="mnav" aria-label="메뉴"><a href="#" id="navRace">대회 찾기</a><a href="#tools" id="navTools">러닝 계산기</a></nav></div>
+  <a class="ig" id="igTop" href="https://www.instagram.com/" target="_blank" rel="noopener"><svg class="ico"><use href="#i-insta"/></svg><span>인스타그램</span></a>
 </div></header>
 
 <div id="app"></div>
@@ -589,10 +631,75 @@ function detail(id){
   }
 }
 
+/* ===== 러닝 계산기 ===== */
+const TKM={"5":5,"10":10,"half":21.0975,"full":42.195};
+const TNAME={"5":"5km","10":"10km","half":"하프","full":"풀코스"};
+function tools(){
+  $("app").innerHTML=`
+  <section class="thero"><div class="in"><div class="kicker">RUNNERSPOT TOOLS</div><h1>러닝 계산기</h1>
+    <p>목표 기록에 필요한 페이스, 서브 기록별 페이스, 러닝화 바꿀 때까지 한 번에 계산해보세요.</p>
+    <div class="tjump"><a href="#" data-jump="t-pace">페이스 계산기</a><a href="#" data-jump="t-table">목표 기록별 페이스표</a><a href="#" data-jump="t-shoe">러닝화 교체시기</a></div></div></section>
+  <div class="in tools">
+    <section class="tool" id="t-pace"><h2>${I("gauge")}페이스 계산기</h2><p class="lead">목표 기록을 넣으면 km당 페이스와 거리별 통과 시간이 나와요.</p>
+      <div class="tgrid">
+        <div class="tf"><label for="tpD">거리</label><select id="tpD"><option value="5">5km</option><option value="10">10km</option><option value="half" selected>하프 (21.0975km)</option><option value="full">풀코스 (42.195km)</option><option value="custom">직접 입력</option></select></div>
+        <div class="tf" id="tpCW" hidden><label for="tpC">거리 (km)</label><input id="tpC" type="number" min="0.4" step="0.1" value="15" inputmode="decimal"></div>
+        <div class="tf"><label>목표 기록 (시:분:초)</label><div class="hms"><input id="tpH" type="number" min="0" max="9" value="2" inputmode="numeric" aria-label="시간"><span>:</span><input id="tpM" type="number" min="0" max="59" value="0" inputmode="numeric" aria-label="분"><span>:</span><input id="tpS" type="number" min="0" max="59" value="0" inputmode="numeric" aria-label="초"></div></div>
+      </div>
+      <div class="stats"><div class="st hi"><small>km당 페이스</small><b class="tnum" id="tpP">–</b></div><div class="st"><small>시속</small><b class="tnum" id="tpV">–</b></div><div class="st"><small>400m 트랙 1바퀴</small><b class="tnum" id="tpL">–</b></div></div>
+      <div class="splits" id="tpSp"></div>
+    </section>
+    <section class="tool" id="t-table"><h2>${I("list")}목표 기록별 페이스표</h2><p class="lead">이 페이스를 처음부터 끝까지 유지하면 목표 기록이 나와요.</p>
+      <div class="opts" id="ttSeg"></div><div class="ptab"><table><thead id="ttH"></thead><tbody id="ttB"></tbody></table></div></section>
+    <section class="tool" id="t-shoe"><h2>${I("run")}러닝화 교체시기 계산기</h2><p class="lead">쿠션은 보통 500~800km에서 눈에 띄게 꺼져요. 신발 종류에 따라 기준이 달라요.</p>
+      <div class="tgrid">
+        <div class="tf"><label for="tsT">신발 종류</label><select id="tsT"><option value="700">데일리 쿠션화 (약 700km)</option><option value="650">안정화 (약 650km)</option><option value="500">템포·경량화 (약 500km)</option><option value="350">카본 레이싱화 (약 350km)</option><option value="600">트레일화 (약 600km)</option></select></div>
+        <div class="tf"><label for="tsS">처음 신은 날</label><input id="tsS" type="date"></div>
+        <div class="tf"><label for="tsW">주간 러닝 거리 (km)</label><input id="tsW" type="number" min="1" value="25" inputmode="decimal"></div>
+      </div>
+      <div class="stats"><div class="st"><small>지금까지 달린 거리</small><b class="tnum" id="tsD">–</b></div><div class="st"><small>남은 거리</small><b class="tnum" id="tsL">–</b></div><div class="st hi"><small>교체 예상일</small><b class="tnum" id="tsR">–</b></div></div>
+      <div class="meter" id="tsM"><i id="tsBar" style="width:0"></i></div><div class="verdict" id="tsV"></div></section>
+  </div>`;
+  document.querySelector(".tjump").onclick=e=>{const a=e.target.closest("[data-jump]");if(!a)return;e.preventDefault();$(a.dataset.jump).scrollIntoView({behavior:"smooth"})};
+  /* 1. 페이스 계산기 */
+  const pc=()=>{const v=$("tpD").value;$("tpCW").hidden=v!=="custom";const D=v==="custom"?(+$("tpC").value||0):TKM[v];
+    const T=(+$("tpH").value||0)*3600+(+$("tpM").value||0)*60+(+$("tpS").value||0);
+    if(!T||!D){["tpP","tpV","tpL"].forEach(i=>$(i).textContent="–");$("tpSp").innerHTML="";return}
+    const p=T/D;$("tpP").textContent=fmt(p);$("tpV").textContent=(D/(T/3600)).toFixed(1)+"km/h";$("tpL").textContent=fmt(p*.4);
+    let marks=D<=5?[1,2,3,4]:D<=10?[1,2,3,4,5,6,7,8,9]:D<=21.1?[5,10,15,20]:[5,10,15,20,21.0975,25,30,35,40];marks=marks.filter(m=>m<D);
+    $("tpSp").innerHTML=`<h3>거리별 통과 시간<span>${D===21.0975?"하프":D===42.195?"풀코스":D+"km"} 기준</span></h3><div class="sgrid">${marks.map(m=>`<div class="sp"><small>${m===21.0975?"하프":m+"km"}</small><b class="tnum">${fmt(p*m)}</b></div>`).join("")}<div class="sp fin"><small>완주</small><b class="tnum">${fmt(T)}</b></div></div>`};
+  const PDEF={"5":[0,28,0],"10":[0,55,0],"half":[2,0,0],"full":[4,30,0],"custom":[1,30,0]};
+  $("tpD").onchange=()=>{const d=PDEF[$("tpD").value];$("tpH").value=d[0];$("tpM").value=d[1];$("tpS").value=d[2];pc()};
+  ["tpC","tpH","tpM","tpS"].forEach(i=>$(i).oninput=pc);pc();
+  /* 2. 목표 기록별 페이스표 */
+  const SETS={"5":["20:00","25:00","30:00","35:00","40:00"],"10":["40:00","45:00","50:00","55:00","1:00:00","1:05:00","1:10:00"],
+    "half":["1:30:00","1:40:00","1:50:00","2:00:00","2:15:00","2:30:00"],"full":["3:00:00","3:15:00","3:30:00","3:45:00","4:00:00","4:30:00","5:00:00","6:00:00"]};
+  let cur="half";const sec=t=>t.split(":").reduce((a,v)=>a*60+ +v,0);
+  const tt=()=>{$("ttSeg").innerHTML=Object.keys(SETS).map(k=>`<button type="button" class="fb" data-k="${k}" aria-pressed="${k===cur}">${TNAME[k]}</button>`).join("");
+    const D=TKM[cur],cols=D>21.1?[5,10,21.0975,30,35,40]:D>10?[5,10,15,20]:D>5?[3,5,8]:[1,3];
+    $("ttH").innerHTML=`<tr><th>목표</th><th>km 페이스</th>${cols.map(c=>`<th>${c===21.0975?"하프":c+"km"}</th>`).join("")}</tr>`;
+    $("ttB").innerHTML=SETS[cur].map(t=>{const T=sec(t),p=T/D;return `<tr><td>서브 ${t.replace(/:00$/,"").replace(/^0:/,"")}</td><td class="tnum">${fmt(p)}</td>${cols.map(c=>`<td class="tnum">${fmt(p*c)}</td>`).join("")}</tr>`}).join("")};
+  $("ttSeg").onclick=e=>{const b=e.target.closest("button");if(!b)return;cur=b.dataset.k;tt()};tt();
+  /* 3. 러닝화 교체시기 */
+  const sv=store.get("rs-life",null);const d0=new Date(TODAY);d0.setMonth(d0.getMonth()-4);
+  $("tsS").value=sv?.start||d0.toISOString().slice(0,10);if(sv){$("tsT").value=sv.type;$("tsW").value=sv.week}
+  const sc=()=>{const life=+$("tsT").value,wk=+$("tsW").value||0,st=new Date($("tsS").value+"T00:00");
+    store.set("rs-life",{type:$("tsT").value,week:$("tsW").value,start:$("tsS").value});
+    if(isNaN(st)||!wk){$("tsV").textContent="처음 신은 날과 주간 거리를 넣어주세요.";return}
+    const done=Math.max(0,(TODAY-st)/6048e5)*wk,left=Math.max(0,life-done),rep=new Date(st.getTime()+life/wk*6048e5),r=Math.min(1,done/life);
+    $("tsD").textContent=Math.round(done)+"km";$("tsL").textContent=Math.round(left)+"km";
+    $("tsR").textContent=`${rep.getFullYear()}.${rep.getMonth()+1}.${rep.getDate()}`;
+    $("tsBar").style.width=r*100+"%";$("tsM").classList.toggle("warn",r>=.8);
+    $("tsV").textContent=r>=1?"교체할 때가 지났어요. 무릎이나 정강이가 아프기 전에 바꾸세요.":r>=.8?"슬슬 새 신발 알아볼 때예요. 밑창이 한쪽만 닳았는지도 확인해보세요.":r>=.5?"절반 넘게 썼어요. 쿠션 느낌이 줄었는지 체크해보세요.":"아직 쌩쌩해요. 계속 달리세요!"};
+  ["tsT","tsS","tsW"].forEach(i=>$(i).oninput=sc);sc();
+}
+
 /* ===== router ===== */
 let lastY=0;
 function route(){
   const h=location.hash.slice(1);
+  $("navRace").classList.toggle("on",h!=="tools");$("navTools").classList.toggle("on",h==="tools");
+  if(h==="tools"){tools();window.scrollTo(0,0);return}
   if(h.startsWith("race-")){if(!document.querySelector(".dhero"))lastY=scrollY;detail(h.slice(5));window.scrollTo(0,0)}
   else{listShell();renderList();if(lastY){window.scrollTo(0,lastY);lastY=0}}
 }
