@@ -1,6 +1,6 @@
 {
  "updated": "2026-10-05",
- "count": 210,
+ "count": 219,
  "races": [
   {
    "id": "f1e35e4b",
@@ -3659,6 +3659,169 @@
    "site": null,
    "status": "open",
    "kind": "로드"
+  },
+  {
+   "id": "rr41877",
+   "date": "2027-02-20",
+   "name": "2027 전마협 청주 무심천 투데이 마라톤",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "충북",
+   "region": "충청",
+   "place": "청주 무심천 롤러스케이트장",
+   "host": "전국마라톤협회",
+   "phone": "042-638-1080",
+   "site": "http://mara1080.com/event/3a1225a6-b473-4fb7-8f26-cda304cff617",
+   "status": null,
+   "kind": "로드"
+  },
+  {
+   "id": "rr41900",
+   "date": "2027-02-20",
+   "name": "제23회 밀양아리랑마라톤",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "기타",
+   "region": "기타",
+   "place": "밀양종합운동장",
+   "host": "밀양시",
+   "phone": "055-359-5965",
+   "site": "http://www.miryangmarathon.com",
+   "status": null,
+   "kind": "로드"
+  },
+  {
+   "id": "rr41878",
+   "date": "2027-02-21",
+   "name": "2027 전마협 청주 무심천 투데이 마라톤",
+   "dist": [
+    "Full",
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "충북",
+   "region": "충청",
+   "place": "청주 무심천 롤러스케이트장",
+   "host": "전국마라톤협회",
+   "phone": "042-638-1080",
+   "site": "http://mara1080.com/event/b1aef378-cf4a-43b9-b2fd-a2d1ae33bc15",
+   "status": null,
+   "kind": "로드"
+  },
+  {
+   "id": "rr41631",
+   "date": "2027-02-27",
+   "name": "희망드림 제24회 동계마라톤대회",
+   "dist": [
+    "Half",
+    "10K",
+    "5K",
+    "32K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "여의도 한강 물빛광장",
+   "host": "(사)한국마라톤연맹",
+   "phone": "02-2647-4488",
+   "site": "http://dkrun.co.kr",
+   "status": null,
+   "kind": "로드"
+  },
+  {
+   "id": "rr41901",
+   "date": "2027-03-01",
+   "name": "2027 머니투데이방송 삼일절 마라톤",
+   "dist": [
+    "Full",
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "뚝섬한강공원 수변무대",
+   "host": "(주)머니투데이",
+   "phone": "042-",
+   "site": "http://mara1080.com/event/83acaaf1-1e30-411a-ac71-5e909ba1f7d9",
+   "status": null,
+   "kind": "로드"
+  },
+  {
+   "id": "rr41626",
+   "date": "2027-03-21",
+   "name": "2027 서울마라톤",
+   "dist": [
+    "Full",
+    "10K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "광화문광장",
+   "host": "동아일보,서울시",
+   "phone": "02-361-1410",
+   "site": "http://seoul-marathon.com",
+   "status": null,
+   "kind": "로드"
+  },
+  {
+   "id": "rr41875",
+   "date": "2027-03-28",
+   "name": "제3회 영광광풍마라톤",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "기타",
+   "region": "기타",
+   "place": "영광 스포디움",
+   "host": "전국마라톤협회",
+   "phone": "042-638-1080",
+   "site": "http://mara1080.com/event/92394e8e-a27c-4c3a-b286-7233340a9e7a",
+   "status": null,
+   "kind": "로드"
+  },
+  {
+   "id": "rr41627",
+   "date": "2027-04-18",
+   "name": "제9회 오션뷰 기장바다마라톤",
+   "dist": [
+    "Half",
+    "10K",
+    "3K 슬로우조깅"
+   ],
+   "sido": "부산",
+   "region": "경상",
+   "place": "오시리아 동부산관광9로",
+   "host": "기장바다마라톤조직위",
+   "phone": "051-723-6686",
+   "site": "http://www.badarun.co.kr",
+   "status": null,
+   "kind": "로드"
+  },
+  {
+   "id": "rr41236",
+   "date": "2027-10-09",
+   "name": "제7회 천안삼거리 흥타령울트라마라톤",
+   "dist": [
+    "100K",
+    "60K"
+   ],
+   "sido": "충남",
+   "region": "충청",
+   "place": "천안삼거리공원",
+   "host": "천안삼거리흥타령울트라조직위",
+   "phone": "010-2412-5294",
+   "site": "http://www.chultra.kr/",
+   "status": null,
+   "kind": "울트라"
   }
  ]
 }
