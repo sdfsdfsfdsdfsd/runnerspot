@@ -1,0 +1,3664 @@
+{
+ "updated": "2026-10-05",
+ "count": 210,
+ "races": [
+  {
+   "id": "f1e35e4b",
+   "date": "2026-10-03",
+   "name": "2026 마스터즈 하프 마라톤",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "상암 월드컵공원 평화광장",
+   "host": "(사)사회안전예방중앙회",
+   "phone": "02-2636-6543",
+   "site": "http://mastershalf.kr/",
+   "status": null,
+   "kind": "로드"
+  },
+  {
+   "id": "afecf648",
+   "date": "2026-10-03",
+   "name": "2026 서산 코스모스 황금들녘 마라톤 대회",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "충남",
+   "region": "충청",
+   "place": "서산스포츠테마파크",
+   "host": "서산시체육회",
+   "phone": "042-638-1080",
+   "site": "http://mara1080.com/event/fcaa0bc8-1489-47c3-8fec-8e5a5c17284e",
+   "status": null,
+   "kind": "로드"
+  },
+  {
+   "id": "b80d5a4b",
+   "date": "2026-10-03",
+   "name": "2026 완주트레일런",
+   "dist": [
+    "36K",
+    "22K",
+    "7K"
+   ],
+   "sido": "전북",
+   "region": "전라",
+   "place": "완주군 고산자연휴양림",
+   "host": "완주군/삼삼이즈",
+   "phone": null,
+   "site": "http://samsamis.com/34",
+   "status": null,
+   "kind": "트레일"
+  },
+  {
+   "id": "3ccd6cfb",
+   "date": "2026-10-03",
+   "name": "2026 이일선마라톤",
+   "dist": [
+    "10K",
+    "4.4K걷기"
+   ],
+   "sido": "경북",
+   "region": "경상",
+   "place": "울릉도내 나리분지",
+   "host": "이일선기념사업회",
+   "phone": "010-6353-7227",
+   "site": "http://forms.gle/6Y88RJqW6QCZkZoE7",
+   "status": null,
+   "kind": "로드"
+  },
+  {
+   "id": "37eb781d",
+   "date": "2026-10-03",
+   "name": "2026 천사데이기념 동두천천사마라톤",
+   "dist": [
+    "10K",
+    "5K",
+    "걷기 2K"
+   ],
+   "sido": "경기",
+   "region": "경기·인천",
+   "place": "경기도 동두천시 캠프보산",
+   "host": "(사)희망지킴이 천사운동본부",
+   "phone": "031-861-1004",
+   "site": "http://hope1004.org",
+   "status": null,
+   "kind": "로드"
+  },
+  {
+   "id": "885776b9",
+   "date": "2026-10-03",
+   "name": "2026 춘천연합마라톤",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "강원",
+   "region": "강원",
+   "place": "춘천시 엘리시안 강촌",
+   "host": "연합뉴스, 춘천시육상연맹",
+   "phone": "033-244-7758",
+   "site": "http://www.yonma.kr",
+   "status": null,
+   "kind": "로드"
+  },
+  {
+   "id": "045bee70",
+   "date": "2026-10-03",
+   "name": "2026 하반기 JUST RUN10 청주",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "충북",
+   "region": "충청",
+   "place": "무심천체육공원",
+   "host": "(주)러닝브레이커, 전국러닝협회",
+   "phone": "042-710-2058",
+   "site": "http://runten.co.kr",
+   "status": null,
+   "kind": "로드"
+  },
+  {
+   "id": "d432f21e",
+   "date": "2026-10-03",
+   "name": "제 2회 아산이순신 트레일",
+   "dist": [
+    "60K",
+    "46K"
+   ],
+   "sido": "충남",
+   "region": "충청",
+   "place": "아산 신정호 이순신장군 동상앞",
+   "host": "아산 이순신트레일 조직위원회",
+   "phone": "010-3447-9714",
+   "site": "http://isunshintrail.com",
+   "status": null,
+   "kind": "트레일"
+  },
+  {
+   "id": "b9ce2726",
+   "date": "2026-10-03",
+   "name": "제25회 김제새만금 지평선 전국마라톤",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "전북",
+   "region": "전라",
+   "place": "김제시민운동장 일원",
+   "host": "김제스포츠클럽",
+   "phone": "063-548-0095",
+   "site": "http://gimjesm.co.kr",
+   "status": null,
+   "kind": "로드"
+  },
+  {
+   "id": "b0e3ce66",
+   "date": "2026-10-04",
+   "name": "2026 Run Your Way Seoul 10K",
+   "dist": [
+    "10K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "여의도공원 문화의 광장",
+   "host": "뉴발란스",
+   "phone": "02-312-1998",
+   "site": "http://www.nbkorea.com/launchingCalendar/detail.action?listStatus=H&launchingIdx=3117",
+   "status": null,
+   "kind": "로드"
+  },
+  {
+   "id": "d3ec23e3",
+   "date": "2026-10-04",
+   "name": "2026 안동마라톤",
+   "dist": [
+    "Full",
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "경북",
+   "region": "경상",
+   "place": "안동시민운동장",
+   "host": "안동시, 매일신문사",
+   "phone": "031-575-7243",
+   "site": "http://www.admarathon.kr",
+   "status": null,
+   "kind": "로드"
+  },
+  {
+   "id": "3cb425eb",
+   "date": "2026-10-04",
+   "name": "2026 파주북시티마라톤",
+   "dist": [
+    "10K",
+    "5K",
+    "3K"
+   ],
+   "sido": "경기",
+   "region": "경기·인천",
+   "place": "파주출판도시",
+   "host": "(사)파주출판도시입주기업체협의",
+   "phone": "031-955-0025",
+   "site": "http://runbookcity.com",
+   "status": null,
+   "kind": "로드"
+  },
+  {
+   "id": "7e3ca04a",
+   "date": "2026-10-04",
+   "name": "2026 홍천사랑마라톤",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "강원",
+   "region": "강원",
+   "place": "홍천종합운동장",
+   "host": "홍천시체육회, 홍천육상연맹",
+   "phone": "1866-1718",
+   "site": "http://www.hongcheonrun.net/",
+   "status": null,
+   "kind": "로드"
+  },
+  {
+   "id": "3462c676",
+   "date": "2026-10-04",
+   "name": "S-OIL과 함께하는 감동의 마라톤",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "상암동 평화의 광장",
+   "host": "S-OIL, 한국장애인재활협회",
+   "phone": "010-3482-6615",
+   "site": "http://감동의마라톤.com",
+   "status": null,
+   "kind": "로드"
+  },
+  {
+   "id": "63f0f3fe",
+   "date": "2026-10-04",
+   "name": "제14회 광명시장배건강달리기",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "경기",
+   "region": "경기·인천",
+   "place": "광명 찬빛광장(안양천)",
+   "host": "광명시육상연맹",
+   "phone": "010-2234-2248",
+   "site": "http://gmaf.kr",
+   "status": null,
+   "kind": "로드"
+  },
+  {
+   "id": "70412fb2",
+   "date": "2026-10-04",
+   "name": "제20회 달서하프마라톤",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "대구",
+   "region": "경상",
+   "place": "대구 달서구 호림강나루공원",
+   "host": "달서구체육회",
+   "phone": "053-635-8683",
+   "site": "http://www.달서하프마라톤.kr",
+   "status": null,
+   "kind": "로드"
+  },
+  {
+   "id": "77ce3089",
+   "date": "2026-10-04",
+   "name": "제23회 경남마라톤",
+   "dist": [
+    "10K",
+    "3K"
+   ],
+   "sido": "경남",
+   "region": "경상",
+   "place": "창원종합운동장 보조경기장",
+   "host": "(주)경남신문사",
+   "phone": "055-210-6104",
+   "site": "http://www.knmarathon.co.kr",
+   "status": null,
+   "kind": "로드"
+  },
+  {
+   "id": "f9e8d8ab",
+   "date": "2026-10-05",
+   "name": "2026 서울오픈마라톤",
+   "dist": [
+    "Half",
+    "10K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "광화문광장(예정)",
+   "host": "(사)한국체육개발원 등",
+   "phone": "070-7766-1238",
+   "site": "http://seoulopen.or.kr",
+   "status": null,
+   "kind": "로드"
+  },
+  {
+   "id": "aff6cfa5",
+   "date": "2026-10-05",
+   "name": "2026 양주 천일홍 가을 페스타 마라톤",
+   "dist": [
+    "Half",
+    "10K",
+    "5K",
+    "걷기"
+   ],
+   "sido": "경기",
+   "region": "경기·인천",
+   "place": "양주시 나리농원",
+   "host": "양주시체육회",
+   "phone": "02-556-8879",
+   "site": "http://yangjurun.kr",
+   "status": null,
+   "kind": "로드"
+  },
+  {
+   "id": "9bf12bd8",
+   "date": "2026-10-05",
+   "name": "2026 한경서울마라톤",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "여의도 문화의공원 일원",
+   "host": "한경닷컴/런코리아",
+   "phone": "1566-1936",
+   "site": "http://www.hk-marathon.com/",
+   "status": null,
+   "kind": "로드"
+  },
+  {
+   "id": "1fa7411c",
+   "date": "2026-10-05",
+   "name": "런센스 2026",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "상암동 평화의공원 평화광장",
+   "host": "(주)일요신문사 (주)비즈한국",
+   "phone": "070-7706-1011",
+   "site": "http://www.runsense.co.kr",
+   "status": null,
+   "kind": "로드"
+  },
+  {
+   "id": "4e915a38",
+   "date": "2026-10-05",
+   "name": "제12회 시흥시 전국하프마라톤",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "경기",
+   "region": "경기·인천",
+   "place": "한국공학대학교 제2캠퍼스",
+   "host": "경기일보, 시흥시체육회",
+   "phone": "031-575-7243",
+   "site": "http://shmarathon.kr",
+   "status": null,
+   "kind": "로드"
+  },
+  {
+   "id": "4983fd8d",
+   "date": "2026-10-05",
+   "name": "제23회 강남국제평화마라톤",
+   "dist": [
+    "Full",
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "봉은사로 삼성1동 주민센터 앞",
+   "host": "강남구,미8군사령부",
+   "phone": "02-3462-7330",
+   "site": "http://peacemarathon.co.kr",
+   "status": null,
+   "kind": "로드"
+  },
+  {
+   "id": "6f340188",
+   "date": "2026-10-09",
+   "name": "2026 고흥우주항공배 마라톤",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "전남",
+   "region": "전라",
+   "place": "고흥군 박지성공설운동장",
+   "host": "고흥군체육회",
+   "phone": "042-638-1080",
+   "site": "http://mara1080.com/event/10fcc153-1bb7-403e-8f57-7571c1c324d5",
+   "status": null,
+   "kind": "로드"
+  },
+  {
+   "id": "3223ae66",
+   "date": "2026-10-09",
+   "name": "2026 한글런",
+   "dist": [
+    "5.15K",
+    "10.9K"
+   ],
+   "sido": "세종",
+   "region": "충청",
+   "place": "세종중앙공원 도시축제마당",
+   "host": "헤럴드경제",
+   "phone": "02-338-6564",
+   "site": "http://hangeulrun.com/",
+   "status": null,
+   "kind": "로드"
+  },
+  {
+   "id": "88b3e0e3",
+   "date": "2026-10-09",
+   "name": "WYD와 함께하는 생명사랑 마라톤/걷기 대회",
+   "dist": [
+    "10K",
+    "5K",
+    "5K 걷기"
+   ],
+   "sido": "경기",
+   "region": "경기·인천",
+   "place": "안성 미리내 성지",
+   "host": "마라톤선교연합회/천주교수원교구",
+   "phone": "010-8235-0759",
+   "site": "http://cafe.naver.com/browna6seu",
+   "status": null,
+   "kind": "로드"
+  },
+  {
+   "id": "2945ef7b",
+   "date": "2026-10-09",
+   "name": "제26회 홍성마라톤",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "충남",
+   "region": "충청",
+   "place": "홍주 종합경기장",
+   "host": "홍성군체육회",
+   "phone": "02-2647-4488",
+   "site": "http://amarunhs.com",
+   "status": null,
+   "kind": "로드"
+  },
+  {
+   "id": "88f22f5c",
+   "date": "2026-10-10",
+   "name": "2026 경포마라톤",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "강원",
+   "region": "강원",
+   "place": "강원특별자치도 강릉시",
+   "host": "(주)강원도민일보",
+   "phone": "033-651-0112",
+   "site": "http://www.경포마라톤.com",
+   "status": null,
+   "kind": "로드"
+  },
+  {
+   "id": "0d7ce861",
+   "date": "2026-10-10",
+   "name": "2026 연수 꿈이음길 러닝대회",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "인천",
+   "region": "경기·인천",
+   "place": "인천광역시 연수구 한마음공원",
+   "host": "(주)경기일보",
+   "phone": "010-5426-3381",
+   "site": "http://kyeonggiincheon.com",
+   "status": null,
+   "kind": "로드"
+  },
+  {
+   "id": "c1f7a53f",
+   "date": "2026-10-10",
+   "name": "2026 하트런",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "올림픽공원 피크닉장",
+   "host": "하트-하트재단",
+   "phone": "070-4350-5663",
+   "site": "http://heartrun.co.kr/",
+   "status": null,
+   "kind": "로드"
+  },
+  {
+   "id": "77f814ae",
+   "date": "2026-10-10",
+   "name": "제3회 성동구연맹회장기 마라톤",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "살곶이대운동장(축구장)",
+   "host": "성동구체육회 / 성동구육상연맹",
+   "phone": null,
+   "site": "http://samsamis.com/57",
+   "status": null,
+   "kind": "로드"
+  },
+  {
+   "id": "c68614be",
+   "date": "2026-10-10",
+   "name": "제3회서울트레일런 대회",
+   "dist": [
+    "37K",
+    "20K",
+    "11K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "시청 덕수궁돌담길",
+   "host": "서울울트라랠리",
+   "phone": "02-776-4288",
+   "site": null,
+   "status": null,
+   "kind": "트레일"
+  },
+  {
+   "id": "ff5fdc64",
+   "date": "2026-10-10",
+   "name": "제4회 강서허준런(RUN)",
+   "dist": [
+    "10K",
+    "5K",
+    "3K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "서울식물원 초지원",
+   "host": "강서구",
+   "phone": "02-2600-6795",
+   "site": "http://강서허준런.com",
+   "status": null,
+   "kind": "로드"
+  },
+  {
+   "id": "abf55f6c",
+   "date": "2026-10-10",
+   "name": "제5회 구미시장배 금오산트레일 레이스",
+   "dist": [
+    "10K",
+    "23K",
+    "18K"
+   ],
+   "sido": "경북",
+   "region": "경상",
+   "place": "금오산 공영 대주차장",
+   "host": "구미시산악연맹, 구미트레일런",
+   "phone": "010-3504-1206",
+   "site": "http://cafe.naver.com/gumitrailrunnerclub",
+   "status": null,
+   "kind": "트레일"
+  },
+  {
+   "id": "1343a2f0",
+   "date": "2026-10-10",
+   "name": "제5회 무등산지오마라톤",
+   "dist": [
+    "Half",
+    "10K",
+    "5K",
+    "30K"
+   ],
+   "sido": "전남",
+   "region": "전라",
+   "place": "화순 금호스파리조트",
+   "host": "광주,전라남도,담양군,화순군",
+   "phone": "061-375-1201",
+   "site": "http://georun.kr/ko/",
+   "status": null,
+   "kind": "로드"
+  },
+  {
+   "id": "4e2eb09c",
+   "date": "2026-10-10",
+   "name": "제주풍차런",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "제주",
+   "region": "제주",
+   "place": "한림수협다목적어업인종합지원센터",
+   "host": "주식회사 어디감수광, 수원리",
+   "phone": "010-4281-4624",
+   "site": "http://jejuwindmillrun.com",
+   "status": null,
+   "kind": "로드"
+  },
+  {
+   "id": "79c0efd6",
+   "date": "2026-10-10",
+   "name": "진안트레일레이스",
+   "dist": [
+    "16K",
+    "6K"
+   ],
+   "sido": "전북",
+   "region": "전라",
+   "place": "국립진안고원산림치유원",
+   "host": "주식회사 락앤런",
+   "phone": "063-353-2025",
+   "site": "http://rocknrun.kr",
+   "status": null,
+   "kind": "트레일"
+  },
+  {
+   "id": "8dd0019b",
+   "date": "2026-10-10",
+   "name": "충주 앙성 비내길 마라톤 대회",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "충북",
+   "region": "충청",
+   "place": "충주앙성온천광장",
+   "host": "앙성면체육회",
+   "phone": "042-638-1080",
+   "site": "http://mara1080.com/event/380079d2-ab1c-4351-b1f2-d21ccaba5cdd/guide/overview",
+   "status": null,
+   "kind": "로드"
+  },
+  {
+   "id": "151f4f84",
+   "date": "2026-10-10",
+   "name": "카카오프렌즈런 2026",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "경기",
+   "region": "경기·인천",
+   "place": "탄천 종합운동장",
+   "host": "카카오",
+   "phone": "1577-6263",
+   "site": "http://b.kakao.com/views/kakaofriendsrun",
+   "status": null,
+   "kind": "로드"
+  },
+  {
+   "id": "2f6d92dd",
+   "date": "2026-10-11",
+   "name": "2026 MBN 전국 나주 마라톤대회",
+   "dist": [
+    "Full",
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "전남",
+   "region": "전라",
+   "place": "나주종합스포츠파크",
+   "host": "나주시, MBN, 매일경제",
+   "phone": "031-821-9949",
+   "site": "http://najumarathon.com",
+   "status": null,
+   "kind": "로드"
+  },
+  {
+   "id": "d2eb5ba9",
+   "date": "2026-10-11",
+   "name": "2026 당진황금들녘 건강마라톤",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "충남",
+   "region": "충청",
+   "place": "당진 삽교 관광단지 헬기장",
+   "host": "당진시스포츠관광협회",
+   "phone": "010-2126-2019",
+   "site": "http://당진마라톤대회.com",
+   "status": null,
+   "kind": "로드"
+  },
+  {
+   "id": "9e14f280",
+   "date": "2026-10-11",
+   "name": "2026 문경 오미자 하프마라톤",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "경북",
+   "region": "경상",
+   "place": "문경시민운동장",
+   "host": "영남일보",
+   "phone": "1600-3949",
+   "site": "http://mgmarathon.kr",
+   "status": null,
+   "kind": "로드"
+  },
+  {
+   "id": "8f48bf6a",
+   "date": "2026-10-11",
+   "name": "2026 서울레이스",
+   "dist": [
+    "Half",
+    "10K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "서울광장",
+   "host": "동아일보",
+   "phone": "02-312-1998",
+   "site": "http://www.seoul-race.co.kr",
+   "status": null,
+   "kind": "로드"
+  },
+  {
+   "id": "50cb033f",
+   "date": "2026-10-11",
+   "name": "2026 울산마라톤대회",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "울산",
+   "region": "경상",
+   "place": "울산종합운동장",
+   "host": "울산광역시 육상연맹",
+   "phone": "052-286-6605",
+   "site": "http://run.uaf.co.kr/",
+   "status": null,
+   "kind": "로드"
+  },
+  {
+   "id": "b7e06e18",
+   "date": "2026-10-11",
+   "name": "2026 인천로봇랜드 퓨처런",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "인천",
+   "region": "경기·인천",
+   "place": "인천로봇랜드 로봇타워",
+   "host": "기호일보",
+   "phone": "1866-1718",
+   "site": "http://futurerun.co.kr/",
+   "status": null,
+   "kind": "로드"
+  },
+  {
+   "id": "74299b5a",
+   "date": "2026-10-11",
+   "name": "2026 천안 이봉주 마라톤",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "충남",
+   "region": "충청",
+   "place": "천안종합운동장 일원",
+   "host": "천안시체육회",
+   "phone": "1600-3962",
+   "site": "http://bjlee.casports.or.kr",
+   "status": null,
+   "kind": "로드"
+  },
+  {
+   "id": "f2a74a81",
+   "date": "2026-10-11",
+   "name": "2026 핑크런",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "상암월드컵공원 평화광장",
+   "host": "한국유방건강재단",
+   "phone": "070-4633-1233",
+   "site": "http://www.pinkrun.kr",
+   "status": null,
+   "kind": "로드"
+  },
+  {
+   "id": "149d3895",
+   "date": "2026-10-11",
+   "name": "83타워 업힐런",
+   "dist": [
+    "업힐",
+    "계단"
+   ],
+   "sido": "대구",
+   "region": "경상",
+   "place": "대구 이월드 및 83타워",
+   "host": "㈜이월드 / 페스티벌잼",
+   "phone": "010-9514-0724",
+   "site": "http://leisure-web.yanolja.com/leisure/10365567",
+   "status": null,
+   "kind": "기타"
+  },
+  {
+   "id": "82dd10c7",
+   "date": "2026-10-11",
+   "name": "독립유공자후손 기부마라톤 2026대학생RUN",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "서울시 구로구 안양천 축구장A",
+   "host": "대학문화유니온",
+   "phone": "010-7937-2087",
+   "site": "http://www.univrun.co.kr/index.php",
+   "status": null,
+   "kind": "로드"
+  },
+  {
+   "id": "fca1fa35",
+   "date": "2026-10-11",
+   "name": "제22회 금천구청장배 건강달리기",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "안양천 다목적광장",
+   "host": "금천구청",
+   "phone": "010-9118-7632",
+   "site": "http://www.gcrun.kr/s1p1",
+   "status": null,
+   "kind": "로드"
+  },
+  {
+   "id": "12467c4b",
+   "date": "2026-10-11",
+   "name": "제6회 영등포구청장배 육상대회",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "신정교하부육상트랙구장",
+   "host": "서울특별시영등포구체육회",
+   "phone": "010-3794-7297",
+   "site": "http://cafe.naver.com/ydprun1/646",
+   "status": null,
+   "kind": "로드"
+  },
+  {
+   "id": "f00309f9",
+   "date": "2026-10-11",
+   "name": "함께런 러닝 페스티벌",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "경기",
+   "region": "경기·인천",
+   "place": "미사경정공원 관리동 광장",
+   "host": "미사강변사회복지관,진선재단",
+   "phone": "02-515-9033",
+   "site": "http://runcop.com/event/hamkkerun",
+   "status": null,
+   "kind": "로드"
+  },
+  {
+   "id": "e66c6eb0",
+   "date": "2026-10-15",
+   "name": "제1회 그림책협회 러닝 데이",
+   "dist": [
+    "3K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "망원한강공원 야외무대",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "tbd",
+   "kind": "로드"
+  },
+  {
+   "id": "1ddc98dd",
+   "date": "2026-10-15",
+   "name": "프랑스-한국 수교 140주년 기념 달리기 대회",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "마포구 유니세프 광장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "5cbfcd02",
+   "date": "2026-10-17",
+   "name": "2026 River Run '세종'",
+   "dist": [
+    "5K"
+   ],
+   "sido": "세종",
+   "region": "충청",
+   "place": "세종보 홍보관 일원",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "tbd",
+   "kind": "로드"
+  },
+  {
+   "id": "bb53f9ff",
+   "date": "2026-10-17",
+   "name": "2026 경청마라톤",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "신정교 하부 영롱이 억새구장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "open",
+   "kind": "로드"
+  },
+  {
+   "id": "211911ac",
+   "date": "2026-10-17",
+   "name": "2026 마인드런",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "여의도 공원",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "4ae3d94f",
+   "date": "2026-10-17",
+   "name": "2026 메모리얼런",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "세종",
+   "region": "충청",
+   "place": "세종중앙공원 도시축제마당",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "b358387f",
+   "date": "2026-10-17",
+   "name": "2026 억새노을 마라톤",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "광주",
+   "region": "전라",
+   "place": "상무시민공원~서창억새축제장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "1c8391de",
+   "date": "2026-10-17",
+   "name": "2026 의정부시 물길 마라톤 전국대회",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "경기",
+   "region": "경기·인천",
+   "place": "의정부 동막교 인라인광장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "45ff076c",
+   "date": "2026-10-17",
+   "name": "2026 전남광주통합특별시 남구청장배 마라톤",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "광주",
+   "region": "전라",
+   "place": "광주공원 앞 광주교 천변 자전거길",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "af12923f",
+   "date": "2026-10-17",
+   "name": "2026 정선동강마라톤대회",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "강원",
+   "region": "강원",
+   "place": "정선군 동강변 일원",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "5d3bbefe",
+   "date": "2026-10-17",
+   "name": "경주마라톤",
+   "dist": [
+    "Full",
+    "Half",
+    "10K"
+   ],
+   "sido": "경북",
+   "region": "경상",
+   "place": "경주시민운동장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "c3dd313e",
+   "date": "2026-10-17",
+   "name": "제24회 청원생명쌀대청호마라톤",
+   "dist": [
+    "Full",
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "충북",
+   "region": "충청",
+   "place": "청주시 상당구 문의면 체육공원",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "04e99f8b",
+   "date": "2026-10-17",
+   "name": "제2회 10.19 평화마라톤",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "전남",
+   "region": "전라",
+   "place": "여수 진남경기장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "92c466e3",
+   "date": "2026-10-17",
+   "name": "제7회 문화체육관광부장관배 충청남도 태안 전국어울림마라톤대회",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "충남",
+   "region": "충청",
+   "place": "꽃지해안공원주차장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "bf90f57f",
+   "date": "2026-10-18",
+   "name": "2026 Style Run",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "롯데월드타워 월드파크",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "42c18973",
+   "date": "2026-10-18",
+   "name": "2026 아시아 오픈 마라톤",
+   "dist": [
+    "Half",
+    "10K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "광화문 광장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "c8bd19f0",
+   "date": "2026-10-18",
+   "name": "2026 영동 FUN & RUN",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "충북",
+   "region": "충청",
+   "place": "레인보우힐링관광지 및 산익리 일원",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "f7e0a1c4",
+   "date": "2026-10-18",
+   "name": "그린스텝 2026",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "전남",
+   "region": "전라",
+   "place": "해남 솔라시도",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "d7445cc3",
+   "date": "2026-10-18",
+   "name": "제19회 중랑구청장배 장미 마라톤대회",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "중화체육공원",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "open",
+   "kind": "로드"
+  },
+  {
+   "id": "8f83bae7",
+   "date": "2026-10-18",
+   "name": "제22회 북구사랑마라톤대회",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "대구",
+   "region": "경상",
+   "place": "금호강 산격야영장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "adae895f",
+   "date": "2026-10-18",
+   "name": "제25회 대청호마라톤대회",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "대전",
+   "region": "충청",
+   "place": "대청호",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "8cac7f72",
+   "date": "2026-10-18",
+   "name": "제28회 시민건강달리기대회",
+   "dist": [
+    "6K"
+   ],
+   "sido": "경남",
+   "region": "경상",
+   "place": "창원종합운동장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "036c321a",
+   "date": "2026-10-18",
+   "name": "하남시 시장기 당정 마라톤 대회",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "경기",
+   "region": "경기·인천",
+   "place": "하남시 당정뜰 일원",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "cbee9df8",
+   "date": "2026-10-19",
+   "name": "제22회 여주 세종대왕 마라톤",
+   "dist": [
+    "Half",
+    "10K",
+    "1K",
+    "4K"
+   ],
+   "sido": "경기",
+   "region": "경기·인천",
+   "place": "여주 현암지구공원",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "7146400e",
+   "date": "2026-10-24",
+   "name": "2026 SBS 런앤뮤직 페스티벌 in 안동",
+   "dist": [
+    "Half",
+    "10K"
+   ],
+   "sido": "경북",
+   "region": "경상",
+   "place": "안동시민운동장과 안동댐 일원",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "c5d232cc",
+   "date": "2026-10-24",
+   "name": "2026 감성런",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "신정교하부육상트랙구장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "9928bddd",
+   "date": "2026-10-24",
+   "name": "2026 경기옛길 함께 RUN",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "경기",
+   "region": "경기·인천",
+   "place": "도농체육공원",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "43efb46a",
+   "date": "2026-10-24",
+   "name": "2026 뉴시스 바다마라톤",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "인천",
+   "region": "경기·인천",
+   "place": "중구 씨사이드파크",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "0d650917",
+   "date": "2026-10-24",
+   "name": "2026 서울 펫림픽 & 런 위드 고",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "상암월드컵경기장 평화광장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "open",
+   "kind": "로드"
+  },
+  {
+   "id": "6ad4a240",
+   "date": "2026-10-24",
+   "name": "2026 익산국화축제와 함께하는 기부런 대회",
+   "dist": [
+    "10K",
+    "6.4K"
+   ],
+   "sido": "전북",
+   "region": "전라",
+   "place": "익산시 종합운동장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "7b5a3f76",
+   "date": "2026-10-24",
+   "name": "네이버웍스와 함께하는 세종런 26",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "세종",
+   "region": "충청",
+   "place": "세종중앙공원 도시축제마당",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "open",
+   "kind": "로드"
+  },
+  {
+   "id": "4545caed",
+   "date": "2026-10-24",
+   "name": "디즈니런 2026 인천",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "인천",
+   "region": "경기·인천",
+   "place": "상상플랫폼",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "c81ede18",
+   "date": "2026-10-24",
+   "name": "무쓰런",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "충북",
+   "region": "충청",
+   "place": "무심천체육공원",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "a40c53ef",
+   "date": "2026-10-24",
+   "name": "불닭 버닝 트레일런",
+   "dist": [
+    "5K",
+    "13K",
+    "23K"
+   ],
+   "sido": "강원",
+   "region": "강원",
+   "place": "삼양라운드힐",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "open",
+   "kind": "트레일"
+  },
+  {
+   "id": "8da3bf48",
+   "date": "2026-10-24",
+   "name": "프리덤 워크 & 런 2026",
+   "dist": [
+    "6K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "반포한강공원 세빛섬 주변",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "open",
+   "kind": "로드"
+  },
+  {
+   "id": "97dea2a5",
+   "date": "2026-10-25",
+   "name": "2026 광명평화 마라톤대회",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "경기",
+   "region": "경기·인천",
+   "place": "KTX 광명역",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "b28685f8",
+   "date": "2026-10-25",
+   "name": "2026 군산시장배 단축마라톤대회",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "전북",
+   "region": "전라",
+   "place": "군산시 새만금방조제 해넘이휴게소",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "open",
+   "kind": "로드"
+  },
+  {
+   "id": "cbab27ce",
+   "date": "2026-10-25",
+   "name": "2026 부산바다마라톤",
+   "dist": [
+    "10K",
+    "5K",
+    "15K"
+   ],
+   "sido": "부산",
+   "region": "경상",
+   "place": "해운대 벡스코 야외광장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "5360eaa6",
+   "date": "2026-10-25",
+   "name": "2026 울산 런 페스타",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "울산",
+   "region": "경상",
+   "place": "문수국제양궁장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "e4ae9f86",
+   "date": "2026-10-25",
+   "name": "2026 참나무달리기",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "뚝섬한강공원 수변무대",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "7652a170",
+   "date": "2026-10-25",
+   "name": "2026 춘천마라톤",
+   "dist": [
+    "Full",
+    "10K"
+   ],
+   "sido": "강원",
+   "region": "강원",
+   "place": "춘천 공지천 인조잔디구장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "0423c626",
+   "date": "2026-10-25",
+   "name": "K-RUN 챌린지",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "한강시민공원 뚝섬지구",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "2bb80310",
+   "date": "2026-10-25",
+   "name": "용감한 쿠키 Run in 서울",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "어린이대공원",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "open",
+   "kind": "로드"
+  },
+  {
+   "id": "734101ff",
+   "date": "2026-10-25",
+   "name": "제14회 정서진아라뱃길 전국마라톤대회",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "인천",
+   "region": "경기·인천",
+   "place": "경인아라뱃길여객터미널 아라타워",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "8c4e8fb3",
+   "date": "2026-10-25",
+   "name": "제19회 청도반시 전국마라톤",
+   "dist": [
+    "Half",
+    "10K",
+    "5.9K"
+   ],
+   "sido": "경북",
+   "region": "경상",
+   "place": "청도공설운동장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "349325fa",
+   "date": "2026-10-25",
+   "name": "쥬라기파크 런",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "경기",
+   "region": "경기·인천",
+   "place": "하남 미사경정공원",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "open",
+   "kind": "로드"
+  },
+  {
+   "id": "503c73eb",
+   "date": "2026-10-31",
+   "name": "2026 당진원런 마라톤",
+   "dist": [
+    "5K"
+   ],
+   "sido": "충남",
+   "region": "충청",
+   "place": "당진 석문방조제",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "855c1cc6",
+   "date": "2026-10-31",
+   "name": "2026 대청호 오백리길 걷기대회",
+   "dist": [
+    "10K",
+    "1.5K",
+    "4K"
+   ],
+   "sido": "대전",
+   "region": "충청",
+   "place": "금강 로하스 대청공원 동광장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "0f5b1674",
+   "date": "2026-10-31",
+   "name": "2026 오티즘 레이스",
+   "dist": [
+    "Half",
+    "10K",
+    "4.2K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "상암 평화의공원 평화광장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "4b285122",
+   "date": "2026-10-31",
+   "name": "2026 태종대 BEAT ON 좀비레이스",
+   "dist": [
+    "5K"
+   ],
+   "sido": "부산",
+   "region": "경상",
+   "place": "영도구 태종대 자동차야외극장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "3e526b39",
+   "date": "2026-10-31",
+   "name": "JUST RUN10 포천",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "경기",
+   "region": "경기·인천",
+   "place": "포천시종합운동장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "4703efab",
+   "date": "2026-10-31",
+   "name": "경주 보문 나이트런",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "경북",
+   "region": "경상",
+   "place": "경주 보문 보덕동 행정복지센터 옆 헬기장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "381acbf4",
+   "date": "2026-10-31",
+   "name": "마블런 2026",
+   "dist": [
+    "10K",
+    "5K",
+    "2.3K"
+   ],
+   "sido": "강원",
+   "region": "강원",
+   "place": "인제스피디움",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "open",
+   "kind": "로드"
+  },
+  {
+   "id": "1339390e",
+   "date": "2026-10-31",
+   "name": "제21회 사천노을 마라톤대회",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "경남",
+   "region": "경상",
+   "place": "사천 선진거북선공원 및 무지갯빛 해안도로",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "d103abe6",
+   "date": "2026-10-31",
+   "name": "제2회 성남YMCA 마라톤",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "경기",
+   "region": "경기·인천",
+   "place": "성남시 물빛정원 오리공원 탄천변",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "open",
+   "kind": "로드"
+  },
+  {
+   "id": "1a344496",
+   "date": "2026-10-31",
+   "name": "제7회 중소기업인 氣살리기 마라톤 대회",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "안양천 축구장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "open",
+   "kind": "로드"
+  },
+  {
+   "id": "f2ed37d9",
+   "date": "2026-11-01",
+   "name": "2026 JTBC 서울마라톤",
+   "dist": [
+    "Full",
+    "10K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "상암 월드컵공원",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "c5ff2145",
+   "date": "2026-11-01",
+   "name": "2026 김천 전국마라톤 대회",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "경북",
+   "region": "경상",
+   "place": "김천 종합스포츠타운 종합운동장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "326bf9ee",
+   "date": "2026-11-01",
+   "name": "2026 무안 해안 노을길 전국 걷기 및 마라톤대회",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "전남",
+   "region": "전라",
+   "place": "무안낙지공원",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "19a5202d",
+   "date": "2026-11-01",
+   "name": "2026 서울동행 마라톤 대회",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "목동종합운동장 주경기장 일원",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "f8b8790e",
+   "date": "2026-11-01",
+   "name": "2026 아디다스 도복런 with KTA",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "경기",
+   "region": "경기·인천",
+   "place": "하남시 미사경정공원",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "tbd",
+   "kind": "로드"
+  },
+  {
+   "id": "f88eb86a",
+   "date": "2026-11-01",
+   "name": "저스티스 런 서초 2026",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "서초구 반포한강공원 달빛광장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "open",
+   "kind": "로드"
+  },
+  {
+   "id": "edcafce8",
+   "date": "2026-11-01",
+   "name": "제21회 울산 인권마라톤",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "울산",
+   "region": "경상",
+   "place": "태화강 둔치",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "3bf7ea03",
+   "date": "2026-11-01",
+   "name": "제2회 대전 신채호 마라톤대회",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "대전",
+   "region": "충청",
+   "place": "대전 뿌리공원 잔디광장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "850d6a76",
+   "date": "2026-11-07",
+   "name": "2026 Global 6K for Water in 고양",
+   "dist": [
+    "6K"
+   ],
+   "sido": "경기",
+   "region": "경기·인천",
+   "place": "일산호수공원(노래하는 분수대)",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "922e9d57",
+   "date": "2026-11-07",
+   "name": "2026 영천댐 마라톤 대회",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "경북",
+   "region": "경상",
+   "place": "영천댐공원 일원",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "582be141",
+   "date": "2026-11-07",
+   "name": "2026 해양수도 부산 런페스타",
+   "dist": [
+    "10K"
+   ],
+   "sido": "부산",
+   "region": "경상",
+   "place": "부산 북항친수공원 잔디마당",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "384ffdcc",
+   "date": "2026-11-07",
+   "name": "GIVE RUN 2026 구미",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "경북",
+   "region": "경상",
+   "place": "구미 낙동강체육공원 일대",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "open",
+   "kind": "로드"
+  },
+  {
+   "id": "72c5b91c",
+   "date": "2026-11-07",
+   "name": "JUST RUN10 대전 하반기",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "대전",
+   "region": "충청",
+   "place": "갑천 러닝성지",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "open",
+   "kind": "로드"
+  },
+  {
+   "id": "c55afa1f",
+   "date": "2026-11-07",
+   "name": "Save Race 2026 (카카오뱅크)",
+   "dist": [
+    "10K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "여의도공원 문화의마당",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "9bcf3b91",
+   "date": "2026-11-07",
+   "name": "넥슨과 함께하는 2026 미라클365 푸르메런",
+   "dist": [
+    "10K",
+    "3K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "마포구 월드컵공원 평화의공원 평화광장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "8b57cefa",
+   "date": "2026-11-07",
+   "name": "레디, 셋, 공익런",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "충북",
+   "region": "충청",
+   "place": "청주 무심천체육공원",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "open",
+   "kind": "로드"
+  },
+  {
+   "id": "f287fdc0",
+   "date": "2026-11-07",
+   "name": "제15회 부여 굿뜨레 마라톤",
+   "dist": [
+    "Full",
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "충남",
+   "region": "충청",
+   "place": "부여 구드래 나루터 선착장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "41fcf6cf",
+   "date": "2026-11-07",
+   "name": "제19회 진해마라톤",
+   "dist": [
+    "5K",
+    "11.11K"
+   ],
+   "sido": "경남",
+   "region": "경상",
+   "place": "진해공설운동장 및 해군 영내 일원",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "2a7684e2",
+   "date": "2026-11-07",
+   "name": "제22회 국방일보 전우마라톤",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "경기",
+   "region": "경기·인천",
+   "place": "임진각 평화누리공원",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "open",
+   "kind": "로드"
+  },
+  {
+   "id": "d10327b5",
+   "date": "2026-11-07",
+   "name": "제2회 온코런",
+   "dist": [
+    "5K",
+    "3.2K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "연세대학교 신촌캠퍼스 대운동장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "open",
+   "kind": "로드"
+  },
+  {
+   "id": "797e4fe2",
+   "date": "2026-11-08",
+   "name": "2026 강남하프마라톤",
+   "dist": [
+    "Half"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "대치유수지 체육공원",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "open",
+   "kind": "로드"
+  },
+  {
+   "id": "aac1f212",
+   "date": "2026-11-08",
+   "name": "2026 경기화성 생태마라톤",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "경기",
+   "region": "경기·인천",
+   "place": "화성시 궁평항 및 영종로 일대",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "tbd",
+   "kind": "로드"
+  },
+  {
+   "id": "479b8ec4",
+   "date": "2026-11-08",
+   "name": "2026 경북도청신도시 마라톤대회",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "경북",
+   "region": "경상",
+   "place": "경북도청 천년숲 앞",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "open",
+   "kind": "로드"
+  },
+  {
+   "id": "1e48676b",
+   "date": "2026-11-08",
+   "name": "2026 경주시육상연맹회장배 마라톤대회",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "경북",
+   "region": "경상",
+   "place": "경주 서천둔치 생활체육광장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "open",
+   "kind": "로드"
+  },
+  {
+   "id": "1d50f22a",
+   "date": "2026-11-08",
+   "name": "2026 과천마라톤",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "경기",
+   "region": "경기·인천",
+   "place": "과천 관문체육공원",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "fb8d6a61",
+   "date": "2026-11-08",
+   "name": "2026 부산 헤리티지 런",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "부산",
+   "region": "경상",
+   "place": "다대포 해수욕장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "open",
+   "kind": "로드"
+  },
+  {
+   "id": "18b84cf9",
+   "date": "2026-11-08",
+   "name": "2026 양산 배내골 애플 런",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "경남",
+   "region": "경상",
+   "place": "장선마을회관 앞",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "f7298b1e",
+   "date": "2026-11-08",
+   "name": "2026 전국사상에코마라톤",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "부산",
+   "region": "경상",
+   "place": "사상구 삼락생태공원 일원",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "3ed70fb6",
+   "date": "2026-11-08",
+   "name": "2026 제20회 자원봉사사랑 굿펀마라톤",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "안양천 신정교하부육상트랙구장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "open",
+   "kind": "로드"
+  },
+  {
+   "id": "fb202ab6",
+   "date": "2026-11-08",
+   "name": "2026 청양군체육회장기 칠갑마라톤대회",
+   "dist": [
+    "Half",
+    "7K",
+    "14K"
+   ],
+   "sido": "충남",
+   "region": "충청",
+   "place": "청양목재문화자연사체험관 및 칠갑저수지 일원",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "open",
+   "kind": "로드"
+  },
+  {
+   "id": "2c09938e",
+   "date": "2026-11-08",
+   "name": "2026 해남땅끝 전국마라톤대회",
+   "dist": [
+    "Full",
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "전남",
+   "region": "전라",
+   "place": "대흥사쉼터 일원",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "f44d72ca",
+   "date": "2026-11-08",
+   "name": "라운드랩 RUN",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "강원",
+   "region": "강원",
+   "place": "춘천 송암스포츠타운 종합경기장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "592532e5",
+   "date": "2026-11-08",
+   "name": "올림픽데이런 2026",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "올림픽공원 88잔디마당",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "2f30fd82",
+   "date": "2026-11-08",
+   "name": "제11회 송파구청장배마라톤대회",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "올림픽공원 송파구여성축구장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "open",
+   "kind": "로드"
+  },
+  {
+   "id": "e4548483",
+   "date": "2026-11-08",
+   "name": "제12회 아산 은행나무길 전국 마라톤 대회",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "충남",
+   "region": "충청",
+   "place": "현충사 은행나무길 광장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "6ddea026",
+   "date": "2026-11-08",
+   "name": "제24회 전국 나주 금성산 숲길마라톤대회",
+   "dist": [
+    "Half",
+    "6K",
+    "11K"
+   ],
+   "sido": "전남",
+   "region": "전라",
+   "place": "나주 동신대학교 운동장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "open",
+   "kind": "로드"
+  },
+  {
+   "id": "565ac4ea",
+   "date": "2026-11-08",
+   "name": "제26회 안성맞춤 전국 마라톤대회",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "경기",
+   "region": "경기·인천",
+   "place": "안성시 안성맞춤랜드",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "2830088f",
+   "date": "2026-11-08",
+   "name": "제3회 자유민주 마라톤",
+   "dist": [
+    "10K",
+    "6.1K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "서울시청 광장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "81474893",
+   "date": "2026-11-14",
+   "name": "2026 영종 하늘길 마라톤",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "인천",
+   "region": "경기·인천",
+   "place": "영종 씨사이드 파크 일대",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "open",
+   "kind": "로드"
+  },
+  {
+   "id": "6dbe65fb",
+   "date": "2026-11-14",
+   "name": "2026 포항마라톤 챔피언십",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "경북",
+   "region": "경상",
+   "place": "영일대해상누각",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "14e427e7",
+   "date": "2026-11-14",
+   "name": "서울 빵빵런2026",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "뚝섬한강공원 수변무대",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "7e0f25e1",
+   "date": "2026-11-14",
+   "name": "제26회 순천남승룡마라톤",
+   "dist": [
+    "Full",
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "전남",
+   "region": "전라",
+   "place": "순천팔마종합운동장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "59f3385d",
+   "date": "2026-11-14",
+   "name": "제2회 안양천 단풍길 마라톤",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "신정교 하부 영롱이 억새구장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "open",
+   "kind": "로드"
+  },
+  {
+   "id": "67de7bb8",
+   "date": "2026-11-14",
+   "name": "제7회 적벽강 마라톤",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "충남",
+   "region": "충청",
+   "place": "금산 인삼골 오토캠핑장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "open",
+   "kind": "로드"
+  },
+  {
+   "id": "15aa339c",
+   "date": "2026-11-14",
+   "name": "통큰런",
+   "dist": [
+    "10K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "서울 월드컵공원 평화의 광장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "soon",
+   "kind": "로드"
+  },
+  {
+   "id": "2ee32ca3",
+   "date": "2026-11-14",
+   "name": "평화의섬 2026 국무총리기 국제생활체육구간마라톤",
+   "dist": [
+    "84.6K"
+   ],
+   "sido": "제주",
+   "region": "제주",
+   "place": null,
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "tbd",
+   "kind": "울트라"
+  },
+  {
+   "id": "e6733fa2",
+   "date": "2026-11-15",
+   "name": "2026 MBN 서울마라톤",
+   "dist": [
+    "Half",
+    "10K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": null,
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "44dc0151",
+   "date": "2026-11-15",
+   "name": "2026 가민런 코리아",
+   "dist": [
+    "Half",
+    "10K"
+   ],
+   "sido": "경기",
+   "region": "경기·인천",
+   "place": "고양종합운동장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "ad17a1a6",
+   "date": "2026-11-15",
+   "name": "2026 나눔레이스 인 용인",
+   "dist": [
+    "10K",
+    "15K"
+   ],
+   "sido": "경기",
+   "region": "경기·인천",
+   "place": "용인실내체육관",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "c3ae0004",
+   "date": "2026-11-15",
+   "name": "2026 손기정평화마라톤",
+   "dist": [
+    "Full",
+    "Half",
+    "10K",
+    "6K"
+   ],
+   "sido": "경기",
+   "region": "경기·인천",
+   "place": "임진각",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "2c090cce",
+   "date": "2026-11-15",
+   "name": "2026 에코나우런",
+   "dist": [
+    "5K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "뚝섬한강공원 수변무대",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "open",
+   "kind": "로드"
+  },
+  {
+   "id": "4085aec2",
+   "date": "2026-11-15",
+   "name": "2026 우리함께런 with 빗썸나눔",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "여의도한강공원 물빛무대앞 광장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "soon",
+   "kind": "로드"
+  },
+  {
+   "id": "8b7ff2cd",
+   "date": "2026-11-15",
+   "name": "2026 제주감귤국제마라톤대회",
+   "dist": [
+    "Full",
+    "Half",
+    "10K"
+   ],
+   "sido": "제주",
+   "region": "제주",
+   "place": "제주시 조천운동장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "0afe96a1",
+   "date": "2026-11-15",
+   "name": "9회 서울평화마라톤",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "안양천 신정교하부육상트랙구장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "open",
+   "kind": "로드"
+  },
+  {
+   "id": "87df441d",
+   "date": "2026-11-15",
+   "name": "제12회 창원특례시장배 광려천 마라톤대회",
+   "dist": [
+    "Half",
+    "10K"
+   ],
+   "sido": "경남",
+   "region": "경상",
+   "place": "광려천 공원 일원",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "eafa4789",
+   "date": "2026-11-15",
+   "name": "제16회 대전서구청장배 마라톤대회",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "대전",
+   "region": "충청",
+   "place": "대전 엑스포 다리 밑 (갑천변)",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "be55391b",
+   "date": "2026-11-15",
+   "name": "제24회 고창고인돌마라톤",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "전북",
+   "region": "전라",
+   "place": "고창공설운동장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "c8c4f23b",
+   "date": "2026-11-15",
+   "name": "제24회 상주 곶감 마라톤",
+   "dist": [
+    "Full",
+    "Half",
+    "10K",
+    "4.4K"
+   ],
+   "sido": "경북",
+   "region": "경상",
+   "place": "상주시민운동장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "90c88444",
+   "date": "2026-11-15",
+   "name": "제26회 창원통일마라톤대회",
+   "dist": [
+    "5K"
+   ],
+   "sido": "경남",
+   "region": "경상",
+   "place": "창원종합운동장 보조경기장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "0c0f67f9",
+   "date": "2026-11-15",
+   "name": "제28회 부산국제마라톤대회",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "부산",
+   "region": "경상",
+   "place": "다대포해수욕장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "62a41488",
+   "date": "2026-11-15",
+   "name": "제2회 세종특별자치시 전국마라톤대회",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "세종",
+   "region": "충청",
+   "place": "세종특별자치시민운동장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "a80cb3c8",
+   "date": "2026-11-15",
+   "name": "제4회 영남알프스 전국 하프마라톤",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "울산",
+   "region": "경상",
+   "place": "울주군 영남알프스 일원",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "e400d7e2",
+   "date": "2026-11-15",
+   "name": "휠라 RUN & ESPRESSO 10K",
+   "dist": [
+    "10K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "상암 월드컵공원",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "d2d9619f",
+   "date": "2026-11-21",
+   "name": "2026 Asics Seoul Shinmun Go Free Run",
+   "dist": [
+    "Half",
+    "10K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "여의도 공원",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "3131d2e5",
+   "date": "2026-11-21",
+   "name": "2026 가을바람 유러닝 페스타",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "경기",
+   "region": "경기·인천",
+   "place": "하남미사 경정공원",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "f6c6eb6d",
+   "date": "2026-11-21",
+   "name": "GIVE RUN 2026 부산",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "부산",
+   "region": "경상",
+   "place": "부산 삼락생태공원",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "tbd",
+   "kind": "로드"
+  },
+  {
+   "id": "c32d3e89",
+   "date": "2026-11-21",
+   "name": "신한은행과 함께하는 2026 Brave Run",
+   "dist": [
+    "5K",
+    "3K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "올림픽공원 피크닉장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "open",
+   "kind": "로드"
+  },
+  {
+   "id": "0b9fc4eb",
+   "date": "2026-11-22",
+   "name": "2026 김대중마라톤대회",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "전남",
+   "region": "전라",
+   "place": "목포종합경기장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "open",
+   "kind": "로드"
+  },
+  {
+   "id": "245afded",
+   "date": "2026-11-22",
+   "name": "2026 무주반딧불 평화마라톤대회",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "전북",
+   "region": "전라",
+   "place": "무주 등나무운동장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "open",
+   "kind": "로드"
+  },
+  {
+   "id": "2a420ab2",
+   "date": "2026-11-22",
+   "name": "2026 서리풀 잠수교 10K 런",
+   "dist": [
+    "10K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "반포한강공원 달빛광장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "dd86b229",
+   "date": "2026-11-22",
+   "name": "2026 서울 억새풀 마라톤대회",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "영등포 영롱이 억새구장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "open",
+   "kind": "로드"
+  },
+  {
+   "id": "5868744f",
+   "date": "2026-11-22",
+   "name": "2026 인천마라톤",
+   "dist": [
+    "Full",
+    "10K",
+    "5K"
+   ],
+   "sido": "인천",
+   "region": "경기·인천",
+   "place": "인천아시아드주경기장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "c5db7f23",
+   "date": "2026-11-22",
+   "name": "2026 평화의숲 마라톤",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "상암 월드컵공원 평화광장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "open",
+   "kind": "로드"
+  },
+  {
+   "id": "6f657f89",
+   "date": "2026-11-22",
+   "name": "자이스 스마일 레이스",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "여의도공원 문화의 마당 일대",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "9752400c",
+   "date": "2026-11-22",
+   "name": "제6회 고용노동부장관배 직장인마라톤대회",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "경기",
+   "region": "경기·인천",
+   "place": "하남 미사경정공원 일원",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "open",
+   "kind": "로드"
+  },
+  {
+   "id": "ff6c1323",
+   "date": "2026-11-28",
+   "name": "2026 긍정 하프 마라톤",
+   "dist": [
+    "Half"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "뚝섬 한강공원",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "b675b0ee",
+   "date": "2026-11-28",
+   "name": "2026 남원춘향 전국 마라톤대회",
+   "dist": [
+    "Full",
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "전북",
+   "region": "전라",
+   "place": "남원 종합스포츠타운 운동장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "open",
+   "kind": "로드"
+  },
+  {
+   "id": "8872a488",
+   "date": "2026-11-28",
+   "name": "2027 서울 세계청년대회 성공 기원 평화런",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "여의도공원 문화의마당",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "983b8090",
+   "date": "2026-11-28",
+   "name": "목욕런 2026",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "상암 월드컵공원 평화광장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "864896f0",
+   "date": "2026-11-29",
+   "name": "2026 새한미디어 마라톤",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "평화의공원 평화광장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "tbd",
+   "kind": "로드"
+  },
+  {
+   "id": "fc04e3fb",
+   "date": "2026-11-29",
+   "name": "2026 서울사랑마라톤",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "성북구 석관동 일대",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "open",
+   "kind": "로드"
+  },
+  {
+   "id": "e5b9fa47",
+   "date": "2026-11-29",
+   "name": "2026 스포츠서울 하프마라톤",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "목동종합운동장 및 안양천 코스",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "tbd",
+   "kind": "로드"
+  },
+  {
+   "id": "366e4a62",
+   "date": "2026-11-29",
+   "name": "2026 정읍 공동체 프리마켓 런",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "전북",
+   "region": "전라",
+   "place": "정읍천변 어린이전용축구장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "tbd",
+   "kind": "로드"
+  },
+  {
+   "id": "0f418a1c",
+   "date": "2026-11-29",
+   "name": "가야왕도김해 전국어울림 마라톤대회",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "경남",
+   "region": "경상",
+   "place": "김해롯데워터파크 제3주차장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "open",
+   "kind": "로드"
+  },
+  {
+   "id": "73e8e342",
+   "date": "2026-11-29",
+   "name": "제14회 안중근 평화 마라톤 대회",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "여의도공원 문화의마당",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "tbd",
+   "kind": "로드"
+  },
+  {
+   "id": "e8383c96",
+   "date": "2026-11-29",
+   "name": "제2회 천안독립기념관 마라톤대회",
+   "dist": [
+    "10K",
+    "5K",
+    "3.65K"
+   ],
+   "sido": "충남",
+   "region": "충청",
+   "place": "천안 독립기념관 겨레의큰마당",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "6149666c",
+   "date": "2026-12-05",
+   "name": "2026 월드 레코드 금산 국제 마라톤 축제",
+   "dist": [
+    "14K"
+   ],
+   "sido": "충남",
+   "region": "충청",
+   "place": "금산세계인삼엑스포광장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "f77690bc",
+   "date": "2026-12-05",
+   "name": "2026 하남 미사 호수 에너지런",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "경기",
+   "region": "경기·인천",
+   "place": "하남미사 경정공원",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "open",
+   "kind": "로드"
+  },
+  {
+   "id": "ce4fed85",
+   "date": "2026-12-05",
+   "name": "2026 허그런",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "상암 월드컵경기장 평화의공원 평화광장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "soon",
+   "kind": "로드"
+  },
+  {
+   "id": "efa78116",
+   "date": "2026-12-05",
+   "name": "오크밸리 윈터 하프 마라톤",
+   "dist": [
+    "Half"
+   ],
+   "sido": "강원",
+   "region": "강원",
+   "place": "오크밸리",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "82312cec",
+   "date": "2026-12-05",
+   "name": "제23회 한강시민마라톤대회",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "여의도 한강공원 너른들판",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "open",
+   "kind": "로드"
+  },
+  {
+   "id": "ab316ba3",
+   "date": "2026-12-06",
+   "name": "2026 부산브릿지마라톤대회",
+   "dist": [
+    "Full",
+    "10K"
+   ],
+   "sido": "부산",
+   "region": "경상",
+   "place": "벡스코 일대",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "42012c05",
+   "date": "2026-12-06",
+   "name": "2026 청춘런",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "상암동 평화의공원 평화광장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "open",
+   "kind": "로드"
+  },
+  {
+   "id": "b12a6cff",
+   "date": "2026-12-06",
+   "name": "제20회 양산전국하프마라톤대회",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "경남",
+   "region": "경상",
+   "place": "양산종합운동장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "c9b40460",
+   "date": "2026-12-06",
+   "name": "제2회 황영조 로드레이스",
+   "dist": [
+    "Half",
+    "10K"
+   ],
+   "sido": "인천",
+   "region": "경기·인천",
+   "place": "경인아라뱃길 여객터미널 아라타워 일원",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "open",
+   "kind": "로드"
+  },
+  {
+   "id": "2da74931",
+   "date": "2026-12-12",
+   "name": "2026 소년소녀 가장 돕기 기부런",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "월드컵공원 평화광장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "ce2535a4",
+   "date": "2026-12-12",
+   "name": "제3회 긍정의 힘 마라톤",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "신정교 하부 영롱이 억새구장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "open",
+   "kind": "로드"
+  },
+  {
+   "id": "52767a5b",
+   "date": "2026-12-13",
+   "name": "제36회 진주마라톤대회",
+   "dist": [
+    "Full",
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "경남",
+   "region": "경상",
+   "place": "진주노을공원(남강댐 물 문화관)",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "open",
+   "kind": "로드"
+  },
+  {
+   "id": "57e14159",
+   "date": "2026-12-13",
+   "name": "제5회 기장군육상연맹 마라톤대회",
+   "dist": [
+    "10K"
+   ],
+   "sido": "부산",
+   "region": "경상",
+   "place": "기장해안로 대변항 멸치광장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "open",
+   "kind": "로드"
+  },
+  {
+   "id": "3e29492a",
+   "date": "2026-12-13",
+   "name": "제5회 밤섬 마라톤",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "상암 월드컵공원 평화광장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "open",
+   "kind": "로드"
+  },
+  {
+   "id": "08dc6672",
+   "date": "2026-12-19",
+   "name": "제2회 청춘 릴레이 마라톤",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "상암월드컵공원 평화의광장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "open",
+   "kind": "로드"
+  },
+  {
+   "id": "9d74cea1",
+   "date": "2026-12-26",
+   "name": "2026 코리아 시즌 레이스",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "상암월드컵공원 평화광장",
+   "host": null,
+   "phone": null,
+   "site": null,
+   "status": "open",
+   "kind": "로드"
+  }
+ ]
+}
