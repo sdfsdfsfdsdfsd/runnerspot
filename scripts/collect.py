@@ -38,7 +38,7 @@ ROADRUN = "http://www.roadrun.co.kr/schedule/list.php"
 ANTHROPIC_KEY = os.environ.get("ANTHROPIC_API_KEY", "").strip()
 KAKAO_KEY = os.environ.get("KAKAO_REST_KEY", "").strip()
 MODEL = os.environ.get("ENRICH_MODEL", "claude-haiku-4-5-20251001")
-ENRICH_LIMIT = int(os.environ.get("ENRICH_LIMIT", "40"))      # 한 번에 상세 정리할 최대 대회 수
+ENRICH_LIMIT = int(os.environ.get("ENRICH_LIMIT", "80"))      # 한 번에 상세 정리할 최대 대회 수
 REFRESH_DAYS = int(os.environ.get("REFRESH_DAYS", "21"))      # 이 기간이 지나면 상세 정보를 다시 확인
 
 GROUP = {"서울": "서울", "경기": "경기·인천", "인천": "경기·인천", "강원": "강원",
@@ -205,7 +205,7 @@ def fetch_roadrun(year: int) -> list[dict]:
 
 
 # ---------------------------------------------------------------- 2. merge
-KEEP = ("desc", "price", "regStart", "regEnd", "startTime", "schedule", "souvenir", "scale",
+KEEP = ("enrichedBy", "desc", "price", "regStart", "regEnd", "startTime", "schedule", "souvenir", "scale",
         "poster", "address", "lat", "lng", "instagram", "enrichedAt", "geoAt", "status")
 
 
@@ -343,14 +343,89 @@ def valid_date(s) -> str | None:
         return None
 
 
+DIST_PAT = r"(풀\s*코스|풀|full|하프\s*코스|하프|half|10\s*km|10\s*k|5\s*km|5\s*k)"
+DATE_PAT = r"(?:(20\d\d)\s*[.\-/년]\s*)?(\d{1,2})\s*[.\-/월]\s*(\d{1,2})"
+
+
+def dist_label(t: str) -> str:
+    t = t.lower().replace(" ", "")
+    return "풀코스" if t.startswith(("풀", "full")) else "하프" if t.startswith(("하프", "half")) else "10km" if t.startswith("10") else "5km"
+
+
+def to_date(y, m, d, race_date: str) -> str | None:
+    try:
+        yy = int(y) if y else int(race_date[:4])
+        v = date(yy, int(m), int(d))
+        # 연도 없이 쓰인 접수일이 대회일보다 뒤면 전년도
+        if not y and v > date.fromisoformat(race_date):
+            v = date(yy - 1, int(m), int(d))
+        return v.isoformat()
+    except Exception:
+        return None
+
+
+def heuristic(r: dict, text: str, imgs: list[str]) -> dict:
+    """API 키가 없을 때: 홈페이지 글에서 참가비·접수기간·출발시각을 직접 찾는다"""
+    info: dict = {}
+    price = {}
+    i = text.find("참가비")
+    zone = text[i:i + 600] if i >= 0 else text
+    for m in re.finditer(DIST_PAT + r"[^0-9가-힣]{0,12}(\d{1,3}(?:,\d{3})+|\d{4,6})\s*원", zone, re.I):
+        v = int(m.group(2).replace(",", ""))
+        if 5000 <= v <= 300000:
+            price.setdefault(dist_label(m.group(1)), v)
+    if price:
+        info["price"] = price
+    j = re.search(r"(접수\s*기간|접수\s*일정|참가\s*접수|신청\s*기간)", text)
+    if j:
+        seg = text[j.end():j.end() + 120]
+        ds = re.findall(DATE_PAT, seg)
+        if len(ds) >= 2:
+            info["regStart"] = to_date(*ds[0], r["date"])
+            info["regEnd"] = to_date(*ds[1], r["date"])
+    k = re.search(r"(출발|스타트|start)[^0-9]{0,10}(\d{1,2})\s*[:시]\s*(\d{2})?", text, re.I)
+    if k and 5 <= int(k.group(2)) <= 20:
+        info["startTime"] = f"{int(k.group(2)):02d}:{k.group(3) or '00'}"
+    if imgs:
+        info["posterUrl"] = imgs[0]
+    return info
+
+
+def apply_info(r: dict, info: dict) -> None:
+    if info.get("desc"):
+        r["desc"] = str(info["desc"]).strip()
+    price = {str(k): int(v) for k, v in (info.get("price") or {}).items()
+             if isinstance(v, (int, float)) and 0 < v < 1_000_000}
+    if price:
+        r["price"] = price
+    for k in ("regStart", "regEnd"):
+        if valid_date(info.get(k)):
+            r[k] = valid_date(info[k])
+    if info.get("startTime") and re.match(r"^\d{1,2}:\d{2}$", str(info["startTime"])):
+        r["startTime"] = info["startTime"]
+    sch = [x for x in (info.get("schedule") or []) if isinstance(x, dict) and x.get("text")]
+    if sch:
+        r["schedule"] = [{"time": str(x.get("time") or ""), "text": str(x["text"])} for x in sch[:12]]
+    for k in ("souvenir", "address", "instagram"):
+        if info.get(k):
+            r[k] = str(info[k]).strip().lstrip("@")
+    if isinstance(info.get("scale"), (int, float)) and info["scale"] > 0:
+        r["scale"] = int(info["scale"])
+    if info.get("posterUrl") and not r.get("poster"):
+        p = save_poster(r["id"], urllib.parse.urljoin(r["site"], info["posterUrl"]))
+        if p:
+            r["poster"] = p
+
+
 def enrich(races: list[dict]) -> None:
     if not ANTHROPIC_KEY:
-        log("ANTHROPIC_API_KEY 없음 → 상세 정리 건너뜀")
-        return
+        log("ANTHROPIC_API_KEY 없음 → 홈페이지 글에서 직접 찾는 방식으로 진행")
     horizon = TODAY + timedelta(days=200)
     todo = [r for r in races if r.get("site")
             and TODAY <= date.fromisoformat(r["date"]) <= horizon
-            and (not r.get("enrichedAt") or date.fromisoformat(r["enrichedAt"]) < TODAY - timedelta(days=REFRESH_DAYS))]
+            and (not r.get("enrichedAt")
+                 or date.fromisoformat(r["enrichedAt"]) < TODAY - timedelta(days=REFRESH_DAYS)
+                 or (ANTHROPIC_KEY and r.get("enrichedBy") != "claude"))]
     todo.sort(key=lambda r: (bool(r.get("enrichedAt")), r["date"]))
     log(f"상세 정리 대상 {len(todo)}개 중 {min(len(todo), ENRICH_LIMIT)}개 진행")
     for r in todo[:ENRICH_LIMIT]:
@@ -360,36 +435,18 @@ def enrich(races: list[dict]) -> None:
             if len(text) < 80:
                 r["enrichedAt"] = TODAY.isoformat()
                 continue
-            info = ask_claude(PROMPT.format(name=r["name"], date=r["date"], text=text,
-                                            images="\n".join(imgs) or "(없음)"))
+            if ANTHROPIC_KEY:
+                info = ask_claude(PROMPT.format(name=r["name"], date=r["date"], text=text,
+                                                images="\n".join(imgs) or "(없음)")) or {}
+            else:
+                info = heuristic(r, text, imgs)
         except Exception as e:
-            log("   실패:", e)
+            log("   실패:", repr(e)[:120])
             continue
-        if not info:
-            continue
-        if info.get("desc"):
-            r["desc"] = str(info["desc"]).strip()
-        price = {str(k): int(v) for k, v in (info.get("price") or {}).items()
-                 if isinstance(v, (int, float)) and 0 < v < 1_000_000}
-        if price:
-            r["price"] = price
-        for k in ("regStart", "regEnd"):
-            if valid_date(info.get(k)):
-                r[k] = valid_date(info[k])
-        if info.get("startTime") and re.match(r"^\d{1,2}:\d{2}$", str(info["startTime"])):
-            r["startTime"] = info["startTime"]
-        sch = [s for s in (info.get("schedule") or []) if isinstance(s, dict) and s.get("text")]
-        if sch:
-            r["schedule"] = [{"time": str(s.get("time") or ""), "text": str(s["text"])} for s in sch[:12]]
-        for k in ("souvenir", "address", "instagram"):
-            if info.get(k):
-                r[k] = str(info[k]).strip().lstrip("@")
-        if isinstance(info.get("scale"), (int, float)) and info["scale"] > 0:
-            r["scale"] = int(info["scale"])
-        if info.get("posterUrl") and not r.get("poster"):
-            p = save_poster(r["id"], urllib.parse.urljoin(r["site"], info["posterUrl"]))
-            if p:
-                r["poster"] = p
+        apply_info(r, info)
+        r["enrichedBy"] = "claude" if ANTHROPIC_KEY else "text"
+        got = [k for k in ("price", "regStart", "startTime", "poster", "desc") if r.get(k)]
+        log("   →", ", ".join(got) or "찾은 정보 없음")
         r["enrichedAt"] = TODAY.isoformat()
         time.sleep(1)
 
