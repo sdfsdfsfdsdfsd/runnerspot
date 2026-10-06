@@ -23,8 +23,10 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: 이미지 처리 도구 설치
-        run: pip install pillow
+      - name: 이미지 처리 도구와 브라우저 설치
+        run: |
+          pip install pillow playwright
+          python -m playwright install --with-deps chromium
 
       - name: 저장용 계정 설정
         run: |

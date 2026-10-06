@@ -20,6 +20,7 @@ import os
 import re
 import subprocess
 import sys
+import ssl
 import time
 from difflib import SequenceMatcher
 import urllib.parse
@@ -34,6 +35,8 @@ KST = timezone(timedelta(hours=9))
 TODAY = datetime.now(KST).date()
 
 UA = "Mozilla/5.0 (compatible; RunnerSpotCollector/1.0)"
+BROWSER_UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+              "(KHTML, like Gecko) Chrome/129.0 Safari/537.36")
 ROADRUN = "http://www.roadrun.co.kr/schedule/list.php"
 
 ANTHROPIC_KEY = os.environ.get("ANTHROPIC_API_KEY", "").strip()
@@ -82,12 +85,40 @@ def log(*a):
     print(line, flush=True)
 
 
-def http(url: str, data: bytes | None = None, headers: dict | None = None, timeout=30) -> bytes:
-    h = {"User-Agent": UA, "Accept-Language": "ko-KR,ko;q=0.9"}
+def idna_url(url: str) -> str:
+    """한글 도메인(청도반시마라톤.kr 등)을 접속 가능한 주소로 바꾼다"""
+    u = urllib.parse.urlsplit(url.strip())
+    host = u.hostname or ""
+    try:
+        host.encode("ascii")
+    except UnicodeEncodeError:
+        netloc = host.encode("idna").decode("ascii") + (f":{u.port}" if u.port else "")
+        u = u._replace(netloc=netloc)
+    path = urllib.parse.quote(u.path, safe="/%:@!$&'()*+,;=-._~")
+    query = urllib.parse.quote(u.query, safe="=&%:/?+,;@!$'()*-._~")
+    return urllib.parse.urlunsplit(u._replace(path=path, query=query))
+
+
+_LOOSE_SSL = ssl.create_default_context()
+_LOOSE_SSL.check_hostname = False
+_LOOSE_SSL.verify_mode = ssl.CERT_NONE
+
+
+def http(url: str, data: bytes | None = None, headers: dict | None = None, timeout=30, browser=False) -> bytes:
+    h = {"User-Agent": BROWSER_UA if browser else UA, "Accept-Language": "ko-KR,ko;q=0.9"}
+    if browser:
+        h["Accept"] = "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
     h.update(headers or {})
-    req = urllib.request.Request(url, data=data, headers=h)
-    with urllib.request.urlopen(req, timeout=timeout) as r:
-        return r.read()
+    req = urllib.request.Request(idna_url(url), data=data, headers=h)
+    try:
+        with urllib.request.urlopen(req, timeout=timeout) as r:
+            return r.read()
+    except urllib.error.URLError as e:
+        # 인증서가 잘못 설정된 대회 홈페이지가 꽤 있어서, 읽기만 하는 경우엔 한 번 더 시도
+        if "CERTIFICATE_VERIFY_FAILED" in str(e):
+            with urllib.request.urlopen(req, timeout=timeout, context=_LOOSE_SSL) as r:
+                return r.read()
+        raise
 
 
 def decode(raw: bytes) -> str:
@@ -216,7 +247,7 @@ def fetch_roadrun(year: int) -> list[dict]:
 
 
 # ---------------------------------------------------------------- 2. merge
-KEEP = ("enrichedBy", "regStartTime", "regNote", "manager", "memo", "desc", "price", "regStart", "regEnd", "startTime", "schedule", "souvenir", "scale",
+KEEP = ("fetchedWith", "enrichedBy", "regStartTime", "regNote", "manager", "memo", "desc", "price", "regStart", "regEnd", "startTime", "schedule", "souvenir", "scale",
         "poster", "address", "lat", "lng", "instagram", "enrichedAt", "geoAt", "status")
 
 
@@ -307,8 +338,75 @@ PROMPT = """아래는 한국 마라톤 대회 "{name}" ({date} 개최)의 공식
 {text}"""
 
 
-def page_digest(url: str) -> tuple[str, list[str]]:
-    raw = http(url, timeout=25)
+_PW = None
+_BROWSER = None
+
+
+def browser_page(url: str) -> tuple[str, list[str]] | None:
+    """실제 크롬으로 페이지를 열어서 글과 큰 이미지를 가져온다 (자바스크립트로 그리는 사이트, 봇 차단 사이트용)"""
+    global _PW, _BROWSER
+    try:
+        if _BROWSER is None:
+            from playwright.sync_api import sync_playwright
+            _PW = sync_playwright().start()
+            _BROWSER = _PW.chromium.launch(args=["--no-sandbox"])
+        ctx = _BROWSER.new_context(user_agent=BROWSER_UA, locale="ko-KR", ignore_https_errors=True,
+                                   viewport={"width": 1280, "height": 1600})
+        pg = ctx.new_page()
+        try:
+            pg.goto(idna_url(url), wait_until="domcontentloaded", timeout=45000)
+            pg.wait_for_timeout(2500)
+            for _ in range(4):                       # 아래쪽 이미지가 늦게 뜨는 사이트 대비
+                pg.mouse.wheel(0, 1400)
+                pg.wait_for_timeout(500)
+            text = pg.inner_text("body", timeout=10000)
+            imgs = pg.evaluate("""() => {
+                const og = document.querySelector('meta[property="og:image"]');
+                const list = [...document.images]
+                  .filter(i => i.naturalWidth >= 350 && i.naturalHeight >= 350)
+                  .sort((a, b) => b.naturalWidth * b.naturalHeight - a.naturalWidth * a.naturalHeight)
+                  .map(i => i.currentSrc || i.src);
+                return list.concat(og ? [og.content] : []);
+            }""")
+            return re.sub(r"\s+", " ", text)[:14000], [urllib.parse.urljoin(pg.url, u) for u in imgs if u][:12]
+        finally:
+            ctx.close()
+    except Exception as e:
+        log("   브라우저로도 실패:", repr(e)[:100])
+        return None
+
+
+def close_browser() -> None:
+    global _PW, _BROWSER
+    try:
+        if _BROWSER:
+            _BROWSER.close()
+        if _PW:
+            _PW.stop()
+    except Exception:
+        pass
+    _PW = _BROWSER = None
+
+
+def page_digest(url: str) -> tuple[str, list[str], str]:
+    """먼저 가볍게 읽어보고, 막히거나 내용이 거의 없으면 실제 브라우저로 다시 연다"""
+    try:
+        text, imgs = plain_page(url)
+        if len(text) >= 400:
+            return text, imgs, "http"
+    except Exception as e:
+        log("   일반 접속 실패:", repr(e)[:80], "→ 브라우저로 다시")
+        text, imgs = "", []
+    got = browser_page(url)
+    if got and len(got[0]) > len(text):
+        return got[0], got[1] or imgs, "browser"
+    if text:
+        return text, imgs, "http"
+    raise RuntimeError("페이지를 읽지 못함")
+
+
+def plain_page(url: str) -> tuple[str, list[str]]:
+    raw = http(url, timeout=25, browser=True)
     doc = decode(raw)
     imgs = []
     og = re.search(r"<meta[^>]+property=[\"']og:image[\"'][^>]+content=[\"']([^\"']+)", doc, re.I)
@@ -346,11 +444,11 @@ def ask_claude(prompt: str, images: list[str] | None = None) -> dict | None:
 def save_poster(rid: str, url: str) -> str | None:
     try:
         from PIL import Image
-        raw = http(url, timeout=30)
-        if len(raw) < 8000:          # 아이콘 같은 작은 이미지는 건너뜀
+        raw = http(url, timeout=30, browser=True)
+        if len(raw) < 15000:         # 아이콘·로고 같은 작은 이미지는 건너뜀
             return None
         im = Image.open(io.BytesIO(raw)).convert("RGB")
-        if im.width < 200 or im.height < 200:
+        if im.width < 350 or im.height < 350 or not (0.4 <= im.width / im.height <= 2.4):
             return None
         im.thumbnail((720, 1080))
         POSTERS.mkdir(exist_ok=True)
@@ -358,7 +456,7 @@ def save_poster(rid: str, url: str) -> str | None:
         im.save(path, "WEBP", quality=78)
         return f"posters/{rid}.webp"
     except Exception as e:
-        log("   포스터 저장 실패:", e)
+        log("   포스터 후보 건너뜀:", repr(e)[:80])
         return None
 
 
@@ -413,7 +511,7 @@ def heuristic(r: dict, text: str, imgs: list[str]) -> dict:
     if k and 5 <= int(k.group(2)) <= 20:
         info["startTime"] = f"{int(k.group(2)):02d}:{k.group(3) or '00'}"
     if imgs:
-        info["posterUrl"] = imgs[0]
+        info["posterCandidates"] = imgs[:6]
     return info
 
 
@@ -441,10 +539,13 @@ def apply_info(r: dict, info: dict) -> None:
             r[k] = str(info[k]).strip().lstrip("@")
     if isinstance(info.get("scale"), (int, float)) and info["scale"] > 0:
         r["scale"] = int(info["scale"])
-    if info.get("posterUrl") and not r.get("poster"):
-        p = save_poster(r["id"], urllib.parse.urljoin(r["site"], info["posterUrl"]))
-        if p:
-            r["poster"] = p
+    if not r.get("poster"):
+        cands = ([info["posterUrl"]] if info.get("posterUrl") else []) + list(info.get("posterCandidates") or [])
+        for u in list(dict.fromkeys(cands))[:6]:
+            p = save_poster(r["id"], urllib.parse.urljoin(r["site"], u))
+            if p:
+                r["poster"] = p
+                break
 
 
 def save(races: list[dict]) -> None:
@@ -477,14 +578,17 @@ def enrich(races: list[dict]) -> None:
             and TODAY <= date.fromisoformat(r["date"]) <= horizon
             and (not r.get("enrichedAt")
                  or date.fromisoformat(r["enrichedAt"]) < TODAY - timedelta(days=REFRESH_DAYS)
-                 or (ANTHROPIC_KEY and r.get("enrichedBy") != "claude"))]
+                 or (ANTHROPIC_KEY and r.get("enrichedBy") != "claude")
+                 # 예전에 가볍게만 읽고 아무것도 못 찾은 대회는 브라우저로 다시
+                 or (r.get("fetchedWith") != "browser" and not r.get("poster") and not r.get("price")))]
     todo.sort(key=lambda r: (bool(r.get("enrichedAt")), r["date"]))
     log(f"상세 정리 대상 {len(todo)}개 중 {min(len(todo), ENRICH_LIMIT)}개 진행")
     done = 0
     for r in todo[:ENRICH_LIMIT]:
         log(" -", r["date"], r["name"])
         try:
-            text, imgs = page_digest(r["site"])
+            text, imgs, how = page_digest(r["site"])
+            r["fetchedWith"] = how
             if len(text) < 80:
                 r["enrichedAt"] = TODAY.isoformat()
                 continue
@@ -507,6 +611,7 @@ def enrich(races: list[dict]) -> None:
         log("   →", ", ".join(got) or "찾은 정보 없음")
         r["enrichedAt"] = TODAY.isoformat()
         time.sleep(1)
+    close_browser()
 
 
 # ---------------------------------------------------------------- 4. geocode (카카오)
