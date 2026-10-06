@@ -10538,7 +10538,7 @@
    "site": "http://www.tongilmarathon.kr",
    "status": "closed",
    "kind": "로드",
-   "enrichedAt": "2026-10-05",
+   "enrichedAt": "2026-10-06",
    "fetchedWith": "browser",
    "startTime": "09:30",
    "poster": "posters/rr41842.webp",
@@ -10560,7 +10560,10 @@
    "site": "http://www.cwaaf.kr/bbs/board.php?bo_table=rally&wr_id=3",
    "status": "closed",
    "kind": "로드",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-06",
+   "fetchedWith": "browser",
+   "poster": "posters/rr41838.webp",
+   "enrichedBy": "text"
   },
   {
    "id": "rr41830",
@@ -10648,7 +10651,9 @@
    "site": "http://www.koreatrail.net/home/main.php?link=event&einc=eapp&opp=20241014202801&csno=20200702232740#baseline",
    "status": null,
    "kind": "트레일",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-06",
+   "fetchedWith": "browser",
+   "enrichedBy": "text"
   },
   {
    "id": "rr41563",
@@ -10686,7 +10691,10 @@
    "site": "http://kjmarathon.com",
    "status": "closed",
    "kind": "로드",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-06",
+   "fetchedWith": "browser",
+   "poster": "posters/rr41699.webp",
+   "enrichedBy": "text"
   },
   {
    "id": "rr41602",
@@ -10790,9 +10798,13 @@
    "host": "구미러닝크루",
    "phone": "010-7152-1910",
    "site": "http://naver.me/59lo1fB8",
-   "status": null,
+   "status": "open",
    "kind": "트레일",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-06",
+   "fetchedWith": "browser",
+   "regStart": "2026-09-11",
+   "regEnd": "2026-10-30",
+   "enrichedBy": "text"
   },
   {
    "id": "rr41748",
@@ -10854,7 +10866,11 @@
    "site": "http://urfesta.com",
    "status": "closed",
    "kind": "로드",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-06",
+   "fetchedWith": "browser",
+   "startTime": "08:30",
+   "poster": "posters/rr41673.webp",
+   "enrichedBy": "text"
   },
   {
    "id": "rr41865",
@@ -10898,7 +10914,8 @@
    "status": "tbd",
    "kind": "로드",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-06",
+   "fetchedWith": "http"
   },
   {
    "id": "rr41899",
@@ -10915,9 +10932,14 @@
    "host": "경남관광재단",
    "phone": "070-4443-4392",
    "site": "http://www.kpioneertrailrun.co.kr/",
-   "status": null,
+   "status": "open",
    "kind": "트레일",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-06",
+   "fetchedWith": "browser",
+   "regStart": "2026-09-28",
+   "regEnd": "2026-10-23",
+   "poster": "posters/rr41899.webp",
+   "enrichedBy": "text"
   },
   {
    "id": "rr41868",
@@ -10936,7 +10958,9 @@
    "status": null,
    "kind": "로드",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-06",
+   "fetchedWith": "browser",
+   "poster": "posters/rr41868.webp"
   },
   {
    "id": "c32d3e89",
@@ -11206,7 +11230,10 @@
    "site": "http://mokyokrun.shop",
    "status": "closed",
    "kind": "로드",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-06",
+   "fetchedWith": "browser",
+   "poster": "posters/rr41685.webp",
+   "enrichedBy": "text"
   },
   {
    "id": "rr41744",
@@ -11245,7 +11272,8 @@
    "status": "tbd",
    "kind": "로드",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-06",
+   "fetchedWith": "http"
   },
   {
    "id": "rr41891",
@@ -11555,7 +11583,14 @@
    "site": "http://www.irunman.kr",
    "status": null,
    "kind": "로드",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-06",
+   "fetchedWith": "http",
+   "price": {
+    "하프": 60000,
+    "10km": 55000,
+    "5km": 40000
+   },
+   "enrichedBy": "text"
   },
   {
    "id": "rr41710",
@@ -11645,7 +11680,8 @@
    "status": null,
    "kind": "로드",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-06",
+   "fetchedWith": "http"
   },
   {
    "id": "rr41851",
@@ -11752,7 +11788,10 @@
    "site": "http://www.jinma.co.kr",
    "status": "open",
    "kind": "로드",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-06",
+   "fetchedWith": "browser",
+   "poster": "posters/rr41745.webp",
+   "enrichedBy": "text"
   },
   {
    "id": "57e14159",
@@ -11838,7 +11877,9 @@
    "status": null,
    "kind": "로드",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-06",
+   "fetchedWith": "http",
+   "poster": "posters/rr41887.webp"
   },
   {
    "id": "rr41824",
@@ -12042,7 +12083,11 @@
    "site": "http://www.badarun.co.kr",
    "status": null,
    "kind": "로드",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-06",
+   "fetchedWith": "browser",
+   "regEnd": "2026-11-01",
+   "poster": "posters/rr41627.webp",
+   "enrichedBy": "text"
   },
   {
    "id": "rr41236",
