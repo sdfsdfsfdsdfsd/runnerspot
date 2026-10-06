@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-05",
+ "updated": "2026-10-06",
  "count": 640,
  "races": [
   {
@@ -8931,7 +8931,7 @@
    "host": "성남YMCA",
    "phone": "031-715-6016",
    "site": "http://runpass.kr/races/seongnam-ymca/2026",
-   "status": "soon",
+   "status": "open",
    "kind": "로드",
    "enrichedBy": "text",
    "price": {
