@@ -7593,7 +7593,7 @@
    "site": "http://www.koreatrail.net/home/main.php?link=event&einc=eindex&csno=20190605121808&opp=20260203121910#baseline",
    "status": null,
    "kind": "로드",
-   "enrichedAt": "2026-10-05",
+   "enrichedAt": "2026-10-06",
    "fetchedWith": "browser",
    "price": {
     "풀코스": 60000,
@@ -7921,7 +7921,8 @@
    "site": "http://cafe.daum.net/6507447/Ep6u",
    "status": "closed",
    "kind": "로드",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-06",
+   "fetchedWith": "http"
   },
   {
    "id": "rr41655",
@@ -7965,7 +7966,9 @@
    "site": "http://race.cjsports.or.kr/",
    "status": "closed",
    "kind": "로드",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-06",
+   "fetchedWith": "browser",
+   "enrichedBy": "text"
   },
   {
    "id": "rr41724",
@@ -7983,7 +7986,12 @@
    "site": "http://ys1019.kr/",
    "status": "closed",
    "kind": "로드",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-06",
+   "fetchedWith": "browser",
+   "regStart": "2026-09-20",
+   "regEnd": "2025-10-19",
+   "poster": "posters/rr41724.webp",
+   "enrichedBy": "text"
   },
   {
    "id": "rr41679",
@@ -8148,7 +8156,8 @@
    "status": "closed",
    "kind": "로드",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-06",
+   "fetchedWith": "http"
   },
   {
    "id": "rr41610",
@@ -8186,7 +8195,12 @@
    "site": "http://www.dcmarathon.or.kr/",
    "status": "closed",
    "kind": "로드",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-06",
+   "fetchedWith": "browser",
+   "regStart": "2026-06-10",
+   "regEnd": "2026-07-13",
+   "poster": "posters/rr41603.webp",
+   "enrichedBy": "text"
   },
   {
    "id": "rr41751",
@@ -8203,7 +8217,12 @@
    "site": "http://www.cwrun.kr",
    "status": "closed",
    "kind": "로드",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-06",
+   "fetchedWith": "browser",
+   "regStart": "2026-08-05",
+   "regEnd": "2026-09-20",
+   "poster": "posters/rr41751.webp",
+   "enrichedBy": "text"
   },
   {
    "id": "cbee9df8",
@@ -8304,7 +8323,8 @@
    "status": null,
    "kind": "트레일",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-06",
+   "fetchedWith": "http"
   },
   {
    "id": "rr41770",
@@ -8522,9 +8542,15 @@
    "host": "프립, 러너킹",
    "phone": "070-8843-0320",
    "site": "http://burningfesta.com",
-   "status": "open",
+   "status": "closed",
    "kind": "트레일",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-06",
+   "fetchedWith": "browser",
+   "regStart": "2026-09-08",
+   "regEnd": "2026-10-05",
+   "startTime": "11:00",
+   "poster": "posters/rr41858.webp",
+   "enrichedBy": "text"
   },
   {
    "id": "rr41642",
@@ -8581,7 +8607,9 @@
    "kind": "로드",
    "enrichedBy": "text",
    "startTime": "07:00",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-06",
+   "fetchedWith": "http",
+   "poster": "posters/rr41661.webp"
   },
   {
    "id": "b28685f8",
@@ -8698,7 +8726,14 @@
    "site": "http://www.irunman.kr",
    "status": "closed",
    "kind": "로드",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-06",
+   "fetchedWith": "http",
+   "price": {
+    "하프": 60000,
+    "10km": 55000,
+    "5km": 40000
+   },
+   "enrichedBy": "text"
   },
   {
    "id": "2bb80310",
@@ -8820,7 +8855,9 @@
    "enrichedBy": "text",
    "regStart": "2026-09-01",
    "regEnd": "2026-10-20",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-06",
+   "fetchedWith": "http",
+   "poster": "posters/rr41882.webp"
   },
   {
    "id": "rr41854",
@@ -8840,7 +8877,8 @@
    "kind": "로드",
    "enrichedBy": "text",
    "startTime": "08:35",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-06",
+   "fetchedWith": "http"
   },
   {
    "id": "855c1cc6",
@@ -8938,7 +8976,9 @@
    "status": "closed",
    "kind": "로드",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-06",
+   "fetchedWith": "browser",
+   "poster": "posters/rr41795.webp"
   },
   {
    "id": "rr41861",
@@ -8979,7 +9019,11 @@
    "site": "http://sunset.or.kr",
    "status": "closed",
    "kind": "로드",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-06",
+   "fetchedWith": "browser",
+   "startTime": "16:40",
+   "poster": "posters/rr41778.webp",
+   "enrichedBy": "text"
   },
   {
    "id": "rr41880",
@@ -9077,7 +9121,9 @@
    "regStart": "2026-07-15",
    "regEnd": "2026-09-25",
    "startTime": "09:30",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-06",
+   "fetchedWith": "http",
+   "poster": "posters/rr41654.webp"
   },
   {
    "id": "rr41638",
@@ -9242,7 +9288,8 @@
    "site": "http://cafe.daum.net/seobongmarathon",
    "status": null,
    "kind": "로드",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-06",
+   "fetchedWith": "http"
   },
   {
    "id": "rr41873",
@@ -9316,9 +9363,17 @@
    "host": "일레븐브리지마라톤조직위원회",
    "phone": "061-921-6600",
    "site": "http://11bridge.com",
-   "status": null,
+   "status": "soon",
    "kind": "로드",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-06",
+   "fetchedWith": "browser",
+   "price": {
+    "하프": 45000
+   },
+   "regStart": "2026-10-23",
+   "startTime": "09:10",
+   "poster": "posters/rr41864.webp",
+   "enrichedBy": "text"
   },
   {
    "id": "rr41539",
@@ -9374,9 +9429,15 @@
    "host": "밀양문화관광재단",
    "phone": "055-359-4563",
    "site": "http://www.mywalk.kr",
-   "status": null,
+   "status": "open",
    "kind": "로드",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-06",
+   "fetchedWith": "browser",
+   "regStart": "2026-09-21",
+   "regEnd": "2026-10-16",
+   "startTime": "17:30",
+   "poster": "posters/rr41892.webp",
+   "enrichedBy": "text"
   },
   {
    "id": "rr41788",
@@ -9395,7 +9456,8 @@
    "status": "open",
    "kind": "로드",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-06",
+   "fetchedWith": "http"
   },
   {
    "id": "72c5b91c",
@@ -9491,7 +9553,9 @@
    "status": null,
    "kind": "로드",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-06",
+   "fetchedWith": "browser",
+   "poster": "posters/rr41849.webp"
   },
   {
    "id": "8b57cefa",
@@ -9545,7 +9609,11 @@
    "site": "http://www.jinhaemarathon.co.kr",
    "status": "closed",
    "kind": "로드",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-06",
+   "fetchedWith": "browser",
+   "startTime": "09:00",
+   "poster": "posters/rr41754.webp",
+   "enrichedBy": "text"
   },
   {
    "id": "rr41886",
@@ -9788,7 +9856,9 @@
    "status": "closed",
    "kind": "로드",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-06",
+   "fetchedWith": "http",
+   "poster": "posters/rr41634.webp"
   },
   {
    "id": "rr41752",
@@ -9856,7 +9926,8 @@
    "status": "closed",
    "kind": "로드",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-06",
+   "fetchedWith": "http"
   },
   {
    "id": "rr41853",
@@ -9931,7 +10002,9 @@
    "site": "http://www.songparunsportal.com",
    "status": "open",
    "kind": "로드",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-06",
+   "fetchedWith": "browser",
+   "enrichedBy": "text"
   },
   {
    "id": "rr41780",
@@ -10173,7 +10246,15 @@
    "site": "http://sc-marathon.kr",
    "status": "closed",
    "kind": "로드",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-06",
+   "fetchedWith": "browser",
+   "price": {
+    "풀코스": 50000,
+    "하프": 40000
+   },
+   "startTime": "08:30",
+   "poster": "posters/rr41725.webp",
+   "enrichedBy": "text"
   },
   {
    "id": "rr41760",
@@ -10272,7 +10353,9 @@
    "enrichedBy": "text",
    "regStart": "2026-10-16",
    "regEnd": "2026-10-16",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-06",
+   "fetchedWith": "http",
+   "poster": "posters/rr41686.webp"
   },
   {
    "id": "rr41847",
@@ -10455,7 +10538,11 @@
    "site": "http://www.tongilmarathon.kr",
    "status": "closed",
    "kind": "로드",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-05",
+   "fetchedWith": "browser",
+   "startTime": "09:30",
+   "poster": "posters/rr41842.webp",
+   "enrichedBy": "text"
   },
   {
    "id": "rr41838",
