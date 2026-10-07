@@ -7048,7 +7048,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-06"
+   "enrichedAt": "2026-10-07"
   },
   {
    "id": "rr41352",
@@ -7182,7 +7182,10 @@
    "phone": "02-776-4288",
    "site": "http://www.xn--zl2btb922be3fb2a860c.com/",
    "status": null,
-   "kind": "트레일"
+   "kind": "트레일",
+   "fetchedWith": "http",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-10-07"
   },
   {
    "id": "rr41689",
@@ -7922,7 +7925,7 @@
    "status": "closed",
    "kind": "로드",
    "fetchedWith": "http",
-   "enrichedAt": "2026-10-06"
+   "enrichedAt": "2026-10-07"
   },
   {
    "id": "rr41655",
@@ -8157,7 +8160,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-06"
+   "enrichedAt": "2026-10-07"
   },
   {
    "id": "rr41610",
@@ -8324,7 +8327,8 @@
    "kind": "트레일",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-06"
+   "enrichedAt": "2026-10-07",
+   "poster": "posters/rr41829.webp"
   },
   {
    "id": "rr41770",
@@ -8878,7 +8882,8 @@
    "fetchedWith": "http",
    "enrichedBy": "text",
    "startTime": "08:35",
-   "enrichedAt": "2026-10-06"
+   "enrichedAt": "2026-10-07",
+   "poster": "posters/rr41854.webp"
   },
   {
    "id": "855c1cc6",
@@ -9289,7 +9294,7 @@
    "status": null,
    "kind": "로드",
    "fetchedWith": "http",
-   "enrichedAt": "2026-10-06"
+   "enrichedAt": "2026-10-07"
   },
   {
    "id": "rr41873",
@@ -9457,7 +9462,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-06"
+   "enrichedAt": "2026-10-07"
   },
   {
    "id": "72c5b91c",
@@ -9927,7 +9932,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-06"
+   "enrichedAt": "2026-10-07"
   },
   {
    "id": "rr41853",
@@ -10482,7 +10487,11 @@
    "phone": "02-556-3012",
    "site": "http://econow.campaignus.me/econow_run",
    "status": "open",
-   "kind": "로드"
+   "kind": "로드",
+   "fetchedWith": "http",
+   "poster": "posters/rr41906.webp",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-10-07"
   },
   {
    "id": "rr41903",
@@ -10499,7 +10508,16 @@
    "phone": "00-1600-3949",
    "site": "http://inno.ynmarathon.kr",
    "status": null,
-   "kind": "로드"
+   "kind": "로드",
+   "fetchedWith": "http",
+   "price": {
+    "10km": 40000,
+    "5km": 25000
+   },
+   "startTime": "08:00",
+   "poster": "posters/rr41903.webp",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-10-07"
   },
   {
    "id": "rr41695",
@@ -10558,8 +10576,14 @@
    "host": "빗썸나눔 & 이투데이",
    "phone": "070-4350-5663",
    "site": "http://bithumbnanumrun.com",
-   "status": "soon",
-   "kind": "로드"
+   "status": "open",
+   "kind": "로드",
+   "fetchedWith": "http",
+   "regStart": "2026-10-06",
+   "regEnd": "2026-10-21",
+   "poster": "posters/rr41902.webp",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-10-07"
   },
   {
    "id": "rr41838",
@@ -10932,7 +10956,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-06"
+   "enrichedAt": "2026-10-07"
   },
   {
    "id": "rr41899",
@@ -11290,7 +11314,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-06"
+   "enrichedAt": "2026-10-07"
   },
   {
    "id": "rr41891",
@@ -11698,7 +11722,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-06"
+   "enrichedAt": "2026-10-07"
   },
   {
    "id": "rr41851",
@@ -11781,8 +11805,14 @@
    "host": "연합뉴스,하남시,한국체육대학교",
    "phone": "033-264-1365",
    "site": "http://yhitf.co.kr",
-   "status": null,
-   "kind": "트레일"
+   "status": "soon",
+   "kind": "트레일",
+   "fetchedWith": "http",
+   "regStart": "2026-10-08",
+   "regEnd": "2026-12-12",
+   "poster": "posters/rr41905.webp",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-10-07"
   },
   {
    "id": "rr41840",
