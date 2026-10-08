@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-07",
- "count": 642,
+ "updated": "2026-10-08",
+ "count": 644,
  "races": [
   {
    "id": "rr41182",
@@ -8327,8 +8327,8 @@
    "kind": "트레일",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-07",
-   "poster": "posters/rr41829.webp"
+   "poster": "posters/rr41829.webp",
+   "enrichedAt": "2026-10-07"
   },
   {
    "id": "rr41770",
@@ -8882,8 +8882,8 @@
    "fetchedWith": "http",
    "enrichedBy": "text",
    "startTime": "08:35",
-   "enrichedAt": "2026-10-07",
-   "poster": "posters/rr41854.webp"
+   "poster": "posters/rr41854.webp",
+   "enrichedAt": "2026-10-07"
   },
   {
    "id": "855c1cc6",
@@ -9309,7 +9309,7 @@
    "host": "굿네이버스충청권역,국립세종수목원",
    "phone": "041-575-9601",
    "site": "http://eggrun2026.imweb.me",
-   "status": "open",
+   "status": "closed",
    "kind": "로드",
    "enrichedBy": "text",
    "regStart": "2026-09-07",
@@ -10489,8 +10489,8 @@
    "status": "open",
    "kind": "로드",
    "fetchedWith": "http",
-   "poster": "posters/rr41906.webp",
    "enrichedBy": "text",
+   "poster": "posters/rr41906.webp",
    "enrichedAt": "2026-10-07"
   },
   {
@@ -10510,13 +10510,13 @@
    "status": null,
    "kind": "로드",
    "fetchedWith": "http",
+   "enrichedBy": "text",
    "price": {
     "10km": 40000,
     "5km": 25000
    },
    "startTime": "08:00",
    "poster": "posters/rr41903.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-07"
   },
   {
@@ -10572,17 +10572,17 @@
    ],
    "sido": "서울",
    "region": "서울",
-   "place": "여의도 한강공원 물빛무대앞 광",
+   "place": "여의도한강공원 물빛무대앞광장",
    "host": "빗썸나눔 & 이투데이",
    "phone": "070-4350-5663",
    "site": "http://bithumbnanumrun.com",
    "status": "open",
    "kind": "로드",
    "fetchedWith": "http",
+   "enrichedBy": "text",
    "regStart": "2026-10-06",
    "regEnd": "2026-10-21",
    "poster": "posters/rr41902.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-07"
   },
   {
@@ -11152,6 +11152,22 @@
    "regStart": "2026-11-15",
    "poster": "posters/rr41763.webp",
    "enrichedAt": "2026-10-05"
+  },
+  {
+   "id": "rr41908",
+   "date": "2026-11-22",
+   "name": "부산항일학생의거86주년기념 부산시민이어달리기",
+   "dist": [
+    "이어달리기16키로"
+   ],
+   "sido": "부산",
+   "region": "경상",
+   "place": "부산시내 중앙로구덕운동장~초읍",
+   "host": "(사)부산항일학생의거기념사업회",
+   "phone": "070-4406-1123",
+   "site": "http://i1123.org",
+   "status": null,
+   "kind": "로드"
   },
   {
    "id": "rr41768",
@@ -11805,13 +11821,13 @@
    "host": "연합뉴스,하남시,한국체육대학교",
    "phone": "033-264-1365",
    "site": "http://yhitf.co.kr",
-   "status": "soon",
+   "status": "open",
    "kind": "트레일",
    "fetchedWith": "http",
+   "enrichedBy": "text",
    "regStart": "2026-10-08",
    "regEnd": "2026-12-12",
    "poster": "posters/rr41905.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-07"
   },
   {
@@ -12154,6 +12170,25 @@
    "regEnd": "2026-11-01",
    "poster": "posters/rr41627.webp",
    "enrichedAt": "2026-10-06"
+  },
+  {
+   "id": "rr41907",
+   "date": "2027-05-09",
+   "name": "소아암환우돕기 제24회 서울시민마라톤",
+   "dist": [
+    "Half",
+    "10K",
+    "5K",
+    "3K 걷기"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "여의도 한강 물빛광장",
+   "host": "{사}소아암환우돕기 조직위",
+   "phone": "02-2647-4488",
+   "site": "http://soaam.runningdr.co.kr",
+   "status": null,
+   "kind": "로드"
   },
   {
    "id": "rr41236",
