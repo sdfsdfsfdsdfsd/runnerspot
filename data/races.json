@@ -7048,7 +7048,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-08"
+   "enrichedAt": "2026-10-09"
   },
   {
    "id": "rr41352",
@@ -7185,7 +7185,7 @@
    "kind": "트레일",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-08"
+   "enrichedAt": "2026-10-09"
   },
   {
    "id": "rr41689",
@@ -7926,7 +7926,7 @@
    "status": "closed",
    "kind": "로드",
    "fetchedWith": "http",
-   "enrichedAt": "2026-10-08"
+   "enrichedAt": "2026-10-09"
   },
   {
    "id": "rr41655",
@@ -8162,7 +8162,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-08"
+   "enrichedAt": "2026-10-09"
   },
   {
    "id": "rr41610",
@@ -9278,7 +9278,7 @@
    "enrichedBy": "text",
    "regStart": "2026-07-10",
    "regEnd": "2026-08-14",
-   "enrichedAt": "2026-10-08"
+   "enrichedAt": "2026-10-09"
   },
   {
    "id": "rr41862",
@@ -9299,7 +9299,7 @@
    "status": null,
    "kind": "로드",
    "fetchedWith": "http",
-   "enrichedAt": "2026-10-08"
+   "enrichedAt": "2026-10-09"
   },
   {
    "id": "rr41873",
@@ -9467,7 +9467,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-08"
+   "enrichedAt": "2026-10-09"
   },
   {
    "id": "72c5b91c",
@@ -9939,7 +9939,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-08"
+   "enrichedAt": "2026-10-09"
   },
   {
    "id": "rr41853",
@@ -10521,7 +10521,12 @@
    "phone": "070-4098-1114",
    "site": "http://walknrun.kr",
    "status": null,
-   "kind": "로드"
+   "kind": "로드",
+   "fetchedWith": "http",
+   "startTime": "07:00",
+   "poster": "posters/rr41910.webp",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-10-09"
   },
   {
    "id": "rr41903",
@@ -10586,8 +10591,17 @@
    "host": "(사)행복한가게",
    "phone": "02-877-3335",
    "site": "http://youngrace.kr",
-   "status": null,
-   "kind": "로드"
+   "status": "closed",
+   "kind": "로드",
+   "fetchedWith": "http",
+   "price": {
+    "하프": 50000
+   },
+   "regStart": "2026-11-08",
+   "regEnd": "2026-01-04",
+   "poster": "posters/rr41909.webp",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-10-09"
   },
   {
    "id": "rr41842",
@@ -11004,7 +11018,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-08"
+   "enrichedAt": "2026-10-09"
   },
   {
    "id": "rr41899",
@@ -11380,7 +11394,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-08"
+   "enrichedAt": "2026-10-09"
   },
   {
    "id": "rr41891",
@@ -11791,7 +11805,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-08"
+   "enrichedAt": "2026-10-09"
   },
   {
    "id": "rr41851",
