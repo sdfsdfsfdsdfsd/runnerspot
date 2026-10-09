@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-08",
- "count": 644,
+ "updated": "2026-10-09",
+ "count": 646,
  "races": [
   {
    "id": "rr41182",
@@ -7864,9 +7864,9 @@
    "site": "http://xn--o80b37in2b02lesgqqcj12a.kr/index.asp",
    "status": "closed",
    "kind": "로드",
+   "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-08",
-   "fetchedWith": "http"
+   "enrichedAt": "2026-10-08"
   },
   {
    "id": "rr41896",
@@ -8116,9 +8116,9 @@
    "site": "http://www.greenstep.co.kr/",
    "status": "closed",
    "kind": "로드",
+   "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-08",
-   "fetchedWith": "http"
+   "enrichedAt": "2026-10-08"
   },
   {
    "id": "rr41712",
@@ -8428,10 +8428,10 @@
    "site": "http://xn--439a68tboh.kr/index.asp",
    "status": "closed",
    "kind": "로드",
-   "enrichedBy": "text",
-   "enrichedAt": "2026-10-08",
    "fetchedWith": "http",
-   "poster": "posters/rr41637.webp"
+   "enrichedBy": "text",
+   "poster": "posters/rr41637.webp",
+   "enrichedAt": "2026-10-08"
   },
   {
    "id": "rr41883",
@@ -8468,7 +8468,7 @@
    "host": "SBS, 런코리아",
    "phone": "02-1566-1936",
    "site": "http://runmusicfestival.localvibehub.com/",
-   "status": "open",
+   "status": "closed",
    "kind": "로드",
    "enrichedBy": "text",
    "regStart": "2026-07-24",
@@ -8575,9 +8575,9 @@
    "site": "http://www.mtrailrun.kr/",
    "status": null,
    "kind": "트레일",
+   "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-08",
-   "fetchedWith": "http"
+   "enrichedAt": "2026-10-08"
   },
   {
    "id": "8da3bf48",
@@ -9523,9 +9523,9 @@
    "site": "http://www.mtrailrun.kr/",
    "status": null,
    "kind": "트레일",
+   "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-08",
-   "fetchedWith": "http"
+   "enrichedAt": "2026-10-08"
   },
   {
    "id": "rr41815",
@@ -9642,9 +9642,9 @@
    "site": "http://www.metarun.kr",
    "status": null,
    "kind": "로드",
+   "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-08",
-   "fetchedWith": "http"
+   "enrichedAt": "2026-10-08"
   },
   {
    "id": "2a7684e2",
@@ -10057,10 +10057,10 @@
    "site": "http://xn--oi2bo7bn3do4es0j56afy5b.kr/",
    "status": "open",
    "kind": "로드",
-   "enrichedBy": "text",
-   "enrichedAt": "2026-10-08",
    "fetchedWith": "http",
-   "poster": "posters/rr41729.webp"
+   "enrichedBy": "text",
+   "poster": "posters/rr41729.webp",
+   "enrichedAt": "2026-10-08"
   },
   {
    "id": "rr41816",
@@ -10311,9 +10311,9 @@
    "site": "http://www.mtrailrun.kr/",
    "status": null,
    "kind": "울트라",
+   "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-08",
-   "fetchedWith": "http"
+   "enrichedAt": "2026-10-08"
   },
   {
    "id": "67de7bb8",
@@ -10385,7 +10385,7 @@
    "host": "휠라코리아",
    "phone": "02-334-6274",
    "site": "http://www.fila.co.kr/pages/fila-run-espresso-10k-seoul",
-   "status": "open",
+   "status": "closed",
    "kind": "로드",
    "enrichedBy": "text",
    "regStart": "2026-09-11",
@@ -10504,6 +10504,26 @@
    "enrichedAt": "2026-10-07"
   },
   {
+   "id": "rr41910",
+   "date": "2026-11-15",
+   "name": "2026 연수구청장배 송도 WALK & RUN",
+   "dist": [
+    "Half",
+    "10K",
+    "5K",
+    "WALK 5K",
+    "WALK 10K"
+   ],
+   "sido": "인천",
+   "region": "경기·인천",
+   "place": "국립인천대학교 송도캠퍼스 정문",
+   "host": "인천광역시연수구걷기협회",
+   "phone": "070-4098-1114",
+   "site": "http://walknrun.kr",
+   "status": null,
+   "kind": "로드"
+  },
+  {
    "id": "rr41903",
    "date": "2026-11-15",
    "name": "2026 영남일보 혁신도시 마라톤",
@@ -10550,6 +10570,24 @@
    "enrichedBy": "text",
    "poster": "posters/rr41695.webp",
    "enrichedAt": "2026-10-06"
+  },
+  {
+   "id": "rr41909",
+   "date": "2026-11-15",
+   "name": "2026 청춘레이스",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "기타",
+   "region": "기타",
+   "place": "성북구 중랑천 체육공원",
+   "host": "(사)행복한가게",
+   "phone": "02-877-3335",
+   "site": "http://youngrace.kr",
+   "status": null,
+   "kind": "로드"
   },
   {
    "id": "rr41842",
@@ -11047,9 +11085,9 @@
    "site": "http://www.djrun.kr/",
    "status": "open",
    "kind": "로드",
+   "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-08",
-   "fetchedWith": "http"
+   "enrichedAt": "2026-10-08"
   },
   {
    "id": "rr41841",
@@ -11319,9 +11357,9 @@
    "site": "http://www.mtrailrun.kr/",
    "status": null,
    "kind": "트레일",
+   "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-08",
-   "fetchedWith": "http"
+   "enrichedAt": "2026-10-08"
   },
   {
    "id": "rr41807",
@@ -11421,9 +11459,9 @@
    "site": "http://www.xn--ob0bs4k27c8xc9da633vynbkyur2ft5hckl.kr/",
    "status": "tbd",
    "kind": "로드",
+   "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-08",
-   "fetchedWith": "http"
+   "enrichedAt": "2026-10-08"
   },
   {
    "id": "rr41741",
@@ -11473,6 +11511,7 @@
    "date": "2026-11-29",
    "name": "제14회 안중근 평화 마라톤",
    "dist": [
+    "Half",
     "10K",
     "5K"
    ],
@@ -11545,7 +11584,7 @@
   {
    "id": "rr41762",
    "date": "2026-12-05",
-   "name": "2026 하남 미사 호수 에너지런",
+   "name": "2026 하남 미사 대회 취소",
    "dist": [
     "10K",
     "5K"
@@ -11553,8 +11592,8 @@
    "sido": "경기",
    "region": "경기·인천",
    "place": "하남미사경정공원",
-   "host": "(사)행복한가게",
-   "phone": "02-888-8875",
+   "host": "하남미사",
+   "phone": "02-000-0000",
    "site": "http://energyrun.kr",
    "status": "soon",
    "kind": "로드",
@@ -11632,9 +11671,9 @@
    "site": "http://www.hangangmarathon.kr/",
    "status": "open",
    "kind": "로드",
+   "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-08",
-   "fetchedWith": "http"
+   "enrichedAt": "2026-10-08"
   },
   {
    "id": "rr41867",
