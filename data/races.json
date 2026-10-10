@@ -7866,7 +7866,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-08"
+   "enrichedAt": "2026-10-10"
   },
   {
    "id": "rr41896",
@@ -7926,7 +7926,7 @@
    "status": "closed",
    "kind": "로드",
    "fetchedWith": "http",
-   "enrichedAt": "2026-10-09"
+   "enrichedAt": "2026-10-10"
   },
   {
    "id": "rr41655",
@@ -8118,7 +8118,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-08"
+   "enrichedAt": "2026-10-10"
   },
   {
    "id": "rr41712",
@@ -8162,7 +8162,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-09"
+   "enrichedAt": "2026-10-10"
   },
   {
    "id": "rr41610",
@@ -8577,7 +8577,7 @@
    "kind": "트레일",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-08"
+   "enrichedAt": "2026-10-10"
   },
   {
    "id": "8da3bf48",
@@ -9299,7 +9299,7 @@
    "status": null,
    "kind": "로드",
    "fetchedWith": "http",
-   "enrichedAt": "2026-10-09"
+   "enrichedAt": "2026-10-10"
   },
   {
    "id": "rr41873",
@@ -9467,7 +9467,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-09"
+   "enrichedAt": "2026-10-10"
   },
   {
    "id": "72c5b91c",
@@ -9525,7 +9525,7 @@
    "kind": "트레일",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-08"
+   "enrichedAt": "2026-10-10"
   },
   {
    "id": "rr41815",
@@ -9644,7 +9644,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-08"
+   "enrichedAt": "2026-10-10"
   },
   {
    "id": "2a7684e2",
@@ -9939,7 +9939,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-09"
+   "enrichedAt": "2026-10-10"
   },
   {
    "id": "rr41853",
@@ -10313,7 +10313,7 @@
    "kind": "울트라",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-08"
+   "enrichedAt": "2026-10-10"
   },
   {
    "id": "67de7bb8",
@@ -11018,7 +11018,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-09"
+   "enrichedAt": "2026-10-10"
   },
   {
    "id": "rr41899",
@@ -11101,7 +11101,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-08"
+   "enrichedAt": "2026-10-10"
   },
   {
    "id": "rr41841",
@@ -11373,7 +11373,7 @@
    "kind": "트레일",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-08"
+   "enrichedAt": "2026-10-10"
   },
   {
    "id": "rr41807",
@@ -11394,7 +11394,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-09"
+   "enrichedAt": "2026-10-10"
   },
   {
    "id": "rr41891",
@@ -11475,7 +11475,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-08"
+   "enrichedAt": "2026-10-10"
   },
   {
    "id": "rr41741",
@@ -11631,8 +11631,14 @@
    "host": "동방사회복지회",
    "phone": "02-332-3997",
    "site": "http://hugrun.kr",
-   "status": "soon",
-   "kind": "로드"
+   "status": "open",
+   "kind": "로드",
+   "fetchedWith": "http",
+   "regStart": "2026-10-06",
+   "regEnd": "2026-11-08",
+   "poster": "posters/rr41911.webp",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-10-10"
   },
   {
    "id": "efa78116",
@@ -11687,7 +11693,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-08"
+   "enrichedAt": "2026-10-10"
   },
   {
    "id": "rr41867",
@@ -11805,7 +11811,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-09"
+   "enrichedAt": "2026-10-10"
   },
   {
    "id": "rr41851",
@@ -11933,8 +11939,14 @@
    "host": "(사)한국산악마라톤연맹",
    "phone": "02-424-2195",
    "site": "http://koreatrail.net",
-   "status": null,
-   "kind": "로드"
+   "status": "closed",
+   "kind": "로드",
+   "fetchedWith": "browser",
+   "regStart": "2026-01-01",
+   "regEnd": "2026-09-13",
+   "poster": "posters/rr41914.webp",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-10-10"
   },
   {
    "id": "rr41745",
