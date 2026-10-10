@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-09",
- "count": 646,
+ "updated": "2026-10-10",
+ "count": 647,
  "races": [
   {
    "id": "rr41182",
@@ -10523,9 +10523,9 @@
    "status": null,
    "kind": "로드",
    "fetchedWith": "http",
+   "enrichedBy": "text",
    "startTime": "07:00",
    "poster": "posters/rr41910.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-09"
   },
   {
@@ -10594,13 +10594,13 @@
    "status": "closed",
    "kind": "로드",
    "fetchedWith": "http",
+   "enrichedBy": "text",
    "price": {
     "하프": 50000
    },
    "regStart": "2026-11-08",
    "regEnd": "2026-01-04",
    "poster": "posters/rr41909.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-09"
   },
   {
@@ -11618,19 +11618,19 @@
    "enrichedAt": "2026-10-05"
   },
   {
-   "id": "ce4fed85",
+   "id": "rr41911",
    "date": "2026-12-05",
-   "name": "2026 허그런",
+   "name": "2026 허그런(HUG RUN)",
    "dist": [
     "10K",
     "5K"
    ],
    "sido": "서울",
    "region": "서울",
-   "place": "상암 월드컵경기장 평화의공원 평화광장",
-   "host": null,
-   "phone": null,
-   "site": null,
+   "place": "상암 월드컵공원 평화광장",
+   "host": "동방사회복지회",
+   "phone": "02-332-3997",
+   "site": "http://hugrun.kr",
    "status": "soon",
    "kind": "로드"
   },
@@ -11918,6 +11918,23 @@
    "regStart": "2026-12-02",
    "poster": "posters/rr41840.webp",
    "enrichedAt": "2026-10-05"
+  },
+  {
+   "id": "rr41914",
+   "date": "2026-12-13",
+   "name": "제2회 일자산TRAL RUNNING",
+   "dist": [
+    "8K",
+    "4K"
+   ],
+   "sido": "기타",
+   "region": "기타",
+   "place": "일자산보훈병원앞",
+   "host": "(사)한국산악마라톤연맹",
+   "phone": "02-424-2195",
+   "site": "http://koreatrail.net",
+   "status": null,
+   "kind": "로드"
   },
   {
    "id": "rr41745",
