@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-10",
- "count": 647,
+ "updated": "2026-10-11",
+ "count": 648,
  "races": [
   {
    "id": "rr41182",
@@ -7051,6 +7051,23 @@
    "enrichedAt": "2026-10-09"
   },
   {
+   "id": "rr41916",
+   "date": "2026-10-09",
+   "name": "제11회 수퍼블루마라톤",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "상암동 평화의 광장",
+   "host": "스페셜올림픽 조직위",
+   "phone": "02-312-1998",
+   "site": "http://www.superbluemarathon.kr/",
+   "status": null,
+   "kind": "로드"
+  },
+  {
    "id": "rr41352",
    "date": "2026-10-09",
    "name": "제26회 홍성마라톤",
@@ -10077,7 +10094,7 @@
    "host": "나주시체육회",
    "phone": "061-331-6482",
    "site": "http://www.geumsungsan.kr",
-   "status": "open",
+   "status": "closed",
    "kind": "로드",
    "enrichedBy": "text",
    "price": {
@@ -11634,10 +11651,10 @@
    "status": "open",
    "kind": "로드",
    "fetchedWith": "http",
+   "enrichedBy": "text",
    "regStart": "2026-10-06",
    "regEnd": "2026-11-08",
    "poster": "posters/rr41911.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-10"
   },
   {
@@ -11942,10 +11959,10 @@
    "status": "closed",
    "kind": "로드",
    "fetchedWith": "browser",
+   "enrichedBy": "text",
    "regStart": "2026-01-01",
    "regEnd": "2026-09-13",
    "poster": "posters/rr41914.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-10"
   },
   {
