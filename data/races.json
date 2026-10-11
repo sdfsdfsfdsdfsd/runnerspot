@@ -7943,7 +7943,7 @@
    "status": "closed",
    "kind": "로드",
    "fetchedWith": "http",
-   "enrichedAt": "2026-10-10"
+   "enrichedAt": "2026-10-11"
   },
   {
    "id": "rr41655",
@@ -8179,7 +8179,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-10"
+   "enrichedAt": "2026-10-11"
   },
   {
    "id": "rr41610",
@@ -9316,7 +9316,7 @@
    "status": null,
    "kind": "로드",
    "fetchedWith": "http",
-   "enrichedAt": "2026-10-10"
+   "enrichedAt": "2026-10-11"
   },
   {
    "id": "rr41873",
@@ -9484,7 +9484,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-10"
+   "enrichedAt": "2026-10-11"
   },
   {
    "id": "72c5b91c",
@@ -9956,7 +9956,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-10"
+   "enrichedAt": "2026-10-11"
   },
   {
    "id": "rr41853",
@@ -11035,7 +11035,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-10"
+   "enrichedAt": "2026-10-11"
   },
   {
    "id": "rr41899",
@@ -11411,7 +11411,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-10"
+   "enrichedAt": "2026-10-11"
   },
   {
    "id": "rr41891",
@@ -11828,7 +11828,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-10"
+   "enrichedAt": "2026-10-11"
   },
   {
    "id": "rr41851",
