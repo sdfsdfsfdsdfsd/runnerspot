@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-12",
- "count": 648,
+ "updated": "2026-10-13",
+ "count": 650,
  "races": [
   {
    "id": "rr41182",
@@ -10465,6 +10465,7 @@
    "name": "2026 나눔레이스 인 용인",
    "dist": [
     "10K",
+    "5K",
     "15K"
    ],
    "sido": "경기",
@@ -12125,6 +12126,24 @@
    "enrichedAt": "2026-10-05"
   },
   {
+   "id": "rr41919",
+   "date": "2027-01-10",
+   "name": "2027 전마협 새해 동계 마라톤",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "충남",
+   "region": "충청",
+   "place": "금산 인삼 엑스포광장 주차장",
+   "host": "전국마라톤협회",
+   "phone": "042-638-1080",
+   "site": "http://mara1080.com/event/2c881231-b5dd-4ae8-a587-c02d539566af",
+   "status": null,
+   "kind": "로드"
+  },
+  {
    "id": "rr41877",
    "date": "2027-02-20",
    "name": "2027 전마협 청주 무심천 투데이 마라톤",
@@ -12203,6 +12222,24 @@
    "enrichedBy": "text",
    "poster": "posters/rr41631.webp",
    "enrichedAt": "2026-10-06"
+  },
+  {
+   "id": "rr41918",
+   "date": "2027-02-28",
+   "name": "2027 대구마라톤",
+   "dist": [
+    "Full",
+    "10K",
+    "5K"
+   ],
+   "sido": "대구",
+   "region": "경상",
+   "place": "국채보상운동기념공원",
+   "host": "대구시",
+   "phone": "053-803-6185",
+   "site": "http://daegumarathon.daegu.go.kr",
+   "status": null,
+   "kind": "로드"
   },
   {
    "id": "rr41901",
