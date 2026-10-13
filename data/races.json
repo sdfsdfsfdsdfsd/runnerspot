@@ -7943,7 +7943,7 @@
    "status": "closed",
    "kind": "로드",
    "fetchedWith": "http",
-   "enrichedAt": "2026-10-12"
+   "enrichedAt": "2026-10-13"
   },
   {
    "id": "rr41655",
@@ -8179,7 +8179,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-12"
+   "enrichedAt": "2026-10-13"
   },
   {
    "id": "rr41610",
@@ -9316,7 +9316,7 @@
    "status": null,
    "kind": "로드",
    "fetchedWith": "http",
-   "enrichedAt": "2026-10-12"
+   "enrichedAt": "2026-10-13"
   },
   {
    "id": "rr41873",
@@ -9484,7 +9484,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-12"
+   "enrichedAt": "2026-10-13"
   },
   {
    "id": "72c5b91c",
@@ -9956,7 +9956,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-12"
+   "enrichedAt": "2026-10-13"
   },
   {
    "id": "rr41853",
@@ -11036,7 +11036,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-12"
+   "enrichedAt": "2026-10-13"
   },
   {
    "id": "rr41899",
@@ -11412,7 +11412,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-12"
+   "enrichedAt": "2026-10-13"
   },
   {
    "id": "rr41891",
@@ -11829,7 +11829,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-12"
+   "enrichedAt": "2026-10-13"
   },
   {
    "id": "rr41851",
@@ -12239,7 +12239,10 @@
    "phone": "053-803-6185",
    "site": "http://daegumarathon.daegu.go.kr",
    "status": null,
-   "kind": "로드"
+   "kind": "로드",
+   "fetchedWith": "http",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-10-13"
   },
   {
    "id": "rr41901",
