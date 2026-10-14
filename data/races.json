@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-14",
- "count": 650,
+ "updated": "2026-10-15",
+ "count": 653,
  "races": [
   {
    "id": "rr41182",
@@ -9226,7 +9226,7 @@
    "host": "법률신문",
    "phone": "010-9573-7669",
    "site": "http://justicerun.kr/",
-   "status": "open",
+   "status": "closed",
    "kind": "로드",
    "enrichedBy": "text",
    "regStart": "2026-09-21",
@@ -9957,6 +9957,25 @@
    "fetchedWith": "http",
    "enrichedBy": "text",
    "enrichedAt": "2026-10-14"
+  },
+  {
+   "id": "rr41926",
+   "date": "2026-11-08",
+   "name": "2026전국 체육회장배 안산 RUN 마라톤",
+   "dist": [
+    "10K",
+    "5K",
+    "3K(학생부",
+    "5인1조(10K"
+   ],
+   "sido": "경기",
+   "region": "경기·인천",
+   "place": "안산 호수공원(중앙무대)인근",
+   "host": "안산시체육회/안산시육상연맹",
+   "phone": "031-339-6338",
+   "site": "http://aaaf.koreashout.com/bbs/board.php?bo_table=cp_list&wr_id=60",
+   "status": null,
+   "kind": "로드"
   },
   {
    "id": "rr41853",
@@ -11274,6 +11293,24 @@
    "enrichedAt": "2026-10-05"
   },
   {
+   "id": "rr41925",
+   "date": "2026-11-22",
+   "name": "제19회 대구광역시장기 생활체육 육상대회",
+   "dist": [
+    "10K",
+    "100m",
+    "200m"
+   ],
+   "sido": "대구",
+   "region": "경상",
+   "place": "대구스타디움",
+   "host": "대구광역시체육회",
+   "phone": "010-3503-4558",
+   "site": "http://www.daegutf.co.kr/front/board/view.php?code=game&tab=%EB%8C%80%EA%B5%AC&mid=0003%2C0014&no=722",
+   "status": null,
+   "kind": "로드"
+  },
+  {
    "id": "rr41859",
    "date": "2026-11-22",
    "name": "제6회 고용노동부장관배 직장인마라톤대회",
@@ -11783,6 +11820,24 @@
     "5km": 30000
    },
    "enrichedAt": "2026-10-05"
+  },
+  {
+   "id": "rr41923",
+   "date": "2026-12-06",
+   "name": "2026 화순고인돌마라톤",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "전남",
+   "region": "전라",
+   "place": "화순공설운동장",
+   "host": "화순군체육회, 화순군육상연맹",
+   "phone": "061-375-1201",
+   "site": "http://xn--299a84k68cg1cr8pi6h5qsd0i.kr/index.asp",
+   "status": null,
+   "kind": "로드"
   },
   {
    "id": "rr41802",
