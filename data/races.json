@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15",
+ "updated": "2026-10-16",
  "count": 653,
  "races": [
   {
@@ -8578,25 +8578,6 @@
    "enrichedAt": "2026-10-06"
   },
   {
-   "id": "rr41642",
-   "date": "2026-10-24",
-   "name": "서울 대모-구룡산트레일런",
-   "dist": [
-    "14.6K"
-   ],
-   "sido": "서울",
-   "region": "서울",
-   "place": "수서역6번출구",
-   "host": "파브코리아",
-   "phone": "010-3526-9120",
-   "site": "http://www.mtrailrun.kr/",
-   "status": null,
-   "kind": "트레일",
-   "fetchedWith": "http",
-   "enrichedBy": "text",
-   "enrichedAt": "2026-10-10"
-  },
-  {
    "id": "8da3bf48",
    "date": "2026-10-24",
    "name": "프리덤 워크 & 런 2026",
@@ -10402,7 +10383,7 @@
    "host": "서울자주통일평화연대",
    "phone": "010-3408-8150",
    "site": "http://seoultongilrun.org",
-   "status": "soon",
+   "status": "open",
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
@@ -11670,7 +11651,7 @@
    "host": "하남미사",
    "phone": "02-000-0000",
    "site": "http://energyrun.kr",
-   "status": "soon",
+   "status": "open",
    "kind": "로드",
    "enrichedBy": "text",
    "regStart": "2026-10-16",
@@ -11869,6 +11850,26 @@
    "startTime": "08:00",
    "poster": "posters/rr41802.webp",
    "enrichedAt": "2026-10-05"
+  },
+  {
+   "id": "rr41642",
+   "date": "2026-12-06",
+   "name": "대전보문산트레일런",
+   "dist": [
+    "10K",
+    "15K"
+   ],
+   "sido": "대전",
+   "region": "충청",
+   "place": "수서역6번출구",
+   "host": "파브코리아/명품트레일",
+   "phone": "010-3526-9120",
+   "site": "http://www.mtrailrun.kr/",
+   "status": null,
+   "kind": "트레일",
+   "fetchedWith": "http",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-10-10"
   },
   {
    "id": "rr41888",
