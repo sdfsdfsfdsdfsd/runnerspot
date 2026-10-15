@@ -1,11 +1,11 @@
-2026-10-14 09:52 실행
-roadrun 2026: 응답 880,086바이트, 표 행 1244개
-roadrun 2026: 601개
+2026-10-15 09:31 실행
+roadrun 2026: 응답 884,723바이트, 표 행 1250개
+roadrun 2026: 604개
 roadrun 2027: 응답 42,186바이트, 표 행 66개
 roadrun 2027: 12개
    중간 저장 완료: 대회 목록 업데이트
 ANTHROPIC_API_KEY 없음 → 홈페이지 글에서 직접 찾는 방식으로 진행
-상세 정리 대상 33개 중 33개 진행
+상세 정리 대상 36개 중 36개 진행
  - 2026-10-18 제23회 여주 세종대왕 마라톤
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://mara1080.co
@@ -18,6 +18,10 @@ ANTHROPIC_API_KEY 없음 → 홈페이지 글에서 직접 찾는 방식으로 �
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://mara1080.co
    실패: RuntimeError('페이지를 읽지 못함')
+ - 2026-11-08 2026전국 체육회장배 안산 RUN 마라톤
+   포스터 후보 건너뜀: Error('Invalid base64-encoded string: number of data characters (233) cannot be 
+   포스터 후보 건너뜀: <HTTPError 404: 'Not Found'>
+   → 찾은 정보 없음
  - 2026-11-15 제24회 상주 곶감 마라톤 대회
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://www.mara108
@@ -26,6 +30,8 @@ ANTHROPIC_API_KEY 없음 → 홈페이지 글에서 직접 찾는 방식으로 �
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://i1123.org/"
    실패: RuntimeError('페이지를 읽지 못함')
+ - 2026-11-22 제19회 대구광역시장기 생활체육 육상대회
+   → 찾은 정보 없음
  - 2026-11-28 2026 남원 춘향 전국 마라톤대회
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://mara1080.co
@@ -33,6 +39,10 @@ ANTHROPIC_API_KEY 없음 → 홈페이지 글에서 직접 찾는 방식으로 �
  - 2026-12-05 전국마라톤협회 2026 골드런 레이스
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://mara1080.co
+   실패: RuntimeError('페이지를 읽지 못함')
+ - 2026-12-06 2026 화순고인돌마라톤
+   일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
+   브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://xn--299a84k
    실패: RuntimeError('페이지를 읽지 못함')
  - 2027-01-10 2027 전마협 새해 동계 마라톤
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
@@ -117,4 +127,4 @@ ANTHROPIC_API_KEY 없음 → 홈페이지 글에서 직접 찾는 방식으로 �
  - 2027-02-28 2027 대구마라톤
    → 찾은 정보 없음
 KAKAO_REST_KEY 없음 → 좌표 변환 건너뜀
-저장 완료: 650개 대회
+저장 완료: 653개 대회

@@ -7943,7 +7943,7 @@
    "status": "closed",
    "kind": "로드",
    "fetchedWith": "http",
-   "enrichedAt": "2026-10-14"
+   "enrichedAt": "2026-10-15"
   },
   {
    "id": "rr41655",
@@ -8179,7 +8179,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-14"
+   "enrichedAt": "2026-10-15"
   },
   {
    "id": "rr41610",
@@ -9316,7 +9316,7 @@
    "status": null,
    "kind": "로드",
    "fetchedWith": "http",
-   "enrichedAt": "2026-10-14"
+   "enrichedAt": "2026-10-15"
   },
   {
    "id": "rr41873",
@@ -9484,7 +9484,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-14"
+   "enrichedAt": "2026-10-15"
   },
   {
    "id": "72c5b91c",
@@ -9956,7 +9956,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-14"
+   "enrichedAt": "2026-10-15"
   },
   {
    "id": "rr41926",
@@ -9975,7 +9975,10 @@
    "phone": "031-339-6338",
    "site": "http://aaaf.koreashout.com/bbs/board.php?bo_table=cp_list&wr_id=60",
    "status": null,
-   "kind": "로드"
+   "kind": "로드",
+   "fetchedWith": "http",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-10-15"
   },
   {
    "id": "rr41853",
@@ -11055,7 +11058,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-14"
+   "enrichedAt": "2026-10-15"
   },
   {
    "id": "rr41899",
@@ -11308,7 +11311,10 @@
    "phone": "010-3503-4558",
    "site": "http://www.daegutf.co.kr/front/board/view.php?code=game&tab=%EB%8C%80%EA%B5%AC&mid=0003%2C0014&no=722",
    "status": null,
-   "kind": "로드"
+   "kind": "로드",
+   "fetchedWith": "http",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-10-15"
   },
   {
    "id": "rr41859",
@@ -11449,7 +11455,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-14"
+   "enrichedAt": "2026-10-15"
   },
   {
    "id": "rr41891",
@@ -11884,7 +11890,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-14"
+   "enrichedAt": "2026-10-15"
   },
   {
    "id": "rr41851",
@@ -12297,7 +12303,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-14"
+   "enrichedAt": "2026-10-15"
   },
   {
    "id": "rr41901",
