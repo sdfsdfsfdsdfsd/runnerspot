@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-16",
- "count": 653,
+ "updated": "2026-10-17",
+ "count": 655,
  "races": [
   {
    "id": "rr41182",
@@ -9437,7 +9437,7 @@
    "host": "밀양문화관광재단",
    "phone": "055-359-4563",
    "site": "http://www.mywalk.kr",
-   "status": "open",
+   "status": "closed",
    "kind": "로드",
    "fetchedWith": "browser",
    "enrichedBy": "text",
@@ -10383,7 +10383,7 @@
    "host": "서울자주통일평화연대",
    "phone": "010-3408-8150",
    "site": "http://seoultongilrun.org",
-   "status": "open",
+   "status": "closed",
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
@@ -10848,7 +10848,7 @@
   {
    "id": "rr41558",
    "date": "2026-11-15",
-   "name": "제3회 무등산더블하트국제트레일런대회",
+   "name": "제3회 무등산더블하트국제트레일런대회 추가접수",
    "dist": [
     "16K",
     "36K",
@@ -11350,6 +11350,23 @@
    "phone": "042-638-1080",
    "site": "http://mara1080.com/event/c2cec79b-c38a-4832-bf4f-7ecb499cdcd5/guide/overview",
    "status": "open",
+   "kind": "로드"
+  },
+  {
+   "id": "rr41927",
+   "date": "2026-11-28",
+   "name": "2026 착한서구 공부방 기부앤런",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "광주",
+   "region": "전라",
+   "place": "영산강 자전거길(극락교~서창교",
+   "host": "전남광주통합특별시 서구",
+   "phone": "063-535-0495",
+   "site": "http://기부앤런.kr",
+   "status": null,
    "kind": "로드"
   },
   {
@@ -12202,6 +12219,23 @@
    "host": "전국마라톤협회",
    "phone": "042-638-1080",
    "site": "http://mara1080.com/event/2c881231-b5dd-4ae8-a587-c02d539566af",
+   "status": null,
+   "kind": "로드"
+  },
+  {
+   "id": "rr41931",
+   "date": "2027-02-13",
+   "name": "2027 전마협 고흥 누리호 마라톤대회",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "전남",
+   "region": "전라",
+   "place": "고흥만 수변노을공원",
+   "host": "전국마라톤협회",
+   "phone": "042-",
+   "site": "http://mara1080.com/event/f3c362bc-532f-4f3c-bc21-76d3023bfb3a",
    "status": null,
    "kind": "로드"
   },
