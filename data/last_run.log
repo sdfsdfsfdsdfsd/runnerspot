@@ -1,11 +1,11 @@
-2026-10-16 09:16 실행
-roadrun 2026: 응답 884,668바이트, 표 행 1250개
-roadrun 2026: 604개
-roadrun 2027: 응답 42,074바이트, 표 행 66개
-roadrun 2027: 12개
+2026-10-17 09:14 실행
+roadrun 2026: 응답 886,037바이트, 표 행 1252개
+roadrun 2026: 605개
+roadrun 2027: 응답 43,626바이트, 표 행 68개
+roadrun 2027: 13개
    중간 저장 완료: 대회 목록 업데이트
 ANTHROPIC_API_KEY 없음 → 홈페이지 글에서 직접 찾는 방식으로 진행
-상세 정리 대상 36개 중 36개 진행
+상세 정리 대상 38개 중 38개 진행
  - 2026-10-18 제23회 여주 세종대왕 마라톤
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://mara1080.co
@@ -30,6 +30,10 @@ ANTHROPIC_API_KEY 없음 → 홈페이지 글에서 직접 찾는 방식으로 �
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://mara1080.co
    실패: RuntimeError('페이지를 읽지 못함')
+ - 2026-11-28 2026 착한서구 공부방 기부앤런
+   일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
+   브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://xn--ok0by8p
+   실패: RuntimeError('페이지를 읽지 못함')
  - 2026-12-05 전국마라톤협회 2026 골드런 레이스
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://mara1080.co
@@ -39,6 +43,10 @@ ANTHROPIC_API_KEY 없음 → 홈페이지 글에서 직접 찾는 방식으로 �
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://xn--299a84k
    실패: RuntimeError('페이지를 읽지 못함')
  - 2027-01-10 2027 전마협 새해 동계 마라톤
+   일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
+   브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://mara1080.co
+   실패: RuntimeError('페이지를 읽지 못함')
+ - 2027-02-13 2027 전마협 고흥 누리호 마라톤대회
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://mara1080.co
    실패: RuntimeError('페이지를 읽지 못함')
@@ -123,8 +131,8 @@ ANTHROPIC_API_KEY 없음 → 홈페이지 글에서 직접 찾는 방식으로 �
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://www.mtrailr
    실패: RuntimeError('페이지를 읽지 못함')
  - 2026-12-06 제1회 정읍 고향사랑기부마라톤
-   → 찾은 정보 없음
+   → poster
  - 2027-02-28 2027 대구마라톤
    → 찾은 정보 없음
 KAKAO_REST_KEY 없음 → 좌표 변환 건너뜀
-저장 완료: 653개 대회
+저장 완료: 655개 대회

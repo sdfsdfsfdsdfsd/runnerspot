@@ -7943,7 +7943,7 @@
    "status": "closed",
    "kind": "로드",
    "fetchedWith": "http",
-   "enrichedAt": "2026-10-16"
+   "enrichedAt": "2026-10-17"
   },
   {
    "id": "rr41655",
@@ -8179,7 +8179,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-16"
+   "enrichedAt": "2026-10-17"
   },
   {
    "id": "rr41610",
@@ -9297,7 +9297,7 @@
    "status": null,
    "kind": "로드",
    "fetchedWith": "http",
-   "enrichedAt": "2026-10-16"
+   "enrichedAt": "2026-10-17"
   },
   {
    "id": "rr41873",
@@ -9465,7 +9465,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-16"
+   "enrichedAt": "2026-10-17"
   },
   {
    "id": "72c5b91c",
@@ -9937,7 +9937,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-16"
+   "enrichedAt": "2026-10-17"
   },
   {
    "id": "rr41926",
@@ -9959,7 +9959,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-16"
+   "enrichedAt": "2026-10-17"
   },
   {
    "id": "rr41853",
@@ -11039,7 +11039,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-16"
+   "enrichedAt": "2026-10-17"
   },
   {
    "id": "rr41899",
@@ -11295,7 +11295,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-16"
+   "enrichedAt": "2026-10-17"
   },
   {
    "id": "rr41859",
@@ -11453,7 +11453,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-16"
+   "enrichedAt": "2026-10-17"
   },
   {
    "id": "rr41891",
@@ -11908,7 +11908,8 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-16"
+   "enrichedAt": "2026-10-17",
+   "poster": "posters/rr41888.webp"
   },
   {
    "id": "rr41851",
@@ -12338,7 +12339,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-16"
+   "enrichedAt": "2026-10-17"
   },
   {
    "id": "rr41901",
