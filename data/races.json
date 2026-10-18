@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18",
+ "updated": "2026-10-19",
  "count": 655,
  "races": [
   {
@@ -9075,7 +9075,7 @@
    "host": "(사) 중소기업진흥회",
    "phone": "010-2760-7745",
    "site": "http://kasmirun.kr/",
-   "status": "open",
+   "status": "closed",
    "kind": "로드",
    "enrichedBy": "text",
    "price": {
