@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-19",
- "count": 655,
+ "updated": "2026-10-20",
+ "count": 656,
  "races": [
   {
    "id": "rr41182",
@@ -9960,6 +9960,22 @@
    "fetchedWith": "http",
    "enrichedBy": "text",
    "enrichedAt": "2026-10-19"
+  },
+  {
+   "id": "rr41933",
+   "date": "2026-11-08",
+   "name": "83타워 업힐런 챌린지",
+   "dist": [
+    "1.8K+77층 계단"
+   ],
+   "sido": "기타",
+   "region": "기타",
+   "place": "이월드",
+   "host": "이월드 / 페스티벌잼",
+   "phone": "070-7549-8112",
+   "site": "http://eworld83toweruphillrun.lovable.app/",
+   "status": null,
+   "kind": "기타"
   },
   {
    "id": "rr41853",
