@@ -1,11 +1,11 @@
-2026-10-19 08:48 실행
-roadrun 2026: 응답 885,709바이트, 표 행 1252개
-roadrun 2026: 605개
-roadrun 2027: 응답 43,594바이트, 표 행 68개
+2026-10-20 09:55 실행
+roadrun 2026: 응답 887,253바이트, 표 행 1254개
+roadrun 2026: 606개
+roadrun 2027: 응답 43,538바이트, 표 행 68개
 roadrun 2027: 13개
    중간 저장 완료: 대회 목록 업데이트
 ANTHROPIC_API_KEY 없음 → 홈페이지 글에서 직접 찾는 방식으로 진행
-상세 정리 대상 32개 중 32개 진행
+상세 정리 대상 33개 중 33개 진행
  - 2026-11-01 2026 무안 해안 노을길 걷기 및 마라톤
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://mara1080.co
@@ -14,6 +14,8 @@ ANTHROPIC_API_KEY 없음 → 홈페이지 글에서 직접 찾는 방식으로 �
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://mara1080.co
    실패: RuntimeError('페이지를 읽지 못함')
+ - 2026-11-08 83타워 업힐런 챌린지
+   → startTime, poster
  - 2026-11-15 제24회 상주 곶감 마라톤 대회
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://www.mara108
@@ -118,4 +120,4 @@ ANTHROPIC_API_KEY 없음 → 홈페이지 글에서 직접 찾는 방식으로 �
  - 2027-02-28 2027 대구마라톤
    → 찾은 정보 없음
 KAKAO_REST_KEY 없음 → 좌표 변환 건너뜀
-저장 완료: 655개 대회
+저장 완료: 656개 대회
