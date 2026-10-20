@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20",
+ "updated": "2026-10-21",
  "count": 656,
  "races": [
   {
@@ -8463,7 +8463,7 @@
    "host": "링크",
    "phone": "010-6518-1559",
    "site": "http://fwr.libertyinnorthkorea.or.kr/2026/#join",
-   "status": "open",
+   "status": "closed",
    "kind": "로드",
    "enrichedBy": "text",
    "regStart": "2026-08-28",
@@ -8857,7 +8857,7 @@
    "host": "인천광역시걷기협",
    "phone": "070-4098-1114",
    "site": "http://icnr.kr",
-   "status": "open",
+   "status": "closed",
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
@@ -9977,9 +9977,9 @@
    "status": null,
    "kind": "기타",
    "fetchedWith": "http",
+   "enrichedBy": "text",
    "startTime": "07:30",
    "poster": "posters/rr41933.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-20"
   },
   {
