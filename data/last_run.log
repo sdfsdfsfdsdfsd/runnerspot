@@ -1,5 +1,5 @@
-2026-10-20 09:55 실행
-roadrun 2026: 응답 887,253바이트, 표 행 1254개
+2026-10-21 09:29 실행
+roadrun 2026: 응답 887,061바이트, 표 행 1254개
 roadrun 2026: 606개
 roadrun 2027: 응답 43,538바이트, 표 행 68개
 roadrun 2027: 13개
@@ -14,8 +14,6 @@ ANTHROPIC_API_KEY 없음 → 홈페이지 글에서 직접 찾는 방식으로 �
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://mara1080.co
    실패: RuntimeError('페이지를 읽지 못함')
- - 2026-11-08 83타워 업힐런 챌린지
-   → startTime, poster
  - 2026-11-15 제24회 상주 곶감 마라톤 대회
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://www.mara108
@@ -63,6 +61,10 @@ ANTHROPIC_API_KEY 없음 → 홈페이지 글에서 직접 찾는 방식으로 �
  - 2027-03-28 제3회 영광광풍마라톤
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://mara1080.co
+   실패: RuntimeError('페이지를 읽지 못함')
+ - 2027-05-09 소아암환우돕기 제24회 서울시민마라톤
+   일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
+   브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://soaam.runni
    실패: RuntimeError('페이지를 읽지 못함')
  - 2026-11-01 제2회 대전 신채호 마라톤
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
