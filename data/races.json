@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-21",
- "count": 656,
+ "updated": "2026-10-22",
+ "count": 658,
  "races": [
   {
    "id": "rr41182",
@@ -10680,7 +10680,7 @@
    "host": "빗썸나눔 & 이투데이",
    "phone": "070-4350-5663",
    "site": "http://bithumbnanumrun.com",
-   "status": "open",
+   "status": "closed",
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
@@ -11975,6 +11975,23 @@
    "enrichedAt": "2026-10-05"
   },
   {
+   "id": "rr41936",
+   "date": "2026-12-12",
+   "name": "2026 성남 헤리티지 런",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "경기",
+   "region": "경기·인천",
+   "place": "탄천종합운동장",
+   "host": "채널A",
+   "phone": "031-821-9940",
+   "site": "http://charun.co.kr",
+   "status": null,
+   "kind": "로드"
+  },
+  {
    "id": "rr41812",
    "date": "2026-12-12",
    "name": "2026 소년소녀 가장 돕기 기부런",
@@ -12043,6 +12060,24 @@
    "regStart": "2026-12-02",
    "poster": "posters/rr41840.webp",
    "enrichedAt": "2026-10-05"
+  },
+  {
+   "id": "rr41935",
+   "date": "2026-12-13",
+   "name": "2026 시즌마감마라톤대회",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "인천",
+   "region": "경기·인천",
+   "place": "인천아사이드 경기장 북측 광장",
+   "host": "기호일보, 로드스포츠",
+   "phone": "00-1600-3962",
+   "site": "http://42195race.com/",
+   "status": null,
+   "kind": "로드"
   },
   {
    "id": "rr41914",
@@ -12203,7 +12238,7 @@
   {
    "id": "rr41806",
    "date": "2026-12-28",
-   "name": "2026 한강런 준비중",
+   "name": "2026 한강런 (대회취소)",
    "dist": [
     "10K",
     "5K"
