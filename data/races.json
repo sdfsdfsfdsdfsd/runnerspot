@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22",
+ "updated": "2026-10-23",
  "count": 658,
  "races": [
   {
@@ -9000,7 +9000,7 @@
    "sido": "강원",
    "region": "강원",
    "place": "인제스피디움",
-   "host": "원유니버스",
+   "host": "원유니버스스튜디오",
    "phone": "02-338-0344",
    "site": "http://marvelrunkorea2026.com/",
    "status": "open",
@@ -9371,7 +9371,7 @@
    "host": "일레븐브리지마라톤조직위원회",
    "phone": "061-921-6600",
    "site": "http://11bridge.com",
-   "status": "soon",
+   "status": "open",
    "kind": "로드",
    "fetchedWith": "browser",
    "enrichedBy": "text",
@@ -12081,9 +12081,9 @@
    "status": null,
    "kind": "로드",
    "fetchedWith": "http",
+   "enrichedBy": "text",
    "startTime": "09:00",
    "poster": "posters/rr41935.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-10-22"
   },
   {
