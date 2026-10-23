@@ -1,11 +1,11 @@
-2026-10-22 09:35 실행
-roadrun 2026: 응답 889,985바이트, 표 행 1258개
+2026-10-23 09:37 실행
+roadrun 2026: 응답 889,969바이트, 표 행 1258개
 roadrun 2026: 608개
 roadrun 2027: 응답 43,538바이트, 표 행 68개
 roadrun 2027: 13개
    중간 저장 완료: 대회 목록 업데이트
 ANTHROPIC_API_KEY 없음 → 홈페이지 글에서 직접 찾는 방식으로 진행
-상세 정리 대상 35개 중 35개 진행
+상세 정리 대상 33개 중 33개 진행
  - 2026-11-01 2026 무안 해안 노을길 걷기 및 마라톤
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://mara1080.co
@@ -38,10 +38,6 @@ ANTHROPIC_API_KEY 없음 → 홈페이지 글에서 직접 찾는 방식으로 �
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://xn--299a84k
    실패: RuntimeError('페이지를 읽지 못함')
- - 2026-12-12 2026 성남 헤리티지 런
-   일반 접속 실패: <HTTPError 403: 'Forbidden'> → 브라우저로 다시
- - 2026-12-13 2026 시즌마감마라톤대회
-   → startTime, poster
  - 2027-01-10 2027 전마협 새해 동계 마라톤
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://mara1080.co
