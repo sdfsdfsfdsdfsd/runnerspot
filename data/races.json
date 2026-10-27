@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-26",
- "count": 658,
+ "updated": "2026-10-27",
+ "count": 662,
  "races": [
   {
    "id": "rr41182",
@@ -10085,7 +10085,7 @@
   {
    "id": "rr41729",
    "date": "2026-11-08",
-   "name": "제20회 자원봉사 사랑 굿펀 마라톤",
+   "name": "제20회 자원봉사 사랑 굿펀 마라톤(취소)",
    "dist": [
     "10K",
     "5K"
@@ -11125,6 +11125,22 @@
    "kind": "로드"
   },
   {
+   "id": "rr41938",
+   "date": "2026-11-21",
+   "name": "천안시장배 대한독립천안트레일런산악등반대회",
+   "dist": [
+    "트레일런 14K"
+   ],
+   "sido": "충남",
+   "region": "충청",
+   "place": "천안 독립기념관 태극기광장",
+   "host": "천안시, 천안시체육회",
+   "phone": "010-3669-9632",
+   "site": "http://cafe.naver.com/daehanindependence",
+   "status": null,
+   "kind": "트레일"
+  },
+  {
    "id": "rr41803",
    "date": "2026-11-22",
    "name": "2026 김대중마라톤대회",
@@ -11660,6 +11676,23 @@
    "enrichedAt": "2026-10-05"
   },
   {
+   "id": "rr41941",
+   "date": "2026-12-05",
+   "name": "2026 모악트레일런",
+   "dist": [
+    "10K",
+    "23K"
+   ],
+   "sido": "전북",
+   "region": "전라",
+   "place": "대한민국술테마박물관",
+   "host": "완주군/완주군체육회",
+   "phone": "010-2116-0148",
+   "site": "http://samsam3315.imweb.me/75",
+   "status": null,
+   "kind": "트레일"
+  },
+  {
    "id": "6149666c",
    "date": "2026-12-05",
    "name": "2026 월드 레코드 금산 국제 마라톤 축제",
@@ -11824,29 +11857,6 @@
    "enrichedAt": "2026-10-05"
   },
   {
-   "id": "rr41860",
-   "date": "2026-12-06",
-   "name": "2026 청춘런",
-   "dist": [
-    "10K",
-    "5K"
-   ],
-   "sido": "서울",
-   "region": "서울",
-   "place": "상암동 평화의공원 평화광장",
-   "host": "런앤런",
-   "phone": "02-2632-0912",
-   "site": "http://www.youthrun.co.kr",
-   "status": "open",
-   "kind": "로드",
-   "enrichedBy": "text",
-   "price": {
-    "10km": 35000,
-    "5km": 30000
-   },
-   "enrichedAt": "2026-10-05"
-  },
-  {
    "id": "rr41923",
    "date": "2026-12-06",
    "name": "2026 화순고인돌마라톤",
@@ -11953,6 +11963,29 @@
    "enrichedAt": "2026-10-06"
   },
   {
+   "id": "rr41860",
+   "date": "2026-12-06",
+   "name": "제6회 2026 청춘런",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "상암동 평화의공원 평화광장",
+   "host": "런앤런",
+   "phone": "02-2632-0912",
+   "site": "http://www.youthrun.co.kr",
+   "status": "open",
+   "kind": "로드",
+   "enrichedBy": "text",
+   "price": {
+    "10km": 35000,
+    "5km": 30000
+   },
+   "enrichedAt": "2026-10-05"
+  },
+  {
    "id": "rr41866",
    "date": "2026-12-12",
    "name": "2026 ONE MORE RUN",
@@ -12040,6 +12073,23 @@
    "regEnd": "2026-12-12",
    "poster": "posters/rr41905.webp",
    "enrichedAt": "2026-10-07"
+  },
+  {
+   "id": "rr41939",
+   "date": "2026-12-12",
+   "name": "2026 평창 스노우런",
+   "dist": [
+    "15K",
+    "7.5K"
+   ],
+   "sido": "강원",
+   "region": "강원",
+   "place": "알펜시아 스키점프센터",
+   "host": "평창관광문화재단",
+   "phone": "033-832-7001",
+   "site": "http://order.doortoout.com/12/8/78",
+   "status": null,
+   "kind": "로드"
   },
   {
    "id": "rr41840",
@@ -12267,6 +12317,23 @@
    "startTime": "08:00",
    "poster": "posters/rr41806.webp",
    "enrichedAt": "2026-10-05"
+  },
+  {
+   "id": "rr41940",
+   "date": "2027-01-03",
+   "name": "제19회 전국새해알몸마라톤",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "대구",
+   "region": "경상",
+   "place": "대구 수성구 미술관로 88",
+   "host": "대구광역시육상연맹",
+   "phone": "010-3503-4558",
+   "site": "http://r.dgrunner.co.kr",
+   "status": null,
+   "kind": "로드"
   },
   {
    "id": "rr41919",
