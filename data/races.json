@@ -8928,7 +8928,8 @@
    "regEnd": "2026-09-30",
    "startTime": "11:50",
    "poster": "posters/rr41740.webp",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-27",
+   "fetchedWith": "http"
   },
   {
    "id": "rr41809",
@@ -8948,7 +8949,8 @@
    "enrichedBy": "text",
    "regStart": "2026-02-01",
    "poster": "posters/rr41809.webp",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-27",
+   "fetchedWith": "http"
   },
   {
    "id": "4703efab",
@@ -9008,7 +9010,8 @@
    "enrichedBy": "text",
    "startTime": "13:30",
    "poster": "posters/rr41861.webp",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-27",
+   "fetchedWith": "http"
   },
   {
    "id": "rr41778",
@@ -9058,7 +9061,8 @@
    "regEnd": "2026-10-06",
    "startTime": "08:00",
    "poster": "posters/rr41880.webp",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-27",
+   "fetchedWith": "http"
   },
   {
    "id": "rr41781",
@@ -9086,7 +9090,8 @@
    "regEnd": "2026-10-18",
    "startTime": "07:00",
    "poster": "posters/rr41781.webp",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-27",
+   "fetchedWith": "http"
   },
   {
    "id": "rr41259",
@@ -9106,7 +9111,8 @@
    "kind": "로드",
    "enrichedBy": "text",
    "poster": "posters/rr41259.webp",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-27",
+   "fetchedWith": "http"
   },
   {
    "id": "rr41654",
@@ -9191,7 +9197,8 @@
     "5km": 40000
    },
    "poster": "posters/rr41790.webp",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-27",
+   "fetchedWith": "http"
   },
   {
    "id": "rr41871",
@@ -9211,10 +9218,11 @@
    "kind": "로드",
    "enrichedBy": "text",
    "regStart": "2026-09-21",
-   "regEnd": "2026-10-14",
+   "regEnd": "2026-10-21",
    "startTime": "07:30",
    "poster": "posters/rr41871.webp",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-27",
+   "fetchedWith": "http"
   },
   {
    "id": "f88eb86a",
@@ -9297,7 +9305,7 @@
    "status": null,
    "kind": "로드",
    "fetchedWith": "http",
-   "enrichedAt": "2026-10-26"
+   "enrichedAt": "2026-10-27"
   },
   {
    "id": "rr41873",
@@ -9318,7 +9326,8 @@
    "regStart": "2026-09-07",
    "regEnd": "2026-10-07",
    "poster": "posters/rr41873.webp",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-27",
+   "fetchedWith": "http"
   },
   {
    "id": "850d6a76",
@@ -9355,7 +9364,8 @@
    "kind": "트레일",
    "enrichedBy": "text",
    "poster": "posters/rr41767.webp",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-27",
+   "fetchedWith": "http"
   },
   {
    "id": "rr41864",
@@ -9404,7 +9414,8 @@
    "regStart": "2026-09-28",
    "regEnd": "2026-10-02",
    "poster": "posters/rr41539.webp",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-27",
+   "fetchedWith": "http"
   },
   {
    "id": "rr41719",
@@ -9465,7 +9476,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-26"
+   "enrichedAt": "2026-10-27"
   },
   {
    "id": "72c5b91c",
@@ -9502,9 +9513,10 @@
    "enrichedBy": "text",
    "regStart": "2026-09-07",
    "regEnd": "2026-09-18",
-   "startTime": "07:30",
+   "startTime": "08:00",
    "poster": "posters/rr41819.webp",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-27",
+   "fetchedWith": "http"
   },
   {
    "id": "rr41787",
@@ -9543,7 +9555,8 @@
    "kind": "로드",
    "enrichedBy": "text",
    "poster": "posters/rr41815.webp",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-27",
+   "fetchedWith": "http"
   },
   {
    "id": "rr41849",
@@ -9695,7 +9708,8 @@
    "kind": "로드",
    "enrichedBy": "text",
    "poster": "posters/rr41889.webp",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-27",
+   "fetchedWith": "http"
   },
   {
    "id": "rr41843",
@@ -9717,7 +9731,8 @@
    "kind": "로드",
    "enrichedBy": "text",
    "poster": "posters/rr41843.webp",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-27",
+   "fetchedWith": "http"
   },
   {
    "id": "rr41844",
@@ -9740,7 +9755,8 @@
    "regStart": "2025-07-07",
    "regEnd": "2025-08-18",
    "poster": "posters/rr41844.webp",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-27",
+   "fetchedWith": "http"
   },
   {
    "id": "rr41671",
@@ -9782,7 +9798,8 @@
    "enrichedBy": "text",
    "startTime": "09:00",
    "poster": "posters/rr41755.webp",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-27",
+   "fetchedWith": "http"
   },
   {
    "id": "rr41696",
@@ -9806,7 +9823,8 @@
     "5km": 40000
    },
    "poster": "posters/rr41696.webp",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-27",
+   "fetchedWith": "http"
   },
   {
    "id": "rr41667",
@@ -9826,7 +9844,8 @@
    "kind": "트레일",
    "enrichedBy": "text",
    "poster": "posters/rr41667.webp",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-27",
+   "fetchedWith": "http"
   },
   {
    "id": "rr41869",
@@ -9847,7 +9866,8 @@
    "enrichedBy": "text",
    "startTime": "08:55",
    "poster": "posters/rr41869.webp",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-27",
+   "fetchedWith": "http"
   },
   {
    "id": "rr41634",
@@ -9890,7 +9910,8 @@
    "enrichedBy": "text",
    "regStart": "2026-02-01",
    "poster": "posters/rr41752.webp",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-27",
+   "fetchedWith": "http"
   },
   {
    "id": "rr41846",
@@ -9915,7 +9936,8 @@
    },
    "startTime": "09:30",
    "poster": "posters/rr41846.webp",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-05",
+   "fetchedWith": "http"
   },
   {
    "id": "rr41808",
@@ -11138,7 +11160,10 @@
    "phone": "010-3669-9632",
    "site": "http://cafe.naver.com/daehanindependence",
    "status": null,
-   "kind": "트레일"
+   "kind": "트레일",
+   "fetchedWith": "http",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-10-27"
   },
   {
    "id": "rr41803",
@@ -11690,7 +11715,15 @@
    "phone": "010-2116-0148",
    "site": "http://samsam3315.imweb.me/75",
    "status": null,
-   "kind": "트레일"
+   "kind": "트레일",
+   "fetchedWith": "http",
+   "price": {
+    "10km": 40000
+   },
+   "startTime": "08:00",
+   "poster": "posters/rr41941.webp",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-10-27"
   },
   {
    "id": "6149666c",
@@ -12089,7 +12122,9 @@
    "phone": "033-832-7001",
    "site": "http://order.doortoout.com/12/8/78",
    "status": null,
-   "kind": "로드"
+   "kind": "로드",
+   "fetchedWith": "browser",
+   "enrichedAt": "2026-10-27"
   },
   {
    "id": "rr41840",
