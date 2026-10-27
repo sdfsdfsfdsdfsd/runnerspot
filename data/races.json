@@ -11472,7 +11472,7 @@
     "5km": 45000
    },
    "poster": "posters/rr41766.webp",
-   "enrichedAt": "2026-10-05",
+   "enrichedAt": "2026-10-27",
    "fetchedWith": "http"
   },
   {
@@ -11535,7 +11535,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-26"
+   "enrichedAt": "2026-10-27"
   },
   {
    "id": "rr41891",
@@ -11556,7 +11556,8 @@
    "kind": "로드",
    "enrichedBy": "text",
    "poster": "posters/rr41891.webp",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-27",
+   "fetchedWith": "http"
   },
   {
    "id": "e5b9fa47",
@@ -11637,7 +11638,8 @@
    "kind": "로드",
    "enrichedBy": "text",
    "poster": "posters/rr41741.webp",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-27",
+   "fetchedWith": "http"
   },
   {
    "id": "rr41804",
@@ -11659,7 +11661,8 @@
    "enrichedBy": "text",
    "startTime": "08:40",
    "poster": "posters/rr41804.webp",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-27",
+   "fetchedWith": "http"
   },
   {
    "id": "rr41759",
@@ -11681,7 +11684,8 @@
    "enrichedBy": "text",
    "regStart": "2026-11-22",
    "poster": "posters/rr41759.webp",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-27",
+   "fetchedWith": "http"
   },
   {
    "id": "e8383c96",
@@ -11718,7 +11722,8 @@
    "kind": "로드",
    "enrichedBy": "text",
    "poster": "posters/rr41898.webp",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-27",
+   "fetchedWith": "http"
   },
   {
    "id": "rr41941",
@@ -11781,7 +11786,8 @@
    "regStart": "2026-10-16",
    "regEnd": "2026-10-30",
    "poster": "posters/rr41762.webp",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-27",
+   "fetchedWith": "http"
   },
   {
    "id": "rr41911",
@@ -11907,7 +11913,8 @@
    "enrichedBy": "text",
    "regStart": "2026-08-24",
    "poster": "posters/rr41710.webp",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-27",
+   "fetchedWith": "http"
   },
   {
    "id": "rr41923",
@@ -11950,7 +11957,8 @@
    },
    "startTime": "08:00",
    "poster": "posters/rr41802.webp",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-27",
+   "fetchedWith": "http"
   },
   {
    "id": "rr41642",
@@ -12036,7 +12044,9 @@
     "10km": 35000,
     "5km": 30000
    },
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-27",
+   "fetchedWith": "http",
+   "startTime": "08:00"
   },
   {
    "id": "rr41866",
@@ -12058,7 +12068,13 @@
    "enrichedBy": "text",
    "startTime": "08:00",
    "poster": "posters/rr41866.webp",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-27",
+   "fetchedWith": "http",
+   "price": {
+    "5km": 50000,
+    "10km": 50000,
+    "하프": 50000
+   }
   },
   {
    "id": "rr41936",
@@ -12166,7 +12182,8 @@
    "enrichedBy": "text",
    "regStart": "2026-12-02",
    "poster": "posters/rr41840.webp",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-27",
+   "fetchedWith": "http"
   },
   {
    "id": "rr41935",
@@ -12276,7 +12293,8 @@
    },
    "startTime": "08:00",
    "poster": "posters/rr41784.webp",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-27",
+   "fetchedWith": "http"
   },
   {
    "id": "rr41801",
@@ -12302,7 +12320,8 @@
    "regStart": "2026-12-09",
    "regEnd": "2026-01-04",
    "poster": "posters/rr41801.webp",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-27",
+   "fetchedWith": "http"
   },
   {
    "id": "rr41887",
@@ -12345,7 +12364,8 @@
    "enrichedBy": "text",
    "regStart": "2026-12-16",
    "poster": "posters/rr41824.webp",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-27",
+   "fetchedWith": "http"
   },
   {
    "id": "rr41806",
@@ -12371,7 +12391,8 @@
    "regEnd": "2026-09-10",
    "startTime": "08:00",
    "poster": "posters/rr41806.webp",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-27",
+   "fetchedWith": "http"
   },
   {
    "id": "rr41940",
@@ -12563,7 +12584,8 @@
    "kind": "로드",
    "enrichedBy": "text",
    "poster": "posters/rr41626.webp",
-   "enrichedAt": "2026-10-05"
+   "enrichedAt": "2026-10-27",
+   "fetchedWith": "http"
   },
   {
    "id": "rr41875",
