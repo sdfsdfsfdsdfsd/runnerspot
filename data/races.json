@@ -5521,7 +5521,7 @@
    "enrichedBy": "text",
    "regStart": "2026-09-11",
    "regEnd": "2026-10-30",
-   "enrichedAt": "2026-10-06",
+   "enrichedAt": "2026-10-28",
    "price": {
     "10km": 40000
    },
@@ -5593,7 +5593,7 @@
    "enrichedBy": "text",
    "startTime": "08:30",
    "poster": "posters/rr41673.webp",
-   "enrichedAt": "2026-10-06"
+   "enrichedAt": "2026-10-28"
   },
   {
    "id": "rr41865",
@@ -5639,7 +5639,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-27"
+   "enrichedAt": "2026-10-28"
   },
   {
    "id": "rr41899",
@@ -5656,14 +5656,14 @@
    "host": "경남관광재단",
    "phone": "070-4443-4392",
    "site": "http://www.kpioneertrailrun.co.kr/",
-   "status": "closed",
+   "status": "open",
    "kind": "트레일",
    "fetchedWith": "browser",
    "enrichedBy": "text",
-   "regStart": "2026-09-28",
-   "regEnd": "2026-10-23",
+   "regStart": "2026-09-21",
+   "regEnd": "2026-10-30",
    "poster": "posters/rr41899.webp",
-   "enrichedAt": "2026-10-06"
+   "enrichedAt": "2026-10-28"
   },
   {
    "id": "rr41868",
@@ -5684,7 +5684,7 @@
    "fetchedWith": "browser",
    "enrichedBy": "text",
    "poster": "posters/rr41868.webp",
-   "enrichedAt": "2026-10-06"
+   "enrichedAt": "2026-10-28"
   },
   {
    "id": "c32d3e89",
@@ -5720,7 +5720,7 @@
    "kind": "트레일",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-27"
+   "enrichedAt": "2026-10-28"
   },
   {
    "id": "rr41803",
@@ -5918,7 +5918,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-27"
+   "enrichedAt": "2026-10-28"
   },
   {
    "id": "rr41859",
@@ -6037,7 +6037,7 @@
    "fetchedWith": "browser",
    "enrichedBy": "text",
    "poster": "posters/rr41685.webp",
-   "enrichedAt": "2026-10-06"
+   "enrichedAt": "2026-10-28"
   },
   {
    "id": "rr41744",
@@ -6078,7 +6078,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-27"
+   "enrichedAt": "2026-10-28"
   },
   {
    "id": "rr41891",
@@ -6138,7 +6138,7 @@
    "status": null,
    "kind": "로드",
    "fetchedWith": "browser",
-   "enrichedAt": "2026-10-06"
+   "enrichedAt": "2026-10-28"
   },
   {
    "id": "rr41810",
@@ -6435,7 +6435,7 @@
     "10km": 55000,
     "5km": 40000
    },
-   "enrichedAt": "2026-10-06"
+   "enrichedAt": "2026-10-28"
   },
   {
    "id": "rr41710",
@@ -6564,7 +6564,7 @@
    "status": "closed",
    "kind": "로드",
    "fetchedWith": "browser",
-   "enrichedAt": "2026-10-06"
+   "enrichedAt": "2026-10-28"
   },
   {
    "id": "rr41860",
@@ -6795,7 +6795,7 @@
    "fetchedWith": "browser",
    "enrichedBy": "text",
    "poster": "posters/rr41745.webp",
-   "enrichedAt": "2026-10-06"
+   "enrichedAt": "2026-10-28"
   },
   {
    "id": "57e14159",
@@ -6885,7 +6885,7 @@
    "fetchedWith": "http",
    "enrichedBy": "text",
    "poster": "posters/rr41887.webp",
-   "enrichedAt": "2026-10-06"
+   "enrichedAt": "2026-10-28"
   },
   {
    "id": "rr41824",
@@ -7025,7 +7025,7 @@
    "status": null,
    "kind": "로드",
    "fetchedWith": "browser",
-   "enrichedAt": "2026-10-06"
+   "enrichedAt": "2026-10-28"
   },
   {
    "id": "rr41878",
@@ -7169,7 +7169,7 @@
    "enrichedBy": "text",
    "regEnd": "2026-11-01",
    "poster": "posters/rr41627.webp",
-   "enrichedAt": "2026-10-06"
+   "enrichedAt": "2026-10-28"
   },
   {
    "id": "rr41907",
