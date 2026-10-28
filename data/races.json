@@ -3396,14 +3396,14 @@
    "host": "인천광역시걷기협",
    "phone": "070-4098-1114",
    "site": "http://icnr.kr",
-   "status": "closed",
+   "status": "open",
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
    "regStart": "2026-09-01",
-   "regEnd": "2026-10-20",
+   "regEnd": "2026-10-30",
    "poster": "posters/rr41882.webp",
-   "enrichedAt": "2026-10-06"
+   "enrichedAt": "2026-10-28"
   },
   {
    "id": "rr41854",
@@ -3527,7 +3527,7 @@
    "fetchedWith": "browser",
    "enrichedBy": "text",
    "poster": "posters/rr41795.webp",
-   "enrichedAt": "2026-10-06"
+   "enrichedAt": "2026-10-28"
   },
   {
    "id": "rr41861",
@@ -3573,7 +3573,7 @@
    "enrichedBy": "text",
    "startTime": "16:40",
    "poster": "posters/rr41778.webp",
-   "enrichedAt": "2026-10-06"
+   "enrichedAt": "2026-10-28"
   },
   {
    "id": "rr41880",
@@ -3676,7 +3676,7 @@
    "regEnd": "2026-09-25",
    "startTime": "09:30",
    "poster": "posters/rr41654.webp",
-   "enrichedAt": "2026-10-06"
+   "enrichedAt": "2026-10-28"
   },
   {
    "id": "rr41638",
@@ -3799,7 +3799,7 @@
    "kind": "로드",
    "fetchedWith": "browser",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-06"
+   "enrichedAt": "2026-10-28"
   },
   {
    "id": "rr41659",
@@ -3844,7 +3844,7 @@
    "status": null,
    "kind": "로드",
    "fetchedWith": "http",
-   "enrichedAt": "2026-10-27"
+   "enrichedAt": "2026-10-28"
   },
   {
    "id": "rr41873",
@@ -3930,7 +3930,7 @@
    "regStart": "2026-10-23",
    "startTime": "09:10",
    "poster": "posters/rr41864.webp",
-   "enrichedAt": "2026-10-06"
+   "enrichedAt": "2026-10-28"
   },
   {
    "id": "rr41539",
@@ -3972,7 +3972,7 @@
    "status": "closed",
    "kind": "로드",
    "fetchedWith": "browser",
-   "enrichedAt": "2026-10-06"
+   "enrichedAt": "2026-10-28"
   },
   {
    "id": "rr41892",
@@ -3987,15 +3987,15 @@
    "host": "밀양문화관광재단",
    "phone": "055-359-4563",
    "site": "http://www.mywalk.kr",
-   "status": "closed",
+   "status": "open",
    "kind": "로드",
    "fetchedWith": "browser",
    "enrichedBy": "text",
    "regStart": "2026-09-21",
-   "regEnd": "2026-10-16",
+   "regEnd": "2026-10-30",
    "startTime": "17:30",
    "poster": "posters/rr41892.webp",
-   "enrichedAt": "2026-10-06"
+   "enrichedAt": "2026-10-28"
   },
   {
    "id": "rr41788",
@@ -4015,7 +4015,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-27"
+   "enrichedAt": "2026-10-28"
   },
   {
    "id": "72c5b91c",
@@ -4116,7 +4116,7 @@
    "fetchedWith": "browser",
    "enrichedBy": "text",
    "poster": "posters/rr41849.webp",
-   "enrichedAt": "2026-10-06"
+   "enrichedAt": "2026-10-28"
   },
   {
    "id": "8b57cefa",
@@ -4174,7 +4174,7 @@
    "enrichedBy": "text",
    "startTime": "09:00",
    "poster": "posters/rr41754.webp",
-   "enrichedAt": "2026-10-06"
+   "enrichedAt": "2026-10-28"
   },
   {
    "id": "rr41886",
@@ -4315,7 +4315,7 @@
    "status": "closed",
    "kind": "로드",
    "fetchedWith": "browser",
-   "enrichedAt": "2026-10-06"
+   "enrichedAt": "2026-10-28"
   },
   {
    "id": "rr41755",
@@ -4427,7 +4427,7 @@
    "fetchedWith": "http",
    "enrichedBy": "text",
    "poster": "posters/rr41634.webp",
-   "enrichedAt": "2026-10-06"
+   "enrichedAt": "2026-10-28"
   },
   {
    "id": "rr41752",
@@ -4498,7 +4498,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-27"
+   "enrichedAt": "2026-10-28"
   },
   {
    "id": "rr41926",
@@ -4520,7 +4520,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-27"
+   "enrichedAt": "2026-10-28"
   },
   {
    "id": "rr41933",
@@ -4619,7 +4619,7 @@
    "kind": "로드",
    "fetchedWith": "browser",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-06"
+   "enrichedAt": "2026-10-28"
   },
   {
    "id": "rr41780",
@@ -4709,7 +4709,7 @@
    "status": "closed",
    "kind": "로드",
    "fetchedWith": "browser",
-   "enrichedAt": "2026-10-06"
+   "enrichedAt": "2026-10-28"
   },
   {
    "id": "rr41658",
@@ -4734,7 +4734,7 @@
    "regStart": "2026-06-01",
    "regEnd": "2026-09-30",
    "poster": "posters/rr41658.webp",
-   "enrichedAt": "2026-10-06"
+   "enrichedAt": "2026-10-28"
   },
   {
    "id": "rr41825",
@@ -4875,7 +4875,7 @@
    },
    "startTime": "08:30",
    "poster": "posters/rr41725.webp",
-   "enrichedAt": "2026-10-06"
+   "enrichedAt": "2026-10-28"
   },
   {
    "id": "rr41760",
@@ -4976,9 +4976,9 @@
    "fetchedWith": "http",
    "enrichedBy": "text",
    "regStart": "2026-10-16",
-   "regEnd": "2026-10-16",
+   "regEnd": "2026-10-26",
    "poster": "posters/rr41686.webp",
-   "enrichedAt": "2026-10-06"
+   "enrichedAt": "2026-10-28"
   },
   {
    "id": "rr41847",
@@ -5094,7 +5094,7 @@
    "status": "closed",
    "kind": "로드",
    "fetchedWith": "browser",
-   "enrichedAt": "2026-10-06"
+   "enrichedAt": "2026-10-28"
   },
   {
    "id": "rr41906",
@@ -5187,7 +5187,7 @@
    "fetchedWith": "http",
    "enrichedBy": "text",
    "poster": "posters/rr41695.webp",
-   "enrichedAt": "2026-10-06"
+   "enrichedAt": "2026-10-28"
   },
   {
    "id": "rr41909",
@@ -5235,7 +5235,7 @@
    "enrichedBy": "text",
    "startTime": "09:30",
    "poster": "posters/rr41842.webp",
-   "enrichedAt": "2026-10-06"
+   "enrichedAt": "2026-10-28"
   },
   {
    "id": "rr41902",
@@ -5279,7 +5279,7 @@
    "fetchedWith": "browser",
    "enrichedBy": "text",
    "poster": "posters/rr41838.webp",
-   "enrichedAt": "2026-10-06"
+   "enrichedAt": "2026-10-28"
   },
   {
    "id": "rr41830",
@@ -5350,7 +5350,7 @@
    "fetchedWith": "http",
    "enrichedBy": "text",
    "poster": "posters/rr41644.webp",
-   "enrichedAt": "2026-10-06"
+   "enrichedAt": "2026-10-28"
   },
   {
    "id": "rr41522",
@@ -5369,7 +5369,7 @@
    "kind": "트레일",
    "fetchedWith": "browser",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-06"
+   "enrichedAt": "2026-10-28"
   },
   {
    "id": "rr41563",
@@ -5410,7 +5410,7 @@
    "fetchedWith": "browser",
    "enrichedBy": "text",
    "poster": "posters/rr41699.webp",
-   "enrichedAt": "2026-10-06"
+   "enrichedAt": "2026-10-28"
   },
   {
    "id": "rr41602",
@@ -5481,7 +5481,7 @@
    "regStart": "2026-09-01",
    "regEnd": "2026-09-30",
    "poster": "posters/rr41565.webp",
-   "enrichedAt": "2026-10-06"
+   "enrichedAt": "2026-10-28"
   },
   {
    "id": "d2d9619f",
@@ -5521,7 +5521,11 @@
    "enrichedBy": "text",
    "regStart": "2026-09-11",
    "regEnd": "2026-10-30",
-   "enrichedAt": "2026-10-06"
+   "enrichedAt": "2026-10-06",
+   "price": {
+    "10km": 40000
+   },
+   "poster": "posters/rr41885.webp"
   },
   {
    "id": "rr41748",
