@@ -1,10 +1,11 @@
-2026-10-29 10:45 실행
-roadrun 2026: 응답 893,798바이트, 표 행 1264개
+2026-10-30 10:49 실행
+roadrun 2026: 응답 893,756바이트, 표 행 1264개
 roadrun 2026: 611개
-roadrun 2027 수집 실패: <HTTPError 502: 'Bad Gateway'>
+roadrun 2027: 응답 44,989바이트, 표 행 70개
+roadrun 2027: 14개
    중간 저장 완료: 대회 목록 업데이트
 ANTHROPIC_API_KEY 없음 → 홈페이지 글에서 직접 찾는 방식으로 진행
-상세 정리 대상 47개 중 47개 진행
+상세 정리 대상 43개 중 43개 진행
  - 2026-11-01 2026 무안 해안 노을길 걷기 및 마라톤
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://mara1080.co
@@ -69,8 +70,6 @@ ANTHROPIC_API_KEY 없음 → 홈페이지 글에서 직접 찾는 방식으로 �
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://soaam.runni
    실패: RuntimeError('페이지를 읽지 못함')
- - 2026-10-31 2026 당진원런 마라톤
-   → startTime, poster
  - 2026-11-01 제2회 대전 신채호 마라톤
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://www.djmarat
@@ -98,6 +97,10 @@ ANTHROPIC_API_KEY 없음 → 홈페이지 글에서 직접 찾는 방식으로 �
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://asanmaratho
    실패: RuntimeError('페이지를 읽지 못함')
+ - 2026-11-08 제20회 자원봉사 사랑 굿펀 마라톤(취소)
+   일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
+   브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://xn--oi2bo7b
+   실패: RuntimeError('페이지를 읽지 못함')
  - 2026-11-14 2026 포항마라톤챔피언십
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://pohangmarat
@@ -106,12 +109,6 @@ ANTHROPIC_API_KEY 없음 → 홈페이지 글에서 직접 찾는 방식으로 �
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://www.mtrailr
    실패: RuntimeError('페이지를 읽지 못함')
- - 2026-11-15 2026 에코나우런
-   → poster
- - 2026-11-15 2026 영남일보 혁신도시 마라톤
-   → price, startTime, poster
- - 2026-11-15 우리함께런 with 빗썸나눔
-   → regStart, poster
  - 2026-11-15 제16회 대전서구청장배 마라톤대회
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://jgmrun.com/
@@ -160,8 +157,6 @@ ANTHROPIC_API_KEY 없음 → 홈페이지 글에서 직접 찾는 방식으로 �
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://gibukidsrun
    실패: RuntimeError('페이지를 읽지 못함')
- - 2026-12-12 2026 연합뉴스 하남 국제 트레일런 페스티벌
-   → regStart, poster
  - 2027-02-27 희망드림 제24회 동계마라톤대회
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://dkrun.co.kr

@@ -9305,7 +9305,7 @@
    "status": null,
    "kind": "로드",
    "fetchedWith": "http",
-   "enrichedAt": "2026-10-29"
+   "enrichedAt": "2026-10-30"
   },
   {
    "id": "rr41873",
@@ -9476,7 +9476,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-29"
+   "enrichedAt": "2026-10-30"
   },
   {
    "id": "72c5b91c",
@@ -9959,7 +9959,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-29"
+   "enrichedAt": "2026-10-30"
   },
   {
    "id": "rr41926",
@@ -9981,7 +9981,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-29"
+   "enrichedAt": "2026-10-30"
   },
   {
    "id": "rr41933",
@@ -11100,7 +11100,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-29"
+   "enrichedAt": "2026-10-30"
   },
   {
    "id": "rr41899",
@@ -11181,7 +11181,7 @@
    "kind": "트레일",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-29"
+   "enrichedAt": "2026-10-30"
   },
   {
    "id": "rr41803",
@@ -11379,7 +11379,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-29"
+   "enrichedAt": "2026-10-30"
   },
   {
    "id": "rr41859",
@@ -11539,7 +11539,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-29"
+   "enrichedAt": "2026-10-30"
   },
   {
    "id": "rr41891",
