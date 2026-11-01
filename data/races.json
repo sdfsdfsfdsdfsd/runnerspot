@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31",
+ "updated": "2026-11-01",
  "count": 662,
  "races": [
   {
@@ -11539,12 +11539,12 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-10-31",
    "price": {
     "5km": 45000,
     "하프": 50000
    },
-   "poster": "posters/rr41807.webp"
+   "poster": "posters/rr41807.webp",
+   "enrichedAt": "2026-10-31"
   },
   {
    "id": "rr41891",
