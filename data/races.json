@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01",
+ "updated": "2026-11-02",
  "count": 662,
  "races": [
   {
@@ -12629,7 +12629,7 @@
    "host": "기장바다마라톤조직위",
    "phone": "051-723-6686",
    "site": "http://www.badarun.co.kr",
-   "status": null,
+   "status": "closed",
    "kind": "로드",
    "fetchedWith": "browser",
    "enrichedBy": "text",
