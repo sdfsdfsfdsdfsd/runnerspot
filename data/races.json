@@ -9305,7 +9305,7 @@
    "status": null,
    "kind": "로드",
    "fetchedWith": "http",
-   "enrichedAt": "2026-11-04"
+   "enrichedAt": "2026-11-05"
   },
   {
    "id": "rr41873",
@@ -9476,7 +9476,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-04"
+   "enrichedAt": "2026-11-05"
   },
   {
    "id": "72c5b91c",
@@ -9959,7 +9959,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-04"
+   "enrichedAt": "2026-11-05"
   },
   {
    "id": "rr41926",
@@ -9981,7 +9981,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-04"
+   "enrichedAt": "2026-11-05"
   },
   {
    "id": "rr41933",
@@ -11100,7 +11100,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-04"
+   "enrichedAt": "2026-11-05"
   },
   {
    "id": "rr41899",
@@ -11181,7 +11181,7 @@
    "kind": "트레일",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-04"
+   "enrichedAt": "2026-11-05"
   },
   {
    "id": "rr41803",
@@ -11379,7 +11379,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-04"
+   "enrichedAt": "2026-11-05"
   },
   {
    "id": "rr41859",
@@ -11418,7 +11418,9 @@
    "phone": "031-821-9949",
    "site": "http://spotvrun.co.kr",
    "status": null,
-   "kind": "로드"
+   "kind": "로드",
+   "fetchedWith": "browser",
+   "enrichedAt": "2026-11-05"
   },
   {
    "id": "ff6c1323",
@@ -12276,8 +12278,14 @@
    "host": "(사)이순신백의종군길마라톤",
    "phone": "010-3770-0910",
    "site": "http://yssmarathon.com",
-   "status": null,
-   "kind": "로드"
+   "status": "open",
+   "kind": "로드",
+   "fetchedWith": "http",
+   "regStart": "2026-11-03",
+   "regEnd": "2026-12-02",
+   "poster": "posters/rr41951.webp",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-11-05"
   },
   {
    "id": "rr41914",
@@ -12538,7 +12546,16 @@
    "phone": "061-921-5500",
    "site": "http://ysmarathon.co.kr/info/summary",
    "status": null,
-   "kind": "로드"
+   "kind": "로드",
+   "fetchedWith": "browser",
+   "price": {
+    "풀코스": 60000,
+    "하프": 40000
+   },
+   "startTime": "09:30",
+   "poster": "posters/rr41944.webp",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-11-05"
   },
   {
    "id": "rr41957",
@@ -12555,8 +12572,16 @@
    "host": "(사)대한이에스지협회",
    "phone": "02-2636-7775",
    "site": "http://polarbearrun.kr",
-   "status": null,
-   "kind": "로드"
+   "status": "soon",
+   "kind": "로드",
+   "fetchedWith": "http",
+   "price": {
+    "하프": 50000
+   },
+   "regStart": "2027-01-17",
+   "poster": "posters/rr41957.webp",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-11-05"
   },
   {
    "id": "rr41931",
@@ -12608,8 +12633,12 @@
    "host": "(사)중소자영업총연합회",
    "phone": "02-888-8805",
    "site": "http://hope-young.kr",
-   "status": null,
-   "kind": "로드"
+   "status": "soon",
+   "kind": "로드",
+   "fetchedWith": "http",
+   "regStart": "2027-02-11",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-11-05"
   },
   {
    "id": "rr41900",
@@ -12745,7 +12774,11 @@
    "phone": "032-613-7524",
    "site": "http://cafe.naver.com/bskrun?iframe_url_utf8=%2FArticleRead.nhn%253Fclubid%3D31146576%2526articleid%3D15%2526menuid%3D1%2526boardtype%3DL",
    "status": null,
-   "kind": "로드"
+   "kind": "로드",
+   "fetchedWith": "http",
+   "poster": "posters/rr41958.webp",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-11-05"
   },
   {
    "id": "rr41949",
@@ -12844,7 +12877,11 @@
    "phone": "033-651-0112",
    "site": "http://www.강릉헌화로11k.com",
    "status": null,
-   "kind": "로드"
+   "kind": "로드",
+   "fetchedWith": "http",
+   "poster": "posters/rr41946.webp",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-11-05"
   },
   {
    "id": "rr41907",
