@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-04",
- "count": 662,
+ "updated": "2026-11-05",
+ "count": 675,
  "races": [
   {
    "id": "rr41182",
@@ -10108,7 +10108,7 @@
   {
    "id": "rr41729",
    "date": "2026-11-08",
-   "name": "제20회 자원봉사 사랑 굿펀 마라톤(취소)",
+   "name": "제20회 자원봉사 사랑 굿펀 마라톤",
    "dist": [
     "10K",
     "5K"
@@ -11403,6 +11403,24 @@
    "enrichedAt": "2026-10-27"
   },
   {
+   "id": "rr41952",
+   "date": "2026-11-28",
+   "name": "2026 SPOTV NIGHT RUN",
+   "dist": [
+    "7K코스",
+    "3.5K코스",
+    "패밀리런"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "렛츠런파크 서울",
+   "host": "SPOTV, 한국마사회",
+   "phone": "031-821-9949",
+   "site": "http://spotvrun.co.kr",
+   "status": null,
+   "kind": "로드"
+  },
+  {
    "id": "ff6c1323",
    "date": "2026-11-28",
    "name": "2026 긍정 하프 마라톤",
@@ -11481,6 +11499,27 @@
    },
    "poster": "posters/rr41766.webp",
    "enrichedAt": "2026-10-27"
+  },
+  {
+   "id": "rr41947",
+   "date": "2026-11-28",
+   "name": "목욕런 2026",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "월드컵공원 평화의 광장",
+   "host": "사우나 민족",
+   "phone": "02-111-1111",
+   "site": "http://mokyokrun.shop",
+   "status": "closed",
+   "kind": "로드",
+   "fetchedWith": "browser",
+   "enrichedBy": "text",
+   "poster": "posters/rr41685.webp",
+   "enrichedAt": "2026-10-28"
   },
   {
    "id": "rr41685",
@@ -12225,6 +12264,22 @@
    "enrichedAt": "2026-10-22"
   },
   {
+   "id": "rr41951",
+   "date": "2026-12-13",
+   "name": "2026이순신런페스타",
+   "dist": [
+    "6.4K"
+   ],
+   "sido": "충남",
+   "region": "충청",
+   "place": "아산신정호국민관광지야외음악당",
+   "host": "(사)이순신백의종군길마라톤",
+   "phone": "010-3770-0910",
+   "site": "http://yssmarathon.com",
+   "status": null,
+   "kind": "로드"
+  },
+  {
    "id": "rr41914",
    "date": "2026-12-13",
    "name": "제2회 일자산TRAL RUNNING",
@@ -12411,6 +12466,24 @@
    "enrichedAt": "2026-10-27"
   },
   {
+   "id": "rr41942",
+   "date": "2027-01-01",
+   "name": "2027 제11회 새해일출런",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "신정교하부육상트랙구장",
+   "host": "(사)대한생활체육마라톤협회",
+   "phone": "00-1644-4219",
+   "site": "http://www.xn--zl2bt5ndwfh3g20k.kr/",
+   "status": null,
+   "kind": "로드"
+  },
+  {
    "id": "rr41940",
    "date": "2027-01-03",
    "name": "제19회 전국새해알몸마라톤",
@@ -12449,6 +12522,43 @@
    "kind": "로드"
   },
   {
+   "id": "rr41944",
+   "date": "2027-01-10",
+   "name": "제21회 여수해양마라톤",
+   "dist": [
+    "Full",
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "전남",
+   "region": "전라",
+   "place": "여수 진남경기장",
+   "host": "여수신문",
+   "phone": "061-921-5500",
+   "site": "http://ysmarathon.co.kr/info/summary",
+   "status": null,
+   "kind": "로드"
+  },
+  {
+   "id": "rr41957",
+   "date": "2027-01-23",
+   "name": "2027 북극곰 마라톤",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "신정교 하부 영롱이 억새구장",
+   "host": "(사)대한이에스지협회",
+   "phone": "02-2636-7775",
+   "site": "http://polarbearrun.kr",
+   "status": null,
+   "kind": "로드"
+  },
+  {
    "id": "rr41931",
    "date": "2027-02-13",
    "name": "2027 전마협 고흥 누리호 마라톤대회",
@@ -12480,6 +12590,24 @@
    "host": "전국마라톤협회",
    "phone": "042-638-1080",
    "site": "http://mara1080.com/event/3a1225a6-b473-4fb7-8f26-cda304cff617",
+   "status": null,
+   "kind": "로드"
+  },
+  {
+   "id": "rr41960",
+   "date": "2027-02-20",
+   "name": "2027 희망 청춘 런",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "신정교 하부 영롱이 억새구장",
+   "host": "(사)중소자영업총연합회",
+   "phone": "02-888-8805",
+   "site": "http://hope-young.kr",
    "status": null,
    "kind": "로드"
   },
@@ -12571,7 +12699,6 @@
    "date": "2027-03-01",
    "name": "2027 머니투데이방송 삼일절 마라톤",
    "dist": [
-    "Full",
     "Half",
     "10K",
     "5K"
@@ -12582,6 +12709,59 @@
    "host": "(주)머니투데이",
    "phone": "042-",
    "site": "http://mara1080.com/event/83acaaf1-1e30-411a-ac71-5e909ba1f7d9",
+   "status": null,
+   "kind": "로드"
+  },
+  {
+   "id": "rr41959",
+   "date": "2027-03-07",
+   "name": "2027 무주 반딧불 하프 마라톤",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "충남",
+   "region": "충청",
+   "place": "금산인삼엑스포주차장",
+   "host": "전국마라톤협회",
+   "phone": "042-",
+   "site": "http://mara1080.com/event/f3c362bc-532f-4f3c-bc21-76d3023bfb3a",
+   "status": null,
+   "kind": "로드"
+  },
+  {
+   "id": "rr41958",
+   "date": "2027-03-07",
+   "name": "2027 부천국제10km로드레이스",
+   "dist": [
+    "10K",
+    "3.5K 건강달리기"
+   ],
+   "sido": "경기",
+   "region": "경기·인천",
+   "place": "부천시청 차없는거리",
+   "host": "부천시육상연맹",
+   "phone": "032-613-7524",
+   "site": "http://cafe.naver.com/bskrun?iframe_url_utf8=%2FArticleRead.nhn%253Fclubid%3D31146576%2526articleid%3D15%2526menuid%3D1%2526boardtype%3DL",
+   "status": null,
+   "kind": "로드"
+  },
+  {
+   "id": "rr41949",
+   "date": "2027-03-13",
+   "name": "2027 금산 인삼 웰빙 마라톤대회",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "충남",
+   "region": "충청",
+   "place": "금산인삼엑스포주차장",
+   "host": "전국마라톤협회",
+   "phone": "042-",
+   "site": "http://mara1080.com/event/f3c362bc-532f-4f3c-bc21-76d3023bfb3a",
    "status": null,
    "kind": "로드"
   },
@@ -12648,6 +12828,25 @@
    "enrichedAt": "2026-10-28"
   },
   {
+   "id": "rr41946",
+   "date": "2027-04-24",
+   "name": "2027 강릉 옥계헌화로11k RUN",
+   "dist": [
+    "10K",
+    "11k-개인",
+    "11k-커플런(2인-남",
+    "여"
+   ],
+   "sido": "강원",
+   "region": "강원",
+   "place": "강릉시 옥계면",
+   "host": "(주)강원도민일보",
+   "phone": "033-651-0112",
+   "site": "http://www.강릉헌화로11k.com",
+   "status": null,
+   "kind": "로드"
+  },
+  {
    "id": "rr41907",
    "date": "2027-05-09",
    "name": "소아암환우돕기 제24회 서울시민마라톤",
@@ -12667,6 +12866,24 @@
    "kind": "로드"
   },
   {
+   "id": "rr41950",
+   "date": "2027-09-26",
+   "name": "2027 제3회 이순신트레일런",
+   "dist": [
+    "60K",
+    "46K",
+    "30K"
+   ],
+   "sido": "충남",
+   "region": "충청",
+   "place": "아산시 신정호 공원",
+   "host": "이순신트레일런 조직위원회",
+   "phone": "010-9895-4702",
+   "site": "http://www.isunshintrail.com/",
+   "status": null,
+   "kind": "트레일"
+  },
+  {
    "id": "rr41236",
    "date": "2027-10-09",
    "name": "제7회 천안삼거리 흥타령울트라마라톤",
@@ -12682,6 +12899,24 @@
    "site": "http://www.chultra.kr/",
    "status": null,
    "kind": "울트라"
+  },
+  {
+   "id": "rr41955",
+   "date": "2027-10-16",
+   "name": "2027 경포마라톤대회",
+   "dist": [
+    "Half",
+    "10K",
+    "하프단체전"
+   ],
+   "sido": "강원",
+   "region": "강원",
+   "place": "강릉 경포해변 중앙광장",
+   "host": "(주)강원도민일보",
+   "phone": "033-651-0112",
+   "site": "http://www.강릉헌화로11k.com",
+   "status": null,
+   "kind": "로드"
   }
  ]
 }
