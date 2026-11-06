@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05",
+ "updated": "2026-11-06",
  "count": 675,
  "races": [
   {
@@ -12281,10 +12281,10 @@
    "status": "open",
    "kind": "로드",
    "fetchedWith": "http",
+   "enrichedBy": "text",
    "regStart": "2026-11-03",
    "regEnd": "2026-12-02",
    "poster": "posters/rr41951.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-11-05"
   },
   {
@@ -12548,13 +12548,13 @@
    "status": null,
    "kind": "로드",
    "fetchedWith": "browser",
+   "enrichedBy": "text",
    "price": {
     "풀코스": 60000,
     "하프": 40000
    },
    "startTime": "09:30",
    "poster": "posters/rr41944.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-11-05"
   },
   {
@@ -12575,12 +12575,12 @@
    "status": "soon",
    "kind": "로드",
    "fetchedWith": "http",
+   "enrichedBy": "text",
    "price": {
     "하프": 50000
    },
    "regStart": "2027-01-17",
    "poster": "posters/rr41957.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-11-05"
   },
   {
@@ -12636,8 +12636,8 @@
    "status": "soon",
    "kind": "로드",
    "fetchedWith": "http",
-   "regStart": "2027-02-11",
    "enrichedBy": "text",
+   "regStart": "2027-02-11",
    "enrichedAt": "2026-11-05"
   },
   {
@@ -12750,12 +12750,12 @@
     "10K",
     "5K"
    ],
-   "sido": "충남",
-   "region": "충청",
-   "place": "금산인삼엑스포주차장",
+   "sido": "전북",
+   "region": "전라",
+   "place": "무주 등나무운동장",
    "host": "전국마라톤협회",
    "phone": "042-",
-   "site": "http://mara1080.com/event/f3c362bc-532f-4f3c-bc21-76d3023bfb3a",
+   "site": "http://mara1080.com/event/6b68a627-24cf-4844-ac1d-9358b2a54227",
    "status": null,
    "kind": "로드"
   },
@@ -12772,12 +12772,12 @@
    "place": "부천시청 차없는거리",
    "host": "부천시육상연맹",
    "phone": "032-613-7524",
-   "site": "http://cafe.naver.com/bskrun?iframe_url_utf8=%2FArticleRead.nhn%253Fclubid%3D31146576%2526articleid%3D15%2526menuid%3D1%2526boardtype%3DL",
+   "site": "http://bskrun.co.kr/",
    "status": null,
    "kind": "로드",
    "fetchedWith": "http",
-   "poster": "posters/rr41958.webp",
    "enrichedBy": "text",
+   "poster": "posters/rr41958.webp",
    "enrichedAt": "2026-11-05"
   },
   {
@@ -12794,7 +12794,7 @@
    "place": "금산인삼엑스포주차장",
    "host": "전국마라톤협회",
    "phone": "042-",
-   "site": "http://mara1080.com/event/f3c362bc-532f-4f3c-bc21-76d3023bfb3a",
+   "site": "http://mara1080.com/event/6397382b-be8d-4aee-b724-68f9fad03f29",
    "status": null,
    "kind": "로드"
   },
@@ -12879,8 +12879,8 @@
    "status": null,
    "kind": "로드",
    "fetchedWith": "http",
-   "poster": "posters/rr41946.webp",
    "enrichedBy": "text",
+   "poster": "posters/rr41946.webp",
    "enrichedAt": "2026-11-05"
   },
   {
@@ -12951,7 +12951,7 @@
    "place": "강릉 경포해변 중앙광장",
    "host": "(주)강원도민일보",
    "phone": "033-651-0112",
-   "site": "http://www.강릉헌화로11k.com",
+   "site": "http://www.경포마라톤.com",
    "status": null,
    "kind": "로드"
   }
