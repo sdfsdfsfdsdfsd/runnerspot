@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06",
+ "updated": "2026-11-07",
  "count": 675,
  "races": [
   {
@@ -9519,25 +9519,6 @@
    "enrichedAt": "2026-10-27"
   },
   {
-   "id": "rr41787",
-   "date": "2026-11-07",
-   "name": "남한산성트레일",
-   "dist": [
-    "13K"
-   ],
-   "sido": "경기",
-   "region": "경기·인천",
-   "place": "산성로타리",
-   "host": "명품트레일런",
-   "phone": "010-3526-9120",
-   "site": "http://www.mtrailrun.kr/",
-   "status": null,
-   "kind": "트레일",
-   "fetchedWith": "http",
-   "enrichedBy": "text",
-   "enrichedAt": "2026-11-03"
-  },
-  {
    "id": "rr41815",
    "date": "2026-11-07",
    "name": "넥슨과 함께하는 2026 푸르메런",
@@ -11545,26 +11526,6 @@
    "enrichedAt": "2026-10-28"
   },
   {
-   "id": "rr41744",
-   "date": "2026-11-29",
-   "name": "2026 대전보문산트레일",
-   "dist": [
-    "10K",
-    "15K"
-   ],
-   "sido": "대전",
-   "region": "충청",
-   "place": "오월드 주차장",
-   "host": "명품 파브코리아",
-   "phone": "010-3526-9120",
-   "site": "http://www.mtrailrun.kr/",
-   "status": null,
-   "kind": "트레일",
-   "fetchedWith": "http",
-   "enrichedBy": "text",
-   "enrichedAt": "2026-11-03"
-  },
-  {
    "id": "rr41807",
    "date": "2026-11-29",
    "name": "2026 새한미디어 마라톤",
@@ -11948,6 +11909,26 @@
    "enrichedAt": "2026-10-28"
   },
   {
+   "id": "rr41744",
+   "date": "2026-12-06",
+   "name": "2026 대전보문산트레일",
+   "dist": [
+    "10K",
+    "15K"
+   ],
+   "sido": "대전",
+   "region": "충청",
+   "place": "오월드 주차장",
+   "host": "명품/파브코리아",
+   "phone": "010-3526-9120",
+   "site": "http://www.mtrailrun.kr/",
+   "status": null,
+   "kind": "트레일",
+   "fetchedWith": "http",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-11-03"
+  },
+  {
    "id": "rr41710",
    "date": "2026-12-06",
    "name": "2026 부산브릿지 마라톤",
@@ -12016,26 +11997,6 @@
    "startTime": "08:00",
    "poster": "posters/rr41802.webp",
    "enrichedAt": "2026-10-27"
-  },
-  {
-   "id": "rr41642",
-   "date": "2026-12-06",
-   "name": "대전보문산트레일런",
-   "dist": [
-    "10K",
-    "15K"
-   ],
-   "sido": "대전",
-   "region": "충청",
-   "place": "수서역6번출구",
-   "host": "파브코리아/명품트레일",
-   "phone": "010-3526-9120",
-   "site": "http://www.mtrailrun.kr/",
-   "status": null,
-   "kind": "트레일",
-   "fetchedWith": "http",
-   "enrichedBy": "text",
-   "enrichedAt": "2026-11-03"
   },
   {
    "id": "rr41888",
@@ -12288,6 +12249,26 @@
    "enrichedAt": "2026-11-05"
   },
   {
+   "id": "rr41642",
+   "date": "2026-12-13",
+   "name": "부산금정산성트레일",
+   "dist": [
+    "10K",
+    "18K"
+   ],
+   "sido": "부산",
+   "region": "경상",
+   "place": "금정산성공원",
+   "host": "파브코리아/명품트레일",
+   "phone": "010-3526-9120",
+   "site": "http://www.mtrailrun.kr/",
+   "status": null,
+   "kind": "트레일",
+   "fetchedWith": "http",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-11-03"
+  },
+  {
    "id": "rr41914",
    "date": "2026-12-13",
    "name": "제2회 일자산TRAL RUNNING",
@@ -12445,6 +12426,26 @@
    "regStart": "2026-12-16",
    "poster": "posters/rr41824.webp",
    "enrichedAt": "2026-10-27"
+  },
+  {
+   "id": "rr41787",
+   "date": "2026-12-27",
+   "name": "경주 통포트레일",
+   "dist": [
+    "10K",
+    "18K"
+   ],
+   "sido": "전북",
+   "region": "전라",
+   "place": "경주남산 통일전주차장",
+   "host": "명품트레일런",
+   "phone": "010-3526-9120",
+   "site": "http://www.mtrailrun.kr/",
+   "status": null,
+   "kind": "트레일",
+   "fetchedWith": "http",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-11-03"
   },
   {
    "id": "rr41806",
