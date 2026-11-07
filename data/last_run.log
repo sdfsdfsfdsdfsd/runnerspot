@@ -1,11 +1,11 @@
-2026-11-06 11:19 실행
-roadrun 2026: 응답 891,968바이트, 표 행 1262개
+2026-11-07 10:42 실행
+roadrun 2026: 응답 891,953바이트, 표 행 1262개
 roadrun 2026: 610개
-roadrun 2027: 응답 59,776바이트, 표 행 90개
+roadrun 2027: 응답 59,720바이트, 표 행 90개
 roadrun 2027: 24개
    중간 저장 완료: 대회 목록 업데이트
 ANTHROPIC_API_KEY 없음 → 홈페이지 글에서 직접 찾는 방식으로 진행
-상세 정리 대상 42개 중 42개 진행
+상세 정리 대상 41개 중 41개 진행
  - 2026-11-07 제15회 부여 굿뜨래 마라톤 대회
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://mara1080.co
@@ -66,13 +66,8 @@ ANTHROPIC_API_KEY 없음 → 홈페이지 글에서 직접 찾는 방식으로 �
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://soaam.runni
    실패: RuntimeError('페이지를 읽지 못함')
- - 2026-11-06 제40회 서봉기단축마라톤
  - 2026-11-07 GVIE RUN 2026 구미
    → 찾은 정보 없음
- - 2026-11-07 남한산성트레일
-   일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
-   브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://www.mtrailr
-   실패: RuntimeError('페이지를 읽지 못함')
  - 2026-11-07 제21회 담양메타세쿼이아 마라톤
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://www.metarun
@@ -127,10 +122,6 @@ ANTHROPIC_API_KEY 없음 → 홈페이지 글에서 직접 찾는 방식으로 �
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://xn--ok0by8p
    실패: RuntimeError('페이지를 읽지 못함')
- - 2026-11-29 2026 대전보문산트레일
-   일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
-   브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://www.mtrailr
-   실패: RuntimeError('페이지를 읽지 못함')
  - 2026-11-29 2026 정읍공동체 프리마켓 마라톤
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://www.xn--ob0
@@ -139,13 +130,21 @@ ANTHROPIC_API_KEY 없음 → 홈페이지 글에서 직접 찾는 방식으로 �
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://www.hangang
    실패: RuntimeError('페이지를 읽지 못함')
- - 2026-12-06 대전보문산트레일런
+ - 2026-12-06 2026 대전보문산트레일
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://www.mtrailr
    실패: RuntimeError('페이지를 읽지 못함')
  - 2026-12-12 2026 소년소녀 가장 돕기 기부런
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://gibukidsrun
+   실패: RuntimeError('페이지를 읽지 못함')
+ - 2026-12-13 부산금정산성트레일
+   일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
+   브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://www.mtrailr
+   실패: RuntimeError('페이지를 읽지 못함')
+ - 2026-12-27 경주 통포트레일
+   일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
+   브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://www.mtrailr
    실패: RuntimeError('페이지를 읽지 못함')
  - 2027-01-03 제19회 전국새해알몸마라톤
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시

@@ -9476,7 +9476,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-06"
+   "enrichedAt": "2026-11-07"
   },
   {
    "id": "72c5b91c",
@@ -9940,7 +9940,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-06"
+   "enrichedAt": "2026-11-07"
   },
   {
    "id": "rr41926",
@@ -9962,7 +9962,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-06"
+   "enrichedAt": "2026-11-07"
   },
   {
    "id": "rr41933",
@@ -11081,7 +11081,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-06"
+   "enrichedAt": "2026-11-07"
   },
   {
    "id": "rr41899",
@@ -11162,7 +11162,7 @@
    "kind": "트레일",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-06"
+   "enrichedAt": "2026-11-07"
   },
   {
    "id": "rr41803",
@@ -11360,7 +11360,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-06"
+   "enrichedAt": "2026-11-07"
   },
   {
    "id": "rr41859",
@@ -12639,7 +12639,7 @@
    "fetchedWith": "http",
    "enrichedBy": "text",
    "regStart": "2027-02-11",
-   "enrichedAt": "2026-11-06"
+   "enrichedAt": "2026-11-07"
   },
   {
    "id": "rr41900",
