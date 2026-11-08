@@ -9940,7 +9940,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-07"
+   "enrichedAt": "2026-11-08"
   },
   {
    "id": "rr41926",
@@ -9962,7 +9962,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-07"
+   "enrichedAt": "2026-11-08"
   },
   {
    "id": "rr41933",
@@ -11081,7 +11081,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-07"
+   "enrichedAt": "2026-11-08"
   },
   {
    "id": "rr41899",
@@ -11162,7 +11162,7 @@
    "kind": "트레일",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-07"
+   "enrichedAt": "2026-11-08"
   },
   {
    "id": "rr41803",
@@ -11314,8 +11314,14 @@
    "host": "(사)부산항일학생의거기념사업회",
    "phone": "070-4406-1123",
    "site": "http://i1123.org",
-   "status": null,
-   "kind": "로드"
+   "status": "open",
+   "kind": "로드",
+   "fetchedWith": "http",
+   "regStart": "2026-10-13",
+   "regEnd": "2026-11-10",
+   "poster": "posters/rr41908.webp",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-11-08"
   },
   {
    "id": "rr41768",
@@ -11360,7 +11366,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-07"
+   "enrichedAt": "2026-11-08"
   },
   {
    "id": "rr41859",
@@ -12019,7 +12025,7 @@
    "fetchedWith": "http",
    "enrichedBy": "text",
    "poster": "posters/rr41888.webp",
-   "enrichedAt": "2026-10-17"
+   "enrichedAt": "2026-11-08"
   },
   {
    "id": "rr41851",
@@ -12639,7 +12645,7 @@
    "fetchedWith": "http",
    "enrichedBy": "text",
    "regStart": "2027-02-11",
-   "enrichedAt": "2026-11-07"
+   "enrichedAt": "2026-11-08"
   },
   {
    "id": "rr41900",

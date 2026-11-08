@@ -1,23 +1,17 @@
-2026-11-07 10:42 실행
-roadrun 2026: 응답 891,953바이트, 표 행 1262개
+2026-11-08 10:20 실행
+roadrun 2026: 응답 891,921바이트, 표 행 1262개
 roadrun 2026: 610개
-roadrun 2027: 응답 59,720바이트, 표 행 90개
+roadrun 2027: 응답 59,496바이트, 표 행 90개
 roadrun 2027: 24개
    중간 저장 완료: 대회 목록 업데이트
 ANTHROPIC_API_KEY 없음 → 홈페이지 글에서 직접 찾는 방식으로 진행
-상세 정리 대상 41개 중 41개 진행
- - 2026-11-07 제15회 부여 굿뜨래 마라톤 대회
-   일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
-   브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://mara1080.co
-   실패: RuntimeError('페이지를 읽지 못함')
+상세 정리 대상 39개 중 39개 진행
  - 2026-11-15 제24회 상주 곶감 마라톤 대회
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://www.mara108
    실패: RuntimeError('페이지를 읽지 못함')
  - 2026-11-22 부산항일학생의거86주년기념 부산시민이어달리기
-   일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
-   브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://i1123.org/"
-   실패: RuntimeError('페이지를 읽지 못함')
+   → regStart, poster
  - 2026-11-28 2026 남원 춘향 전국 마라톤대회
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://mara1080.co
@@ -65,12 +59,6 @@ ANTHROPIC_API_KEY 없음 → 홈페이지 글에서 직접 찾는 방식으로 �
  - 2027-05-09 소아암환우돕기 제24회 서울시민마라톤
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://soaam.runni
-   실패: RuntimeError('페이지를 읽지 못함')
- - 2026-11-07 GVIE RUN 2026 구미
-   → 찾은 정보 없음
- - 2026-11-07 제21회 담양메타세쿼이아 마라톤
-   일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
-   브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://www.metarun
    실패: RuntimeError('페이지를 읽지 못함')
  - 2026-11-08 2026 해남땅끝 전국마라톤대회
    → 찾은 정보 없음
@@ -134,6 +122,8 @@ ANTHROPIC_API_KEY 없음 → 홈페이지 글에서 직접 찾는 방식으로 �
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://www.mtrailr
    실패: RuntimeError('페이지를 읽지 못함')
+ - 2026-12-06 제1회 정읍 고향사랑기부마라톤
+   → poster
  - 2026-12-12 2026 소년소녀 가장 돕기 기부런
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://gibukidsrun
