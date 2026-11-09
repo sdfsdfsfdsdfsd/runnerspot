@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08",
+ "updated": "2026-11-09",
  "count": 675,
  "races": [
   {
@@ -11198,7 +11198,7 @@
    "region": "전라",
    "place": "무주 등나무운동장",
    "host": "무주마라톤협회/평화마라톤조직위",
-   "phone": "010-0000-0000",
+   "phone": "010-2116-0148",
    "site": "http://mujumarathon.com",
    "status": "open",
    "kind": "로드",
@@ -11317,10 +11317,10 @@
    "status": "open",
    "kind": "로드",
    "fetchedWith": "http",
+   "enrichedBy": "text",
    "regStart": "2026-10-13",
    "regEnd": "2026-11-10",
    "poster": "posters/rr41908.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-11-08"
   },
   {
@@ -11823,7 +11823,7 @@
    "host": "동방사회복지회",
    "phone": "02-332-3997",
    "site": "http://hugrun.kr",
-   "status": "open",
+   "status": "closed",
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
@@ -12265,7 +12265,7 @@
    "sido": "부산",
    "region": "경상",
    "place": "금정산성공원",
-   "host": "파브코리아/명품트레일",
+   "host": "파브코리아/명품",
    "phone": "010-3526-9120",
    "site": "http://www.mtrailrun.kr/",
    "status": null,
