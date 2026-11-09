@@ -10363,7 +10363,7 @@
    "kind": "울트라",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-03"
+   "enrichedAt": "2026-11-09"
   },
   {
    "id": "67de7bb8",
@@ -11081,7 +11081,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-08"
+   "enrichedAt": "2026-11-09"
   },
   {
    "id": "rr41899",
@@ -11162,7 +11162,7 @@
    "kind": "트레일",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-08"
+   "enrichedAt": "2026-11-09"
   },
   {
    "id": "rr41803",
@@ -11183,7 +11183,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-03"
+   "enrichedAt": "2026-11-09"
   },
   {
    "id": "rr41841",
@@ -11366,7 +11366,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-08"
+   "enrichedAt": "2026-11-09"
   },
   {
    "id": "rr41859",
@@ -11462,7 +11462,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-03"
+   "enrichedAt": "2026-11-09"
   },
   {
    "id": "rr41766",
@@ -11637,7 +11637,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-03"
+   "enrichedAt": "2026-11-09"
   },
   {
    "id": "rr41741",
@@ -11885,7 +11885,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-03"
+   "enrichedAt": "2026-11-09"
   },
   {
    "id": "rr41867",
@@ -11932,7 +11932,7 @@
    "kind": "트레일",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-03"
+   "enrichedAt": "2026-11-09"
   },
   {
    "id": "rr41710",
@@ -12272,7 +12272,7 @@
    "kind": "트레일",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-03"
+   "enrichedAt": "2026-11-09"
   },
   {
    "id": "rr41914",
@@ -12451,7 +12451,7 @@
    "kind": "트레일",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-03"
+   "enrichedAt": "2026-11-09"
   },
   {
    "id": "rr41806",
@@ -12496,7 +12496,10 @@
    "phone": "00-1644-4219",
    "site": "http://www.xn--zl2bt5ndwfh3g20k.kr/",
    "status": null,
-   "kind": "로드"
+   "kind": "로드",
+   "fetchedWith": "http",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-11-09"
   },
   {
    "id": "rr41940",
@@ -12516,7 +12519,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-03"
+   "enrichedAt": "2026-11-09"
   },
   {
    "id": "rr41919",
@@ -12645,7 +12648,7 @@
    "fetchedWith": "http",
    "enrichedBy": "text",
    "regStart": "2027-02-11",
-   "enrichedAt": "2026-11-08"
+   "enrichedAt": "2026-11-09"
   },
   {
    "id": "rr41900",
