@@ -1,11 +1,11 @@
-2026-11-09 10:25 실행
-roadrun 2026: 응답 891,659바이트, 표 행 1262개
-roadrun 2026: 610개
-roadrun 2027: 응답 59,528바이트, 표 행 90개
-roadrun 2027: 24개
+2026-11-10 13:06 실행
+roadrun 2026: 응답 893,078바이트, 표 행 1264개
+roadrun 2026: 611개
+roadrun 2027: 응답 61,126바이트, 표 행 92개
+roadrun 2027: 25개
    중간 저장 완료: 대회 목록 업데이트
 ANTHROPIC_API_KEY 없음 → 홈페이지 글에서 직접 찾는 방식으로 진행
-상세 정리 대상 33개 중 33개 진행
+상세 정리 대상 36개 중 36개 진행
  - 2026-11-15 제24회 상주 곶감 마라톤 대회
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://www.mara108
@@ -18,9 +18,8 @@ ANTHROPIC_API_KEY 없음 → 홈페이지 글에서 직접 찾는 방식으로 �
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://mara1080.co
    실패: RuntimeError('페이지를 읽지 못함')
- - 2027-01-01 2027 제11회 새해일출런
-   포스터 후보 건너뜀: <HTTPError 404: 'Not Found'>
-   → 찾은 정보 없음
+ - 2026-12-12 화성레이스
+   → poster
  - 2027-01-10 2027 전마협 새해 동계 마라톤
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://mara1080.co
@@ -56,6 +55,14 @@ ANTHROPIC_API_KEY 없음 → 홈페이지 글에서 직접 찾는 방식으로 �
  - 2027-05-09 소아암환우돕기 제24회 서울시민마라톤
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://soaam.runni
+   실패: RuntimeError('페이지를 읽지 못함')
+ - 2027-05-16 소아암환우돕기 제24회 서울시민마라톤
+   일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
+   브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://soaam.runni
+   실패: RuntimeError('페이지를 읽지 못함')
+ - 2027-05-23 희망드림 제24회 새벽강변 국제마라톤
+   일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
+   브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://amarunsb.co
    실패: RuntimeError('페이지를 읽지 못함')
  - 2026-11-14 2026 포항마라톤챔피언십
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
@@ -104,6 +111,9 @@ ANTHROPIC_API_KEY 없음 → 홈페이지 글에서 직접 찾는 방식으로 �
    → 찾은 정보 없음
  - 2026-12-27 경주 통포트레일
    → 찾은 정보 없음
+ - 2027-01-01 2027 제11회 새해일출런
+   포스터 후보 건너뜀: <HTTPError 404: 'Not Found'>
+   → 찾은 정보 없음
  - 2027-01-03 제19회 전국새해알몸마라톤
    포스터 후보 건너뜀: <HTTPError 404: 'Not Found'>
    → 찾은 정보 없음
@@ -114,4 +124,4 @@ ANTHROPIC_API_KEY 없음 → 홈페이지 글에서 직접 찾는 방식으로 �
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://dkrun.co.kr
    실패: RuntimeError('페이지를 읽지 못함')
 KAKAO_REST_KEY 없음 → 좌표 변환 건너뜀
-저장 완료: 675개 대회
+저장 완료: 678개 대회
