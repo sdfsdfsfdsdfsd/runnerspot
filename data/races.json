@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-09",
- "count": 675,
+ "updated": "2026-11-10",
+ "count": 678,
  "races": [
   {
    "id": "rr41182",
@@ -12210,6 +12210,23 @@
    "enrichedAt": "2026-10-27"
   },
   {
+   "id": "rr41966",
+   "date": "2026-12-12",
+   "name": "화성레이스",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "경기",
+   "region": "경기·인천",
+   "place": "봉담2생태체육공원",
+   "host": "화성시러닝크루연맹",
+   "phone": "010-9805-4983",
+   "site": "http://hwaseongrace.com",
+   "status": null,
+   "kind": "로드"
+  },
+  {
    "id": "rr41935",
    "date": "2026-12-13",
    "name": "2026 시즌마감마라톤대회",
@@ -12909,6 +12926,44 @@
    "host": "{사}소아암환우돕기 조직위",
    "phone": "02-2647-4488",
    "site": "http://soaam.runningdr.co.kr",
+   "status": null,
+   "kind": "로드"
+  },
+  {
+   "id": "rr41967",
+   "date": "2027-05-16",
+   "name": "소아암환우돕기 제24회 서울시민마라톤",
+   "dist": [
+    "Half",
+    "10K",
+    "5K",
+    "3K걷기"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "여의도 한강 물빛광장",
+   "host": "(사)소아암환우돕기 마라조직위",
+   "phone": "02-2647-4488",
+   "site": "http://soaam.runningdr.co.kr/",
+   "status": null,
+   "kind": "로드"
+  },
+  {
+   "id": "rr41968",
+   "date": "2027-05-23",
+   "name": "희망드림 제24회 새벽강변 국제마라톤",
+   "dist": [
+    "Half",
+    "10K",
+    "5K",
+    "3K가족런"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "여의도 한강 물빛광장",
+   "host": "세계일보, (사)한국마라톤협회",
+   "phone": "02-2647-4488",
+   "site": "http://amarunsb.com/",
    "status": null,
    "kind": "로드"
   },
