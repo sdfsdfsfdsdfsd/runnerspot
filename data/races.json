@@ -11081,7 +11081,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-10"
+   "enrichedAt": "2026-11-11"
   },
   {
    "id": "rr41899",
@@ -11162,7 +11162,7 @@
    "kind": "트레일",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-10"
+   "enrichedAt": "2026-11-11"
   },
   {
    "id": "rr41803",
@@ -11366,7 +11366,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-10"
+   "enrichedAt": "2026-11-11"
   },
   {
    "id": "rr41859",
@@ -12669,7 +12669,7 @@
    "fetchedWith": "http",
    "enrichedBy": "text",
    "regStart": "2027-02-11",
-   "enrichedAt": "2026-11-10"
+   "enrichedAt": "2026-11-11"
   },
   {
    "id": "rr41900",
@@ -12884,7 +12884,11 @@
    "phone": "070-7766-1238",
    "site": "http://k-player.or.kr/incheon2027",
    "status": null,
-   "kind": "로드"
+   "kind": "로드",
+   "fetchedWith": "http",
+   "poster": "posters/rr41970.webp",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-11-11"
   },
   {
    "id": "rr41627",
