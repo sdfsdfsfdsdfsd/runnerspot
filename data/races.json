@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-10",
- "count": 678,
+ "updated": "2026-11-11",
+ "count": 680,
  "races": [
   {
    "id": "rr41182",
@@ -11314,7 +11314,7 @@
    "host": "(사)부산항일학생의거기념사업회",
    "phone": "070-4406-1123",
    "site": "http://i1123.org",
-   "status": "open",
+   "status": "closed",
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
@@ -12226,8 +12226,8 @@
    "status": null,
    "kind": "로드",
    "fetchedWith": "http",
-   "poster": "posters/rr41966.webp",
    "enrichedBy": "text",
+   "poster": "posters/rr41966.webp",
    "enrichedAt": "2026-11-10"
   },
   {
@@ -12869,6 +12869,24 @@
    "kind": "로드"
   },
   {
+   "id": "rr41970",
+   "date": "2027-04-11",
+   "name": "2027 인천k-마라톤",
+   "dist": [
+    "Full",
+    "10K",
+    "5K"
+   ],
+   "sido": "인천",
+   "region": "경기·인천",
+   "place": "인천아시아드주경기장(예정)",
+   "host": "인천k-마라톤조직위",
+   "phone": "070-7766-1238",
+   "site": "http://k-player.or.kr/incheon2027",
+   "status": null,
+   "kind": "로드"
+  },
+  {
    "id": "rr41627",
    "date": "2027-04-18",
    "name": "제9회 오션뷰 기장바다마라톤",
@@ -12913,6 +12931,25 @@
    "enrichedBy": "text",
    "poster": "posters/rr41946.webp",
    "enrichedAt": "2026-11-05"
+  },
+  {
+   "id": "rr41971",
+   "date": "2027-04-25",
+   "name": "2027 통일기원포항마라톤",
+   "dist": [
+    "Half",
+    "10K",
+    "5K",
+    "장애인5K"
+   ],
+   "sido": "경북",
+   "region": "경상",
+   "place": "포항종합운동장",
+   "host": "민주평통포항시협의회",
+   "phone": "054-241-0855",
+   "site": "http://www.phrun.co.kr/",
+   "status": null,
+   "kind": "로드"
   },
   {
    "id": "rr41907",
