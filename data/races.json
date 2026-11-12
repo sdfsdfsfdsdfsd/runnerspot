@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11",
+ "updated": "2026-11-12",
  "count": 680,
  "races": [
   {
@@ -12886,8 +12886,8 @@
    "status": null,
    "kind": "로드",
    "fetchedWith": "http",
-   "poster": "posters/rr41970.webp",
    "enrichedBy": "text",
+   "poster": "posters/rr41970.webp",
    "enrichedAt": "2026-11-11"
   },
   {
