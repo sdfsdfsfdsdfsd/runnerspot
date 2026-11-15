@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14",
+ "updated": "2026-11-15",
  "count": 680,
  "races": [
   {
@@ -10240,7 +10240,7 @@
    "host": "kthcn",
    "phone": "054-1600-4525",
    "site": "http://pohangmarathon.com/",
-   "status": "open",
+   "status": "closed",
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
@@ -10486,7 +10486,7 @@
    "host": "가민,러너블",
    "phone": "02-2031-1935",
    "site": "http://runable.me/product/18977?comp=18962",
-   "status": "soon",
+   "status": "open",
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
@@ -11290,7 +11290,7 @@
    "host": "세계평화사랑연맹",
    "phone": "02-2606-8187",
    "site": "http://peace-run.kr/",
-   "status": "soon",
+   "status": "open",
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
