@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15",
+ "updated": "2026-11-16",
  "count": 680,
  "races": [
   {
@@ -10486,7 +10486,7 @@
    "host": "가민,러너블",
    "phone": "02-2031-1935",
    "site": "http://runable.me/product/18977?comp=18962",
-   "status": "open",
+   "status": "closed",
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
