@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17",
+ "updated": "2026-11-18",
  "count": 684,
  "races": [
   {
@@ -12576,10 +12576,10 @@
    "status": "open",
    "kind": "로드",
    "fetchedWith": "http",
+   "enrichedBy": "text",
    "regStart": "2026-11-14",
    "regEnd": "2026-12-31",
    "poster": "posters/rr41975.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-11-17"
   },
   {
@@ -12795,10 +12795,10 @@
    "status": "open",
    "kind": "로드",
    "fetchedWith": "http",
+   "enrichedBy": "text",
    "regStart": "2026-11-17",
    "regEnd": "2027-01-20",
    "poster": "posters/rr41976.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-11-17"
   },
   {
