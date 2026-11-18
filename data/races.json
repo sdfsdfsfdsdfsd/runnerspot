@@ -10989,7 +10989,7 @@
    "fetchedWith": "http",
    "enrichedBy": "text",
    "poster": "posters/rr41748.webp",
-   "enrichedAt": "2026-10-27"
+   "enrichedAt": "2026-11-18"
   },
   {
    "id": "rr41894",
@@ -11011,7 +11011,7 @@
    "fetchedWith": "http",
    "enrichedBy": "text",
    "poster": "posters/rr41894.webp",
-   "enrichedAt": "2026-10-27"
+   "enrichedAt": "2026-11-18"
   },
   {
    "id": "rr41673",
@@ -11061,7 +11061,7 @@
     "하프": 70000
    },
    "poster": "posters/rr41865.webp",
-   "enrichedAt": "2026-10-27"
+   "enrichedAt": "2026-11-18"
   },
   {
    "id": "rr41789",
@@ -11081,7 +11081,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-17"
+   "enrichedAt": "2026-11-18"
   },
   {
    "id": "rr41899",
@@ -11162,7 +11162,7 @@
    "kind": "트레일",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-17"
+   "enrichedAt": "2026-11-18"
   },
   {
    "id": "rr41803",
@@ -11206,7 +11206,7 @@
    "enrichedBy": "text",
    "startTime": "09:00",
    "poster": "posters/rr41841.webp",
-   "enrichedAt": "2026-10-27"
+   "enrichedAt": "2026-11-18"
   },
   {
    "id": "2a420ab2",
@@ -11274,7 +11274,7 @@
     "5km": 30000
    },
    "poster": "posters/rr41832.webp",
-   "enrichedAt": "2026-10-27"
+   "enrichedAt": "2026-11-18"
   },
   {
    "id": "rr41763",
@@ -11299,7 +11299,7 @@
    },
    "regStart": "2026-11-15",
    "poster": "posters/rr41763.webp",
-   "enrichedAt": "2026-10-27"
+   "enrichedAt": "2026-11-18"
   },
   {
    "id": "rr41908",
@@ -11337,7 +11337,7 @@
    "host": "ZEISS/런코리아",
    "phone": "00-1566-1936",
    "site": "http://zeiss-smilerace.kr",
-   "status": "closed",
+   "status": "open",
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
@@ -11345,7 +11345,9 @@
     "10km": 65000,
     "5km": 55000
    },
-   "enrichedAt": "2026-10-27"
+   "enrichedAt": "2026-11-18",
+   "regStart": "2026-11-08",
+   "poster": "posters/rr41768.webp"
   },
   {
    "id": "rr41925",
@@ -11366,7 +11368,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-17"
+   "enrichedAt": "2026-11-18"
   },
   {
    "id": "rr41859",
@@ -11387,7 +11389,7 @@
    "fetchedWith": "http",
    "enrichedBy": "text",
    "poster": "posters/rr41859.webp",
-   "enrichedAt": "2026-10-27"
+   "enrichedAt": "2026-11-18"
   },
   {
    "id": "rr41952",
@@ -11478,7 +11480,7 @@
    "host": "가톨릭평화방송/런코리아",
    "phone": "00-1566-1936",
    "site": "http://www.peacerun.kr",
-   "status": "closed",
+   "status": "open",
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
@@ -11487,7 +11489,8 @@
     "5km": 45000
    },
    "poster": "posters/rr41766.webp",
-   "enrichedAt": "2026-10-27"
+   "enrichedAt": "2026-11-18",
+   "regStart": "2026-10-16"
   },
   {
    "id": "rr41947",
@@ -11577,7 +11580,7 @@
    "fetchedWith": "http",
    "enrichedBy": "text",
    "poster": "posters/rr41891.webp",
-   "enrichedAt": "2026-10-27"
+   "enrichedAt": "2026-11-18"
   },
   {
    "id": "e5b9fa47",
@@ -11659,7 +11662,7 @@
    "fetchedWith": "http",
    "enrichedBy": "text",
    "poster": "posters/rr41741.webp",
-   "enrichedAt": "2026-10-27"
+   "enrichedAt": "2026-11-18"
   },
   {
    "id": "rr41804",
@@ -11682,7 +11685,7 @@
    "enrichedBy": "text",
    "startTime": "08:40",
    "poster": "posters/rr41804.webp",
-   "enrichedAt": "2026-10-27"
+   "enrichedAt": "2026-11-18"
   },
   {
    "id": "rr41759",
@@ -11705,7 +11708,7 @@
    "enrichedBy": "text",
    "regStart": "2026-11-22",
    "poster": "posters/rr41759.webp",
-   "enrichedAt": "2026-10-27"
+   "enrichedAt": "2026-11-18"
   },
   {
    "id": "e8383c96",
@@ -11743,7 +11746,7 @@
    "fetchedWith": "http",
    "enrichedBy": "text",
    "poster": "posters/rr41898.webp",
-   "enrichedAt": "2026-10-27"
+   "enrichedAt": "2026-11-18"
   },
   {
    "id": "rr41941",
@@ -11768,7 +11771,7 @@
    },
    "startTime": "08:00",
    "poster": "posters/rr41941.webp",
-   "enrichedAt": "2026-10-27"
+   "enrichedAt": "2026-11-18"
   },
   {
    "id": "6149666c",
@@ -11803,10 +11806,10 @@
    "status": "closed",
    "kind": "로드",
    "enrichedBy": "text",
-   "regStart": "2026-10-16",
+   "regStart": "2026-11-26",
    "regEnd": "2026-10-30",
    "poster": "posters/rr41762.webp",
-   "enrichedAt": "2026-10-27",
+   "enrichedAt": "2026-11-18",
    "fetchedWith": "http"
   },
   {
@@ -11954,7 +11957,7 @@
    "enrichedBy": "text",
    "regStart": "2026-08-24",
    "poster": "posters/rr41710.webp",
-   "enrichedAt": "2026-10-27"
+   "enrichedAt": "2026-11-18"
   },
   {
    "id": "rr41923",
@@ -11994,7 +11997,7 @@
    "site": "http://roadracing.co.kr/",
    "status": "open",
    "kind": "로드",
-   "fetchedWith": "http",
+   "fetchedWith": "browser",
    "enrichedBy": "text",
    "price": {
     "하프": 50000,
@@ -12002,7 +12005,7 @@
    },
    "startTime": "08:00",
    "poster": "posters/rr41802.webp",
-   "enrichedAt": "2026-10-27"
+   "enrichedAt": "2026-11-18"
   },
   {
    "id": "rr41888",
@@ -12070,7 +12073,7 @@
     "5km": 30000
    },
    "startTime": "08:00",
-   "enrichedAt": "2026-10-27"
+   "enrichedAt": "2026-11-18"
   },
   {
    "id": "rr41866",
@@ -12098,7 +12101,7 @@
    },
    "startTime": "08:00",
    "poster": "posters/rr41866.webp",
-   "enrichedAt": "2026-10-27"
+   "enrichedAt": "2026-11-18"
   },
   {
    "id": "rr41936",
@@ -12183,8 +12186,8 @@
    "site": "http://order.doortoout.com/12/8/78",
    "status": null,
    "kind": "로드",
-   "fetchedWith": "browser",
-   "enrichedAt": "2026-10-27"
+   "fetchedWith": "http",
+   "enrichedAt": "2026-11-18"
   },
   {
    "id": "rr41840",
@@ -12205,9 +12208,10 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "regStart": "2026-12-02",
+   "regStart": "2026-11-20",
    "poster": "posters/rr41840.webp",
-   "enrichedAt": "2026-10-27"
+   "enrichedAt": "2026-11-18",
+   "regEnd": "2026-11-27"
   },
   {
    "id": "rr41966",
@@ -12381,7 +12385,7 @@
    },
    "startTime": "08:00",
    "poster": "posters/rr41784.webp",
-   "enrichedAt": "2026-10-27"
+   "enrichedAt": "2026-11-18"
   },
   {
    "id": "rr41801",
@@ -12398,15 +12402,15 @@
    "host": "(사)재한다문화총연합회",
    "phone": "02-2636-7775",
    "site": "http://youngrun.kr",
-   "status": "closed",
+   "status": "soon",
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
    "price": {
     "하프": 50000
    },
-   "regStart": "2026-12-09",
-   "regEnd": "2026-01-04",
+   "regStart": "2026-11-20",
+   "regEnd": "2026-11-27",
    "poster": "posters/rr41801.webp",
    "enrichedAt": "2026-10-27"
   },
