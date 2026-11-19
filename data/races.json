@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-18",
- "count": 684,
+ "updated": "2026-11-19",
+ "count": 689,
  "races": [
   {
    "id": "rr41182",
@@ -11302,6 +11302,26 @@
    "enrichedAt": "2026-11-18"
   },
   {
+   "id": "rr41972",
+   "date": "2026-11-22",
+   "name": "마르 백야드울트라6",
+   "dist": [
+    "Full",
+    "Half",
+    "10K",
+    "5K",
+    "6.704K 루프"
+   ],
+   "sido": "제주",
+   "region": "제주",
+   "place": "제주시 월각로 783",
+   "host": "(주)마르어드벤처",
+   "phone": "010-8691-2251",
+   "site": "http://events.maar-adv.com/backyardultra",
+   "status": null,
+   "kind": "로드"
+  },
+  {
    "id": "rr41908",
    "date": "2026-11-22",
    "name": "부산항일학생의거86주년기념 부산시민이어달리기",
@@ -11345,9 +11365,9 @@
     "10km": 65000,
     "5km": 55000
    },
-   "enrichedAt": "2026-11-18",
    "regStart": "2026-11-08",
-   "poster": "posters/rr41768.webp"
+   "poster": "posters/rr41768.webp",
+   "enrichedAt": "2026-11-18"
   },
   {
    "id": "rr41925",
@@ -11488,9 +11508,9 @@
     "10km": 60000,
     "5km": 45000
    },
+   "regStart": "2026-10-16",
    "poster": "posters/rr41766.webp",
-   "enrichedAt": "2026-11-18",
-   "regStart": "2026-10-16"
+   "enrichedAt": "2026-11-18"
   },
   {
    "id": "rr41947",
@@ -11675,7 +11695,7 @@
    ],
    "sido": "경남",
    "region": "경상",
-   "place": "롯데워터파크 제3주차장",
+   "place": "가동교차로 (경남 김해시 한림면 가동리)",
    "host": "김해시장애인육상연맹",
    "phone": "010-5397-8890",
    "site": "http://gimhaemarathon.imweb.me/",
@@ -11787,6 +11807,23 @@
    "phone": null,
    "site": null,
    "status": "closed",
+   "kind": "로드"
+  },
+  {
+   "id": "rr41982",
+   "date": "2026-12-05",
+   "name": "2026 유관순 평화 마라톤",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "대전",
+   "region": "충청",
+   "place": "천안 독립기념관 겨레의 큰 마",
+   "host": "천안시체육회, 대전일보사",
+   "phone": "042-335-2543",
+   "site": "http://ryugwansun.co.kr/",
+   "status": null,
    "kind": "로드"
   },
   {
@@ -12761,6 +12798,24 @@
    "enrichedAt": "2026-10-06"
   },
   {
+   "id": "rr41983",
+   "date": "2027-02-28",
+   "name": "2027 경기수원국제하프마라톤",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "경기",
+   "region": "경기·인천",
+   "place": "수원종합운동장",
+   "host": "경기신문",
+   "phone": "031-575-7243",
+   "site": "http://ggimarathon.com",
+   "status": null,
+   "kind": "로드"
+  },
+  {
    "id": "rr41918",
    "date": "2027-02-28",
    "name": "2027 대구마라톤",
@@ -12882,6 +12937,24 @@
    "kind": "로드"
   },
   {
+   "id": "rr41981",
+   "date": "2027-03-14",
+   "name": "2027 부산다대포마라톤",
+   "dist": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "부산",
+   "region": "경상",
+   "place": "부산 다대포해변공원 도로 앞",
+   "host": "부산다대포마라톤조직위",
+   "phone": "051-710-2030",
+   "site": "http://dadaeporun.kr",
+   "status": null,
+   "kind": "로드"
+  },
+  {
    "id": "rr41626",
    "date": "2027-03-21",
    "name": "2027 서울마라톤",
@@ -12901,6 +12974,25 @@
    "enrichedBy": "text",
    "poster": "posters/rr41626.webp",
    "enrichedAt": "2026-11-18"
+  },
+  {
+   "id": "rr41980",
+   "date": "2027-03-28",
+   "name": "제26회 합천벚꽃마라톤",
+   "dist": [
+    "Full",
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "기타",
+   "region": "기타",
+   "place": "합천공설운동장",
+   "host": "합천군체육회",
+   "phone": "055-930-4923",
+   "site": "http://www.hcmrt.or.kr/ko/index.html",
+   "status": null,
+   "kind": "로드"
   },
   {
    "id": "rr41974",
