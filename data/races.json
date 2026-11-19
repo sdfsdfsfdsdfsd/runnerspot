@@ -12747,7 +12747,7 @@
    "fetchedWith": "http",
    "enrichedBy": "text",
    "regStart": "2027-02-11",
-   "enrichedAt": "2026-11-18"
+   "enrichedAt": "2026-11-19"
   },
   {
    "id": "rr41900",
@@ -12767,7 +12767,7 @@
    "status": null,
    "kind": "로드",
    "fetchedWith": "browser",
-   "enrichedAt": "2026-10-28"
+   "enrichedAt": "2026-11-19"
   },
   {
    "id": "rr41878",
@@ -12850,7 +12850,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-18"
+   "enrichedAt": "2026-11-19"
   },
   {
    "id": "rr41976",
@@ -13033,7 +13033,7 @@
    "status": null,
    "kind": "로드",
    "fetchedWith": "http",
-   "enrichedAt": "2026-11-18"
+   "enrichedAt": "2026-11-19"
   },
   {
    "id": "rr41875",
@@ -13114,7 +13114,7 @@
    "enrichedBy": "text",
    "regEnd": "2026-11-01",
    "poster": "posters/rr41627.webp",
-   "enrichedAt": "2026-10-28"
+   "enrichedAt": "2026-11-19"
   },
   {
    "id": "rr41946",
