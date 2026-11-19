@@ -10967,7 +10967,7 @@
    "regStart": "2026-09-11",
    "regEnd": "2026-10-30",
    "poster": "posters/rr41885.webp",
-   "enrichedAt": "2026-10-28"
+   "enrichedAt": "2026-11-19"
   },
   {
    "id": "rr41748",
@@ -11031,11 +11031,11 @@
    "site": "http://urfesta.com",
    "status": "closed",
    "kind": "로드",
-   "fetchedWith": "browser",
+   "fetchedWith": "http",
    "enrichedBy": "text",
-   "startTime": "08:30",
+   "startTime": "08:00",
    "poster": "posters/rr41673.webp",
-   "enrichedAt": "2026-10-28"
+   "enrichedAt": "2026-11-19"
   },
   {
    "id": "rr41865",
@@ -11081,7 +11081,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-18"
+   "enrichedAt": "2026-11-19"
   },
   {
    "id": "rr41899",
@@ -11103,9 +11103,9 @@
    "fetchedWith": "browser",
    "enrichedBy": "text",
    "regStart": "2026-09-21",
-   "regEnd": "2026-10-30",
+   "regEnd": "2026-11-15",
    "poster": "posters/rr41899.webp",
-   "enrichedAt": "2026-10-28"
+   "enrichedAt": "2026-11-19"
   },
   {
    "id": "rr41868",
@@ -11126,7 +11126,7 @@
    "fetchedWith": "browser",
    "enrichedBy": "text",
    "poster": "posters/rr41868.webp",
-   "enrichedAt": "2026-10-28"
+   "enrichedAt": "2026-11-19"
   },
   {
    "id": "c32d3e89",
@@ -11162,7 +11162,7 @@
    "kind": "트레일",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-18"
+   "enrichedAt": "2026-11-19"
   },
   {
    "id": "rr41803",
@@ -11183,7 +11183,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-17"
+   "enrichedAt": "2026-11-19"
   },
   {
    "id": "rr41841",
@@ -11319,7 +11319,11 @@
    "phone": "010-8691-2251",
    "site": "http://events.maar-adv.com/backyardultra",
    "status": null,
-   "kind": "로드"
+   "kind": "로드",
+   "fetchedWith": "http",
+   "poster": "posters/rr41972.webp",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-11-19"
   },
   {
    "id": "rr41908",
@@ -11388,7 +11392,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-18"
+   "enrichedAt": "2026-11-19"
   },
   {
    "id": "rr41859",
@@ -11484,7 +11488,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-17"
+   "enrichedAt": "2026-11-19"
   },
   {
    "id": "rr41766",
@@ -11531,7 +11535,7 @@
    "fetchedWith": "browser",
    "enrichedBy": "text",
    "poster": "posters/rr41685.webp",
-   "enrichedAt": "2026-10-28"
+   "enrichedAt": "2026-11-19"
   },
   {
    "id": "rr41685",
@@ -11552,7 +11556,7 @@
    "fetchedWith": "browser",
    "enrichedBy": "text",
    "poster": "posters/rr41685.webp",
-   "enrichedAt": "2026-10-28"
+   "enrichedAt": "2026-11-19"
   },
   {
    "id": "rr41807",
@@ -11638,7 +11642,7 @@
    "status": null,
    "kind": "로드",
    "fetchedWith": "browser",
-   "enrichedAt": "2026-10-28"
+   "enrichedAt": "2026-11-19"
   },
   {
    "id": "rr41810",
@@ -11660,7 +11664,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-17"
+   "enrichedAt": "2026-11-19"
   },
   {
    "id": "rr41741",
@@ -11823,8 +11827,18 @@
    "host": "천안시체육회, 대전일보사",
    "phone": "042-335-2543",
    "site": "http://ryugwansun.co.kr/",
-   "status": null,
-   "kind": "로드"
+   "status": "open",
+   "kind": "로드",
+   "fetchedWith": "browser",
+   "price": {
+    "10km": 30000,
+    "5km": 20000
+   },
+   "regStart": "2026-11-06",
+   "regEnd": "2026-11-23",
+   "poster": "posters/rr41982.webp",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-11-19"
   },
   {
    "id": "rr41762",
@@ -11925,7 +11939,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-17"
+   "enrichedAt": "2026-11-19"
   },
   {
    "id": "rr41867",
@@ -11952,7 +11966,7 @@
     "10km": 55000,
     "5km": 40000
    },
-   "enrichedAt": "2026-10-28"
+   "enrichedAt": "2026-11-19"
   },
   {
    "id": "rr41744",
@@ -11972,7 +11986,7 @@
    "kind": "트레일",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-17"
+   "enrichedAt": "2026-11-19"
   },
   {
    "id": "rr41710",
@@ -12085,7 +12099,7 @@
    "status": "closed",
    "kind": "로드",
    "fetchedWith": "browser",
-   "enrichedAt": "2026-10-28"
+   "enrichedAt": "2026-11-19"
   },
   {
    "id": "rr41860",
@@ -12224,7 +12238,7 @@
    "status": null,
    "kind": "로드",
    "fetchedWith": "http",
-   "enrichedAt": "2026-11-18"
+   "enrichedAt": "2026-11-19"
   },
   {
    "id": "rr41840",
@@ -12334,7 +12348,7 @@
    "kind": "트레일",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-17"
+   "enrichedAt": "2026-11-19"
   },
   {
    "id": "rr41914",
@@ -12380,7 +12394,7 @@
    "fetchedWith": "browser",
    "enrichedBy": "text",
    "poster": "posters/rr41745.webp",
-   "enrichedAt": "2026-10-28"
+   "enrichedAt": "2026-11-19"
   },
   {
    "id": "57e14159",
@@ -12470,7 +12484,7 @@
    "fetchedWith": "http",
    "enrichedBy": "text",
    "poster": "posters/rr41887.webp",
-   "enrichedAt": "2026-10-28"
+   "enrichedAt": "2026-11-19"
   },
   {
    "id": "rr41824",
@@ -12514,7 +12528,7 @@
    "kind": "트레일",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-17"
+   "enrichedAt": "2026-11-19"
   },
   {
    "id": "rr41806",
@@ -12562,7 +12576,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-17"
+   "enrichedAt": "2026-11-19"
   },
   {
    "id": "rr41940",
@@ -12582,7 +12596,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-17"
+   "enrichedAt": "2026-11-19"
   },
   {
    "id": "rr41919",
@@ -12813,7 +12827,9 @@
    "phone": "031-575-7243",
    "site": "http://ggimarathon.com",
    "status": null,
-   "kind": "로드"
+   "kind": "로드",
+   "fetchedWith": "browser",
+   "enrichedAt": "2026-11-19"
   },
   {
    "id": "rr41918",
@@ -12952,7 +12968,11 @@
    "phone": "051-710-2030",
    "site": "http://dadaeporun.kr",
    "status": null,
-   "kind": "로드"
+   "kind": "로드",
+   "fetchedWith": "http",
+   "poster": "posters/rr41981.webp",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-11-19"
   },
   {
    "id": "rr41626",
@@ -12992,7 +13012,9 @@
    "phone": "055-930-4923",
    "site": "http://www.hcmrt.or.kr/ko/index.html",
    "status": null,
-   "kind": "로드"
+   "kind": "로드",
+   "fetchedWith": "browser",
+   "enrichedAt": "2026-11-19"
   },
   {
    "id": "rr41974",
