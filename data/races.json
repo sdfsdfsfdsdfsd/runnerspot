@@ -11081,7 +11081,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-19"
+   "enrichedAt": "2026-11-20"
   },
   {
    "id": "rr41899",
@@ -11162,7 +11162,7 @@
    "kind": "트레일",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-19"
+   "enrichedAt": "2026-11-20"
   },
   {
    "id": "rr41803",
@@ -11392,7 +11392,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-19"
+   "enrichedAt": "2026-11-20"
   },
   {
    "id": "rr41859",
@@ -12219,7 +12219,7 @@
    "regStart": "2026-10-08",
    "regEnd": "2026-12-12",
    "poster": "posters/rr41905.webp",
-   "enrichedAt": "2026-10-29"
+   "enrichedAt": "2026-11-20"
   },
   {
    "id": "rr41939",
@@ -12238,7 +12238,7 @@
    "status": null,
    "kind": "로드",
    "fetchedWith": "http",
-   "enrichedAt": "2026-11-19"
+   "enrichedAt": "2026-11-20"
   },
   {
    "id": "rr41840",
@@ -12747,7 +12747,7 @@
    "fetchedWith": "http",
    "enrichedBy": "text",
    "regStart": "2027-02-11",
-   "enrichedAt": "2026-11-19"
+   "enrichedAt": "2026-11-20"
   },
   {
    "id": "rr41900",
@@ -13033,7 +13033,7 @@
    "status": null,
    "kind": "로드",
    "fetchedWith": "http",
-   "enrichedAt": "2026-11-19"
+   "enrichedAt": "2026-11-20"
   },
   {
    "id": "rr41875",
