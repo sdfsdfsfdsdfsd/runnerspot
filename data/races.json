@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-20",
- "count": 689,
+ "updated": "2026-11-21",
+ "count": 695,
  "races": [
   {
    "id": "rr41182",
@@ -11722,7 +11722,7 @@
    ],
    "sido": "서울",
    "region": "서울",
-   "place": "여의도공원 문화의마당",
+   "place": "신정교하부 육상트랙구장",
    "host": "안중근평화재단청년아카데미",
    "phone": "02-336-1588",
    "site": "http://ajgrun.kr",
@@ -12693,6 +12693,23 @@
    "enrichedAt": "2026-11-05"
   },
   {
+   "id": "rr41985",
+   "date": "2027-01-31",
+   "name": "2027 평창 대관령 알몸마라톤",
+   "dist": [
+    "10K",
+    "5K"
+   ],
+   "sido": "강원",
+   "region": "강원",
+   "place": "대관령눈꽃축제장",
+   "host": "전국마라톤협회",
+   "phone": "042-638-1080",
+   "site": "http://mara1080.com/event/d243ad5f-f193-4e72-9c7e-c46969437cf8",
+   "status": null,
+   "kind": "로드"
+  },
+  {
    "id": "rr41931",
    "date": "2027-02-13",
    "name": "2027 전마협 고흥 누리호 마라톤대회",
@@ -12705,7 +12722,7 @@
    "place": "고흥만 수변노을공원",
    "host": "전국마라톤협회",
    "phone": "042-",
-   "site": "http://mara1080.com/event/f3c362bc-532f-4f3c-bc21-76d3023bfb3a",
+   "site": "http://mara1080.com/event/c0c0a4a4-eb54-4f93-a0b8-f21d9b2bd168",
    "status": null,
    "kind": "로드"
   },
@@ -12878,6 +12895,25 @@
    "enrichedAt": "2026-11-17"
   },
   {
+   "id": "rr41963",
+   "date": "2027-02-28",
+   "name": "제11회 산불조심한국 서울마라톤",
+   "dist": [
+    "Full",
+    "Half",
+    "10K",
+    "6K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "수서 광평교",
+   "host": "한국트레일러너연맹",
+   "phone": "02-424-2195",
+   "site": "http://www.nobulrun.com/",
+   "status": null,
+   "kind": "로드"
+  },
+  {
    "id": "rr41901",
    "date": "2027-03-01",
    "name": "2027 머니투데이방송 삼일절 마라톤",
@@ -12975,6 +13011,23 @@
    "enrichedAt": "2026-11-19"
   },
   {
+   "id": "rr41986",
+   "date": "2027-03-14",
+   "name": "제28회 이천 도자기 마라톤",
+   "dist": [
+    "Half",
+    "10K"
+   ],
+   "sido": "경기",
+   "region": "경기·인천",
+   "place": "이천종합운동장",
+   "host": "이천시체육회",
+   "phone": "042-638-1080",
+   "site": "http://mara1080.com/event/2b3a03c4-4fc6-4d34-8a33-2449fafcaa23",
+   "status": null,
+   "kind": "로드"
+  },
+  {
    "id": "rr41626",
    "date": "2027-03-21",
    "name": "2027 서울마라톤",
@@ -13054,6 +13107,25 @@
    "kind": "로드"
   },
   {
+   "id": "rr41984",
+   "date": "2027-04-04",
+   "name": "2027 영주소백산마라톤",
+   "dist": [
+    "Full",
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "sido": "경북",
+   "region": "경상",
+   "place": "영주시민운동장",
+   "host": "영주시, 매일신문사",
+   "phone": "031-575-7243",
+   "site": "http://www.sobaekmarathon.go.kr",
+   "status": null,
+   "kind": "로드"
+  },
+  {
    "id": "rr41977",
    "date": "2027-04-10",
    "name": "제16회 양천마라톤대회",
@@ -13092,6 +13164,23 @@
    "enrichedBy": "text",
    "poster": "posters/rr41970.webp",
    "enrichedAt": "2026-11-11"
+  },
+  {
+   "id": "rr41930",
+   "date": "2027-04-11",
+   "name": "제6회 산악울트라 UTMB,ITRA",
+   "dist": [
+    "90K",
+    "38K"
+   ],
+   "sido": "서울",
+   "region": "서울",
+   "place": "수서역7번출구",
+   "host": "(사)한국산악마라톤연맹",
+   "phone": "02-424-2195",
+   "site": "http://koreatrail.net",
+   "status": null,
+   "kind": "울트라"
   },
   {
    "id": "rr41627",
@@ -13194,6 +13283,25 @@
    "site": "http://soaam.runningdr.co.kr/",
    "status": null,
    "kind": "로드"
+  },
+  {
+   "id": "rr41964",
+   "date": "2027-05-16",
+   "name": "제39회지리산UTMB INDEX 및 ITRA",
+   "dist": [
+    "48K",
+    "40K",
+    "34K",
+    "21K"
+   ],
+   "sido": "광주",
+   "region": "전라",
+   "place": "화엄사주차징",
+   "host": "(사)한국산악마라톤전남광주연맹",
+   "phone": "010-3631-1413",
+   "site": "http://koreatrail.net",
+   "status": null,
+   "kind": "울트라"
   },
   {
    "id": "rr41968",
