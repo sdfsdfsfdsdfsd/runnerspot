@@ -11081,7 +11081,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-20"
+   "enrichedAt": "2026-11-21"
   },
   {
    "id": "rr41899",
@@ -11162,7 +11162,7 @@
    "kind": "트레일",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-20"
+   "enrichedAt": "2026-11-21"
   },
   {
    "id": "rr41803",
@@ -11183,7 +11183,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-19"
+   "enrichedAt": "2026-11-21"
   },
   {
    "id": "rr41841",
@@ -11392,7 +11392,8 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-20"
+   "enrichedAt": "2026-11-21",
+   "poster": "posters/rr41925.webp"
   },
   {
    "id": "rr41859",
@@ -11488,7 +11489,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-19"
+   "enrichedAt": "2026-11-21"
   },
   {
    "id": "rr41766",
@@ -11664,7 +11665,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-19"
+   "enrichedAt": "2026-11-21"
   },
   {
    "id": "rr41741",
@@ -11939,7 +11940,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-19"
+   "enrichedAt": "2026-11-21"
   },
   {
    "id": "rr41867",
@@ -11986,7 +11987,7 @@
    "kind": "트레일",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-19"
+   "enrichedAt": "2026-11-21"
   },
   {
    "id": "rr41710",
@@ -12238,7 +12239,7 @@
    "status": null,
    "kind": "로드",
    "fetchedWith": "http",
-   "enrichedAt": "2026-11-20"
+   "enrichedAt": "2026-11-21"
   },
   {
    "id": "rr41840",
@@ -12348,7 +12349,7 @@
    "kind": "트레일",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-19"
+   "enrichedAt": "2026-11-21"
   },
   {
    "id": "rr41914",
@@ -12528,7 +12529,7 @@
    "kind": "트레일",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-19"
+   "enrichedAt": "2026-11-21"
   },
   {
    "id": "rr41806",
@@ -12576,7 +12577,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-19"
+   "enrichedAt": "2026-11-21"
   },
   {
    "id": "rr41940",
@@ -12596,7 +12597,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-19"
+   "enrichedAt": "2026-11-21"
   },
   {
    "id": "rr41919",
@@ -12764,7 +12765,7 @@
    "fetchedWith": "http",
    "enrichedBy": "text",
    "regStart": "2027-02-11",
-   "enrichedAt": "2026-11-20"
+   "enrichedAt": "2026-11-21"
   },
   {
    "id": "rr41900",
@@ -12867,7 +12868,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-19"
+   "enrichedAt": "2026-11-21"
   },
   {
    "id": "rr41976",
@@ -12911,7 +12912,16 @@
    "phone": "02-424-2195",
    "site": "http://www.nobulrun.com/",
    "status": null,
-   "kind": "로드"
+   "kind": "로드",
+   "fetchedWith": "browser",
+   "price": {
+    "풀코스": 60000,
+    "하프": 55000,
+    "10km": 50000
+   },
+   "poster": "posters/rr41963.webp",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-11-21"
   },
   {
    "id": "rr41901",
@@ -13086,7 +13096,7 @@
    "status": null,
    "kind": "로드",
    "fetchedWith": "http",
-   "enrichedAt": "2026-11-20"
+   "enrichedAt": "2026-11-21"
   },
   {
    "id": "rr41875",
@@ -13123,7 +13133,9 @@
    "phone": "031-575-7243",
    "site": "http://www.sobaekmarathon.go.kr",
    "status": null,
-   "kind": "로드"
+   "kind": "로드",
+   "fetchedWith": "browser",
+   "enrichedAt": "2026-11-21"
   },
   {
    "id": "rr41977",
@@ -13179,8 +13191,14 @@
    "host": "(사)한국산악마라톤연맹",
    "phone": "02-424-2195",
    "site": "http://koreatrail.net",
-   "status": null,
-   "kind": "울트라"
+   "status": "open",
+   "kind": "울트라",
+   "fetchedWith": "browser",
+   "regStart": "2026-10-10",
+   "regEnd": "2026-12-09",
+   "poster": "posters/rr41930.webp",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-11-21"
   },
   {
    "id": "rr41627",
@@ -13300,8 +13318,14 @@
    "host": "(사)한국산악마라톤전남광주연맹",
    "phone": "010-3631-1413",
    "site": "http://koreatrail.net",
-   "status": null,
-   "kind": "울트라"
+   "status": "open",
+   "kind": "울트라",
+   "fetchedWith": "browser",
+   "regStart": "2026-10-10",
+   "regEnd": "2026-12-09",
+   "poster": "posters/rr41964.webp",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-11-21"
   },
   {
    "id": "rr41968",
