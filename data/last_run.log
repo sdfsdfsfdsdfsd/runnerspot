@@ -1,11 +1,11 @@
-2026-11-21 11:50 실행
-roadrun 2026: 응답 895,132바이트, 표 행 1268개
+2026-11-22 10:52 실행
+roadrun 2026: 응답 895,100바이트, 표 행 1268개
 roadrun 2026: 613개
-roadrun 2027: 응답 82,945바이트, 표 행 122개
+roadrun 2027: 응답 82,889바이트, 표 행 122개
 roadrun 2027: 40개
    중간 저장 완료: 대회 목록 업데이트
 ANTHROPIC_API_KEY 없음 → 홈페이지 글에서 직접 찾는 방식으로 진행
-상세 정리 대상 41개 중 41개 진행
+상세 정리 대상 35개 중 35개 진행
  - 2026-11-28 2026 남원 춘향 전국 마라톤대회
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://mara1080.co
@@ -34,8 +34,6 @@ ANTHROPIC_API_KEY 없음 → 홈페이지 글에서 직접 찾는 방식으로 �
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://mara1080.co
    실패: RuntimeError('페이지를 읽지 못함')
- - 2027-02-28 제11회 산불조심한국 서울마라톤
-   → price, poster
  - 2027-03-01 2027 머니투데이방송 삼일절 마라톤
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://mara1080.co
@@ -56,14 +54,10 @@ ANTHROPIC_API_KEY 없음 → 홈페이지 글에서 직접 찾는 방식으로 �
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://mara1080.co
    실패: RuntimeError('페이지를 읽지 못함')
- - 2027-04-04 2027 영주소백산마라톤
-   일반 접속 실패: <HTTPError 403: 'Forbidden'> → 브라우저로 다시
  - 2027-04-10 제16회 양천마라톤대회
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://ycrun.com/"
    실패: RuntimeError('페이지를 읽지 못함')
- - 2027-04-11 제6회 산악울트라 UTMB,ITRA
-   → regStart, poster
  - 2027-04-25 2027 통일기원포항마라톤
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://www.phrun.c
@@ -76,27 +70,21 @@ ANTHROPIC_API_KEY 없음 → 홈페이지 글에서 직접 찾는 방식으로 �
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://soaam.runni
    실패: RuntimeError('페이지를 읽지 못함')
- - 2027-05-16 제39회지리산UTMB INDEX 및 ITRA
-   → regStart, poster
  - 2027-05-23 희망드림 제24회 새벽강변 국제마라톤
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://amarunsb.co
    실패: RuntimeError('페이지를 읽지 못함')
- - 2026-11-21 GIVE RUN 2026 부산
-   → 찾은 정보 없음
- - 2026-11-21 천안시장배 대한독립천안트레일런산악등반대회
-   → 찾은 정보 없음
  - 2026-11-22 2026 김대중마라톤대회
    → 찾은 정보 없음
  - 2026-11-22 2026 서울 억새풀 마라톤대회
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://ssrun.kr/",
    실패: RuntimeError('페이지를 읽지 못함')
- - 2026-11-22 제19회 대구광역시장기 생활체육 육상대회
-   → poster
  - 2026-11-28 2026 착한서구 공부방 기부앤런
    포스터 후보 건너뜀: <HTTPError 404: 'Not Found'>
    → 찾은 정보 없음
+ - 2026-11-29 2026 새한미디어 마라톤
+   → price, poster
  - 2026-11-29 2026 정읍공동체 프리마켓 마라톤
    → 찾은 정보 없음
  - 2026-12-05 제23회 한강시민마라톤

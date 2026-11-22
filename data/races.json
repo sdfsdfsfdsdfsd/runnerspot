@@ -11183,7 +11183,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-21"
+   "enrichedAt": "2026-11-22"
   },
   {
    "id": "rr41841",
@@ -11489,7 +11489,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-21"
+   "enrichedAt": "2026-11-22"
   },
   {
    "id": "rr41766",
@@ -11583,7 +11583,7 @@
     "하프": 50000
    },
    "poster": "posters/rr41807.webp",
-   "enrichedAt": "2026-10-31"
+   "enrichedAt": "2026-11-22"
   },
   {
    "id": "rr41891",
@@ -11665,7 +11665,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-21"
+   "enrichedAt": "2026-11-22"
   },
   {
    "id": "rr41741",
@@ -11940,7 +11940,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-21"
+   "enrichedAt": "2026-11-22"
   },
   {
    "id": "rr41867",
@@ -11987,7 +11987,7 @@
    "kind": "트레일",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-21"
+   "enrichedAt": "2026-11-22"
   },
   {
    "id": "rr41710",
@@ -12238,8 +12238,8 @@
    "site": "http://order.doortoout.com/12/8/78",
    "status": null,
    "kind": "로드",
-   "fetchedWith": "http",
-   "enrichedAt": "2026-11-21"
+   "fetchedWith": "browser",
+   "enrichedAt": "2026-11-22"
   },
   {
    "id": "rr41840",
@@ -12349,7 +12349,7 @@
    "kind": "트레일",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-21"
+   "enrichedAt": "2026-11-22"
   },
   {
    "id": "rr41914",
@@ -12529,7 +12529,7 @@
    "kind": "트레일",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-21"
+   "enrichedAt": "2026-11-22"
   },
   {
    "id": "rr41806",
@@ -12577,7 +12577,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-21"
+   "enrichedAt": "2026-11-22"
   },
   {
    "id": "rr41940",
@@ -12597,7 +12597,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-21"
+   "enrichedAt": "2026-11-22"
   },
   {
    "id": "rr41919",
@@ -12765,7 +12765,7 @@
    "fetchedWith": "http",
    "enrichedBy": "text",
    "regStart": "2027-02-11",
-   "enrichedAt": "2026-11-21"
+   "enrichedAt": "2026-11-22"
   },
   {
    "id": "rr41900",
@@ -12868,7 +12868,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-21"
+   "enrichedAt": "2026-11-22"
   },
   {
    "id": "rr41976",
@@ -13096,7 +13096,7 @@
    "status": null,
    "kind": "로드",
    "fetchedWith": "http",
-   "enrichedAt": "2026-11-21"
+   "enrichedAt": "2026-11-22"
   },
   {
    "id": "rr41875",
