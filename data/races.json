@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21",
+ "updated": "2026-11-22",
  "count": 695,
  "races": [
   {
@@ -11392,8 +11392,8 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-21",
-   "poster": "posters/rr41925.webp"
+   "poster": "posters/rr41925.webp",
+   "enrichedAt": "2026-11-21"
   },
   {
    "id": "rr41859",
@@ -11727,7 +11727,7 @@
    "host": "안중근평화재단청년아카데미",
    "phone": "02-336-1588",
    "site": "http://ajgrun.kr",
-   "status": "soon",
+   "status": "open",
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
@@ -12914,13 +12914,13 @@
    "status": null,
    "kind": "로드",
    "fetchedWith": "browser",
+   "enrichedBy": "text",
    "price": {
     "풀코스": 60000,
     "하프": 55000,
     "10km": 50000
    },
    "poster": "posters/rr41963.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-11-21"
   },
   {
@@ -13194,10 +13194,10 @@
    "status": "open",
    "kind": "울트라",
    "fetchedWith": "browser",
+   "enrichedBy": "text",
    "regStart": "2026-10-10",
    "regEnd": "2026-12-09",
    "poster": "posters/rr41930.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-11-21"
   },
   {
@@ -13321,10 +13321,10 @@
    "status": "open",
    "kind": "울트라",
    "fetchedWith": "browser",
+   "enrichedBy": "text",
    "regStart": "2026-10-10",
    "regEnd": "2026-12-09",
    "poster": "posters/rr41964.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-11-21"
   },
   {
