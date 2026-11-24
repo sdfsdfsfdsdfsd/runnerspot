@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23",
+ "updated": "2026-11-24",
  "count": 695,
  "races": [
   {
@@ -11828,7 +11828,7 @@
    "host": "천안시체육회, 대전일보사",
    "phone": "042-335-2543",
    "site": "http://ryugwansun.co.kr/",
-   "status": "open",
+   "status": "closed",
    "kind": "로드",
    "fetchedWith": "browser",
    "enrichedBy": "text",
@@ -12809,7 +12809,7 @@
   {
    "id": "rr41631",
    "date": "2027-02-27",
-   "name": "희망드림 제24회 동계마라톤대회",
+   "name": "희망드림 제24회 동계 국제마라톤대회",
    "dist": [
     "Half",
     "10K",
@@ -12818,7 +12818,7 @@
    ],
    "sido": "서울",
    "region": "서울",
-   "place": "여의도 한강 물빛광장",
+   "place": "여의도(한강) 물빛광장",
    "host": "(사)한국마라톤연맹",
    "phone": "02-2647-4488",
    "site": "http://dkrun.co.kr",
@@ -13295,7 +13295,7 @@
    ],
    "sido": "서울",
    "region": "서울",
-   "place": "여의도 한강 물빛광장",
+   "place": "여의도(한강) 물빛광장",
    "host": "(사)소아암환우돕기 마라조직위",
    "phone": "02-2647-4488",
    "site": "http://soaam.runningdr.co.kr/",
@@ -13339,7 +13339,7 @@
    ],
    "sido": "서울",
    "region": "서울",
-   "place": "여의도 한강 물빛광장",
+   "place": "여의도(한강) 물빛광장",
    "host": "세계일보, (사)한국마라톤협회",
    "phone": "02-2647-4488",
    "site": "http://amarunsb.com/",
