@@ -1,11 +1,11 @@
-2026-11-23 11:23 실행
-roadrun 2026: 응답 895,036바이트, 표 행 1268개
+2026-11-24 14:59 실행
+roadrun 2026: 응답 895,004바이트, 표 행 1268개
 roadrun 2026: 613개
-roadrun 2027: 응답 82,785바이트, 표 행 122개
+roadrun 2027: 응답 82,793바이트, 표 행 122개
 roadrun 2027: 40개
    중간 저장 완료: 대회 목록 업데이트
 ANTHROPIC_API_KEY 없음 → 홈페이지 글에서 직접 찾는 방식으로 진행
-상세 정리 대상 33개 중 33개 진행
+상세 정리 대상 31개 중 31개 진행
  - 2026-11-28 2026 남원 춘향 전국 마라톤대회
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://mara1080.co
@@ -82,8 +82,6 @@ ANTHROPIC_API_KEY 없음 → 홈페이지 글에서 직접 찾는 방식으로 �
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://www.xn--ob0
    실패: RuntimeError('페이지를 읽지 못함')
- - 2026-12-05 2026 허그런(HUG RUN)
-   → regStart, poster
  - 2026-12-05 제23회 한강시민마라톤
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://www.hangang
@@ -100,8 +98,6 @@ ANTHROPIC_API_KEY 없음 → 홈페이지 글에서 직접 찾는 방식으로 �
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://www.mtrailr
    실패: RuntimeError('페이지를 읽지 못함')
- - 2026-12-13 제2회 일자산TRAL RUNNING
-   → regStart, poster
  - 2026-12-27 경주 통포트레일
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://www.mtrailr
@@ -120,12 +116,14 @@ ANTHROPIC_API_KEY 없음 → 홈페이지 글에서 직접 찾는 방식으로 �
    실패: RuntimeError('페이지를 읽지 못함')
  - 2027-02-20 2027 희망 청춘 런
    → regStart
- - 2027-02-27 희망드림 제24회 동계마라톤대회
+ - 2027-02-27 희망드림 제24회 동계 국제마라톤대회
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://dkrun.co.kr
    실패: RuntimeError('페이지를 읽지 못함')
  - 2027-02-28 2027 대구마라톤
-   → 찾은 정보 없음
+   일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
+   브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://daegumarath
+   실패: RuntimeError('페이지를 읽지 못함')
  - 2027-03-28 제34회 315마라톤
    브라우저로도 실패: TimeoutError('Page.inner_text: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator("body")
 KAKAO_REST_KEY 없음 → 좌표 변환 건너뜀
