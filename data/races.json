@@ -12765,7 +12765,7 @@
    "fetchedWith": "http",
    "enrichedBy": "text",
    "regStart": "2027-02-11",
-   "enrichedAt": "2026-11-24"
+   "enrichedAt": "2026-11-25"
   },
   {
    "id": "rr41900",
@@ -12866,9 +12866,9 @@
    "site": "http://daegumarathon.daegu.go.kr",
    "status": null,
    "kind": "로드",
-   "fetchedWith": "http",
+   "fetchedWith": "browser",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-23"
+   "enrichedAt": "2026-11-25"
   },
   {
    "id": "rr41976",
@@ -13096,7 +13096,7 @@
    "status": null,
    "kind": "로드",
    "fetchedWith": "http",
-   "enrichedAt": "2026-11-24"
+   "enrichedAt": "2026-11-25"
   },
   {
    "id": "rr41875",
