@@ -12728,7 +12728,12 @@
    "phone": "00-1600-3962",
    "site": "http://kihogprun.co.kr",
    "status": null,
-   "kind": "로드"
+   "kind": "로드",
+   "fetchedWith": "http",
+   "startTime": "08:30",
+   "poster": "posters/rr41987.webp",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-11-26"
   },
   {
    "id": "rr41993",
@@ -12747,7 +12752,11 @@
    "phone": "010-8389-2074",
    "site": "http://daegwallyeongrun.com/ko",
    "status": null,
-   "kind": "트레일"
+   "kind": "트레일",
+   "fetchedWith": "http",
+   "poster": "posters/rr41993.webp",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-11-26"
   },
   {
    "id": "rr41985",
@@ -12856,7 +12865,7 @@
    "fetchedWith": "http",
    "enrichedBy": "text",
    "regStart": "2027-02-11",
-   "enrichedAt": "2026-11-25"
+   "enrichedAt": "2026-11-26"
   },
   {
    "id": "rr41900",
@@ -12912,7 +12921,11 @@
    "phone": "042-710-2058",
    "site": "http://runten.co.kr",
    "status": null,
-   "kind": "로드"
+   "kind": "로드",
+   "fetchedWith": "browser",
+   "poster": "posters/rr41991.webp",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-11-26"
   },
   {
    "id": "rr41631",
@@ -13122,7 +13135,9 @@
    "phone": "055-210-6104",
    "site": "http://www.cngmarathon.co.kr",
    "status": null,
-   "kind": "로드"
+   "kind": "로드",
+   "fetchedWith": "browser",
+   "enrichedAt": "2026-11-26"
   },
   {
    "id": "rr41981",
@@ -13222,7 +13237,7 @@
    "status": null,
    "kind": "로드",
    "fetchedWith": "http",
-   "enrichedAt": "2026-11-25"
+   "enrichedAt": "2026-11-26"
   },
   {
    "id": "rr41875",
@@ -13469,7 +13484,12 @@
    "phone": "042-544-3809",
    "site": "http://gultra100k.kr",
    "status": null,
-   "kind": "울트라"
+   "kind": "울트라",
+   "fetchedWith": "http",
+   "startTime": "17:00",
+   "poster": "posters/rr41992.webp",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-11-26"
   },
   {
    "id": "rr41968",

@@ -1,11 +1,11 @@
-2026-11-25 13:53 실행
-roadrun 2026: 응답 895,004바이트, 표 행 1268개
-roadrun 2026: 613개
-roadrun 2027: 응답 82,793바이트, 표 행 122개
-roadrun 2027: 40개
+2026-11-26 13:19 실행
+roadrun 2026: 응답 896,563바이트, 표 행 1270개
+roadrun 2026: 614개
+roadrun 2027: 응답 93,119바이트, 표 행 136개
+roadrun 2027: 47개
    중간 저장 완료: 대회 목록 업데이트
 ANTHROPIC_API_KEY 없음 → 홈페이지 글에서 직접 찾는 방식으로 진행
-상세 정리 대상 32개 중 32개 진행
+상세 정리 대상 39개 중 39개 진행
  - 2026-11-28 2026 남원 춘향 전국 마라톤대회
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://mara1080.co
@@ -14,15 +14,31 @@ ANTHROPIC_API_KEY 없음 → 홈페이지 글에서 직접 찾는 방식으로 �
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://mara1080.co
    실패: RuntimeError('페이지를 읽지 못함')
+ - 2026-12-19 2026금산 송년 무료 초청 마라톤 축제
+   일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
+   브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://mara1080.co
+   실패: RuntimeError('페이지를 읽지 못함')
  - 2027-01-10 2027 전마협 새해 동계 마라톤
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://mara1080.co
    실패: RuntimeError('페이지를 읽지 못함')
+ - 2027-01-30 2027 동계훈련마라톤대회
+   → startTime, poster
+ - 2027-01-30 대관령시리즈 겨울편 트레일런&트레킹
+   → poster
  - 2027-01-31 2027 평창 대관령 알몸마라톤
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://mara1080.co
    실패: RuntimeError('페이지를 읽지 못함')
  - 2027-02-13 2027 전마협 고흥 누리호 마라톤대회
+   일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
+   브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://mara1080.co
+   실패: RuntimeError('페이지를 읽지 못함')
+ - 2027-02-14 2027 초코런
+   일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
+   브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://www.chocoru
+   실패: RuntimeError('페이지를 읽지 못함')
+ - 2027-02-20 2027 전마협 청주 무심천 노을 마라톤
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://mara1080.co
    실패: RuntimeError('페이지를 읽지 못함')
@@ -34,6 +50,8 @@ ANTHROPIC_API_KEY 없음 → 홈페이지 글에서 직접 찾는 방식으로 �
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://mara1080.co
    실패: RuntimeError('페이지를 읽지 못함')
+ - 2027-02-27 런텐 세종 전국 10K 대회
+   → poster
  - 2027-03-01 2027 머니투데이방송 삼일절 마라톤
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://mara1080.co
@@ -46,6 +64,8 @@ ANTHROPIC_API_KEY 없음 → 홈페이지 글에서 직접 찾는 방식으로 �
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://mara1080.co
    실패: RuntimeError('페이지를 읽지 못함')
+ - 2027-03-13 제21회 창녕부곡온천마라톤
+   일반 접속 실패: <HTTPError 403: 'Forbidden'> → 브라우저로 다시
  - 2027-03-14 제28회 이천 도자기 마라톤
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://mara1080.co
@@ -70,6 +90,8 @@ ANTHROPIC_API_KEY 없음 → 홈페이지 글에서 직접 찾는 방식으로 �
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://soaam.runni
    실패: RuntimeError('페이지를 읽지 못함')
+ - 2027-05-22 2027 금강울트라마라톤
+   → startTime, poster
  - 2027-05-23 희망드림 제24회 새벽강변 국제마라톤
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://amarunsb.co
@@ -124,10 +146,7 @@ ANTHROPIC_API_KEY 없음 → 홈페이지 글에서 직접 찾는 방식으로 �
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://dkrun.co.kr
    실패: RuntimeError('페이지를 읽지 못함')
- - 2027-02-28 2027 대구마라톤
-   일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
-   → 찾은 정보 없음
  - 2027-03-28 제34회 315마라톤
    브라우저로도 실패: TimeoutError('Page.inner_text: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator("body")
 KAKAO_REST_KEY 없음 → 좌표 변환 건너뜀
-저장 완료: 695개 대회
+저장 완료: 703개 대회
