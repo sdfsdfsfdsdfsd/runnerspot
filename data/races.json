@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-26",
- "count": 703,
+ "updated": "2026-11-27",
+ "count": 704,
  "races": [
   {
    "id": "rr41182",
@@ -12730,9 +12730,9 @@
    "status": null,
    "kind": "로드",
    "fetchedWith": "http",
+   "enrichedBy": "text",
    "startTime": "08:30",
    "poster": "posters/rr41987.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-11-26"
   },
   {
@@ -12754,8 +12754,8 @@
    "status": null,
    "kind": "트레일",
    "fetchedWith": "http",
-   "poster": "posters/rr41993.webp",
    "enrichedBy": "text",
+   "poster": "posters/rr41993.webp",
    "enrichedAt": "2026-11-26"
   },
   {
@@ -12923,8 +12923,8 @@
    "status": null,
    "kind": "로드",
    "fetchedWith": "browser",
-   "poster": "posters/rr41991.webp",
    "enrichedBy": "text",
+   "poster": "posters/rr41991.webp",
    "enrichedAt": "2026-11-26"
   },
   {
@@ -13175,6 +13175,24 @@
    "host": "이천시체육회",
    "phone": "042-638-1080",
    "site": "http://mara1080.com/event/2b3a03c4-4fc6-4d34-8a33-2449fafcaa23",
+   "status": null,
+   "kind": "로드"
+  },
+  {
+   "id": "rr41995",
+   "date": "2027-03-20",
+   "name": "2027 제11회 포항철강마라톤",
+   "dist": [
+    "10K",
+    "5K",
+    "5K 학생"
+   ],
+   "sido": "인천",
+   "region": "경기·인천",
+   "place": "송도해수욕장 일원",
+   "host": "경북매일신문",
+   "phone": "00-1600-3949",
+   "site": "http://phsteelrun.com",
    "status": null,
    "kind": "로드"
   },
@@ -13486,9 +13504,9 @@
    "status": null,
    "kind": "울트라",
    "fetchedWith": "http",
+   "enrichedBy": "text",
    "startTime": "17:00",
    "poster": "posters/rr41992.webp",
-   "enrichedBy": "text",
    "enrichedAt": "2026-11-26"
   },
   {
