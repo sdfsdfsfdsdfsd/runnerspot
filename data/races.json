@@ -11434,7 +11434,7 @@
    "status": null,
    "kind": "로드",
    "fetchedWith": "browser",
-   "enrichedAt": "2026-11-05"
+   "enrichedAt": "2026-11-27"
   },
   {
    "id": "ff6c1323",
@@ -12322,14 +12322,14 @@
    "host": "(사)이순신백의종군길마라톤",
    "phone": "010-3770-0910",
    "site": "http://yssmarathon.com",
-   "status": "open",
+   "status": "soon",
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "regStart": "2026-11-03",
+   "regStart": "2026-12-02",
    "regEnd": "2026-12-02",
    "poster": "posters/rr41951.webp",
-   "enrichedAt": "2026-11-05"
+   "enrichedAt": "2026-11-27"
   },
   {
    "id": "rr41642",
@@ -12710,7 +12710,7 @@
    },
    "regStart": "2027-01-17",
    "poster": "posters/rr41957.webp",
-   "enrichedAt": "2026-11-05"
+   "enrichedAt": "2026-11-27"
   },
   {
    "id": "rr41987",
@@ -12865,7 +12865,7 @@
    "fetchedWith": "http",
    "enrichedBy": "text",
    "regStart": "2027-02-11",
-   "enrichedAt": "2026-11-26"
+   "enrichedAt": "2026-11-27"
   },
   {
    "id": "rr41900",
@@ -13099,7 +13099,7 @@
    "fetchedWith": "http",
    "enrichedBy": "text",
    "poster": "posters/rr41958.webp",
-   "enrichedAt": "2026-11-05"
+   "enrichedAt": "2026-11-27"
   },
   {
    "id": "rr41949",
@@ -13194,7 +13194,11 @@
    "phone": "00-1600-3949",
    "site": "http://phsteelrun.com",
    "status": null,
-   "kind": "로드"
+   "kind": "로드",
+   "fetchedWith": "http",
+   "startTime": "09:00",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-11-27"
   },
   {
    "id": "rr41626",
@@ -13255,7 +13259,7 @@
    "status": null,
    "kind": "로드",
    "fetchedWith": "http",
-   "enrichedAt": "2026-11-26"
+   "enrichedAt": "2026-11-27"
   },
   {
    "id": "rr41875",
@@ -13403,7 +13407,7 @@
    "fetchedWith": "http",
    "enrichedBy": "text",
    "poster": "posters/rr41946.webp",
-   "enrichedAt": "2026-11-05"
+   "enrichedAt": "2026-11-27"
   },
   {
    "id": "rr41971",
