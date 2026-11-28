@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27",
+ "updated": "2026-11-28",
  "count": 704,
  "races": [
   {
@@ -12256,7 +12256,7 @@
    "host": "(사)한국유튜브방송협회",
    "phone": "02-336-1588",
    "site": "http://www.powerrun.kr/",
-   "status": "open",
+   "status": "closed",
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
@@ -12473,7 +12473,7 @@
    "host": "(사)재한다문화총연합회",
    "phone": "02-2636-7775",
    "site": "http://youngrun.kr",
-   "status": "open",
+   "status": "closed",
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
@@ -12521,7 +12521,7 @@
    "host": "(사)한국경비원협회중앙회",
    "phone": "02-888-8875",
    "site": "http://k-run.kr",
-   "status": "open",
+   "status": "closed",
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
@@ -13196,8 +13196,8 @@
    "status": null,
    "kind": "로드",
    "fetchedWith": "http",
-   "startTime": "09:00",
    "enrichedBy": "text",
+   "startTime": "09:00",
    "enrichedAt": "2026-11-27"
   },
   {
