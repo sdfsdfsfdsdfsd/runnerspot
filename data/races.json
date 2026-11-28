@@ -11489,7 +11489,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-22"
+   "enrichedAt": "2026-11-28"
   },
   {
    "id": "rr41766",
@@ -11665,7 +11665,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-22"
+   "enrichedAt": "2026-11-28"
   },
   {
    "id": "rr41741",
@@ -11940,7 +11940,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-22"
+   "enrichedAt": "2026-11-28"
   },
   {
    "id": "rr41867",
@@ -11987,7 +11987,7 @@
    "kind": "트레일",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-22"
+   "enrichedAt": "2026-11-28"
   },
   {
    "id": "rr41710",
@@ -12031,7 +12031,7 @@
    "fetchedWith": "http",
    "enrichedBy": "text",
    "poster": "posters/rr41923.webp",
-   "enrichedAt": "2026-11-03"
+   "enrichedAt": "2026-11-28"
   },
   {
    "id": "rr41802",
@@ -12349,7 +12349,7 @@
    "kind": "트레일",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-22"
+   "enrichedAt": "2026-11-28"
   },
   {
    "id": "rr41914",
@@ -12548,7 +12548,7 @@
    "kind": "트레일",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-22"
+   "enrichedAt": "2026-11-28"
   },
   {
    "id": "rr41806",
@@ -12596,7 +12596,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-22"
+   "enrichedAt": "2026-11-28"
   },
   {
    "id": "rr41940",
@@ -12616,7 +12616,7 @@
    "kind": "로드",
    "fetchedWith": "http",
    "enrichedBy": "text",
-   "enrichedAt": "2026-11-22"
+   "enrichedAt": "2026-11-28"
   },
   {
    "id": "rr41919",
@@ -12684,7 +12684,7 @@
    },
    "startTime": "09:30",
    "poster": "posters/rr41944.webp",
-   "enrichedAt": "2026-11-05"
+   "enrichedAt": "2026-11-28"
   },
   {
    "id": "rr41957",
@@ -12807,7 +12807,10 @@
    "phone": "00-1644-4219",
    "site": "http://www.chocorun.kr/",
    "status": null,
-   "kind": "로드"
+   "kind": "로드",
+   "fetchedWith": "http",
+   "enrichedBy": "text",
+   "enrichedAt": "2026-11-28"
   },
   {
    "id": "rr41988",
@@ -12865,7 +12868,7 @@
    "fetchedWith": "http",
    "enrichedBy": "text",
    "regStart": "2027-02-11",
-   "enrichedAt": "2026-11-27"
+   "enrichedAt": "2026-11-28"
   },
   {
    "id": "rr41900",
@@ -13198,7 +13201,7 @@
    "fetchedWith": "http",
    "enrichedBy": "text",
    "startTime": "09:00",
-   "enrichedAt": "2026-11-27"
+   "enrichedAt": "2026-11-28"
   },
   {
    "id": "rr41626",
@@ -13259,7 +13262,7 @@
    "status": null,
    "kind": "로드",
    "fetchedWith": "http",
-   "enrichedAt": "2026-11-27"
+   "enrichedAt": "2026-11-28"
   },
   {
    "id": "rr41875",

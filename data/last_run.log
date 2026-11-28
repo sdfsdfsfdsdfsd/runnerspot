@@ -1,11 +1,11 @@
-2026-11-27 13:23 실행
-roadrun 2026: 응답 896,531바이트, 표 행 1270개
+2026-11-28 12:52 실행
+roadrun 2026: 응답 896,475바이트, 표 행 1270개
 roadrun 2026: 614개
-roadrun 2027: 응답 94,478바이트, 표 행 138개
+roadrun 2027: 응답 94,366바이트, 표 행 138개
 roadrun 2027: 48개
    중간 저장 완료: 대회 목록 업데이트
 ANTHROPIC_API_KEY 없음 → 홈페이지 글에서 직접 찾는 방식으로 진행
-상세 정리 대상 41개 중 41개 진행
+상세 정리 대상 36개 중 36개 진행
  - 2026-11-28 2026 남원 춘향 전국 마라톤대회
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://mara1080.co
@@ -31,9 +31,8 @@ ANTHROPIC_API_KEY 없음 → 홈페이지 글에서 직접 찾는 방식으로 �
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://mara1080.co
    실패: RuntimeError('페이지를 읽지 못함')
  - 2027-02-14 2027 초코런
-   일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
-   브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://www.chocoru
-   실패: RuntimeError('페이지를 읽지 못함')
+   포스터 후보 건너뜀: <HTTPError 404: 'Not Found'>
+   → 찾은 정보 없음
  - 2027-02-20 2027 전마협 청주 무심천 노을 마라톤
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://mara1080.co
@@ -62,8 +61,6 @@ ANTHROPIC_API_KEY 없음 → 홈페이지 글에서 직접 찾는 방식으로 �
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://mara1080.co
    실패: RuntimeError('페이지를 읽지 못함')
- - 2027-03-20 2027 제11회 포항철강마라톤
-   → startTime
  - 2027-03-28 제3회 영광광풍마라톤
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://mara1080.co
@@ -88,71 +85,47 @@ ANTHROPIC_API_KEY 없음 → 홈페이지 글에서 직접 찾는 방식으로 �
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://amarunsb.co
    실패: RuntimeError('페이지를 읽지 못함')
- - 2026-11-28 2026 SPOTV NIGHT RUN
-   일반 접속 실패: <HTTPError 403: 'Forbidden'> → 브라우저로 다시
  - 2026-11-28 2026 착한서구 공부방 기부앤런
-   일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
-   브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://xn--ok0by8p
-   실패: RuntimeError('페이지를 읽지 못함')
+   포스터 후보 건너뜀: <HTTPError 404: 'Not Found'>
+   → 찾은 정보 없음
  - 2026-11-29 2026 정읍공동체 프리마켓 마라톤
-   일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
-   브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://www.xn--ob0
-   실패: RuntimeError('페이지를 읽지 못함')
+   → 찾은 정보 없음
  - 2026-12-05 제23회 한강시민마라톤
-   일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
-   브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://www.hangang
-   실패: RuntimeError('페이지를 읽지 못함')
+   → 찾은 정보 없음
  - 2026-12-06 2026 대전보문산트레일
-   일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
-   브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://www.mtrailr
-   실패: RuntimeError('페이지를 읽지 못함')
+   → 찾은 정보 없음
  - 2026-12-06 2026 화순고인돌마라톤
-   일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
-   브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://xn--299a84k
-   실패: RuntimeError('페이지를 읽지 못함')
+   → poster
  - 2026-12-12 2026 소년소녀 가장 돕기 기부런
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://gibukidsrun
    실패: RuntimeError('페이지를 읽지 못함')
- - 2026-12-13 2026이순신런페스타
-   → regStart, poster
  - 2026-12-13 부산금정산성트레일
-   일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
-   브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://www.mtrailr
-   실패: RuntimeError('페이지를 읽지 못함')
+   → 찾은 정보 없음
  - 2026-12-27 경주 통포트레일
-   일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
-   브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://www.mtrailr
-   실패: RuntimeError('페이지를 읽지 못함')
+   → 찾은 정보 없음
  - 2026-12-28 대회취소
    일반 접속 실패: URLError(gaierror(-3, 'Temporary failure in name resolution')) → 브라우저로 다시
    브라우저로도 실패: Error('Page.goto: net::ERR_NAME_NOT_RESOLVED at http://hgru/\nCall log:\n  - navigating to "http://h
    실패: RuntimeError('페이지를 읽지 못함')
  - 2027-01-01 2027 제11회 새해일출런
-   일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
-   브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://www.xn--zl2
-   실패: RuntimeError('페이지를 읽지 못함')
+   포스터 후보 건너뜀: <HTTPError 404: 'Not Found'>
+   → 찾은 정보 없음
  - 2027-01-03 제19회 전국새해알몸마라톤
-   일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
-   브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://r.dgrunner.
-   실패: RuntimeError('페이지를 읽지 못함')
+   포스터 후보 건너뜀: <HTTPError 404: 'Not Found'>
+   → 찾은 정보 없음
  - 2027-01-10 제21회 여수해양마라톤
    일반 접속 실패: <HTTPError 404: 'Not Found'> → 브라우저로 다시
-   브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://ysmarathon.
-   실패: RuntimeError('페이지를 읽지 못함')
- - 2027-01-23 2027 북극곰 마라톤
-   → price, regStart, poster
+   → price, startTime, poster
  - 2027-02-20 2027 희망 청춘 런
    → regStart
  - 2027-02-27 희망드림 제24회 동계 국제마라톤대회
    일반 접속 실패: URLError(TimeoutError('timed out')) → 브라우저로 다시
    브라우저로도 실패: TimeoutError('Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to "http://dkrun.co.kr
    실패: RuntimeError('페이지를 읽지 못함')
- - 2027-03-07 2027 부천국제10km로드레이스
-   → poster
+ - 2027-03-20 2027 제11회 포항철강마라톤
+   → startTime
  - 2027-03-28 제34회 315마라톤
    브라우저로도 실패: TimeoutError('Page.inner_text: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator("body")
- - 2027-04-24 2027 강릉 옥계헌화로11k RUN
-   → poster
 KAKAO_REST_KEY 없음 → 좌표 변환 건너뜀
 저장 완료: 704개 대회
